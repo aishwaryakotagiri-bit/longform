@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>longform</title>
+<style>
+:root {
+  --paper: #fdfaf4; --card: #fffdf8; --ink: #1f1b16; --ink-soft: #5e564c;
+  --ink-faint: #8a8074; --rule: #e4dccd; --rule-strong: #cfc4ae;
+  --accent: #9a4a24; --accent-soft: #f5e7dd; --ok: #3f6b4a; --ok-soft: #e6efe6;
+  --font-read: ui-serif, Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  --font-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, system-ui, sans-serif;
+  --radius: 8px; --radius-lg: 14px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-both: cubic-bezier(0.45, 0, 0.55, 1);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #14120f; --card: #1d1a16; --ink: #f0ebe2; --ink-soft: #b8ae9f;
+    --ink-faint: #8d8375; --rule: #322d26; --rule-strong: #4a4238;
+    --accent: #e0a480; --accent-soft: #33231a; --ok: #9fc9a8; --ok-soft: #1e2a20;
+  }
+}
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--font-ui); font-size: 16px; line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+h1, h2, h3 { margin: 0; font-weight: 500; line-height: 1.25; }
+p { margin: 0; }
+ul { margin: 0; padding: 0; list-style: none; }
+a { color: var(--accent); text-underline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+:focus:not(:focus-visible) { outline: none; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0;
+}
+.skip-link {
+  position: absolute; left: 1rem; top: -100px; z-index: 10; background: var(--card);
+  color: var(--ink); padding: 0.75rem 1rem; border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+}
+.skip-link:focus { top: 1rem; }
+
+.shell { max-width: 44rem; margin: 0 auto; padding: 0 1rem 4rem; }
+.masthead { padding: 3rem 0 1.25rem; border-bottom: 1px solid var(--rule); }
+.masthead h1 { font-family: var(--font-read); font-size: clamp(1.75rem, 6vw, 2.4rem); }
+.masthead p { color: var(--ink-soft); margin-top: 0.5rem; font-size: 0.92rem; }
+
+.tabs { display: flex; gap: 0.25rem; margin: 1.5rem 0; flex-wrap: wrap; }
+.tab {
+  font: inherit; font-size: 0.92rem; color: var(--ink-soft); background: none;
+  border: 1px solid transparent; border-radius: 999px; padding: 0.6rem 1rem;
+  min-height: 44px; cursor: pointer;
+  transition: color 140ms var(--ease-both), background-color 140ms var(--ease-both),
+              border-color 140ms var(--ease-both);
+}
+.tab:hover { color: var(--ink); }
+.tab[aria-selected="true"] { color: var(--ink); background: var(--card); border-color: var(--rule-strong); }
+.panel[hidden] { display: none; }
+
+.stack { display: grid; gap: 0.85rem; }
+.card {
+  background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-lg);
+  padding: 1.15rem 1.2rem 0.9rem; display: grid; gap: 0.5rem;
+  animation: rise 420ms var(--ease-out) backwards;
+  transition: opacity 260ms var(--ease-both), transform 260ms var(--ease-both);
+}
+.card:nth-child(2) { animation-delay: 40ms; }
+.card:nth-child(3) { animation-delay: 80ms; }
+.card:nth-child(4) { animation-delay: 120ms; }
+.card:nth-child(5) { animation-delay: 160ms; }
+.card.is-leaving { opacity: 0; transform: translateY(-6px); }
+@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+.card-meta {
+  display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;
+  font-size: 0.76rem; color: var(--ink-faint);
+}
+.badge {
+  background: var(--accent-soft); color: var(--accent);
+  padding: 0.2rem 0.55rem; border-radius: 999px; white-space: nowrap;
+}
+.card h3 { font-family: var(--font-read); font-size: 1.22rem; }
+.card h3 a { color: var(--ink); text-decoration-color: var(--rule-strong); }
+.card h3 a:hover { color: var(--accent); }
+.blurb { color: var(--ink-soft); font-size: 0.93rem; }
+.actions { display: flex; gap: 0.4rem; flex-wrap: wrap; border-top: 1px solid var(--rule); padding-top: 0.7rem; margin-top: 0.2rem; }
+
+.btn {
+  font: inherit; font-size: 0.87rem; cursor: pointer; background: none; color: var(--ink-soft);
+  border: 1px solid transparent; border-radius: var(--radius);
+  padding: 0.5rem 0.75rem; min-height: 44px;
+  transition: color 140ms var(--ease-both), border-color 140ms var(--ease-both), transform 100ms var(--ease-both);
+}
+.btn:hover { color: var(--ink); border-color: var(--rule-strong); }
+.btn:active { transform: scale(0.98); }
+.btn-read:hover { color: var(--ok); border-color: var(--ok); }
+.btn-save:hover { color: var(--accent); border-color: var(--accent); }
+
+.note { color: var(--ink-faint); font-size: 0.9rem; padding: 1.5rem 0; }
+.note strong { font-weight: 500; color: var(--ink-soft); }
+.row { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-top: 1rem; }
+.list-item { padding: 0.85rem 0; border-bottom: 1px solid var(--rule); display: grid; gap: 0.3rem; }
+.list-item .t { font-family: var(--font-read); font-size: 1.05rem; }
+.list-item .t a { color: var(--ink); }
+footer { border-top: 1px solid var(--rule); margin-top: 2.5rem; padding-top: 1.25rem; color: var(--ink-faint); font-size: 0.83rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important; animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important; scroll-behavior: auto !important;
+  }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">skip to content</a>
+<div class="shell">
+  <header class="masthead">
+    <h1>longform</h1>
+    <p id="status">loading…</p>
+  </header>
+
+  <nav aria-label="views">
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tab-queue" aria-controls="panel-queue" aria-selected="true">to read</button>
+      <button class="tab" role="tab" id="tab-saved" aria-controls="panel-saved" aria-selected="false">saved</button>
+      <button class="tab" role="tab" id="tab-done" aria-controls="panel-done" aria-selected="false">read</button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="panel" id="panel-queue" role="tabpanel" aria-labelledby="tab-queue" tabindex="-1">
+      <h2 class="sr-only">to read</h2>
+      <ul class="stack" id="queue"></ul>
+      <div id="queueNote"></div>
+    </section>
+    <section class="panel" id="panel-saved" role="tabpanel" aria-labelledby="tab-saved" tabindex="-1" hidden>
+      <h2 class="sr-only">saved</h2>
+      <ul id="savedList"></ul>
+    </section>
+    <section class="panel" id="panel-done" role="tabpanel" aria-labelledby="tab-done" tabindex="-1" hidden>
+      <h2 class="sr-only">read</h2>
+      <ul id="doneList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p id="foot"></p>
+  </footer>
+</div>
+<div class="sr-only" role="status" aria-live="polite" aria-atomic="true" id="live"></div>
+
+<script>
+const COPY = {
+  loading: 'loading…',
+  status: (n, when) => `${n} waiting · updated ${when}`,
+  failed: 'could not load the article list. if this is a fresh setup, run the fetch action once.',
+  markRead: 'mark read',
+  save: 'save',
+  skip: 'not for me',
+  unsave: 'remove',
+  unread: 'put back',
+  emptyQueue: 'nothing left in the pile. the next fetch will bring more in.',
+  emptySaved: 'nothing saved yet.',
+  emptyDone: 'nothing marked read yet.',
+  restore: (n) => `bring back ${n} dismissed`,
+  readToday: (n) => n === 1 ? '1 read today' : `${n} read today`,
+  didRead: 'marked read.',
+  didSave: 'saved.',
+  didSkip: 'dismissed.'
+};
+
+const SHOW = 5;
+const KEY = 'longform.state.v1';
+const state = { articles: [], updated: null, marks: { read: {}, saved: {}, skipped: {} }, tab: 'queue' };
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; };
+const say = (m) => { $('live').textContent = m; };
+const id = (a) => a.url.split('?')[0];
+
+function load() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(KEY));
+    if (raw && raw.marks) state.marks = { read: {}, saved: {}, skipped: {}, ...raw.marks };
+  } catch { /* first run, or storage blocked */ }
+}
+function save() {
+  try { localStorage.setItem(KEY, JSON.stringify({ marks: state.marks })); } catch { /* nothing to do */ }
+}
+
+function when(iso) {
+  if (!iso) return '';
+  const days = Math.floor((Date.now() - new Date(iso)) / 864e5);
+  if (days <= 0) return 'today';
+  if (days === 1) return 'yesterday';
+  if (days < 30) return `${days} days ago`;
+  return new Date(iso).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+}
+
+const isTouched = (a) => id(a) in state.marks.read || id(a) in state.marks.saved || id(a) in state.marks.skipped;
+const queue = () => state.articles.filter((a) => !isTouched(a)).slice(0, SHOW);
+const remaining = () => state.articles.filter((a) => !isTouched(a)).length;
+const byMark = (kind) => Object.keys(state.marks[kind])
+  .map((k) => state.articles.find((a) => id(a) === k))
+  .filter(Boolean)
+  .reverse();
+
+function cardHTML(a) {
+  const meta = [esc(a.source), when(a.date), a.author ? esc(a.author) : ''].filter(Boolean);
+  return `<li class="card" data-id="${esc(id(a))}">
+    <p class="card-meta"><span class="badge">${meta[0]}</span>${meta.slice(1).map((m) => `<span>${m}</span>`).join('')}</p>
+    <h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
+    ${a.blurb ? `<p class="blurb">${esc(a.blurb)}</p>` : ''}
+    <div class="actions">
+      <button class="btn btn-read" data-act="read">${COPY.markRead}</button>
+      <button class="btn btn-save" data-act="saved">${COPY.save}</button>
+      <button class="btn" data-act="skipped">${COPY.skip}</button>
+    </div>
+  </li>`;
+}
+
+function renderQueue() {
+  const items = queue();
+  $('queue').innerHTML = items.map(cardHTML).join('');
+  const skipped = Object.keys(state.marks.skipped).length;
+  const readToday = Object.values(state.marks.read)
+    .filter((t) => new Date(t).toDateString() === new Date().toDateString()).length;
+  $('queueNote').innerHTML =
+    (items.length ? '' : `<p class="note">${COPY.emptyQueue}</p>`) +
+    `<div class="row"><span class="note" style="padding:0">${readToday ? esc(COPY.readToday(readToday)) : ''}</span>` +
+    (skipped ? `<button class="btn" id="restore">${esc(COPY.restore(skipped))}</button>` : '') + '</div>';
+  const r = $('restore');
+  if (r) r.onclick = () => { state.marks.skipped = {}; save(); renderAll(); say('dismissed articles are back.'); };
+}
+
+function renderList(el, items, kind) {
+  if (!items.length) {
+    el.innerHTML = `<li class="note">${kind === 'saved' ? COPY.emptySaved : COPY.emptyDone}</li>`;
+    return;
+  }
+  el.innerHTML = items.map((a) => `<li class="list-item" data-id="${esc(id(a))}">
+    <span class="card-meta"><span class="badge">${esc(a.source)}</span><span>${when(a.date)}</span></span>
+    <span class="t"><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></span>
+    <span><button class="btn" data-undo="${kind}">${kind === 'saved' ? COPY.unsave : COPY.unread}</button></span>
+  </li>`).join('');
+}
+
+function renderAll() {
+  renderQueue();
+  renderList($('savedList'), byMark('saved'), 'saved');
+  renderList($('doneList'), byMark('read'), 'read');
+  $('status').textContent = COPY.status(remaining(), when(state.updated));
+}
+
+function act(cardEl, kind) {
+  const key = cardEl.dataset.id;
+  state.marks[kind][key] = new Date().toISOString();
+  save();
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  say(kind === 'read' ? COPY.didRead : kind === 'saved' ? COPY.didSave : COPY.didSkip);
+  if (reduce) { renderAll(); return; }
+  cardEl.classList.add('is-leaving');
+  setTimeout(renderAll, 260);
+}
+
+function switchTab(name) {
+  state.tab = name;
+  for (const t of ['queue', 'saved', 'done']) {
+    $('tab-' + t).setAttribute('aria-selected', String(t === name));
+    $('panel-' + t).hidden = t !== name;
+  }
+  $('panel-' + name).focus();
+}
+
+async function init() {
+  load();
+  for (const t of ['queue', 'saved', 'done']) $('tab-' + t).onclick = () => switchTab(t);
+
+  $('queue').addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-act]');
+    if (btn) act(btn.closest('.card'), btn.dataset.act);
+  });
+  document.addEventListener('click', (e) => {
+    const undo = e.target.closest('[data-undo]');
+    if (!undo) return;
+    delete state.marks[undo.dataset.undo][undo.closest('[data-id]').dataset.id];
+    save();
+    renderAll();
+  });
+
+  try {
+    const res = await fetch('./data/articles.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    state.articles = data.articles || [];
+    state.updated = data.updated;
+    renderAll();
+    $('foot').textContent = (data.report || [])
+      .map((r) => `${r.source} ${r.count}`).join(' · ');
+  } catch (err) {
+    $('status').textContent = COPY.failed;
+    $('queue').innerHTML = '';
+  }
+}
+
+init();
+</script>
+</body>
+</html>
