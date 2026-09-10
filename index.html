@@ -177,7 +177,7 @@ const COPY = {
 
 const SHOW = 5;
 const KEY = 'longform.state.v1';
-const state = { articles: [], updated: null, marks: { read: {}, saved: {}, skipped: {} }, tab: 'queue' };
+const state = { articles: [], updated: null, marks: { read: {}, saved: {}, skipped: {} }, visible: [], tab: 'queue' };
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; };
@@ -188,10 +188,11 @@ function load() {
   try {
     const raw = JSON.parse(localStorage.getItem(KEY));
     if (raw && raw.marks) state.marks = { read: {}, saved: {}, skipped: {}, ...raw.marks };
+    if (raw && Array.isArray(raw.visible)) state.visible = raw.visible;
   } catch { /* first run, or storage blocked */ }
 }
 function save() {
-  try { localStorage.setItem(KEY, JSON.stringify({ marks: state.marks })); } catch { /* nothing to do */ }
+  try { localStorage.setItem(KEY, JSON.stringify({ marks: state.marks, visible: state.visible })); } catch { /* nothing to do */ }
 }
 
 function when(iso) {
@@ -204,7 +205,39 @@ function when(iso) {
 }
 
 const isTouched = (a) => id(a) in state.marks.read || id(a) in state.marks.saved || id(a) in state.marks.skipped;
-const queue = () => state.articles.filter((a) => !isTouched(a)).slice(0, SHOW);
+/* five at a time, spread across sources. each empty slot goes to the source
+   with the fewest cards showing, then the fewest marks (so the publications
+   you've read least come forward), then the newest piece. cards already
+   showing stay where they are. */
+const CAP = { 'The Cut': 1 };
+function queue() {
+  const pool = state.articles.filter((a) => !isTouched(a));
+  const byId = new Map(pool.map((a) => [id(a), a]));
+  const shown = state.visible.map((k) => byId.get(k)).filter(Boolean);
+  const used = new Set(shown.map(id));
+  const touched = {};
+  for (const kind of ['read', 'saved', 'skipped']) {
+    for (const k of Object.keys(state.marks[kind])) {
+      const a = state.articles.find((x) => id(x) === k);
+      if (a) touched[a.source] = (touched[a.source] || 0) + 1;
+    }
+  }
+  while (shown.length < SHOW) {
+    const showing = {};
+    for (const a of shown) showing[a.source] = (showing[a.source] || 0) + 1;
+    const next = pool
+      .filter((a) => !used.has(id(a)) && (showing[a.source] || 0) < (CAP[a.source] ?? SHOW))
+      .sort((a, b) =>
+        (showing[a.source] || 0) - (showing[b.source] || 0) ||
+        (touched[a.source] || 0) - (touched[b.source] || 0) ||
+        new Date(b.date || 0) - new Date(a.date || 0))[0];
+    if (!next) break;
+    shown.push(next);
+    used.add(id(next));
+  }
+  state.visible = shown.map(id);
+  return shown;
+}
 const remaining = () => state.articles.filter((a) => !isTouched(a)).length;
 const byMark = (kind) => Object.keys(state.marks[kind])
   .map((k) => state.articles.find((a) => id(a) === k))
@@ -227,6 +260,7 @@ function cardHTML(a) {
 
 function renderQueue() {
   const items = queue();
+  save();
   $('queue').innerHTML = items.map(cardHTML).join('');
   const skipped = Object.keys(state.marks.skipped).length;
   const readToday = Object.values(state.marks.read)
@@ -302,7 +336,7 @@ async function init() {
     state.updated = data.updated;
     renderAll();
     $('foot').textContent = (data.report || [])
-      .map((r) => `${r.source} ${r.count}`).join(' · ');
+      .map((r) => `${r.source} ${r.count}${r.carried ? ' (kept)' : ''}`).join(' · ');
   } catch (err) {
     $('status').textContent = COPY.failed;
     $('queue').innerHTML = '';

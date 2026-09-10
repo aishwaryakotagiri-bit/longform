@@ -1,4 +1,4 @@
-import { writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 
 /* Each source lists candidate feed URLs. The first one that yields fresh
    items wins, so a changed feed path does not take the whole build down.
@@ -149,13 +149,32 @@ async function loadSource(source) {
   return [];
 }
 
+/* When a source fails outright, keep what it gave us last time rather than
+   dropping it to zero. Orion, for one, blocks GitHub's servers but not a
+   laptop, so a local run can seed it and the Action carries it forward.
+   Carried items skip the age cutoff — they are archival by definition. */
+let previous = [];
+try {
+  previous = JSON.parse(await readFile('data/articles.json', 'utf8')).articles || [];
+} catch { /* first run */ }
+
 const all = [];
 const report = [];
+let live = 0;
 
 for (const source of SOURCES) {
   console.log(source.name);
-  const items = await loadSource(source);
-  report.push({ source: source.name, count: items.length });
+  let items = await loadSource(source);
+  let carried = false;
+  if (items.length) {
+    live += 1;
+  } else {
+    items = previous.filter((a) => a.source === source.name);
+    carried = items.length > 0;
+    if (carried) console.log(`  ${source.name}: keeping ${items.length} items from the last successful fetch`);
+  }
+  report.push(carried ? { source: source.name, count: items.length, carried: true }
+                      : { source: source.name, count: items.length });
   all.push(...items);
 }
 
@@ -169,7 +188,7 @@ const articles = all
   })
   .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
 
-if (!articles.length) {
+if (!live) {
   console.error('No articles from any source. Keeping the previous articles.json.');
   process.exit(1);
 }
