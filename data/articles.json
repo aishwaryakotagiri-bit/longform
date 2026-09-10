@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10T05:41:48.328Z",
+ "updated": "2026-09-10T05:43:56.695Z",
  "report": [
   {
    "source": "Aeon",
@@ -19,7 +19,8 @@
   },
   {
    "source": "Orion Magazine",
-   "count": 24
+   "count": 24,
+   "carried": true
   },
   {
    "source": "The Cut",
