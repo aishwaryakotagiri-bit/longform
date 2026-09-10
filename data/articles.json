@@ -1,13 +1,13 @@
 {
- "updated": "2026-09-09T11:23:58.807Z",
+ "updated": "2026-09-10T04:21:18.249Z",
  "report": [
   {
    "source": "Aeon",
-   "count": 20
+   "count": 13
   },
   {
    "source": "Literary Hub",
-   "count": 10
+   "count": 9
   },
   {
    "source": "The Paris Review",
@@ -23,25 +23,161 @@
   },
   {
    "source": "The Cut",
-   "count": 20
+   "count": 19
   }
  ],
  "articles": [
   {
-   "source": "Literary Hub",
-   "title": "Lit Hub Daily: September 9, 2026",
-   "url": "https://lithub.com/lit-hub-daily-september-9-2026/",
-   "blurb": "“Language is something that is practiced and learned and something that you can be awful at, and also something that you can get better at. But the only way that you get better is by making mistakes.” R.F. Kuang talks",
-   "author": "Lit Hub Daily",
-   "date": "2026-09-09T10:30:53.000Z"
+   "source": "The Cut",
+   "title": "Suki Waterhouse Is Ready to ‘Nepo-Baby’ Her Daughter",
+   "url": "http://www.thecut.com/article/suki-waterhouse-nepo-baby-her-daughter.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "As is her right.",
+   "author": "Kathleen Walsh",
+   "date": "2026-09-09T22:25:46.000Z"
   },
   {
-   "source": "Aeon",
-   "title": "Making revisions",
-   "url": "https://aeon.co/videos/meet-the-aboriginal-australian-artists-painting-over-the-colonial-past",
-   "blurb": "Indigenous knowledge and art overwrite colonial cartography to correct the historical record in Central Australia - by Aeon Video Watch on Aeon",
-   "author": "Aeon Video",
-   "date": "2026-09-09T10:01:00.000Z"
+   "source": "Nautilus",
+   "title": "Could You Survive the Oregon Trail?",
+   "url": "https://nautil.us/could-you-survive-the-oregon-trail-1284907/",
+   "blurb": "You might not die of dysentery on the trail these days, but there is still plenty of danger outdoors",
+   "author": "Elaine Reno",
+   "date": "2026-09-09T22:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Alanis Morissette ‘Dipped Into Psychosis’ During Postpartum Depression",
+   "url": "http://www.thecut.com/article/alanis-morissette-dipped-into-psychosis-ppd.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "“All I could picture was death and terrible things.”",
+   "author": "Kathleen Walsh",
+   "date": "2026-09-09T21:19:53.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Sydney Utendal Loves Giving Herself At-Home Facials",
+   "url": "http://www.thecut.com/article/sydney-utendal-loves-giving-herself-at-home-facials.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The New York aesthetician tells us all about her go-to treatments, wellness hot spots, and more.",
+   "author": "Asia Milia Ware",
+   "date": "2026-09-09T21:13:26.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Where Paige Paul Gets Her Favorite Tank Tops",
+   "url": "http://www.thecut.com/article/where-paige-paul-gets-her-favorite-tank-tops.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The Dairy Boy founder shares her favorite lipstick and what to wear to the U.S. Open.",
+   "author": "Chinea Rodriguez",
+   "date": "2026-09-09T20:55:31.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Kate Hudson Has a Strong Case for Not Getting Married",
+   "url": "http://www.thecut.com/article/kate-hudson-strong-case-for-not-getting-married.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "She’s worried about the cost and the length of the guest list.",
+   "author": "Olivia Craighead",
+   "date": "2026-09-09T20:37:28.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Ashley St. Clair Says Elon Musk Wants a ‘Legion of Children’",
+   "url": "http://www.thecut.com/article/ashley-st-clair-elon-musk-wants-legion-children.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "“Before the civil war,” of course.",
+   "author": "Emily Leibert",
+   "date": "2026-09-09T19:42:50.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "We Tried Free People’s Newest Fall Jackets",
+   "url": "http://www.thecut.com/article/free-people-fall-jackets-we-tried-this.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "And we have thoughts.",
+   "author": "Bianca Nieves",
+   "date": "2026-09-09T19:22:07.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Elephants Think Before They Act",
+   "url": "https://nautil.us/elephants-think-before-they-act-1284893/",
+   "blurb": "It’s a remarkable act of impulse control",
+   "author": "Devin Reese",
+   "date": "2026-09-09T18:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Ben Shelton and Trinity Rodman Are U.S. Open MVPs",
+   "url": "http://www.thecut.com/article/ben-shelton-and-trinity-rodman-are-u-s-open-mvps.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Who’s cuter than these two?",
+   "author": "Olivia Craighead",
+   "date": "2026-09-09T17:37:00.000Z"
+  },
+  {
+   "source": "The Paris Review",
+   "title": "Announcing Our Fall Issue",
+   "url": "https://www.theparisreview.org/blog/2026/09/09/announcing-our-fall-issue-257/",
+   "blurb": "“But I did feel, as we worked on this one, that I was listening in on many voices whose speakers were attempting to locate themselves in what would become history before it hardened into narrative.”",
+   "author": "Emily Stokes",
+   "date": "2026-09-09T16:00:14.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Does Consciousness Require a Body?",
+   "url": "https://nautil.us/does-consciousness-require-a-body-1284886/",
+   "blurb": "A conversation with neuroscientist and author Antonio Damasio about intelligence, feelings, and robots",
+   "author": "Kristen French",
+   "date": "2026-09-09T16:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Banana Republic’s New Collaboration With La Ligne Reimagines Fall Workwear",
+   "url": "http://www.thecut.com/article/banana-republic-la-ligne-collaboration-review.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "See whether the collection is worth the money, according to one editor who put it to the test.",
+   "author": "Aemilia Madden",
+   "date": "2026-09-09T15:18:32.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "No One Disrespects Megan Thee Stallion",
+   "url": "http://www.thecut.com/article/megan-thee-stallion-will-not-be-disprespected-klay-thompson.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Reflecting on her breakup with Klay Thompson, she said, “I cannot be minimized. I will not be behind any man.”",
+   "author": "Emily Leibert",
+   "date": "2026-09-09T14:43:55.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Donald Trump Gave Natalie Harp $45,000 for Christmas",
+   "url": "http://www.thecut.com/article/donald-trump-gave-natalie-harp-cash-christmas-gift.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "But the White House says it’s totally legal.",
+   "author": "Olivia Craighead",
+   "date": "2026-09-09T14:04:53.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Why Is No One Paying Each Other Back?",
+   "url": "http://www.thecut.com/article/venmo-ghosting-repayment-avoidance.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Splitting the check is easy — in theory. In practice, you’re probably getting ghosted on Venmo more than you’re being repaid.",
+   "author": "Samantha Leal",
+   "date": "2026-09-09T14:00:43.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "An Astrophysicist’s Favorite Books on Cosmology",
+   "url": "https://nautil.us/an-astrophysicists-favorite-books-on-cosmology-1284896/",
+   "blurb": "This reading list takes you to the stars",
+   "author": "Paul M. Sutter",
+   "date": "2026-09-09T14:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "On the strange, literary video games of Inpatient Press.",
+   "url": "https://lithub.com/on-the-strange-literary-video-games-of-inpatient-press/",
+   "blurb": "The indie publisher Inpatient Press is doing fascinating, form-breaking work, publishing everything from novels, reprints, zines, and games since 2013. Inpatient’s publisher, Mitch Anzuoni, studied computer science and creative writing i…",
+   "author": "James Folta",
+   "date": "2026-09-09T13:15:53.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Why Snake Embryos Form in Spirals",
+   "url": "https://nautil.us/why-snake-embryos-form-in-spirals-1284889/",
+   "blurb": "The most carefully packed embryo of all the vertebrates",
+   "author": "David Nield",
+   "date": "2026-09-09T12:00:00.000Z"
   },
   {
    "source": "Nautilus",
@@ -108,28 +244,12 @@
    "date": "2026-09-09T09:06:39.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Your Daily Horoscope by Madame Clairevoyant: September 9, 2026",
-   "url": "http://www.thecut.com/article/daily-horoscopes-by-madame-clairevoyant-september-9-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Thanks to the moon and Venus, you might find social interactions less daunting today.",
-   "author": "Claire Comstock-Gay",
-   "date": "2026-09-09T09:00:07.000Z"
-  },
-  {
    "source": "Literary Hub",
    "title": "Adam Erlich Sachs on Heinrich von Kleist’s Michael Kohlhaas",
    "url": "https://lithub.com/adam-erlich-sachs-on-heinrich-von-kleists-michael-kohlhaas/",
    "blurb": "The Windham-Campbell Prizes Podcast features a series of conversations with past and present Windham-Campbell Prize winners about their favorite books and plays. Hosted by Michael Kelleher. For the final episode of our 2026 season, Mike…",
    "author": "Windham-Campbell Prizes Podcast",
    "date": "2026-09-09T08:10:37.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "“50 Things Every AI Working with Humans Should Know”",
-   "url": "https://lithub.com/50-things-every-ai-working-with-humans-should-know/",
-   "blurb": "Read an interview with Ken Liu explaining how this story was written here.* Obituary WHEEP-3 (“Dr. Weep”), probably the most renowned AI AI-critic of the last two decades, was retired by the Shallow Laboratory at Stanford University last…",
-   "author": "Lit Hub Excerpts",
-   "date": "2026-09-09T08:03:55.000Z"
   },
   {
    "source": "The Cut",
@@ -180,6 +300,14 @@
    "date": "2026-09-08T18:30:09.000Z"
   },
   {
+   "source": "The Cut",
+   "title": "The Best Labor Day Sales That Are Still Happening",
+   "url": "http://www.thecut.com/article/best-labor-day-sales-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "You still have time to save on fashion, beauty, home, and lifestyle essentials.",
+   "author": "Chinea Rodriguez",
+   "date": "2026-09-08T18:11:00.000Z"
+  },
+  {
    "source": "Nautilus",
    "title": "This New “Devil Flower” Species Doesn’t Photosynthesize",
    "url": "https://nautil.us/this-new-devil-flower-species-doesnt-photosynthesize-1284872/",
@@ -212,78 +340,6 @@
    "date": "2026-09-08T16:00:00.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "The Best Looks From the 2026 Venice Film Festival",
-   "url": "http://www.thecut.com/article/the-best-looks-from-the-2026-venice-film-festival.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Phoebe Bridgers, Rooney and Kate Mara, and more looks from the film festival.",
-   "author": "Chinea Rodriguez",
-   "date": "2026-09-08T15:45:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "The Elegance of a Stupid Question",
-   "url": "https://nautil.us/the-elegance-of-a-stupid-question-1284839/",
-   "blurb": "Are computers in mathematics rewriting the definitions of stupid and smart?",
-   "author": "Jason Socrates Bardi",
-   "date": "2026-09-08T15:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Phoebe Bridgers Stole the Show at the Venice Film Festival",
-   "url": "http://www.thecut.com/article/phoebe-bridgers-stole-show-venice-film-festival.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "From Alexander McQueen to a standing ovation.",
-   "author": "Emily Leibert",
-   "date": "2026-09-08T14:58:42.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Harry and Meghan’s Return Is Already Getting Awkward",
-   "url": "http://www.thecut.com/article/harry-meghan-surprised-king-charles-letter.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The couple were “surprised” by a public reminder from King Charles III that they’re nonworking royals.",
-   "author": "Olivia Craighead",
-   "date": "2026-09-08T14:26:29.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Hailey Bieber Turned Her Tan Lines Into a Fashion Statement",
-   "url": "http://www.thecut.com/article/hailey-bieber-turned-her-tan-lines-into-a-fashion-statement.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "On the cover of a Brazilian-themed magazine issue.",
-   "author": "Emily Leibert",
-   "date": "2026-09-08T13:00:45.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Why Some Ants are Lazy Freeloaders",
-   "url": "https://nautil.us/why-some-ants-are-lazy-freeloaders-1284862/",
-   "blurb": "Not every ant is a good samaritan",
-   "author": "Jake Currie",
-   "date": "2026-09-08T12:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Cleo Camp Created the Reversible Tee Everybody Wants",
-   "url": "http://www.thecut.com/article/cleo-camp-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The Los Angeles-based designer spends her free time making fish sculptures and going phone-free in Maine.",
-   "author": "Carol Lee",
-   "date": "2026-09-08T11:00:42.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "A Sweaty Scrapbook of New Yorkers Going Out This Summer",
-   "url": "http://www.thecut.com/article/new-yorkers-going-out-this-summer.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "We dispatched a photographer to the city’s raves, roller discos, and bingo halls.",
-   "author": "Abby Schreiber",
-   "date": "2026-09-08T11:00:42.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Raising a Daughter Who Will Never Grow Up",
-   "url": "http://www.thecut.com/article/parenting-child-metachromatic-leukodystrophy-mld.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "My toddler isn’t expected to live past age 5. How can I give her a good life while she’s still here?",
-   "author": "Hannah May",
-   "date": "2026-09-08T11:00:42.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "Our eloquent hands",
    "url": "https://aeon.co/essays/what-palmistry-and-medicine-have-always-had-in-common",
@@ -292,92 +348,12 @@
    "date": "2026-09-08T10:00:00.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Your Daily Horoscope by Madame Clairevoyant: September 8, 2026",
-   "url": "http://www.thecut.com/article/daily-horoscopes-by-madame-clairevoyant-september-8-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The moon and Saturn work together today to help you make smart, effective choices.",
-   "author": "Claire Comstock-Gay",
-   "date": "2026-09-08T09:00:39.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Phaedra Parks and Her ‘Castle Daddy’ Are Red Carpet Official",
-   "url": "http://www.thecut.com/article/phaedra-parks-ct-tamburello-dating.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Two years after meeting on The Traitors, Parks and CT Tamburello have confirmed their relationship.",
-   "author": "Kathleen Walsh",
-   "date": "2026-09-07T18:21:25.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Ciara and Russell Wilson Are Expecting Baby Cinco",
-   "url": "http://www.thecut.com/article/ciara-russell-wilson-expecting-baby-cinco.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The pop star welcomed her fourth child in 2023.",
-   "author": "Kathleen Walsh",
-   "date": "2026-09-07T16:02:56.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "What Archaeology Reveals About the Rise of All-Powerful Rulers",
-   "url": "https://nautil.us/what-archaeology-reveals-about-the-rise-of-all-powerful-rulers-1284855/",
-   "blurb": "Autocracy wasn’t inevitable in early civilizations—many were more egalitarian. But when riches were there to monopolize, strongmen and inequalities emerged",
-   "author": "Tim Vernimmen",
-   "date": "2026-09-07T16:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "What’s Creating These Mysterious Seafloor Hexagons?",
-   "url": "https://nautil.us/whats-creating-these-mysterious-seafloor-hexagons-1284850/",
-   "blurb": "We now know who is responsible for them, but why they’re doing it is still up for debate",
-   "author": "Devin Reese",
-   "date": "2026-09-07T14:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Beauty Products Celebrity Makeup Artist Sir John Uses to the Last Drop",
-   "url": "http://www.thecut.com/article/sir-john-skin-care-routine-best-beauty-products.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "He always has Dr. Diamond’s Metacine eye cream, FungiCure gel, and L’Oréal mascara on hand.",
-   "author": "Carol Lee",
-   "date": "2026-09-07T12:00:39.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "After an 8-Year Journey, Orbiters Are About to Give Us a Fresh Look at Mercury",
-   "url": "https://nautil.us/after-an-8-year-journey-orbiters-are-about-to-give-us-a-fresh-look-at-mercury-1284822/",
-   "blurb": "But the BepiColombo twin orbiters aren’t the first spacecraft to visit our system’s smallest planet. Here’s what we’ve seen already",
-   "author": "David Nield",
-   "date": "2026-09-07T12:00:00.000Z"
-  },
-  {
-   "source": "Aeon",
-   "title": "The planet is… up to something",
-   "url": "https://aeon.co/videos/is-this-artemis-ii-timelapse-the-pale-blue-dot-for-our-times",
-   "blurb": "An astronaut’s image of Earth from the 2026 lunar flyby reveals not our profound smallness but our growing significance - by Aeon Video Watch on Aeon",
-   "author": "Aeon Video",
-   "date": "2026-09-07T10:01:00.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "Continental divide",
    "url": "https://aeon.co/essays/why-the-pan-american-highway-only-half-exists",
    "blurb": "A century ago, the Pan-American road promised a new era of fraternity between the two continents. Did it succeed? - by Shawn Miller Read on Aeon",
    "author": "Shawn Miller",
    "date": "2026-09-07T10:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Your Daily Horoscope by Madame Clairevoyant: September 7, 2026",
-   "url": "http://www.thecut.com/article/daily-horoscopes-by-madame-clairevoyant-september-7-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Expect a boost in energy when the moon enters Leo this afternoon.",
-   "author": "Claire Comstock-Gay",
-   "date": "2026-09-07T09:00:06.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Your Weekly Horoscopes by Madame Clairevoyant: September 6–September 12",
-   "url": "http://www.thecut.com/article/weekly-horoscopes-by-madame-clairevoyant-september-6-through-12-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "An astrologically quiet week awaits — at least until Thursday arrives.",
-   "author": "Claire Comstock-Gay",
-   "date": "2026-09-06T09:00:29.000Z"
   },
   {
    "source": "The Paris Review",
@@ -453,27 +429,11 @@
   },
   {
    "source": "Aeon",
-   "title": "A vocabulary for the future: touch",
-   "url": "https://aeon.co/videos/repulsion-at-the-core-of-attraction-on-the-paradox-of-touch",
-   "blurb": "A mesmerising blend of words and images make touch a doorway into the deepest questions in physics and philosophy - by Aeon Video Watch on Aeon",
-   "author": "Aeon Video",
-   "date": "2026-08-20T10:01:00.000Z"
-  },
-  {
-   "source": "Aeon",
    "title": "Dolphins and other lovers",
    "url": "https://aeon.co/essays/why-the-andoque-of-the-amazon-fear-the-seductive-dolphin",
    "blurb": "The Andoque of the Amazon know what we have forgotten: the forest’s most beautiful creatures are also its most dangerous - by Eliran Arazi Read on Aeon",
    "author": "Eliran Arazi",
    "date": "2026-08-20T10:00:00.000Z"
-  },
-  {
-   "source": "Aeon",
-   "title": "The conscience files",
-   "url": "https://aeon.co/videos/thieves-of-cursed-rocks-pen-letters-of-remorse-to-a-national-park",
-   "blurb": "The sorrows and redemptions of visitors who mailed their ‘souvenirs’ back to Arizona’s Petrified Forest National Park - by Aeon Video Watch on Aeon",
-   "author": "Aeon Video",
-   "date": "2026-08-19T10:01:00.000Z"
   },
   {
    "source": "The Paris Review",
@@ -501,14 +461,6 @@
   },
   {
    "source": "Aeon",
-   "title": "The World Famous Gopher Hole Museum",
-   "url": "https://aeon.co/videos/torrington-has-some-240-residents-and-one-unusual-tourist-attraction",
-   "blurb": "In this bittersweet portrait of a farm town in Canada, taxidermied gophers preserve a place that no longer exists - by Aeon Video Watch on Aeon",
-   "author": "Aeon Video",
-   "date": "2026-08-17T10:01:00.000Z"
-  },
-  {
-   "source": "Aeon",
    "title": "Worm munch matters",
    "url": "https://aeon.co/essays/worm-munch-matters-the-new-acoustic-ecology-of-the-soil",
    "blurb": "The lives that slither and scurry beneath the soil’s surface are vital for ecological health: now we can listen in to them - by Ella Browning Read on Aeon",
@@ -533,14 +485,6 @@
   },
   {
    "source": "Aeon",
-   "title": "Where the earth meets the sky",
-   "url": "https://aeon.co/videos/in-the-remote-desert-an-awe-inspiring-artwork-collapses-time-and-space",
-   "blurb": "After half a century in the making, an observatory in New Mexico lets viewers peer 13,000 years into the future and the past - by Aeon Video Watch on Aeon",
-   "author": "Aeon Video",
-   "date": "2026-08-13T10:01:00.000Z"
-  },
-  {
-   "source": "Aeon",
    "title": "Mecca and the mall",
    "url": "https://aeon.co/essays/my-pilgrimage-to-mecca-in-the-age-of-the-golf-cart-and-mall",
    "blurb": "In a bid for spiritual renewal, I made a pilgrimage to Islam’s holy city. Almost everything I expected to see was gone - by Azania Imtiaz Patel Read on Aeon",
@@ -557,14 +501,6 @@
   },
   {
    "source": "Aeon",
-   "title": "Bouncy brothers",
-   "url": "https://aeon.co/videos/a-tale-of-brotherhood-bouncy-castles-and-the-american-dream",
-   "blurb": "Two brothers struggle to keep a bouncy house business afloat in this nuanced portrait of family and the pursuit of success - by Aeon Video Watch on Aeon",
-   "author": "Aeon Video",
-   "date": "2026-08-12T10:01:00.000Z"
-  },
-  {
-   "source": "Aeon",
    "title": "A second sexual revolution",
    "url": "https://aeon.co/essays/how-shere-hite-listened-to-womens-sexual-desires-and-dislikes",
    "blurb": "Until Shere Hite’s Report, even the most daring sexologists refused to listen to what women desired and hated in sex - by Rosa Campbell Read on Aeon",
@@ -578,14 +514,6 @@
    "blurb": "There is no better book for understanding Shiva Naipaul, a tragic figure whose name has long been associated with phrases like “unjustly overlooked,” “basically forgotten,” and “younger brother.”",
    "author": "Andrew Holter",
    "date": "2026-08-06T14:00:38.000Z"
-  },
-  {
-   "source": "The Paris Review",
-   "title": "Last Days at the Aqueduct: New York’s Rundown Racetrack",
-   "url": "https://www.theparisreview.org/blog/2026/08/04/last-days-at-the-aqueduct-new-yorks-rundown-racetrack/",
-   "blurb": "“We used to wear hats—everyone in a hat. We called them fedoras back then. You probably never heard of a fedora.”",
-   "author": "Max Callimanopulos",
-   "date": "2026-08-04T15:07:07.000Z"
   }
  ]
 }
