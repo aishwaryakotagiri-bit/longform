@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fdfaf4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14120f" media="(prefers-color-scheme: dark)">
 <title>longform</title>
 <style>
 :root {
@@ -49,8 +51,11 @@ a { color: var(--accent); text-underline-offset: 2px; }
 .masthead { padding: 3rem 0 1.25rem; border-bottom: 1px solid var(--rule); }
 .masthead h1 { font-family: var(--font-read); font-size: clamp(1.75rem, 6vw, 2.4rem); }
 .masthead p { color: var(--ink-soft); margin-top: 0.5rem; font-size: 0.92rem; }
+/* inside the browser side panel there is less room; keep the header short */
+body.in-panel .masthead { padding-top: 1.1rem; }
+body.in-panel .masthead h1 { font-size: 1.35rem; }
 
-.tabs { display: flex; gap: 0.25rem; margin: 1.5rem 0; flex-wrap: wrap; }
+.tabs { display: flex; gap: 0.25rem; margin: 1.5rem 0 1rem; flex-wrap: wrap; }
 .tab {
   font: inherit; font-size: 0.92rem; color: var(--ink-soft); background: none;
   border: 1px solid transparent; border-radius: 999px; padding: 0.6rem 1rem;
@@ -60,7 +65,25 @@ a { color: var(--accent); text-underline-offset: 2px; }
 }
 .tab:hover { color: var(--ink); }
 .tab[aria-selected="true"] { color: var(--ink); background: var(--card); border-color: var(--rule-strong); }
+@media (max-width: 400px) { .tab { padding: 0.6rem 0.7rem; } }
 .panel[hidden] { display: none; }
+
+.lookup { display: flex; gap: 0.4rem; margin: 0 0 1rem; }
+.lookup input {
+  flex: 1; min-width: 0; font: inherit; font-size: 0.95rem; color: var(--ink);
+  background: var(--card); border: 1px solid var(--rule-strong); border-radius: 999px;
+  padding: 0.55rem 1rem; min-height: 44px; -webkit-appearance: none; appearance: none;
+}
+.lookup input::placeholder { color: var(--ink-faint); }
+.results { display: grid; gap: 0.6rem; margin-bottom: 1.25rem; }
+.results:empty { margin: 0; }
+.results > .note { padding: 0.25rem 0; }
+.result {
+  background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-lg);
+  padding: 0.9rem 1.1rem; display: grid; gap: 0.4rem; font-size: 0.93rem;
+}
+.result strong { font-family: var(--font-read); font-weight: 500; font-size: 1.12rem; }
+.result em { color: var(--ink-faint); }
 
 .stack { display: grid; gap: 0.85rem; }
 .card {
@@ -75,6 +98,7 @@ a { color: var(--accent); text-underline-offset: 2px; }
 .card:nth-child(5) { animation-delay: 160ms; }
 .card.is-leaving { opacity: 0; transform: translateY(-6px); }
 @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.strip { border-left: 3px solid var(--accent); margin-bottom: 0.85rem; }
 
 .card-meta {
   display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;
@@ -89,6 +113,7 @@ a { color: var(--accent); text-underline-offset: 2px; }
 .card h3 a:hover { color: var(--accent); }
 .blurb { color: var(--ink-soft); font-size: 0.93rem; }
 .actions { display: flex; gap: 0.4rem; flex-wrap: wrap; border-top: 1px solid var(--rule); padding-top: 0.7rem; margin-top: 0.2rem; }
+.actions.bare, .result .actions { border: 0; padding: 0; margin: 0; }
 
 .btn {
   font: inherit; font-size: 0.87rem; cursor: pointer; background: none; color: var(--ink-soft);
@@ -98,15 +123,31 @@ a { color: var(--accent); text-underline-offset: 2px; }
 }
 .btn:hover { color: var(--ink); border-color: var(--rule-strong); }
 .btn:active { transform: scale(0.98); }
+.btn:disabled { cursor: default; color: var(--ok); }
 .btn-read:hover { color: var(--ok); border-color: var(--ok); }
 .btn-save:hover { color: var(--accent); border-color: var(--accent); }
+a.btn { display: inline-flex; align-items: center; text-decoration: none; }
+.dot::after { content: ' •'; color: var(--accent); }
+
+.jot {
+  width: 100%; display: block; font: inherit; font-size: 0.92rem; line-height: 1.5; color: var(--ink);
+  background: var(--paper); border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: 0.6rem 0.75rem; resize: none; min-height: 3.4rem; overflow: hidden;
+}
+.jot:focus { border-color: var(--rule-strong); }
+.jot::placeholder { color: var(--ink-faint); }
 
 .note { color: var(--ink-faint); font-size: 0.9rem; padding: 1.5rem 0; }
 .note strong { font-weight: 500; color: var(--ink-soft); }
 .row { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-top: 1rem; }
+.toolbar { display: flex; gap: 0.4rem; flex-wrap: wrap; margin: 0 0 0.75rem; }
 .list-item { padding: 0.85rem 0; border-bottom: 1px solid var(--rule); display: grid; gap: 0.3rem; }
 .list-item .t { font-family: var(--font-read); font-size: 1.05rem; }
 .list-item .t a { color: var(--ink); }
+.list-item .jot { margin-top: 0.25rem; }
+.word { padding: 0.85rem 0; border-bottom: 1px solid var(--rule); display: grid; gap: 0.25rem; }
+.word .w { font-family: var(--font-read); font-size: 1.1rem; }
+.word .m { color: var(--ink-soft); font-size: 0.93rem; }
 footer { border-top: 1px solid var(--rule); margin-top: 2.5rem; padding-top: 1.25rem; color: var(--ink-faint); font-size: 0.83rem; }
 
 @media (prefers-reduced-motion: reduce) {
@@ -130,12 +171,23 @@ footer { border-top: 1px solid var(--rule); margin-top: 2.5rem; padding-top: 1.2
       <button class="tab" role="tab" id="tab-queue" aria-controls="panel-queue" aria-selected="true">to read</button>
       <button class="tab" role="tab" id="tab-saved" aria-controls="panel-saved" aria-selected="false">saved</button>
       <button class="tab" role="tab" id="tab-done" aria-controls="panel-done" aria-selected="false">read</button>
+      <button class="tab" role="tab" id="tab-notes" aria-controls="panel-notes" aria-selected="false">notes</button>
+      <button class="tab" role="tab" id="tab-words" aria-controls="panel-words" aria-selected="false">words</button>
     </div>
   </nav>
+
+  <form class="lookup" id="lookup" role="search">
+    <label class="sr-only" for="q">look up a word or a name</label>
+    <input id="q" type="search" placeholder="look up a word…" autocomplete="off" autocapitalize="off" spellcheck="false">
+    <button class="btn btn-save" type="submit">look up</button>
+    <button class="btn" type="button" id="keepRaw">keep</button>
+  </form>
+  <div class="results" id="results" aria-live="polite"></div>
 
   <main id="main">
     <section class="panel" id="panel-queue" role="tabpanel" aria-labelledby="tab-queue" tabindex="-1">
       <h2 class="sr-only">to read</h2>
+      <div id="reading"></div>
       <ul class="stack" id="queue"></ul>
       <div id="queueNote"></div>
     </section>
@@ -147,6 +199,16 @@ footer { border-top: 1px solid var(--rule); margin-top: 2.5rem; padding-top: 1.2
       <h2 class="sr-only">read</h2>
       <ul id="doneList"></ul>
     </section>
+    <section class="panel" id="panel-notes" role="tabpanel" aria-labelledby="tab-notes" tabindex="-1" hidden>
+      <h2 class="sr-only">notes</h2>
+      <div class="toolbar" id="notesTools"></div>
+      <ul id="notesList"></ul>
+    </section>
+    <section class="panel" id="panel-words" role="tabpanel" aria-labelledby="tab-words" tabindex="-1" hidden>
+      <h2 class="sr-only">words</h2>
+      <div class="toolbar" id="wordsTools"></div>
+      <ul id="wordsList"></ul>
+    </section>
   </main>
 
   <footer>
@@ -157,27 +219,38 @@ footer { border-top: 1px solid var(--rule); margin-top: 2.5rem; padding-top: 1.2
 
 <script>
 const COPY = {
-  loading: 'loading…',
   status: (n, when) => `${n} waiting · updated ${when}`,
   failed: 'could not load the article list. if this is a fresh setup, run the fetch action once.',
-  markRead: 'mark read',
-  save: 'save',
-  skip: 'not for me',
-  unsave: 'remove',
-  unread: 'put back',
+  markRead: 'mark read', save: 'save', skip: 'not for me', unsave: 'remove', unread: 'put back',
+  notes: 'notes', keep: 'keep', keepAsIs: 'keep as is', kept: 'kept', remove: 'remove', close: 'close',
+  reading: 'now reading', readMore: 'read more ↗', searchWeb: 'search the web ↗',
+  looking: 'looking up…',
+  notePlaceholder: 'words that stuck, a thought, a question…',
   emptyQueue: 'nothing left in the pile. the next fetch will bring more in.',
   emptySaved: 'nothing saved yet.',
   emptyDone: 'nothing marked read yet.',
+  emptyNotes: 'no notes yet. open notes on any article to start.',
+  emptyWords: 'no words yet. look one up above and keep it.',
+  nothing: (t) => `nothing found for “${t}”.`,
+  dictDown: 'the dictionary is not reachable right now.',
+  wikiDown: 'wikipedia is not reachable right now.',
+  copyAll: 'copy all', download: 'download .md', copied: 'copied',
   restore: (n) => `bring back ${n} dismissed`,
   readToday: (n) => n === 1 ? '1 read today' : `${n} read today`,
   didRead: 'marked read.',
   didSave: 'saved.',
-  didSkip: 'dismissed.'
+  didSkip: 'dismissed.',
+  didKeep: (w) => `kept “${w}”.`
 };
 
 const SHOW = 5;
 const KEY = 'longform.state.v1';
-const state = { articles: [], updated: null, marks: { read: {}, saved: {}, skipped: {} }, visible: [], tab: 'queue' };
+const TABS = ['queue', 'saved', 'done', 'notes', 'words'];
+const state = {
+  articles: [], updated: null,
+  marks: { read: {}, saved: {}, skipped: {} },
+  visible: [], notes: {}, words: [], reading: null, tab: 'queue'
+};
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; };
@@ -187,12 +260,20 @@ const id = (a) => a.url.split('?')[0];
 function load() {
   try {
     const raw = JSON.parse(localStorage.getItem(KEY));
-    if (raw && raw.marks) state.marks = { read: {}, saved: {}, skipped: {}, ...raw.marks };
-    if (raw && Array.isArray(raw.visible)) state.visible = raw.visible;
+    if (!raw) return;
+    if (raw.marks) state.marks = { read: {}, saved: {}, skipped: {}, ...raw.marks };
+    if (Array.isArray(raw.visible)) state.visible = raw.visible;
+    if (raw.notes && typeof raw.notes === 'object') state.notes = raw.notes;
+    if (Array.isArray(raw.words)) state.words = raw.words;
+    if (typeof raw.reading === 'string') state.reading = raw.reading;
   } catch { /* first run, or storage blocked */ }
 }
 function save() {
-  try { localStorage.setItem(KEY, JSON.stringify({ marks: state.marks, visible: state.visible })); } catch { /* nothing to do */ }
+  try {
+    localStorage.setItem(KEY, JSON.stringify({
+      marks: state.marks, visible: state.visible, notes: state.notes, words: state.words, reading: state.reading
+    }));
+  } catch { /* nothing to do */ }
 }
 
 function when(iso) {
@@ -205,15 +286,17 @@ function when(iso) {
 }
 
 const isTouched = (a) => id(a) in state.marks.read || id(a) in state.marks.saved || id(a) in state.marks.skipped;
+
 /* five at a time, spread across sources. each empty slot goes to the source
    with the fewest cards showing, then the fewest marks (so the publications
    you've read least come forward), then the newest piece. cards already
-   showing stay where they are. */
+   showing stay where they are. the piece you're reading now sits above the
+   pile, not in it. */
 const CAP = { 'The Cut': 1 };
 function queue() {
-  const pool = state.articles.filter((a) => !isTouched(a));
-  const byId = new Map(pool.map((a) => [id(a), a]));
-  const shown = state.visible.map((k) => byId.get(k)).filter(Boolean);
+  const pool = state.articles.filter((a) => !isTouched(a) && id(a) !== state.reading);
+  const pooled = new Map(pool.map((a) => [id(a), a]));
+  const shown = state.visible.map((k) => pooled.get(k)).filter(Boolean).slice(0, SHOW);
   const used = new Set(shown.map(id));
   const touched = {};
   for (const kind of ['read', 'saved', 'skipped']) {
@@ -244,21 +327,167 @@ const byMark = (kind) => Object.keys(state.marks[kind])
   .filter(Boolean)
   .reverse();
 
+/* the piece being read right now — set by clicking a title, or by the
+   browser extension when you land on one of the publishers' pages. */
+const norm = (u) => String(u || '').toLowerCase().replace(/^https?:\/\/(www\.)?/, '').split(/[?#]/)[0].replace(/\/+$/, '');
+const byId = (k) => state.articles.find((a) => id(a) === k) || null;
+const byUrl = (u) => { const n = norm(u); return n ? state.articles.find((a) => norm(a.url) === n) || null : null; };
+const snapshot = (a) => ({ title: a.title, url: a.url, source: a.source });
+const readingArticle = () => {
+  if (!state.reading) return null;
+  return byId(state.reading) || (state.notes[state.reading] ? { ...state.notes[state.reading] } : null);
+};
+const readingSnapshot = () => { const a = readingArticle(); return a ? snapshot(a) : null; };
+function setReading(key) {
+  if (key === state.reading) return;
+  /* the previous one goes back to the front of the pile */
+  if (state.reading) state.visible = [state.reading, ...state.visible.filter((k) => k !== state.reading)];
+  state.reading = key;
+  save();
+}
+
+/* notes are keyed by article and carry a copy of the title and link, so
+   they outlive the article's stay in the pile. */
+function setNote(key, text, a) {
+  const t = String(text || '');
+  if (!t.trim()) { delete state.notes[key]; save(); return; }
+  const prev = state.notes[key] || {};
+  const src = a ? snapshot(a) : { title: prev.title, url: prev.url, source: prev.source };
+  state.notes[key] = { ...src, text: t, at: new Date().toISOString() };
+  save();
+}
+
+/* words that stuck. one entry per word; keeping it again moves it to the
+   top and fills in a meaning if it had none. */
+function keepWord(word, meaning, from) {
+  const w = String(word || '').trim().replace(/\s+/g, ' ');
+  if (!w) return null;
+  const i = state.words.findIndex((x) => x.w.toLowerCase() === w.toLowerCase());
+  const prev = i >= 0 ? state.words.splice(i, 1)[0] : null;
+  const entry = { w, m: String(meaning || '').trim() || (prev && prev.m) || '', from: from || (prev && prev.from) || null, at: new Date().toISOString() };
+  state.words.unshift(entry);
+  save();
+  return entry;
+}
+const firstSentence = (text) => {
+  const m = String(text || '').match(/^.*?[.!?](?=\s|$)/);
+  return (m ? m[0] : String(text || '')).slice(0, 200);
+};
+
+/* wiktionary and wikipedia are built for browser use and say so with cors
+   headers — unlike the publishers' feeds, which is why those are fetched
+   server-side. failures here are shown, never swallowed. */
+const WIKT = 'https://en.wiktionary.org/api/rest_v1/page/definition/';
+const WIKI_SEARCH = 'https://en.wikipedia.org/w/api.php?action=opensearch&format=json&origin=*&limit=1&search=';
+const WIKI_SUMMARY = 'https://en.wikipedia.org/api/rest_v1/page/summary/';
+const plain = (html) => String(html || '')
+  .replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+  .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\s+/g, ' ').trim();
+
+async function getJSON(url, signal) {
+  const res = await fetch(url, { signal });
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  return res.json();
+}
+async function lookupDictionary(term, signal) {
+  for (const t of [...new Set([term, term.toLowerCase()])]) {
+    const data = await getJSON(WIKT + encodeURIComponent(t.replace(/ /g, '_')), signal);
+    const senses = [];
+    for (const group of (data && data.en) || []) {
+      for (const d of (group.definitions || []).slice(0, 2)) {
+        const def = plain(d.definition);
+        if (!def) continue;
+        const ex = plain((d.parsedExamples && d.parsedExamples[0] && d.parsedExamples[0].example) || (d.examples && d.examples[0]) || '');
+        senses.push({ pos: (group.partOfSpeech || '').toLowerCase(), def, example: ex });
+      }
+    }
+    if (senses.length) return { word: t, senses: senses.slice(0, 3) };
+  }
+  return null;
+}
+async function lookupWikipedia(term, signal) {
+  const found = await getJSON(WIKI_SEARCH + encodeURIComponent(term), signal);
+  const title = found && found[1] && found[1][0];
+  if (!title) return null;
+  const s = await getJSON(WIKI_SUMMARY + encodeURIComponent(title.replace(/ /g, '_')), signal);
+  if (!s || !s.extract) return null;
+  const url = (s.content_urls && s.content_urls.desktop && s.content_urls.desktop.page)
+    || 'https://en.wikipedia.org/wiki/' + encodeURIComponent(title.replace(/ /g, '_'));
+  return { title: s.title, extract: s.extract, url };
+}
+async function lookupData(term, signal) {
+  const [d, w] = await Promise.allSettled([lookupDictionary(term, signal), lookupWikipedia(term, signal)]);
+  return {
+    term,
+    dict: d.status === 'fulfilled' ? d.value : null,
+    wiki: w.status === 'fulfilled' ? w.value : null,
+    dictError: d.status === 'rejected' ? (d.reason && d.reason.message) || 'failed' : null,
+    wikiError: w.status === 'rejected' ? (w.reason && w.reason.message) || 'failed' : null
+  };
+}
+
+/* everything you've written, as markdown, so it is never trapped in one browser. */
+function exportText() {
+  const lines = [`# longform notes — ${new Date().toISOString().slice(0, 10)}`, ''];
+  const notes = Object.values(state.notes).sort((a, b) => (b.at || '').localeCompare(a.at || ''));
+  lines.push('## notes', '');
+  if (!notes.length) lines.push('(none)', '');
+  for (const n of notes) lines.push(`### ${n.title || 'untitled'} — ${n.source || ''}`, n.url || '', '', String(n.text || '').trim(), '');
+  lines.push('## words', '');
+  if (!state.words.length) lines.push('(none)', '');
+  for (const w of state.words) lines.push(`- **${w.w}**${w.m ? ` — ${w.m}` : ''}${w.from ? ` _(from: ${w.from.title})_` : ''}`);
+  return lines.join('\n') + '\n';
+}
+
+/* ---------- rendering ---------- */
+
+const openNotes = new Set();
+
+function noteHTML(scope, key) {
+  const n = state.notes[key];
+  const dom = `note-${scope}-${key.replace(/[^a-z0-9]/gi, '-')}`;
+  return `<label class="sr-only" for="${dom}">notes</label>` +
+    `<textarea class="jot" id="${dom}" data-note="${esc(key)}" rows="2" placeholder="${COPY.notePlaceholder}">${esc(n ? n.text : '')}</textarea>`;
+}
+
 function cardHTML(a) {
+  const key = id(a);
+  const has = !!state.notes[key];
+  const open = has || openNotes.has(key);
   const meta = [esc(a.source), when(a.date), a.author ? esc(a.author) : ''].filter(Boolean);
-  return `<li class="card" data-id="${esc(id(a))}">
+  return `<li class="card" data-id="${esc(key)}">
     <p class="card-meta"><span class="badge">${meta[0]}</span>${meta.slice(1).map((m) => `<span>${m}</span>`).join('')}</p>
-    <h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
+    <h3><a href="${esc(a.url)}" target="_blank" rel="noopener" data-open="${esc(key)}">${esc(a.title)}</a></h3>
     ${a.blurb ? `<p class="blurb">${esc(a.blurb)}</p>` : ''}
     <div class="actions">
       <button class="btn btn-read" data-act="read">${COPY.markRead}</button>
       <button class="btn btn-save" data-act="saved">${COPY.save}</button>
       <button class="btn" data-act="skipped">${COPY.skip}</button>
+      <button class="btn${has ? ' dot' : ''}" data-toggle-notes="${esc(key)}" aria-expanded="${open}">${COPY.notes}</button>
     </div>
+    <div data-notebox="${esc(key)}"${open ? '' : ' hidden'}>${noteHTML('card', key)}</div>
   </li>`;
 }
 
+function readingHTML() {
+  const a = readingArticle();
+  if (!a) return '';
+  const key = state.reading;
+  return `<div class="card strip" data-id="${esc(key)}">
+    <p class="card-meta"><span class="badge">${COPY.reading}</span><span>${esc(a.source)}</span></p>
+    <h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
+    ${noteHTML('strip', key)}
+    <div class="actions">
+      <button class="btn btn-read" data-act="read">${COPY.markRead}</button>
+      <button class="btn btn-save" data-act="saved">${COPY.save}</button>
+      <button class="btn" data-clear-reading>${COPY.close}</button>
+    </div>
+  </div>`;
+}
+
 function renderQueue() {
+  $('reading').innerHTML = readingHTML();
   const items = queue();
   save();
   $('queue').innerHTML = items.map(cardHTML).join('');
@@ -271,6 +500,7 @@ function renderQueue() {
     (skipped ? `<button class="btn" id="restore">${esc(COPY.restore(skipped))}</button>` : '') + '</div>';
   const r = $('restore');
   if (r) r.onclick = () => { state.marks.skipped = {}; save(); renderAll(); say('dismissed articles are back.'); };
+  autosizeAll();
 }
 
 function renderList(el, items, kind) {
@@ -279,9 +509,35 @@ function renderList(el, items, kind) {
     return;
   }
   el.innerHTML = items.map((a) => `<li class="list-item" data-id="${esc(id(a))}">
-    <span class="card-meta"><span class="badge">${esc(a.source)}</span><span>${when(a.date)}</span></span>
-    <span class="t"><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></span>
+    <span class="card-meta"><span class="badge">${esc(a.source)}</span><span>${when(a.date)}</span>${state.notes[id(a)] ? '<span>notes •</span>' : ''}</span>
+    <span class="t"><a href="${esc(a.url)}" target="_blank" rel="noopener" data-open="${esc(id(a))}">${esc(a.title)}</a></span>
     <span><button class="btn" data-undo="${kind}">${kind === 'saved' ? COPY.unsave : COPY.unread}</button></span>
+  </li>`).join('');
+}
+
+const toolsHTML = () => `<button class="btn" data-export="copy">${COPY.copyAll}</button><button class="btn" data-export="download">${COPY.download}</button>`;
+
+function renderNotes() {
+  const entries = Object.entries(state.notes).sort((a, b) => (b[1].at || '').localeCompare(a[1].at || ''));
+  $('notesTools').innerHTML = entries.length ? toolsHTML() : '';
+  if (!entries.length) { $('notesList').innerHTML = `<li class="note">${COPY.emptyNotes}</li>`; return; }
+  $('notesList').innerHTML = entries.map(([key, n]) => `<li class="list-item" data-id="${esc(key)}">
+    <span class="card-meta"><span class="badge">${esc(n.source)}</span><span>${when(n.at)}</span></span>
+    <span class="t"><a href="${esc(n.url)}" target="_blank" rel="noopener" data-open="${esc(key)}">${esc(n.title)}</a></span>
+    ${noteHTML('list', key)}
+    <span><button class="btn" data-del-note="${esc(key)}">${COPY.remove}</button></span>
+  </li>`).join('');
+  autosizeAll();
+}
+
+function renderWords() {
+  $('wordsTools').innerHTML = state.words.length ? toolsHTML() : '';
+  if (!state.words.length) { $('wordsList').innerHTML = `<li class="note">${COPY.emptyWords}</li>`; return; }
+  $('wordsList').innerHTML = state.words.map((w, i) => `<li class="word">
+    <span class="w">${esc(w.w)}</span>
+    ${w.m ? `<span class="m">${esc(w.m)}</span>` : ''}
+    <span class="card-meta">${w.from ? `<a href="${esc(w.from.url)}" target="_blank" rel="noopener">${esc(w.from.source)} · ${esc(w.from.title)}</a>` : ''}<span>${when(w.at)}</span></span>
+    <span><button class="btn" data-del-word="${i}">${COPY.remove}</button></span>
   </li>`).join('');
 }
 
@@ -289,44 +545,223 @@ function renderAll() {
   renderQueue();
   renderList($('savedList'), byMark('saved'), 'saved');
   renderList($('doneList'), byMark('read'), 'read');
+  renderNotes();
+  renderWords();
   $('status').textContent = COPY.status(remaining(), when(state.updated));
 }
 
-function act(cardEl, kind) {
-  const key = cardEl.dataset.id;
+function act(el, kind) {
+  if (!el) return;
+  const key = el.dataset.id;
   state.marks[kind][key] = new Date().toISOString();
+  const strip = el.classList.contains('strip');
+  if (kind !== 'saved' && state.reading === key) state.reading = null;
   save();
-  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   say(kind === 'read' ? COPY.didRead : kind === 'saved' ? COPY.didSave : COPY.didSkip);
-  if (reduce) { renderAll(); return; }
-  cardEl.classList.add('is-leaving');
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || (strip && kind === 'saved')) { renderAll(); return; }
+  el.classList.add('is-leaving');
   setTimeout(renderAll, 260);
 }
 
 function switchTab(name) {
   state.tab = name;
-  for (const t of ['queue', 'saved', 'done']) {
+  for (const t of TABS) {
     $('tab-' + t).setAttribute('aria-selected', String(t === name));
     $('panel-' + t).hidden = t !== name;
   }
   $('panel-' + name).focus();
+  autosizeAll();
+}
+
+/* ---------- notes: save as you type ---------- */
+
+function autosize(t) {
+  if (!t || t.offsetParent === null) return;
+  t.style.height = 'auto';
+  t.style.height = t.scrollHeight + 'px';
+}
+const autosizeAll = () => document.querySelectorAll('.jot').forEach(autosize);
+
+const pending = {};
+const noteTimers = {};
+function commitNote(key) {
+  if (!(key in pending)) return;
+  const text = pending[key];
+  delete pending[key];
+  setNote(key, text, byId(key));
+  for (const o of document.querySelectorAll('[data-note]')) if (o.dataset.note === key && o.value !== text) o.value = text;
+  for (const b of document.querySelectorAll('[data-toggle-notes]')) if (b.dataset.toggleNotes === key) b.classList.toggle('dot', !!state.notes[key]);
+}
+
+/* ---------- look up ---------- */
+
+let lookupSeq = 0, lookupCtrl = null, lastLookup = null;
+function clearLookup() {
+  lastLookup = null;
+  $('results').innerHTML = '';
+  if (lookupCtrl) lookupCtrl.abort();
+}
+async function runLookup(term) {
+  const t = String(term || '').trim().replace(/\s+/g, ' ').slice(0, 120);
+  if (!t) return;
+  $('q').value = t;
+  if (lookupCtrl) lookupCtrl.abort();
+  lookupCtrl = new AbortController();
+  const seq = ++lookupSeq;
+  $('results').innerHTML = `<p class="note">${COPY.looking}</p>`;
+  const r = await lookupData(t, lookupCtrl.signal);
+  if (seq !== lookupSeq) return;
+  lastLookup = r;
+  renderLookup(r);
+}
+function renderLookup(r) {
+  const from = readingSnapshot();
+  const fromLine = from ? `<span>from: ${esc(from.title)}</span>` : '';
+  const parts = [];
+  if (r.dict) {
+    parts.push(`<div class="result">
+      <p class="card-meta"><span class="badge">dictionary</span>${fromLine}</p>
+      <p><strong>${esc(r.dict.word)}</strong></p>
+      ${r.dict.senses.map((s) => `<p>${s.pos ? `<em>${esc(s.pos)}</em> — ` : ''}${esc(s.def)}${s.example ? ` <span class="blurb">“${esc(s.example)}”</span>` : ''}</p>`).join('')}
+      <div class="actions"><button class="btn btn-save" data-keep="dict">${COPY.keep}</button></div>
+    </div>`);
+  } else if (r.dictError) {
+    parts.push(`<p class="note">${COPY.dictDown}</p>`);
+  }
+  if (r.wiki) {
+    const ex = r.wiki.extract.length > 360 ? r.wiki.extract.slice(0, 357).trimEnd() + '…' : r.wiki.extract;
+    parts.push(`<div class="result">
+      <p class="card-meta"><span class="badge">wikipedia</span>${fromLine}</p>
+      <p><strong>${esc(r.wiki.title)}</strong> — ${esc(ex)}</p>
+      <div class="actions"><button class="btn btn-save" data-keep="wiki">${COPY.keep}</button><a class="btn" href="${esc(r.wiki.url)}" target="_blank" rel="noopener">${COPY.readMore}</a></div>
+    </div>`);
+  } else if (r.wikiError) {
+    parts.push(`<p class="note">${COPY.wikiDown}</p>`);
+  }
+  if (!r.dict && !r.wiki && !r.dictError && !r.wikiError) parts.push(`<p class="note">${esc(COPY.nothing(r.term))}</p>`);
+  parts.push(`<div class="actions bare">
+    <button class="btn" data-keep="raw">${COPY.keepAsIs}</button>
+    <a class="btn" href="https://duckduckgo.com/?q=${encodeURIComponent(r.term)}" target="_blank" rel="noopener">${COPY.searchWeb}</a>
+    <button class="btn" data-clear-lookup>${COPY.close}</button>
+  </div>`);
+  $('results').innerHTML = parts.join('');
+}
+function keepFromLookup(btn) {
+  const r = lastLookup;
+  if (!r) return;
+  const from = readingSnapshot();
+  const kind = btn.dataset.keep;
+  const entry = kind === 'dict' && r.dict ? keepWord(r.dict.word, r.dict.senses[0].def, from)
+    : kind === 'wiki' && r.wiki ? keepWord(r.wiki.title, firstSentence(r.wiki.extract), from)
+    : keepWord(r.term, '', from);
+  if (!entry) return;
+  say(COPY.didKeep(entry.w));
+  renderWords();
+  flash(btn, COPY.kept);
+}
+function flash(btn, text) {
+  const old = btn.textContent;
+  btn.textContent = text;
+  btn.disabled = true;
+  setTimeout(() => { btn.textContent = old; btn.disabled = false; }, 1500);
+}
+
+async function doExport(kind, btn) {
+  const text = exportText();
+  if (kind === 'copy') {
+    try { await navigator.clipboard.writeText(text); }
+    catch {
+      const ta = document.createElement('textarea');
+      ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove();
+    }
+    say(COPY.copied);
+    flash(btn, COPY.copied);
+  } else {
+    const url = URL.createObjectURL(new Blob([text], { type: 'text/markdown;charset=utf-8' }));
+    const a = document.createElement('a');
+    a.href = url; a.download = `longform-notes-${new Date().toISOString().slice(0, 10)}.md`;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 2000);
+  }
+}
+
+/* messages from the browser extension's side panel. only plain text and a
+   url ever arrive, and they only prefill the look-up box or pick the piece
+   being read — treated as data, nothing more. */
+function onMessage(e) {
+  const m = e.data;
+  if (!m || m.longform !== true || typeof m.type !== 'string') return;
+  const text = typeof m.text === 'string' ? m.text.trim().replace(/\s+/g, ' ').slice(0, 300) : '';
+  if (m.type === 'selection' && text) {
+    $('q').value = text;
+  } else if (m.type === 'lookup' && text) {
+    runLookup(text);
+  } else if (m.type === 'keep' && text) {
+    const entry = keepWord(text, '', readingSnapshot());
+    if (entry) { say(COPY.didKeep(entry.w)); renderWords(); }
+  } else if (m.type === 'page' && typeof m.url === 'string') {
+    const a = byUrl(m.url);
+    if (a && id(a) !== state.reading) { setReading(id(a)); renderAll(); }
+  }
 }
 
 async function init() {
   load();
-  for (const t of ['queue', 'saved', 'done']) $('tab-' + t).onclick = () => switchTab(t);
+  if (new URLSearchParams(location.search).has('panel')) document.body.classList.add('in-panel');
+  for (const t of TABS) $('tab-' + t).onclick = () => switchTab(t);
 
-  $('queue').addEventListener('click', (e) => {
-    const btn = e.target.closest('[data-act]');
-    if (btn) act(btn.closest('.card'), btn.dataset.act);
-  });
   document.addEventListener('click', (e) => {
+    const open = e.target.closest('[data-open]');
+    if (open) { setReading(open.dataset.open); setTimeout(renderAll, 0); return; }
+    const action = e.target.closest('[data-act]');
+    if (action) { act(action.closest('[data-id]'), action.dataset.act); return; }
     const undo = e.target.closest('[data-undo]');
-    if (!undo) return;
-    delete state.marks[undo.dataset.undo][undo.closest('[data-id]').dataset.id];
-    save();
-    renderAll();
+    if (undo) { delete state.marks[undo.dataset.undo][undo.closest('[data-id]').dataset.id]; save(); renderAll(); return; }
+    const tog = e.target.closest('[data-toggle-notes]');
+    if (tog) {
+      const key = tog.dataset.toggleNotes;
+      const box = tog.closest('[data-id]').querySelector('[data-notebox]');
+      const show = box.hidden;
+      box.hidden = !show;
+      tog.setAttribute('aria-expanded', String(show));
+      if (show) { openNotes.add(key); const ta = box.querySelector('textarea'); autosize(ta); ta.focus(); }
+      else openNotes.delete(key);
+      return;
+    }
+    const dn = e.target.closest('[data-del-note]');
+    if (dn) { delete state.notes[dn.dataset.delNote]; save(); renderAll(); return; }
+    const dw = e.target.closest('[data-del-word]');
+    if (dw) { state.words.splice(Number(dw.dataset.delWord), 1); save(); renderWords(); return; }
+    const ex = e.target.closest('[data-export]');
+    if (ex) { doExport(ex.dataset.export, ex); return; }
+    if (e.target.closest('[data-clear-reading]')) { setReading(null); renderAll(); return; }
+    if (e.target.closest('[data-clear-lookup]')) { clearLookup(); return; }
+    const k = e.target.closest('[data-keep]');
+    if (k) { keepFromLookup(k); return; }
+    const raw = e.target.closest('#keepRaw');
+    if (raw) {
+      const entry = keepWord($('q').value, '', readingSnapshot());
+      if (entry) { say(COPY.didKeep(entry.w)); renderWords(); flash(raw, COPY.kept); }
+    }
   });
+
+  document.addEventListener('input', (e) => {
+    const t = e.target.closest('[data-note]');
+    if (!t) return;
+    const key = t.dataset.note;
+    autosize(t);
+    pending[key] = t.value;
+    clearTimeout(noteTimers[key]);
+    noteTimers[key] = setTimeout(() => commitNote(key), 300);
+  });
+  window.addEventListener('pagehide', () => { for (const key of Object.keys(pending)) commitNote(key); });
+
+  $('lookup').addEventListener('submit', (e) => { e.preventDefault(); runLookup($('q').value); });
+  $('q').addEventListener('keydown', (e) => { if (e.key === 'Escape') clearLookup(); });
+  $('q').addEventListener('search', () => { if (!$('q').value) clearLookup(); });
+  window.addEventListener('message', onMessage);
 
   try {
     const res = await fetch('./data/articles.json?t=' + Date.now());
@@ -340,7 +775,10 @@ async function init() {
   } catch (err) {
     $('status').textContent = COPY.failed;
     $('queue').innerHTML = '';
+    renderNotes();
+    renderWords();
   }
+  if (window.parent !== window) window.parent.postMessage({ longform: 'ready' }, '*');
 }
 
 init();
