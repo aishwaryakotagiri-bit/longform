@@ -103,6 +103,7 @@ async function shot(name) {
 console.log('screenshots');
 await open({ width: 375, height: 812, dark: false, mobile: true }); await shot('light-375.png');
 await open({ width: 375, height: 812, dark: true, mobile: true });  await shot('dark-375.png');
+await open({ width: 1280, height: 900, dark: false });               await shot('light-1280-rest.png');
 await open({ width: 1280, height: 900, dark: false, scroll: 260 });  await shot('light-1280.png');
 await open({ width: 1280, height: 900, dark: true, scroll: 260 });   await shot('dark-1280.png');
 

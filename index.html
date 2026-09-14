@@ -45,6 +45,7 @@
   --gilt-text:   #80621d;
   --gilt-soft:   #f0e2c0;
   --acid:        #e5401c;
+  --shadow:      rgba(26, 22, 18, 0.22);
 
   --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
   --font-read:    'Newsreader', 'Iowan Old Style', Georgia, serif;
@@ -79,6 +80,13 @@
     54% 4%, 46% 8%, 38% 3%, 30% 9%, 22% 4%, 14% 8%,
     7% 3%, 0 6%, 0 6%, 0 6%
   );
+  /* the plate's top edge: torn once, never animated */
+  --plate-edge: polygon(
+    0 4%, 4% 1.6%, 9% 3.2%, 13% 0.6%, 20% 4.6%, 26% 2%, 30% 3.8%, 37% 0.8%,
+    44% 3.3%, 49% 1.4%, 57% 4.9%, 62% 2.3%, 70% 3.6%, 76% 0.9%, 83% 4.3%,
+    89% 1.9%, 95% 3.4%, 100% 1.2%,
+    100% 100%, 0 100%
+  );
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -94,6 +102,7 @@
     --gilt-text:   #c9a24f;
     --gilt-soft:   #2b2416;
     --acid:        #ff6a48;
+    --shadow:      rgba(0, 0, 0, 0.55);
   }
 }
 
@@ -160,6 +169,20 @@ body::after {
   user-select: none; -webkit-user-select: none; pointer-events: none;
   padding-bottom: 0.14em;
 }
+.stage { position: relative; }
+/* the plate: a painting standing in front of the word, torn along its top,
+   tilted a degree, its feet on the hairline. it does not move; the pile
+   scrolls over it as it does over the word. */
+.plate {
+  position: absolute; right: 0; bottom: 1px; z-index: 1; margin: 0;
+  height: 18vh;
+  transform: rotate(-1.4deg); transform-origin: 50% 100%;
+  /* a pale fibre along the torn edge, a hard paper edge below, and a soft lift off the page */
+  filter: drop-shadow(0 -1px 0 var(--card)) drop-shadow(0 1px 0 var(--rule-strong)) drop-shadow(0 10px 18px var(--shadow));
+}
+.plate img { display: block; height: 100%; width: auto; clip-path: var(--plate-edge); }
+@media (min-width: 600px) { .plate { right: 10%; height: 30vh; } }
+body.in-panel .plate { height: 14vh; }
 .hairline { height: 1px; background: var(--gilt); transform-origin: left; transform: scaleX(0); }
 @supports (animation-timeline: scroll()) {
   .hairline {
@@ -375,8 +398,13 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
 <header class="masthead">
   <div class="col">
     <h1 class="sr-only">longform</h1>
-    <p class="wordmark" aria-hidden="true">longform</p>
-    <div class="hairline"></div>
+    <div class="stage">
+      <p class="wordmark" aria-hidden="true">longform</p>
+      <figure class="plate" aria-hidden="true">
+        <img src="img/reader.jpg" alt="" width="795" height="1000" decoding="async" fetchpriority="high">
+      </figure>
+      <div class="hairline"></div>
+    </div>
     <p class="status" id="status"><span>loading…</span></p>
   </div>
 </header>
