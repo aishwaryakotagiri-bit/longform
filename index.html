@@ -837,8 +837,9 @@ function switchTab(name, focusPanel) {
 }
 function changeTab(name, focusPanel = true) {
   if (name === state.tab) return;
-  if (!document.startViewTransition) { switchTab(name, focusPanel); return; }
-  document.startViewTransition(() => switchTab(name, focusPanel));
+  if (!document.startViewTransition || document.visibilityState !== 'visible') { switchTab(name, focusPanel); return; }
+  /* a transition that gets skipped (another one starts, the tab hides) rejects `ready`; that is fine */
+  document.startViewTransition(() => switchTab(name, focusPanel)).ready.catch(() => {});
 }
 
 /* once a day, a torn sheet lifts off the page. never under reduced motion. */
