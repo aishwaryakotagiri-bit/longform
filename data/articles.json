@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T05:03:53.074Z",
+ "updated": "2026-09-14T02:05:12.750Z",
  "report": [
   {
    "source": "Aeon",
@@ -24,10 +24,42 @@
   },
   {
    "source": "The Cut",
-   "count": 19
+   "count": 18
   }
  ],
  "articles": [
+  {
+   "source": "The Cut",
+   "title": "Celine Dion Made a Tearful Comeback to the Stage",
+   "url": "http://www.thecut.com/article/celine-dion-tearful-comeback-stage.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "“I had promised myself not to cry.”",
+   "author": "Kathleen Walsh",
+   "date": "2026-09-13T19:11:49.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "What’s Happening With Dakota Johnson and Machine Gun Kelly?",
+   "url": "http://www.thecut.com/article/dakota-johnson-machine-gun-kelly-dating.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "And how is Taylor Swift involved?",
+   "author": "Kathleen Walsh",
+   "date": "2026-09-13T16:32:21.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Inside The Cut’s 2026 Emmys Brunch Photo Studio with Emmy Nominee Rhea Seehorn",
+   "url": "http://www.thecut.com/article/emmys-breakout-brunch-2026-photo-studio.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Pluribus and Paradise stars Rhea Seehorn and Enuma Okuma joined The Cut for our second annual Emmys brunch in Hollywood.",
+   "author": "Keerthi Harishankar",
+   "date": "2026-09-13T13:00:21.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Gondwana Really Was a Supercontinent",
+   "url": "https://nautil.us/gondwana-really-was-a-supercontinent-1284991/",
+   "blurb": "And it helped kick‑start life on Earth",
+   "author": "Bill Collins",
+   "date": "2026-09-13T12:00:00.000Z"
+  },
   {
    "source": "The Cut",
    "title": "Defining Sex and Cool",
@@ -307,46 +339,6 @@
    "blurb": "They were talking about the Founding Fathers, apparently.",
    "author": "Kathleen Walsh",
    "date": "2026-09-11T00:07:26.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Taylor Swift Is Making a Big CMAs Return",
-   "url": "http://www.thecut.com/article/taylor-swift-big-cmas-return.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Apparently, she says, she hasn’t “yee’d my last haw.”",
-   "author": "Kathleen Walsh",
-   "date": "2026-09-10T22:00:36.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "A Natural Solution to the Replication Crisis in Science",
-   "url": "https://nautil.us/a-natural-solution-to-the-replication-crisis-in-science-1284942/",
-   "blurb": "Dear scientists: Follow the ants",
-   "author": "Orit Peleg",
-   "date": "2026-09-10T21:30:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Aaron Rodgers Sure Has a Lot to Say About His Exes",
-   "url": "http://www.thecut.com/article/aaron-rodgers-shailene-woodley-breakup-comments.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The Steelers quarterback went on a shockingly aggressive rant against Shailene Woodley and Danica Patrick.",
-   "author": "Olivia Craighead",
-   "date": "2026-09-10T21:05:40.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "How Elizabeth Meriwether Made a Thriller for the Epstein Era",
-   "url": "http://www.thecut.com/article/hulu-furious-epstein-era-thriller-elizabeth-meriwether.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Furious delivered one of the most nuanced portrayals of gender violence in recent TV history.",
-   "author": "Andrea González-Ramírez",
-   "date": "2026-09-10T19:14:54.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Nicole Kidman Was ‘So Lonely’ After Winning an Oscar",
-   "url": "http://www.thecut.com/article/nicole-kidman-was-lonely-after-winning-first-oscar.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She described the 2003 Academy Awards as “one of the most profound moments where I went, ‘I’ve got to get a life.’”",
-   "author": "Emily Leibert",
-   "date": "2026-09-10T18:34:41.000Z"
   },
   {
    "source": "The Paris Review",
