@@ -3,230 +3,450 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#fdfaf4" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#14120f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f3ecdf" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141110" media="(prefers-color-scheme: dark)">
 <title>longform</title>
+<link rel="preload" href="fonts/Fraunces-VF.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Newsreader-VF.woff2" as="font" type="font/woff2" crossorigin>
 <style>
+/* ---------- fonts (self-hosted; fall back to the system serif until the files are in fonts/) ---------- */
+@font-face {
+  font-family: 'Fraunces';
+  src: url('fonts/Fraunces-VF.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Newsreader';
+  src: url('fonts/Newsreader-VF.woff2') format('woff2');
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Newsreader';
+  src: url('fonts/Newsreader-Italic-VF.woff2') format('woff2');
+  font-weight: 200 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---------- tokens ---------- */
 :root {
-  --paper: #fdfaf4; --card: #fffdf8; --ink: #1f1b16; --ink-soft: #5e564c;
-  --ink-faint: #8a8074; --rule: #e4dccd; --rule-strong: #cfc4ae;
-  --accent: #9a4a24; --accent-soft: #f5e7dd; --ok: #3f6b4a; --ok-soft: #e6efe6;
-  --font-read: ui-serif, Georgia, 'Iowan Old Style', 'Times New Roman', serif;
-  --font-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, system-ui, sans-serif;
-  --radius: 8px; --radius-lg: 14px;
-  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --paper:       #f3ecdf;
+  --paper-deep:  #e7dcc6;
+  --card:        #faf5ea;
+  --ink:         #1a1612;
+  --ink-soft:    #5a5148;
+  --ink-faint:   #746859;
+  --rule:        #d9cdb6;
+  --rule-strong: #bfb096;
+  --gilt:        #a8822c;
+  --gilt-text:   #80621d;
+  --gilt-soft:   #f0e2c0;
+  --acid:        #e5401c;
+
+  --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-read:    'Newsreader', 'Iowan Old Style', Georgia, serif;
+  --font-ui:      -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, system-ui, sans-serif;
+
+  --s-1: 4px;  --s-2: 8px;  --s-3: 12px;  --s-4: 16px;
+  --s-5: 20px; --s-6: 24px; --s-8: 32px;  --s-12: 48px; --s-16: 64px;
+  --r-card: 2px;
+  --r-chip: 999px;
+  --z-wordmark: 0;
+  --z-content:  1;
+  --z-wipe:     40;
+  --z-grain:    50;
+
+  --ease-out:  cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:   cubic-bezier(0.7, 0, 0.84, 0);
   --ease-both: cubic-bezier(0.45, 0, 0.55, 1);
+  --t-fast: 160ms;
+  --t-base: 240ms;
+  --t-slow: 420ms;
+
+  /* both polygons have 18 vertices so they interpolate */
+  --tear-rest: polygon(
+    0 0, 100% 0,
+    100% 100%, 94% 100%, 87% 100%, 79% 100%, 71% 100%, 62% 100%,
+    54% 100%, 46% 100%, 38% 100%, 30% 100%, 22% 100%, 14% 100%,
+    7% 100%, 0 100%, 0 100%, 0 100%
+  );
+  --tear-torn: polygon(
+    0 0, 100% 0,
+    100% 4%, 94% 7%, 87% 2%, 79% 8%, 71% 3%, 62% 9%,
+    54% 4%, 46% 8%, 38% 3%, 30% 9%, 22% 4%, 14% 8%,
+    7% 3%, 0 6%, 0 6%, 0 6%
+  );
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #14120f; --card: #1d1a16; --ink: #f0ebe2; --ink-soft: #b8ae9f;
-    --ink-faint: #8d8375; --rule: #322d26; --rule-strong: #4a4238;
-    --accent: #e0a480; --accent-soft: #33231a; --ok: #9fc9a8; --ok-soft: #1e2a20;
+    --paper:       #141110;
+    --paper-deep:  #0e0c0a;
+    --card:        #1c1815;
+    --ink:         #ede4d3;
+    --ink-soft:    #b3a894;
+    --ink-faint:   #8f8575;
+    --rule:        #2e2822;
+    --rule-strong: #4a4136;
+    --gilt:        #c9a24f;
+    --gilt-text:   #c9a24f;
+    --gilt-soft:   #2b2416;
+    --acid:        #ff6a48;
   }
 }
+
+/* ---------- base ---------- */
+html { overflow-x: clip; }
 *, *::before, *::after { box-sizing: border-box; }
 body {
   margin: 0; background: var(--paper); color: var(--ink);
-  font-family: var(--font-ui); font-size: 16px; line-height: 1.6;
+  font: 400 16px/1.6 var(--font-ui);
   -webkit-text-size-adjust: 100%;
 }
-h1, h2, h3 { margin: 0; font-weight: 500; line-height: 1.25; }
-p { margin: 0; }
-ul { margin: 0; padding: 0; list-style: none; }
-a { color: var(--accent); text-underline-offset: 2px; }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+h1, h2, h3, p, ul { margin: 0; }
+ul { padding: 0; list-style: none; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--acid); outline-offset: 3px; }
 :focus:not(:focus-visible) { outline: none; }
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0;
 }
 .skip-link {
-  position: absolute; left: 1rem; top: -100px; z-index: 10; background: var(--card);
-  color: var(--ink); padding: 0.75rem 1rem; border: 1px solid var(--rule-strong);
-  border-radius: var(--radius);
+  position: absolute; left: var(--s-4); top: -100px; z-index: var(--z-wipe);
+  background: var(--card); color: var(--ink); padding: var(--s-3) var(--s-4);
+  border: 1px solid var(--rule-strong); border-radius: var(--r-card);
+  font: 500 13px/1 var(--font-ui); min-height: 44px; display: inline-flex; align-items: center;
 }
-.skip-link:focus { top: 1rem; }
+.skip-link:focus { top: var(--s-4); }
 
-.shell { max-width: 44rem; margin: 0 auto; padding: 0 1rem 4rem; }
-.masthead { padding: 3rem 0 1.25rem; border-bottom: 1px solid var(--rule); }
-.masthead h1 { font-family: var(--font-read); font-size: clamp(1.75rem, 6vw, 2.4rem); }
-.masthead p { color: var(--ink-soft); margin-top: 0.5rem; font-size: 0.92rem; }
-/* inside the browser side panel there is less room; keep the header short */
-body.in-panel .masthead { padding-top: 1.1rem; }
-body.in-panel .masthead h1 { font-size: 1.35rem; }
+/* the grain. static. */
+body::after {
+  content: '';
+  position: fixed; inset: 0;
+  pointer-events: none;
+  z-index: var(--z-grain);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 240px 240px;
+  opacity: 0.055;
+  mix-blend-mode: multiply;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) body::after { opacity: 0.09; mix-blend-mode: screen; }
+}
 
-.tabs { display: flex; gap: 0.25rem; margin: 1.5rem 0 1rem; flex-wrap: wrap; }
+/* ---------- layout ---------- */
+.col { max-width: 44rem; margin-inline: auto; padding-inline: var(--s-4); }
+@media (min-width: 600px) { .col { padding-inline: var(--s-6); } }
+
+/* masthead: the word sits behind everything and is covered as the pile scrolls up over it */
+/* the header spans the viewport and clips there (clip, not hidden: sticky survives).
+   the column inside stays overflow: visible, so the word runs past it — the poster crop. */
+.masthead {
+  position: sticky; top: 0; z-index: var(--z-wordmark);
+  min-height: 28vh; display: flex; flex-direction: column; justify-content: flex-end;
+  overflow-x: clip; padding-bottom: var(--s-3);
+  view-transition-name: masthead;
+}
+.masthead .col { width: 100%; overflow: visible; }
+@media (min-width: 600px) { .masthead { min-height: 38vh; } }
+.wordmark {
+  font-family: var(--font-display); font-weight: 900;
+  font-size: clamp(5rem, 24vw, 11rem); line-height: 0.82; letter-spacing: -0.045em;
+  font-variation-settings: 'SOFT' 0, 'WONK' 1, 'opsz' 144;
+  color: var(--ink); white-space: nowrap;
+  user-select: none; -webkit-user-select: none; pointer-events: none;
+  padding-bottom: 0.14em;
+}
+.hairline { height: 1px; background: var(--gilt); transform-origin: left; transform: scaleX(0); }
+@supports (animation-timeline: scroll()) {
+  .hairline {
+    animation: hairline-fill linear both;
+    animation-timeline: scroll(root);
+  }
+  @keyframes hairline-fill { to { transform: scaleX(1); } }
+}
+.status {
+  margin-top: var(--s-3); display: flex; gap: var(--s-2); align-items: center; flex-wrap: wrap;
+  font: 400 13px/1.4 var(--font-ui); color: var(--ink-faint);
+}
+.chip {
+  display: inline-block; border: 1px solid var(--rule-strong); border-radius: var(--r-chip);
+  padding: 3px 9px; font: 500 11px/1 var(--font-ui); letter-spacing: 0.04em; color: var(--ink-soft);
+}
+body.in-panel .masthead { min-height: 18vh; }
+body.in-panel .wordmark { font-size: clamp(3rem, 18vw, 5rem); }
+
+main { position: relative; z-index: var(--z-content); }
+.tools { background: var(--paper); padding-top: var(--s-4); }
+
+/* tabs: a rule with the current one underlined. text, not pills. */
+.tabs { display: flex; gap: var(--s-1); flex-wrap: wrap; border-bottom: 1px solid var(--rule); }
 .tab {
-  font: inherit; font-size: 0.92rem; color: var(--ink-soft); background: none;
-  border: 1px solid transparent; border-radius: 999px; padding: 0.6rem 1rem;
-  min-height: 44px; cursor: pointer;
-  transition: color 140ms var(--ease-both), background-color 140ms var(--ease-both),
-              border-color 140ms var(--ease-both);
+  font: 500 13px/1 var(--font-ui); letter-spacing: 0.02em; color: var(--ink-soft);
+  background: none; border: 0; border-bottom: 1px solid transparent; margin-bottom: -1px;
+  min-height: 44px; padding: 0 10px; cursor: pointer;
+  transition: color var(--t-fast) var(--ease-both), border-color var(--t-fast) var(--ease-both);
 }
-.tab:hover { color: var(--ink); }
-.tab[aria-selected="true"] { color: var(--ink); background: var(--card); border-color: var(--rule-strong); }
-@media (max-width: 400px) { .tab { padding: 0.6rem 0.7rem; } }
-.panel[hidden] { display: none; }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+@media (hover: hover) { .tab:hover { color: var(--ink); } }
 
-.lookup { display: flex; gap: 0.4rem; margin: 0 0 1rem; }
+/* look up */
+.lookup { display: flex; gap: var(--s-1); margin-top: var(--s-4); }
 .lookup input {
-  flex: 1; min-width: 0; font: inherit; font-size: 0.95rem; color: var(--ink);
-  background: var(--card); border: 1px solid var(--rule-strong); border-radius: 999px;
-  padding: 0.55rem 1rem; min-height: 44px; -webkit-appearance: none; appearance: none;
+  flex: 1; min-width: 0; font: 400 15.5px/1.4 var(--font-read); color: var(--ink);
+  background: var(--card); border: 1px solid var(--rule-strong); border-radius: var(--r-card);
+  padding: 0 var(--s-3); min-height: 44px; appearance: none; -webkit-appearance: none;
 }
-.lookup input::placeholder { color: var(--ink-faint); }
-.results { display: grid; gap: 0.6rem; margin-bottom: 1.25rem; }
+.lookup input::placeholder { color: var(--ink-faint); font-style: italic; }
+.results { display: grid; gap: 10px; margin-top: var(--s-3); }
 .results:empty { margin: 0; }
-.results > .note { padding: 0.25rem 0; }
 .result {
-  background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-lg);
-  padding: 0.9rem 1.1rem; display: grid; gap: 0.4rem; font-size: 0.93rem;
+  background: var(--card); border: 1px solid var(--rule); border-radius: var(--r-card);
+  padding: 16px 22px 12px; display: grid; gap: 8px;
+  font: 400 15.5px/1.55 var(--font-read); color: var(--ink-soft);
 }
-.result strong { font-family: var(--font-read); font-weight: 500; font-size: 1.12rem; }
+.result strong { font-weight: 500; font-size: 19px; color: var(--ink); }
 .result em { color: var(--ink-faint); }
+.faint { font: 400 13px/1.4 var(--font-ui); color: var(--ink-faint); }
 
-.stack { display: grid; gap: 0.85rem; }
-.card {
-  background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-lg);
-  padding: 1.15rem 1.2rem 0.9rem; display: grid; gap: 0.5rem;
-  animation: rise 420ms var(--ease-out) backwards;
-  transition: opacity 260ms var(--ease-both), transform 260ms var(--ease-both);
+/* panels */
+.panel { padding-top: var(--s-5); }
+.panel[hidden] { display: none; }
+.panel:not(#panel-queue) { background: var(--paper); }
+
+/* card: a shell that is not clipped, and the card inside it that is */
+.stack { display: grid; gap: 14px; }
+.card-shell {
+  position: relative; isolation: isolate;
+  animation: rise var(--t-slow) var(--ease-out) backwards;
+  transition: transform 220ms var(--ease-in),
+              opacity   120ms var(--ease-in) 100ms;
 }
-.card:nth-child(2) { animation-delay: 40ms; }
-.card:nth-child(3) { animation-delay: 80ms; }
-.card:nth-child(4) { animation-delay: 120ms; }
-.card:nth-child(5) { animation-delay: 160ms; }
-.card.is-leaving { opacity: 0; transform: translateY(-6px); }
+.card-shell:nth-child(2) { animation-delay: 40ms; }
+.card-shell:nth-child(3) { animation-delay: 80ms; }
+.card-shell:nth-child(4) { animation-delay: 120ms; }
+.card-shell:nth-child(5) { animation-delay: 160ms; }
+.card-shell.is-entering { animation-delay: 80ms; }   /* moves up into the fifth slot after a tear */
+.card-shell.is-still { animation: none; }            /* already there; does not re-enter */
 @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
-.strip { border-left: 3px solid var(--accent); margin-bottom: 0.85rem; }
+.card-shell::after {                                 /* the acid underlay, 3px below the tear */
+  content: '';
+  position: absolute; inset: 0; z-index: -1;
+  background: var(--acid);
+  clip-path: var(--tear-rest);
+  transform: translateY(3px);
+  opacity: 0;
+  transition: clip-path 220ms var(--ease-in), opacity 40ms linear;
+}
+.card {
+  padding: 20px 22px 16px; background: var(--card);
+  border: 1px solid var(--rule); border-radius: var(--r-card);
+  display: grid; gap: 10px;
+  clip-path: var(--tear-rest);
+  transition: clip-path 220ms var(--ease-in);
+}
+.card-shell.is-leaving .card    { clip-path: var(--tear-torn); }
+.card-shell.is-leaving::after   { clip-path: var(--tear-torn); opacity: 1; }
+.card-shell.is-leaving          { opacity: 0; }
+.card-shell.is-leaving[data-act="read"]    { transform: translateY(10px) rotate(-1.2deg); }
+.card-shell.is-leaving[data-act="skipped"] { transform: translate(-28px, 6px) rotate(-1.6deg); }
+.card-shell.is-leaving[data-act="saved"]   { transform: translate(24px, -4px) rotate(0.8deg); }
+.card-shell.strip { margin-bottom: 14px; }
+.card-shell.strip .card { border-left: 2px solid var(--gilt); }
 
-.card-meta {
-  display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;
-  font-size: 0.76rem; color: var(--ink-faint);
+.meta {
+  display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap;
+  font: 400 12px/1 var(--font-ui); letter-spacing: 0.01em; color: var(--ink-faint);
 }
 .badge {
-  background: var(--accent-soft); color: var(--accent);
-  padding: 0.2rem 0.55rem; border-radius: 999px; white-space: nowrap;
+  font: 500 11px/1 var(--font-ui); letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--gilt-text); border: 1px solid var(--gilt); padding: 4px 8px 3px;
+  border-radius: var(--r-card); white-space: nowrap;
 }
-.card h3 { font-family: var(--font-read); font-size: 1.22rem; }
-.card h3 a { color: var(--ink); text-decoration-color: var(--rule-strong); }
-.card h3 a:hover { color: var(--accent); }
-.blurb { color: var(--ink-soft); font-size: 0.93rem; }
-.actions { display: flex; gap: 0.4rem; flex-wrap: wrap; border-top: 1px solid var(--rule); padding-top: 0.7rem; margin-top: 0.2rem; }
-.actions.bare, .result .actions { border: 0; padding: 0; margin: 0; }
+.card h3 { font: 500 22px/1.22 var(--font-read); letter-spacing: -0.005em; }
+.card h3 a, .list-item .t a {
+  color: var(--ink); text-decoration: underline;
+  text-decoration-color: var(--rule-strong); text-decoration-thickness: 1px; text-underline-offset: 3px;
+}
+/* inline links keep their line but get a 44px hit area */
+.card h3 a, .list-item .t a, .meta a { display: inline-block; padding-block: 11px; margin-block: -11px; }
+@media (hover: hover) { .card h3 a:hover, .list-item .t a:hover { text-decoration-color: var(--ink); } }
+.blurb { font: 400 15.5px/1.55 var(--font-read); color: var(--ink-soft); }
+.actions { display: flex; gap: 4px; flex-wrap: wrap; border-top: 1px solid var(--rule); padding-top: 12px; }
+.actions.bare, .result .actions { border: 0; padding: 0; }
 
 .btn {
-  font: inherit; font-size: 0.87rem; cursor: pointer; background: none; color: var(--ink-soft);
-  border: 1px solid transparent; border-radius: var(--radius);
-  padding: 0.5rem 0.75rem; min-height: 44px;
-  transition: color 140ms var(--ease-both), border-color 140ms var(--ease-both), transform 100ms var(--ease-both);
+  font: 500 13px/1 var(--font-ui); letter-spacing: 0.02em; color: var(--ink-soft);
+  background: none; border: 0; border-bottom: 1px solid transparent;
+  min-height: 44px; padding: 0 10px; cursor: pointer;
+  transition: color var(--t-fast) var(--ease-both), border-color var(--t-fast) var(--ease-both);
 }
-.btn:hover { color: var(--ink); border-color: var(--rule-strong); }
-.btn:active { transform: scale(0.98); }
-.btn:disabled { cursor: default; color: var(--ok); }
-.btn-read:hover { color: var(--ok); border-color: var(--ok); }
-.btn-save:hover { color: var(--accent); border-color: var(--accent); }
+@media (hover: hover) { .btn:hover { color: var(--ink); border-bottom-color: var(--ink-soft); } }
+.btn:focus-visible { border-bottom-color: var(--ink-soft); }
+.btn:disabled { cursor: default; color: var(--ink-faint); }
 a.btn { display: inline-flex; align-items: center; text-decoration: none; }
-.dot::after { content: ' •'; color: var(--accent); }
+.dot::after { content: ' •'; color: var(--gilt-text); }
 
+/* notes, in the reading face: it is the reader's own writing */
 .jot {
-  width: 100%; display: block; font: inherit; font-size: 0.92rem; line-height: 1.5; color: var(--ink);
-  background: var(--paper); border: 1px solid var(--rule); border-radius: var(--radius);
-  padding: 0.6rem 0.75rem; resize: none; min-height: 3.4rem; overflow: hidden;
+  width: 100%; display: block; font: 400 15.5px/1.55 var(--font-read); color: var(--ink);
+  background: var(--paper); border: 1px solid var(--rule); border-radius: var(--r-card);
+  padding: 10px 12px; resize: none; min-height: 56px; overflow: hidden;
 }
-.jot:focus { border-color: var(--rule-strong); }
-.jot::placeholder { color: var(--ink-faint); }
+.jot::placeholder { color: var(--ink-faint); font-style: italic; }
 
-.note { color: var(--ink-faint); font-size: 0.9rem; padding: 1.5rem 0; }
-.note strong { font-weight: 500; color: var(--ink-soft); }
-.row { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-top: 1rem; }
-.toolbar { display: flex; gap: 0.4rem; flex-wrap: wrap; margin: 0 0 0.75rem; }
-.list-item { padding: 0.85rem 0; border-bottom: 1px solid var(--rule); display: grid; gap: 0.3rem; }
-.list-item .t { font-family: var(--font-read); font-size: 1.05rem; }
-.list-item .t a { color: var(--ink); }
-.list-item .jot { margin-top: 0.25rem; }
-.word { padding: 0.85rem 0; border-bottom: 1px solid var(--rule); display: grid; gap: 0.25rem; }
-.word .w { font-family: var(--font-read); font-size: 1.1rem; }
-.word .m { color: var(--ink-soft); font-size: 0.93rem; }
-footer { border-top: 1px solid var(--rule); margin-top: 2.5rem; padding-top: 1.25rem; color: var(--ink-faint); font-size: 0.83rem; }
+/* lists: saved, read, notes, words */
+.list-item { padding: 14px 0; border-bottom: 1px solid var(--rule); display: grid; gap: 6px; }
+.list-item .t { font: 500 19px/1.22 var(--font-read); }
+.list-item .jot { margin-top: var(--s-1); }
+.word { padding: 14px 0; border-bottom: 1px solid var(--rule); display: grid; gap: 4px; }
+.word .w { font: 500 19px/1.22 var(--font-read); color: var(--ink); }
+.word .m { font: 400 15.5px/1.55 var(--font-read); color: var(--ink-soft); }
+.toolbar { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: var(--s-2); }
+.row { display: flex; gap: var(--s-2); align-items: center; flex-wrap: wrap; margin-top: var(--s-4); }
 
+/* the end of the pile: a frame */
+.empty-frame {
+  margin: 6px; padding: 40px 32px; background: var(--card); text-align: center;
+  border: 1px solid var(--gilt); outline: 1px solid var(--rule); outline-offset: 6px;
+  animation: frame-in var(--t-slow) var(--ease-out) 120ms backwards;
+}
+.empty-frame .line {
+  font: italic 500 34px/1.1 var(--font-display); letter-spacing: -0.02em; color: var(--ink);
+  font-variation-settings: 'SOFT' 0, 'WONK' 1, 'opsz' 144;
+}
+.empty-frame .sub { margin-top: var(--s-3); font: 400 13px/1.4 var(--font-ui); color: var(--ink-faint); }
+@keyframes frame-in { from { opacity: 0; transform: scale(0.985); } to { opacity: 1; transform: none; } }
+
+/* footer band */
+.foot { position: relative; z-index: var(--z-content); background: var(--paper-deep); margin-top: var(--s-16); padding-block: 24px; }
+/* the brief asks for --ink-faint here, but on --paper-deep that is 4.0:1 in light; --ink-soft clears 4.5:1 */
+.counts { font: 400 11px/1.6 var(--font-ui); font-variant-caps: all-small-caps; letter-spacing: 0.06em; color: var(--ink-soft); }
+.credit { margin-top: var(--s-2); font: 400 11px/1.6 var(--font-ui); letter-spacing: 0.01em; color: var(--ink-soft); }
+
+/* the daily wipe: a torn sheet lifts off, once per day */
+.wipe {
+  position: fixed; inset: 0 0 -12vh 0;
+  z-index: var(--z-wipe);
+  background: var(--paper-deep);
+  clip-path: polygon(
+    0 0, 100% 0,
+    100% 92%, 94% 95%, 88% 90%, 81% 96%, 74% 91%, 67% 97%,
+    60% 92%, 53% 96%, 46% 91%, 39% 97%, 32% 92%, 25% 96%,
+    18% 91%, 11% 95%, 5% 92%, 0 96%
+  );
+  animation: wipe-off 480ms var(--ease-out) 120ms forwards;
+}
+@keyframes wipe-off { to { transform: translateY(-112%); } }
+
+/* tab change */
+::view-transition-old(root) { animation: vt-out 120ms var(--ease-in) both; }
+::view-transition-new(root) { animation: vt-in  200ms var(--ease-out) both; }
+@keyframes vt-out { to   { opacity: 0; } }
+@keyframes vt-in  { from { opacity: 0; transform: translateY(6px); } }
+::view-transition-old(masthead),
+::view-transition-new(masthead) { animation: none; }
+
+/* ---------- reduced motion: each animation named, last in the sheet ---------- */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.01ms !important; animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important; scroll-behavior: auto !important;
-  }
+  .card-shell { animation: none; }
+  .card-shell,
+  .card-shell::after,
+  .card { transition: none; }
+  .card-shell.is-leaving,
+  .card-shell.is-leaving[data-act] { transition: opacity 180ms var(--ease-in); opacity: 0; transform: none; }
+  .card-shell.is-leaving .card  { clip-path: var(--tear-rest); }
+  .card-shell.is-leaving::after { opacity: 0; }
+  ::view-transition-old(root),
+  ::view-transition-new(root)   { animation-duration: 120ms; }
+  ::view-transition-new(root)   { animation-name: vt-out; animation-direction: reverse; }
+  .hairline                     { animation: none; transform: scaleX(1); }
+  .empty-frame                  { animation: none; transform: none; }
+  .tab, .btn                    { transition: none; }
 }
 </style>
 </head>
 <body>
 <a class="skip-link" href="#main">skip to content</a>
-<div class="shell">
-  <header class="masthead">
-    <h1>longform</h1>
-    <p id="status">loading…</p>
-  </header>
 
-  <nav aria-label="views">
-    <div class="tabs" role="tablist">
-      <button class="tab" role="tab" id="tab-queue" aria-controls="panel-queue" aria-selected="true">to read</button>
-      <button class="tab" role="tab" id="tab-saved" aria-controls="panel-saved" aria-selected="false">saved</button>
-      <button class="tab" role="tab" id="tab-done" aria-controls="panel-done" aria-selected="false">read</button>
-      <button class="tab" role="tab" id="tab-notes" aria-controls="panel-notes" aria-selected="false">notes</button>
-      <button class="tab" role="tab" id="tab-words" aria-controls="panel-words" aria-selected="false">words</button>
-    </div>
-  </nav>
+<header class="masthead">
+  <div class="col">
+    <h1 class="sr-only">longform</h1>
+    <p class="wordmark" aria-hidden="true">longform</p>
+    <div class="hairline"></div>
+    <p class="status" id="status"><span>loading…</span></p>
+  </div>
+</header>
 
-  <form class="lookup" id="lookup" role="search">
-    <label class="sr-only" for="q">look up a word or a name</label>
-    <input id="q" type="search" placeholder="look up a word…" autocomplete="off" autocapitalize="off" spellcheck="false">
-    <button class="btn btn-save" type="submit">look up</button>
-    <button class="btn" type="button" id="keepRaw">keep</button>
-  </form>
-  <div class="results" id="results" aria-live="polite"></div>
+<main id="main" class="col">
+  <div class="tools">
+    <nav aria-label="views">
+      <div class="tabs" role="tablist" id="tablist">
+        <button class="tab" role="tab" id="tab-queue" aria-controls="panel-queue" aria-selected="true" tabindex="0">to read</button>
+        <button class="tab" role="tab" id="tab-saved" aria-controls="panel-saved" aria-selected="false" tabindex="-1">saved</button>
+        <button class="tab" role="tab" id="tab-done" aria-controls="panel-done" aria-selected="false" tabindex="-1">read</button>
+        <button class="tab" role="tab" id="tab-notes" aria-controls="panel-notes" aria-selected="false" tabindex="-1">notes</button>
+        <button class="tab" role="tab" id="tab-words" aria-controls="panel-words" aria-selected="false" tabindex="-1">words</button>
+      </div>
+    </nav>
+    <form class="lookup" id="lookup" role="search">
+      <label class="sr-only" for="q">look up a word or a name</label>
+      <input id="q" type="search" placeholder="look up a word…" autocomplete="off" autocapitalize="off" spellcheck="false">
+      <button class="btn" type="submit">look up</button>
+      <button class="btn" type="button" id="keepRaw">keep</button>
+    </form>
+    <div class="results" id="results" aria-live="polite"></div>
+  </div>
 
-  <main id="main">
-    <section class="panel" id="panel-queue" role="tabpanel" aria-labelledby="tab-queue" tabindex="-1">
-      <h2 class="sr-only">to read</h2>
-      <div id="reading"></div>
-      <ul class="stack" id="queue"></ul>
-      <div id="queueNote"></div>
-    </section>
-    <section class="panel" id="panel-saved" role="tabpanel" aria-labelledby="tab-saved" tabindex="-1" hidden>
-      <h2 class="sr-only">saved</h2>
-      <ul id="savedList"></ul>
-    </section>
-    <section class="panel" id="panel-done" role="tabpanel" aria-labelledby="tab-done" tabindex="-1" hidden>
-      <h2 class="sr-only">read</h2>
-      <ul id="doneList"></ul>
-    </section>
-    <section class="panel" id="panel-notes" role="tabpanel" aria-labelledby="tab-notes" tabindex="-1" hidden>
-      <h2 class="sr-only">notes</h2>
-      <div class="toolbar" id="notesTools"></div>
-      <ul id="notesList"></ul>
-    </section>
-    <section class="panel" id="panel-words" role="tabpanel" aria-labelledby="tab-words" tabindex="-1" hidden>
-      <h2 class="sr-only">words</h2>
-      <div class="toolbar" id="wordsTools"></div>
-      <ul id="wordsList"></ul>
-    </section>
-  </main>
+  <section class="panel" id="panel-queue" role="tabpanel" aria-labelledby="tab-queue" tabindex="-1">
+    <h2 class="sr-only">to read</h2>
+    <div id="reading"></div>
+    <ul class="stack" id="queue"></ul>
+    <div id="queueNote"></div>
+  </section>
+  <section class="panel" id="panel-saved" role="tabpanel" aria-labelledby="tab-saved" tabindex="-1" hidden>
+    <h2 class="sr-only">saved</h2>
+    <ul id="savedList"></ul>
+  </section>
+  <section class="panel" id="panel-done" role="tabpanel" aria-labelledby="tab-done" tabindex="-1" hidden>
+    <h2 class="sr-only">read</h2>
+    <ul id="doneList"></ul>
+  </section>
+  <section class="panel" id="panel-notes" role="tabpanel" aria-labelledby="tab-notes" tabindex="-1" hidden>
+    <h2 class="sr-only">notes</h2>
+    <div class="toolbar" id="notesTools"></div>
+    <ul id="notesList"></ul>
+  </section>
+  <section class="panel" id="panel-words" role="tabpanel" aria-labelledby="tab-words" tabindex="-1" hidden>
+    <h2 class="sr-only">words</h2>
+    <div class="toolbar" id="wordsTools"></div>
+    <ul id="wordsList"></ul>
+  </section>
+</main>
 
-  <footer>
-    <p id="foot"></p>
-  </footer>
-</div>
+<footer class="foot">
+  <div class="col">
+    <p class="counts" id="foot"></p>
+    <p class="credit" id="credit"></p>
+  </div>
+</footer>
 <div class="sr-only" role="status" aria-live="polite" aria-atomic="true" id="live"></div>
 
 <script>
 const COPY = {
-  status: (n, when) => `${n} waiting · updated ${when}`,
+  waiting: (n) => `${n} waiting`,
+  updated: (when) => `updated ${when}`,
   failed: 'could not load the article list. if this is a fresh setup, run the fetch action once.',
   markRead: 'mark read', save: 'save', skip: 'not for me', unsave: 'remove', unread: 'put back',
   notes: 'notes', keep: 'keep', keepAsIs: 'keep as is', kept: 'kept', remove: 'remove', close: 'close',
   reading: 'now reading', readMore: 'read more ↗', searchWeb: 'search the web ↗',
   looking: 'looking up…',
   notePlaceholder: 'words that stuck, a thought, a question…',
-  emptyQueue: 'nothing left in the pile. the next fetch will bring more in.',
+  pile: 'that’s the pile.',
+  pileSub: 'the next fetch brings more in.',
   emptySaved: 'nothing saved yet.',
   emptyDone: 'nothing marked read yet.',
   emptyNotes: 'no notes yet. open notes on any article to start.',
@@ -237,17 +457,20 @@ const COPY = {
   copyAll: 'copy all', download: 'download .md', copied: 'copied',
   restore: (n) => `bring back ${n} dismissed`,
   readToday: (n) => n === 1 ? '1 read today' : `${n} read today`,
+  credit: 'from each publisher’s own feed, once a day. the writing stays theirs.',
   didRead: 'marked read.',
   didSave: 'saved.',
   didSkip: 'dismissed.',
-  didKeep: (w) => `kept “${w}”.`
+  didKeep: (w) => `kept “${w}”.`,
+  restored: 'dismissed articles are back.'
 };
 
 const SHOW = 5;
 const KEY = 'longform.state.v1';
+const WIPE_KEY = 'longform.lastWipe';
 const TABS = ['queue', 'saved', 'done', 'notes', 'words'];
 const state = {
-  articles: [], updated: null,
+  articles: [], updated: null, report: [],
   marks: { read: {}, saved: {}, skipped: {} },
   visible: [], notes: {}, words: [], reading: null, tab: 'queue'
 };
@@ -322,6 +545,8 @@ function queue() {
   return shown;
 }
 const remaining = () => state.articles.filter((a) => !isTouched(a)).length;
+const readToday = () => Object.values(state.marks.read)
+  .filter((t) => new Date(t).toDateString() === new Date().toDateString()).length;
 const byMark = (kind) => Object.keys(state.marks[kind])
   .map((k) => state.articles.find((a) => id(a) === k))
   .filter(Boolean)
@@ -440,9 +665,17 @@ function exportText() {
   return lines.join('\n') + '\n';
 }
 
+/* footer, in the poster's format: names lowercase, operators as rhythm */
+const shortName = (name) => String(name).toLowerCase().replace(/ magazine$/, '').replace(/^the (?=\S+ )/, '');
+function countsText(report) {
+  return report.map((r, i) => `${i ? (i % 2 ? ' + ' : ' − ') : ''}${shortName(r.source)} ${r.count}${r.carried ? ' (kept)' : ''}`).join('');
+}
+
 /* ---------- rendering ---------- */
 
 const openNotes = new Set();
+let lastRendered = null;
+let lastReading = null;
 
 function noteHTML(scope, key) {
   const n = state.notes[key];
@@ -451,22 +684,23 @@ function noteHTML(scope, key) {
     `<textarea class="jot" id="${dom}" data-note="${esc(key)}" rows="2" placeholder="${COPY.notePlaceholder}">${esc(n ? n.text : '')}</textarea>`;
 }
 
-function cardHTML(a) {
+function cardHTML(a, cls) {
   const key = id(a);
   const has = !!state.notes[key];
   const open = has || openNotes.has(key);
-  const meta = [esc(a.source), when(a.date), a.author ? esc(a.author) : ''].filter(Boolean);
-  return `<li class="card" data-id="${esc(key)}">
-    <p class="card-meta"><span class="badge">${meta[0]}</span>${meta.slice(1).map((m) => `<span>${m}</span>`).join('')}</p>
-    <h3><a href="${esc(a.url)}" target="_blank" rel="noopener" data-open="${esc(key)}">${esc(a.title)}</a></h3>
-    ${a.blurb ? `<p class="blurb">${esc(a.blurb)}</p>` : ''}
-    <div class="actions">
-      <button class="btn btn-read" data-act="read">${COPY.markRead}</button>
-      <button class="btn btn-save" data-act="saved">${COPY.save}</button>
-      <button class="btn" data-act="skipped">${COPY.skip}</button>
-      <button class="btn${has ? ' dot' : ''}" data-toggle-notes="${esc(key)}" aria-expanded="${open}">${COPY.notes}</button>
-    </div>
-    <div data-notebox="${esc(key)}"${open ? '' : ' hidden'}>${noteHTML('card', key)}</div>
+  return `<li class="card-shell${cls ? ' ' + cls : ''}" data-id="${esc(key)}">
+    <article class="card">
+      <p class="meta"><span class="badge">${esc(a.source)}</span>${when(a.date) ? `<span>${when(a.date)}</span>` : ''}${a.author ? `<span>${esc(a.author)}</span>` : ''}</p>
+      <h3><a href="${esc(a.url)}" target="_blank" rel="noopener" data-open="${esc(key)}">${esc(a.title)}</a></h3>
+      ${a.blurb ? `<p class="blurb">${esc(a.blurb)}</p>` : ''}
+      <div class="actions">
+        <button class="btn" data-act="read">${COPY.markRead}</button>
+        <button class="btn" data-act="saved">${COPY.save}</button>
+        <button class="btn" data-act="skipped">${COPY.skip}</button>
+        <button class="btn${has ? ' dot' : ''}" data-toggle-notes="${esc(key)}" aria-expanded="${open}">${COPY.notes}</button>
+      </div>
+      <div data-notebox="${esc(key)}"${open ? '' : ' hidden'}>${noteHTML('card', key)}</div>
+    </article>
   </li>`;
 }
 
@@ -474,42 +708,53 @@ function readingHTML() {
   const a = readingArticle();
   if (!a) return '';
   const key = state.reading;
-  return `<div class="card strip" data-id="${esc(key)}">
-    <p class="card-meta"><span class="badge">${COPY.reading}</span><span>${esc(a.source)}</span></p>
-    <h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
-    ${noteHTML('strip', key)}
-    <div class="actions">
-      <button class="btn btn-read" data-act="read">${COPY.markRead}</button>
-      <button class="btn btn-save" data-act="saved">${COPY.save}</button>
-      <button class="btn" data-clear-reading>${COPY.close}</button>
-    </div>
+  const cls = key === lastReading ? 'is-still' : 'is-entering';
+  return `<div class="card-shell strip ${cls}" data-id="${esc(key)}">
+    <article class="card">
+      <p class="meta"><span class="badge">${COPY.reading}</span><span>${esc(a.source)}</span></p>
+      <h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
+      ${noteHTML('strip', key)}
+      <div class="actions">
+        <button class="btn" data-act="read">${COPY.markRead}</button>
+        <button class="btn" data-act="saved">${COPY.save}</button>
+        <button class="btn" data-clear-reading>${COPY.close}</button>
+      </div>
+    </article>
   </div>`;
+}
+
+function renderStatus() {
+  const n = readToday();
+  $('status').innerHTML =
+    `<span>${esc(COPY.waiting(remaining()))}</span>` +
+    `<span class="chip">${esc(COPY.updated(when(state.updated)))}</span>` +
+    (n ? `<span class="chip">${esc(COPY.readToday(n))}</span>` : '');
 }
 
 function renderQueue() {
   $('reading').innerHTML = readingHTML();
+  lastReading = state.reading;
   const items = queue();
   save();
-  $('queue').innerHTML = items.map(cardHTML).join('');
+  const first = lastRendered === null;
+  $('queue').innerHTML = items.map((a) => cardHTML(a, first ? '' : (lastRendered.has(id(a)) ? 'is-still' : 'is-entering'))).join('');
+  lastRendered = new Set(items.map(id));
   const skipped = Object.keys(state.marks.skipped).length;
-  const readToday = Object.values(state.marks.read)
-    .filter((t) => new Date(t).toDateString() === new Date().toDateString()).length;
   $('queueNote').innerHTML =
-    (items.length ? '' : `<p class="note">${COPY.emptyQueue}</p>`) +
-    `<div class="row"><span class="note" style="padding:0">${readToday ? esc(COPY.readToday(readToday)) : ''}</span>` +
-    (skipped ? `<button class="btn" id="restore">${esc(COPY.restore(skipped))}</button>` : '') + '</div>';
+    (items.length ? '' : `<div class="empty-frame"><p class="line">${COPY.pile}</p><p class="sub">${COPY.pileSub}</p></div>`) +
+    (skipped ? `<div class="row"><button class="btn" id="restore">${esc(COPY.restore(skipped))}</button></div>` : '');
   const r = $('restore');
-  if (r) r.onclick = () => { state.marks.skipped = {}; save(); renderAll(); say('dismissed articles are back.'); };
+  if (r) r.onclick = () => { state.marks.skipped = {}; save(); renderAll(); say(COPY.restored); };
   autosizeAll();
 }
 
 function renderList(el, items, kind) {
   if (!items.length) {
-    el.innerHTML = `<li class="note">${kind === 'saved' ? COPY.emptySaved : COPY.emptyDone}</li>`;
+    el.innerHTML = `<li class="faint">${kind === 'saved' ? COPY.emptySaved : COPY.emptyDone}</li>`;
     return;
   }
   el.innerHTML = items.map((a) => `<li class="list-item" data-id="${esc(id(a))}">
-    <span class="card-meta"><span class="badge">${esc(a.source)}</span><span>${when(a.date)}</span>${state.notes[id(a)] ? '<span>notes •</span>' : ''}</span>
+    <span class="meta"><span class="badge">${esc(a.source)}</span><span>${when(a.date)}</span>${state.notes[id(a)] ? '<span>notes •</span>' : ''}</span>
     <span class="t"><a href="${esc(a.url)}" target="_blank" rel="noopener" data-open="${esc(id(a))}">${esc(a.title)}</a></span>
     <span><button class="btn" data-undo="${kind}">${kind === 'saved' ? COPY.unsave : COPY.unread}</button></span>
   </li>`).join('');
@@ -520,9 +765,9 @@ const toolsHTML = () => `<button class="btn" data-export="copy">${COPY.copyAll}<
 function renderNotes() {
   const entries = Object.entries(state.notes).sort((a, b) => (b[1].at || '').localeCompare(a[1].at || ''));
   $('notesTools').innerHTML = entries.length ? toolsHTML() : '';
-  if (!entries.length) { $('notesList').innerHTML = `<li class="note">${COPY.emptyNotes}</li>`; return; }
+  if (!entries.length) { $('notesList').innerHTML = `<li class="faint">${COPY.emptyNotes}</li>`; return; }
   $('notesList').innerHTML = entries.map(([key, n]) => `<li class="list-item" data-id="${esc(key)}">
-    <span class="card-meta"><span class="badge">${esc(n.source)}</span><span>${when(n.at)}</span></span>
+    <span class="meta"><span class="badge">${esc(n.source)}</span><span>${when(n.at)}</span></span>
     <span class="t"><a href="${esc(n.url)}" target="_blank" rel="noopener" data-open="${esc(key)}">${esc(n.title)}</a></span>
     ${noteHTML('list', key)}
     <span><button class="btn" data-del-note="${esc(key)}">${COPY.remove}</button></span>
@@ -532,11 +777,11 @@ function renderNotes() {
 
 function renderWords() {
   $('wordsTools').innerHTML = state.words.length ? toolsHTML() : '';
-  if (!state.words.length) { $('wordsList').innerHTML = `<li class="note">${COPY.emptyWords}</li>`; return; }
+  if (!state.words.length) { $('wordsList').innerHTML = `<li class="faint">${COPY.emptyWords}</li>`; return; }
   $('wordsList').innerHTML = state.words.map((w, i) => `<li class="word">
     <span class="w">${esc(w.w)}</span>
     ${w.m ? `<span class="m">${esc(w.m)}</span>` : ''}
-    <span class="card-meta">${w.from ? `<a href="${esc(w.from.url)}" target="_blank" rel="noopener">${esc(w.from.source)} · ${esc(w.from.title)}</a>` : ''}<span>${when(w.at)}</span></span>
+    <span class="meta">${w.from ? `<a href="${esc(w.from.url)}" target="_blank" rel="noopener">${esc(w.from.source)} · ${esc(w.from.title)}</a>` : ''}<span>${when(w.at)}</span></span>
     <span><button class="btn" data-del-word="${i}">${COPY.remove}</button></span>
   </li>`).join('');
 }
@@ -547,31 +792,70 @@ function renderAll() {
   renderList($('doneList'), byMark('read'), 'read');
   renderNotes();
   renderWords();
-  $('status').textContent = COPY.status(remaining(), when(state.updated));
+  renderStatus();
 }
 
-function act(el, kind) {
-  if (!el) return;
-  const key = el.dataset.id;
+/* the tear. the shell drops and turns; the card is clipped along a ragged
+   edge; the acid underlay shows along it. re-render when the last transition
+   (opacity) ends — not on a timer. the guard below only fires if the browser
+   never runs the transition at all, as in a background tab. */
+function act(shell, kind) {
+  if (!shell) return;
+  const key = shell.dataset.id;
   state.marks[kind][key] = new Date().toISOString();
-  const strip = el.classList.contains('strip');
   if (kind !== 'saved' && state.reading === key) state.reading = null;
   save();
   say(kind === 'read' ? COPY.didRead : kind === 'saved' ? COPY.didSave : COPY.didSkip);
-  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (reduce || (strip && kind === 'saved')) { renderAll(); return; }
-  el.classList.add('is-leaving');
-  setTimeout(renderAll, 260);
+  if (shell.classList.contains('strip') && kind === 'saved') { renderAll(); return; }
+  shell.dataset.act = kind;
+  if (shell.classList.contains('is-leaving')) return;      /* a second tap retargets the transition */
+  shell.classList.add('is-leaving');
+  let done = false;
+  const finish = () => {
+    if (done) return;
+    done = true;
+    shell.removeEventListener('transitionend', onEnd);
+    clearTimeout(guard);
+    renderAll();
+  };
+  /* the acid underlay's 40ms opacity transition also reports on the shell, as a ::after event */
+  const onEnd = (e) => { if (e.target === shell && !e.pseudoElement && e.propertyName === 'opacity') finish(); };
+  shell.addEventListener('transitionend', onEnd);
+  const guard = setTimeout(finish, 1000);
 }
 
-function switchTab(name) {
+function switchTab(name, focusPanel) {
   state.tab = name;
   for (const t of TABS) {
-    $('tab-' + t).setAttribute('aria-selected', String(t === name));
-    $('panel-' + t).hidden = t !== name;
+    const on = t === name;
+    $('tab-' + t).setAttribute('aria-selected', String(on));
+    $('tab-' + t).tabIndex = on ? 0 : -1;
+    $('panel-' + t).hidden = !on;
   }
-  $('panel-' + name).focus();
+  if (focusPanel) $('panel-' + name).focus();
   autosizeAll();
+}
+function changeTab(name, focusPanel = true) {
+  if (name === state.tab) return;
+  if (!document.startViewTransition) { switchTab(name, focusPanel); return; }
+  document.startViewTransition(() => switchTab(name, focusPanel));
+}
+
+/* once a day, a torn sheet lifts off the page. never under reduced motion. */
+function wipe() {
+  const today = new Date().toISOString().slice(0, 10);
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let last = null;
+  try { last = localStorage.getItem(WIPE_KEY); } catch { /* storage blocked */ }
+  if (reduce || last === today) return;
+  const el = document.createElement('div');
+  el.className = 'wipe';
+  el.setAttribute('aria-hidden', 'true');
+  el.addEventListener('animationend', () => {
+    el.remove();
+    try { localStorage.setItem(WIPE_KEY, today); } catch { /* nothing to do */ }
+  });
+  document.body.appendChild(el);
 }
 
 /* ---------- notes: save as you type ---------- */
@@ -609,7 +893,7 @@ async function runLookup(term) {
   if (lookupCtrl) lookupCtrl.abort();
   lookupCtrl = new AbortController();
   const seq = ++lookupSeq;
-  $('results').innerHTML = `<p class="note">${COPY.looking}</p>`;
+  $('results').innerHTML = `<p class="faint">${COPY.looking}</p>`;
   const r = await lookupData(t, lookupCtrl.signal);
   if (seq !== lookupSeq) return;
   lastLookup = r;
@@ -621,25 +905,25 @@ function renderLookup(r) {
   const parts = [];
   if (r.dict) {
     parts.push(`<div class="result">
-      <p class="card-meta"><span class="badge">dictionary</span>${fromLine}</p>
+      <p class="meta"><span class="badge">dictionary</span>${fromLine}</p>
       <p><strong>${esc(r.dict.word)}</strong></p>
-      ${r.dict.senses.map((s) => `<p>${s.pos ? `<em>${esc(s.pos)}</em> — ` : ''}${esc(s.def)}${s.example ? ` <span class="blurb">“${esc(s.example)}”</span>` : ''}</p>`).join('')}
-      <div class="actions"><button class="btn btn-save" data-keep="dict">${COPY.keep}</button></div>
+      ${r.dict.senses.map((s) => `<p>${s.pos ? `<em>${esc(s.pos)}</em> — ` : ''}${esc(s.def)}${s.example ? ` <span class="faint">“${esc(s.example)}”</span>` : ''}</p>`).join('')}
+      <div class="actions"><button class="btn" data-keep="dict">${COPY.keep}</button></div>
     </div>`);
   } else if (r.dictError) {
-    parts.push(`<p class="note">${COPY.dictDown}</p>`);
+    parts.push(`<p class="faint">${COPY.dictDown}</p>`);
   }
   if (r.wiki) {
     const ex = r.wiki.extract.length > 360 ? r.wiki.extract.slice(0, 357).trimEnd() + '…' : r.wiki.extract;
     parts.push(`<div class="result">
-      <p class="card-meta"><span class="badge">wikipedia</span>${fromLine}</p>
+      <p class="meta"><span class="badge">wikipedia</span>${fromLine}</p>
       <p><strong>${esc(r.wiki.title)}</strong> — ${esc(ex)}</p>
-      <div class="actions"><button class="btn btn-save" data-keep="wiki">${COPY.keep}</button><a class="btn" href="${esc(r.wiki.url)}" target="_blank" rel="noopener">${COPY.readMore}</a></div>
+      <div class="actions"><button class="btn" data-keep="wiki">${COPY.keep}</button><a class="btn" href="${esc(r.wiki.url)}" target="_blank" rel="noopener">${COPY.readMore}</a></div>
     </div>`);
   } else if (r.wikiError) {
-    parts.push(`<p class="note">${COPY.wikiDown}</p>`);
+    parts.push(`<p class="faint">${COPY.wikiDown}</p>`);
   }
-  if (!r.dict && !r.wiki && !r.dictError && !r.wikiError) parts.push(`<p class="note">${esc(COPY.nothing(r.term))}</p>`);
+  if (!r.dict && !r.wiki && !r.dictError && !r.wikiError) parts.push(`<p class="faint">${esc(COPY.nothing(r.term))}</p>`);
   parts.push(`<div class="actions bare">
     <button class="btn" data-keep="raw">${COPY.keepAsIs}</button>
     <a class="btn" href="https://duckduckgo.com/?q=${encodeURIComponent(r.term)}" target="_blank" rel="noopener">${COPY.searchWeb}</a>
@@ -710,19 +994,27 @@ function onMessage(e) {
 async function init() {
   load();
   if (new URLSearchParams(location.search).has('panel')) document.body.classList.add('in-panel');
-  for (const t of TABS) $('tab-' + t).onclick = () => switchTab(t);
+  for (const t of TABS) $('tab-' + t).onclick = () => changeTab(t);
+  $('tablist').addEventListener('keydown', (e) => {
+    if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+    e.preventDefault();
+    const i = TABS.indexOf(state.tab);
+    const next = TABS[(i + (e.key === 'ArrowRight' ? 1 : -1) + TABS.length) % TABS.length];
+    $('tab-' + next).focus();
+    changeTab(next, false);
+  });
 
   document.addEventListener('click', (e) => {
     const open = e.target.closest('[data-open]');
     if (open) { setReading(open.dataset.open); setTimeout(renderAll, 0); return; }
     const action = e.target.closest('[data-act]');
-    if (action) { act(action.closest('[data-id]'), action.dataset.act); return; }
+    if (action) { act(action.closest('.card-shell'), action.dataset.act); return; }
     const undo = e.target.closest('[data-undo]');
     if (undo) { delete state.marks[undo.dataset.undo][undo.closest('[data-id]').dataset.id]; save(); renderAll(); return; }
     const tog = e.target.closest('[data-toggle-notes]');
     if (tog) {
       const key = tog.dataset.toggleNotes;
-      const box = tog.closest('[data-id]').querySelector('[data-notebox]');
+      const box = tog.closest('.card').querySelector('[data-notebox]');
       const show = box.hidden;
       box.hidden = !show;
       tog.setAttribute('aria-expanded', String(show));
@@ -763,21 +1055,24 @@ async function init() {
   $('q').addEventListener('search', () => { if (!$('q').value) clearLookup(); });
   window.addEventListener('message', onMessage);
 
+  $('credit').textContent = COPY.credit;
+
   try {
     const res = await fetch('./data/articles.json?t=' + Date.now());
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     state.articles = data.articles || [];
     state.updated = data.updated;
+    state.report = data.report || [];
     renderAll();
-    $('foot').textContent = (data.report || [])
-      .map((r) => `${r.source} ${r.count}${r.carried ? ' (kept)' : ''}`).join(' · ');
+    $('foot').textContent = countsText(state.report);
   } catch (err) {
-    $('status').textContent = COPY.failed;
+    $('status').innerHTML = `<span>${COPY.failed}</span>`;
     $('queue').innerHTML = '';
     renderNotes();
     renderWords();
   }
+  wipe();
   if (window.parent !== window) window.parent.postMessage({ longform: 'ready' }, '*');
 }
 
