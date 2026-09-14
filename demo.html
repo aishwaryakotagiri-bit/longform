@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#100d0b">
+<title>longform — demo</title>
+<style>
+@font-face { font-family: 'Fraunces'; src: url('fonts/Fraunces-VF.woff2') format('woff2'); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: 'Newsreader'; src: url('fonts/Newsreader-VF.woff2') format('woff2'); font-weight: 200 800; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Newsreader'; src: url('fonts/Newsreader-Italic-VF.woff2') format('woff2'); font-weight: 200 800; font-style: italic; font-display: swap; }
+
+:root {
+  /* the poster */
+  --night: #100d0b; --cream: #f3ecdf; --cream-soft: #cfc4ae; --cream-faint: #8f8575; --cream-line: rgba(243, 236, 223, 0.14);
+  --acid: #ff5a2c;
+  /* the pile */
+  --paper: #f3ecdf; --paper-deep: #e7dcc6; --card: #faf5ea; --ink: #1a1612; --ink-soft: #5a5148; --ink-faint: #746859;
+  --rule: #d9cdb6; --rule-strong: #bfb096; --gilt: #a8822c; --gilt-text: #80621d; --shadow: rgba(0, 0, 0, 0.6);
+  --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-read: 'Newsreader', 'Iowan Old Style', Georgia, serif;
+  --font-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, system-ui, sans-serif;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.7, 0, 0.84, 0); --ease-both: cubic-bezier(0.45, 0, 0.55, 1);
+  --plate-edge: polygon(0 4%, 4% 1.6%, 9% 3.2%, 13% 0.6%, 20% 4.6%, 26% 2%, 30% 3.8%, 37% 0.8%, 44% 3.3%, 49% 1.4%, 57% 4.9%, 62% 2.3%, 70% 3.6%, 76% 0.9%, 83% 4.3%, 89% 1.9%, 95% 3.4%, 100% 1.2%, 100% 100%, 0 100%);
+  --sheet-edge: polygon(0 2.2%, 5% 0.4%, 11% 2.6%, 18% 0.9%, 25% 3%, 32% 1.2%, 39% 2.8%, 46% 0.3%, 53% 2.4%, 60% 0.8%, 67% 3.1%, 74% 1.4%, 81% 2.7%, 88% 0.5%, 94% 2.3%, 100% 0.9%, 100% 100%, 0 100%);
+  --tear-rest: polygon(0 0, 100% 0, 100% 100%, 94% 100%, 87% 100%, 79% 100%, 71% 100%, 62% 100%, 54% 100%, 46% 100%, 38% 100%, 30% 100%, 22% 100%, 14% 100%, 7% 100%, 0 100%, 0 100%, 0 100%);
+  --tear-torn: polygon(0 0, 100% 0, 100% 4%, 94% 7%, 87% 2%, 79% 8%, 71% 3%, 62% 9%, 54% 4%, 46% 8%, 38% 3%, 30% 9%, 22% 4%, 14% 8%, 7% 3%, 0 6%, 0 6%, 0 6%);
+}
+@media (prefers-color-scheme: dark) {
+  :root { --paper: #141110; --paper-deep: #0e0c0a; --card: #1c1815; --ink: #ede4d3; --ink-soft: #b3a894; --ink-faint: #8f8575; --rule: #2e2822; --rule-strong: #4a4136; --gilt: #c9a24f; --gilt-text: #c9a24f; }
+}
+
+html { overflow-x: clip; scroll-behavior: smooth; }
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--night); color: var(--ink); font: 400 16px/1.6 var(--font-ui); -webkit-text-size-adjust: 100%; }
+h1, h2, h3, p, ul, figure { margin: 0; } ul { padding: 0; list-style: none; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--acid); outline-offset: 3px; }
+:focus:not(:focus-visible) { outline: none; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0; }
+
+/* grain over everything, static */
+body::after {
+  content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 50;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 240px 240px; opacity: 0.11; mix-blend-mode: soft-light;
+}
+
+/* ---------- the poster: sticky, full height; the pile scrolls up over it ---------- */
+.poster { position: sticky; top: 0; height: 100vh; height: 100dvh; overflow: clip; isolation: isolate; color: var(--cream); }
+
+.band { position: absolute; top: 0; left: 0; right: 0; z-index: 4; padding: 16px 0; border-bottom: 1px solid var(--cream-line); white-space: nowrap; overflow: hidden;
+  font: 500 11px/1 var(--font-ui); letter-spacing: 0.22em; text-transform: uppercase; color: var(--cream-faint); }
+.band span { display: inline-block; animation: band-run 80s linear infinite; }
+@keyframes band-run { to { transform: translateX(-50%); } }
+
+/* the acid script, cropped by the edges, behind everything */
+.script { position: absolute; left: -3vw; top: 24vh; z-index: 0; white-space: nowrap; pointer-events: none; user-select: none;
+  font: italic 400 clamp(7rem, 30vw, 22rem)/1 var(--font-display); letter-spacing: -0.03em; color: var(--acid); opacity: 0.9;
+  animation: script-in 1400ms var(--ease-out) both; }
+@keyframes script-in { from { opacity: 0; } }
+
+/* the word: letters rise out of a masked line, one after another */
+.word-wrap { position: absolute; left: 5vw; bottom: 30vh; z-index: 1; }
+.word { font: 900 clamp(5.5rem, 22vw, 17rem)/0.82 var(--font-display); letter-spacing: -0.045em; white-space: nowrap; user-select: none; pointer-events: none;
+  font-variation-settings: 'SOFT' 0, 'WONK' 1, 'opsz' 144; color: var(--cream); }
+.word .l { display: inline-block; overflow: hidden; vertical-align: bottom; padding-bottom: 0.14em; margin-bottom: -0.14em; }
+.word .l > span { display: inline-block; animation: letter-rise 1000ms var(--ease-out) both; animation-delay: calc(350ms + var(--i) * 50ms); }
+@keyframes letter-rise { from { transform: translateY(112%); } }
+
+/* the painting: lands like a pasted cutting; turns acid on hover */
+.plate-wrap { position: absolute; right: 2vw; bottom: 24vh; z-index: 2; }
+.plate { position: relative; height: 38vh; margin: 0; transform: rotate(-2deg); transform-origin: 50% 100%;
+  animation: plate-land 1200ms var(--ease-out) 550ms both;
+  filter: drop-shadow(0 -1px 0 var(--cream)) drop-shadow(0 1px 0 var(--night)) drop-shadow(0 26px 44px var(--shadow)); }
+.plate img { display: block; height: 100%; width: auto; clip-path: var(--plate-edge); }
+.plate::after { content: ''; position: absolute; inset: 0; background: var(--acid); clip-path: var(--plate-edge); mix-blend-mode: hard-light; opacity: 0; transition: opacity 240ms var(--ease-both); }
+@media (hover: hover) { .plate:hover::after { opacity: 0.8; } }
+@keyframes plate-land { from { opacity: 0; transform: translateY(-7vh) rotate(-8deg); } }
+
+/* caption block at the foot, in the poster's format */
+.caption { position: absolute; left: 5vw; right: 5vw; bottom: 10vh; z-index: 3; display: grid; gap: 8px; animation: caption-in 900ms var(--ease-out) 900ms both; }
+.caption .row { display: grid; grid-template-columns: auto auto; justify-content: space-between; align-items: center; gap: 12px; }
+.caption .row .line { grid-column: 1 / -1; order: 1; }
+.caption .line { font: 400 11px/1.6 var(--font-ui); font-variant-caps: all-small-caps; letter-spacing: 0.08em; color: var(--cream-soft); }
+.chip { display: inline-block; border: 1px solid var(--cream-faint); border-radius: 999px; padding: 4px 10px; font: 500 11px/1 var(--font-ui); letter-spacing: 0.06em; color: var(--cream-soft); white-space: nowrap; }
+.caption .quote { font: italic 400 13px/1.5 var(--font-read); color: var(--cream-faint); max-width: 44ch; }
+@keyframes caption-in { from { opacity: 0; transform: translateY(10px); } }
+
+/* a night layer that darkens the poster as the pile rises */
+.dim { position: absolute; inset: 0; z-index: 5; background: var(--night); opacity: 0; pointer-events: none; }
+
+@media (min-width: 900px) {
+  .caption .row { display: flex; justify-content: space-between; }
+  .caption .row .line { order: 0; }
+  .script { top: 10vh; }
+  .word-wrap { left: 6vw; bottom: 22vh; }
+  .plate-wrap { right: 10vw; bottom: 14vh; }
+  .plate { height: 54vh; }
+  .caption { bottom: 11vh; }
+}
+
+/* ---------- scroll: parallax on the poster, the pile tearing up, cards rising in ---------- */
+@supports (animation-timeline: scroll()) {
+  .word-wrap  { animation: drift-word linear both; animation-timeline: scroll(root); animation-range: 0 100vh; }
+  .plate-wrap { animation: drift-plate linear both; animation-timeline: scroll(root); animation-range: 0 100vh; }
+  .script     { animation: script-in 1400ms var(--ease-out) both, drift-script linear both; animation-timeline: auto, scroll(root); animation-range: normal, 0 100vh; }
+  .dim        { animation: dim linear both; animation-timeline: scroll(root); animation-range: 0 90vh; }
+  .card-shell { animation: card-in linear both; animation-timeline: view(); animation-range: entry 0% entry 60%; }
+}
+@keyframes drift-word   { to { transform: translateY(-10vh); } }
+@keyframes drift-plate  { to { transform: translateY(-38vh) rotate(4deg); } }
+@keyframes drift-script { to { transform: translateX(-16vw); } }
+@keyframes dim          { to { opacity: 0.78; } }
+@keyframes card-in      { from { opacity: 0; transform: translateY(32px); } }
+
+/* ---------- the pile: a torn sheet of paper that rises over the poster ---------- */
+.pile { position: relative; z-index: 6; background: var(--paper); color: var(--ink); clip-path: var(--sheet-edge); margin-top: -7vh; padding: 9vh 0 14vh; }
+.col { max-width: 44rem; margin-inline: auto; padding-inline: 16px; }
+@media (min-width: 600px) { .col { padding-inline: 24px; } }
+.status { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font: 400 13px/1.4 var(--font-ui); color: var(--ink-faint); }
+.status .chip { border-color: var(--rule-strong); color: var(--ink-soft); }
+.tabs { display: flex; gap: 4px; margin: 20px 0 28px; border-bottom: 1px solid var(--rule); }
+.tab { font: 500 13px/1 var(--font-ui); letter-spacing: 0.02em; color: var(--ink-soft); background: none; border: 0; border-bottom: 1px solid transparent; margin-bottom: -1px; min-height: 44px; padding: 0 10px; cursor: pointer; }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+
+.stack { display: grid; gap: 14px; }
+.card-shell { position: relative; isolation: isolate; transition: transform 220ms var(--ease-in), opacity 120ms var(--ease-in) 100ms; }
+.card-shell::after { content: ''; position: absolute; inset: 0; z-index: -1; background: var(--acid); clip-path: var(--tear-rest); transform: translateY(3px); opacity: 0; transition: clip-path 220ms var(--ease-in), opacity 40ms linear; }
+.card { padding: 20px 22px 16px; background: var(--card); border: 1px solid var(--rule); border-radius: 2px; display: grid; gap: 10px; clip-path: var(--tear-rest); transition: clip-path 220ms var(--ease-in); }
+.card-shell.is-leaving .card { clip-path: var(--tear-torn); }
+.card-shell.is-leaving::after { clip-path: var(--tear-torn); opacity: 1; }
+.card-shell.is-leaving { opacity: 0; }
+.card-shell.is-leaving[data-act="read"]    { transform: translateY(10px) rotate(-1.2deg); }
+.card-shell.is-leaving[data-act="skipped"] { transform: translate(-28px, 6px) rotate(-1.6deg); }
+.card-shell.is-leaving[data-act="saved"]   { transform: translate(24px, -4px) rotate(0.8deg); }
+.meta { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; font: 400 12px/1 var(--font-ui); letter-spacing: 0.01em; color: var(--ink-faint); }
+.badge { font: 500 11px/1 var(--font-ui); letter-spacing: 0.08em; text-transform: uppercase; color: var(--gilt-text); border: 1px solid var(--gilt); padding: 4px 8px 3px; border-radius: 2px; white-space: nowrap; }
+.card h3 { font: 500 22px/1.22 var(--font-read); letter-spacing: -0.005em; }
+.card h3 a { color: var(--ink); text-decoration-color: var(--rule-strong); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.blurb { font: 400 15.5px/1.55 var(--font-read); color: var(--ink-soft); }
+.actions { display: flex; gap: 4px; flex-wrap: wrap; border-top: 1px solid var(--rule); padding-top: 12px; }
+.btn { font: 500 13px/1 var(--font-ui); letter-spacing: 0.02em; color: var(--ink-soft); background: none; border: 0; border-bottom: 1px solid transparent; min-height: 44px; padding: 0 10px; cursor: pointer; transition: color 160ms var(--ease-both), border-color 160ms var(--ease-both); }
+@media (hover: hover) { .btn:hover { color: var(--ink); border-bottom-color: var(--ink-soft); } }
+.foot { margin-top: 64px; padding: 24px 0; background: var(--paper-deep); font: 400 11px/1.6 var(--font-ui); font-variant-caps: all-small-caps; letter-spacing: 0.06em; color: var(--ink-soft); }
+
+/* ---------- reduced motion: the poster stands still, nothing rises, nothing drifts ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .band span, .script, .word .l > span, .plate, .caption, .word-wrap, .plate-wrap, .dim, .card-shell { animation: none; }
+  html { scroll-behavior: auto; }
+  .card-shell, .card-shell::after, .card { transition: none; }
+  .card-shell.is-leaving, .card-shell.is-leaving[data-act] { transition: opacity 180ms var(--ease-in); opacity: 0; transform: none; }
+  .card-shell.is-leaving .card { clip-path: var(--tear-rest); }
+  .card-shell.is-leaving::after { opacity: 0; }
+}
+</style>
+</head>
+<body>
+<header class="poster">
+  <h1 class="sr-only">longform</h1>
+  <p class="band" aria-hidden="true"><span id="band"></span></p>
+  <p class="script" aria-hidden="true">read slowly</p>
+  <div class="word-wrap"><p class="word" aria-hidden="true" id="word">longform</p></div>
+  <div class="plate-wrap">
+    <figure class="plate" aria-hidden="true"><img src="img/reader.jpg" alt="" width="795" height="1000" decoding="async" fetchpriority="high"></figure>
+  </div>
+  <div class="caption">
+    <div class="row">
+      <span class="chip">est. sept 2026</span>
+      <p class="line" id="line"></p>
+      <span class="chip">five a day</span>
+    </div>
+    <p class="quote">old knowledge, handled roughly. five pieces a day from six places, and nothing else to scroll.</p>
+  </div>
+  <div class="dim" aria-hidden="true"></div>
+</header>
+
+<main class="pile">
+  <div class="col">
+    <p class="status" id="status"><span>loading…</span></p>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" aria-selected="true">to read</button>
+      <button class="tab" role="tab" aria-selected="false">saved</button>
+      <button class="tab" role="tab" aria-selected="false">read</button>
+      <button class="tab" role="tab" aria-selected="false">notes</button>
+      <button class="tab" role="tab" aria-selected="false">words</button>
+    </div>
+    <ul class="stack" id="queue"></ul>
+  </div>
+  <div class="foot"><div class="col" id="foot"></div></div>
+</main>
+<div class="sr-only" role="status" aria-live="polite" id="live"></div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; };
+const SOURCES = ['aeon', 'literary hub', 'the paris review', 'nautilus', 'orion', 'the cut'];
+
+/* split the word so each letter can rise on its own */
+$('word').innerHTML = [...'longform'].map((ch, i) => `<span class="l"><span style="--i:${i}">${ch}</span></span>`).join('');
+/* the running band: the names twice, so the loop is seamless */
+const names = SOURCES.map((n) => n + ' &nbsp;·&nbsp; ').join('');
+$('band').innerHTML = names + names;
+$('line').textContent = SOURCES.map((n, i) => (i ? (i % 2 ? ' + ' : ' − ') : '') + n).join('');
+
+const when = (iso) => { const d = Math.floor((Date.now() - new Date(iso)) / 864e5); return d <= 0 ? 'today' : d === 1 ? 'yesterday' : `${d} days ago`; };
+const card = (a) => `<li class="card-shell" data-id="${esc(a.url)}"><article class="card">
+  <p class="meta"><span class="badge">${esc(a.source)}</span><span>${when(a.date)}</span>${a.author ? `<span>${esc(a.author)}</span>` : ''}</p>
+  <h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></h3>
+  ${a.blurb ? `<p class="blurb">${esc(a.blurb)}</p>` : ''}
+  <div class="actions"><button class="btn" data-act="read">mark read</button><button class="btn" data-act="saved">save</button><button class="btn" data-act="skipped">not for me</button><button class="btn">notes</button></div>
+</article></li>`;
+
+/* the tear, same as the real page */
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-act]'); if (!b) return;
+  const shell = b.closest('.card-shell');
+  shell.dataset.act = b.dataset.act;
+  if (shell.classList.contains('is-leaving')) return;
+  shell.classList.add('is-leaving');
+  $('live').textContent = b.dataset.act === 'read' ? 'marked read.' : b.dataset.act === 'saved' ? 'saved.' : 'dismissed.';
+  const onEnd = (ev) => { if (ev.target === shell && !ev.pseudoElement && ev.propertyName === 'opacity') { shell.removeEventListener('transitionend', onEnd); shell.remove(); } };
+  shell.addEventListener('transitionend', onEnd);
+});
+
+fetch('./data/articles.json?t=' + Date.now()).then((r) => r.json()).then((d) => {
+  const seen = new Set(); const pick = [];
+  for (const a of d.articles) if (!seen.has(a.source)) { seen.add(a.source); pick.push(a); }
+  for (const a of d.articles) if (pick.length < 8 && !pick.includes(a)) pick.push(a);
+  $('queue').innerHTML = pick.map(card).join('');
+  $('status').innerHTML = `<span>${d.articles.length} waiting</span><span class="chip">updated ${when(d.updated)}</span>`;
+  $('foot').textContent = d.report.map((r, i) => (i ? (i % 2 ? ' + ' : ' − ') : '') + r.source.toLowerCase().replace(/ magazine$/, '').replace(/^the (?=\S+ )/, '') + ' ' + r.count).join('');
+});
+</script>
+</body>
+</html>
