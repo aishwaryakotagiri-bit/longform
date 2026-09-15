@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-14T16:48:44.252Z",
+ "updated": "2026-09-15T05:06:11.996Z",
  "report": [
   {
    "source": "Aeon",
@@ -24,17 +24,161 @@
   },
   {
    "source": "The Cut",
-   "count": 18
+   "count": 20
   }
  ],
  "articles": [
+  {
+   "source": "The Cut",
+   "title": "Everything We’re Obsessing Over on the 2026 Emmys Red Carpet",
+   "url": "http://www.thecut.com/article/2026-emmys-news-live-updates.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "A Buffy the Vampire Slayer reunion, a history-making run by Jean Smart, and a Taylor Swift cameo.",
+   "author": "The Cut",
+   "date": "2026-09-15T02:17:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Emmys 2026 Red Carpet: All the Fashion [Photos]",
+   "url": "http://www.thecut.com/article/emmys-2026-red-carpet-all-the-fashion-photos.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Updated live!",
+   "author": "Brooke LaMantia",
+   "date": "2026-09-15T02:13:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Taylor Swift Was at the Chiefs Game With … Tom Cruise?",
+   "url": "http://www.thecut.com/article/taylor-swift-chiefs-game-tom-cruise.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Her circle of friends extends even further than we knew.",
+   "author": "Kathleen Walsh",
+   "date": "2026-09-15T01:38:14.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Best, Worst, and Weirdest Emmys Red-Carpet Looks",
+   "url": "http://www.thecut.com/article/emmys-2026-red-carpet-fashion-dresses-looks.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "See the outfits we can’t stop talking about.",
+   "author": "Hanna Flanagan",
+   "date": "2026-09-15T00:16:59.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "All the Ways Reading for Pleasure is Good for Your Mental Health",
+   "url": "https://nautil.us/all-the-ways-reading-for-pleasure-is-good-for-your-mental-health-1285027/",
+   "blurb": "Even though it might be a dying past time",
+   "author": "Jake Currie",
+   "date": "2026-09-14T23:01:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Cher Says Goodbye to Bob Mackie",
+   "url": "http://www.thecut.com/article/cher-says-goodbye-designer-bob-mackie.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "“Good nite sweet Prince.”",
+   "author": "Emily Leibert",
+   "date": "2026-09-14T22:19:41.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Sultan of Sequins: Remembering Bob Mackie’s Best Looks",
+   "url": "http://www.thecut.com/article/bob-mackie-best-fashion-looks-photos.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "From Marilyn Monroe’s “Happy Birthday, Mr. President” dress to Cher’s black-feathered “revenge” look at the 1986 Oscars.",
+   "author": "Emma Childs",
+   "date": "2026-09-14T22:10:33.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Conner Ives Knows How to Dress the ‘It’ Girls",
+   "url": "http://www.thecut.com/article/cathy-horyn-new-york-fashion-review-conner-ives-khaite.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Plus Joseph Altuzarra managed to find a lot to say about gender roles.",
+   "author": "Cathy Horyn",
+   "date": "2026-09-14T22:06:03.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "CFDA Head Steven Kolb Is On Leave For Restraining Protesters",
+   "url": "http://www.thecut.com/article/cfda-head-steven-kolb-restrained-protesters-at-the-cos-show.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Videos showed Kolb aggressively responding to two animal-rights activists during a COS fashion show on Sunday.",
+   "author": "Chantal Fernandez",
+   "date": "2026-09-14T21:05:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The Brutal Origins of Bear-Baiting",
+   "url": "https://nautil.us/the-brutal-origins-of-bear-baiting-1285024/",
+   "blurb": "The practice exploded in popularity following the Norman Conquest",
+   "author": "Jake Currie",
+   "date": "2026-09-14T21:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Best Street Style From New York Fashion Week",
+   "url": "http://www.thecut.com/article/the-best-street-style-from-new-york-fashion-week-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "See our favorite looks from outside this season’s shows.",
+   "author": "Chinea Rodriguez",
+   "date": "2026-09-14T20:54:00.000Z"
+  },
+  {
+   "source": "The Paris Review",
+   "title": "You Have to Ask Questions: Svetlana Alexievich, Unlocked",
+   "url": "https://www.theparisreview.org/blog/2026/09/14/you-have-to-ask-questions-svetlana-alexievich-unlocked/",
+   "blurb": "This week, we’ve unlocked “Voices from Chernobyl” from the archive.",
+   "author": "The Paris Review",
+   "date": "2026-09-14T20:14:59.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Did Venus Eat its Own Moon?",
+   "url": "https://nautil.us/did-venus-eat-its-own-moon-1285021/",
+   "blurb": "The mystery of why our sister planet is alone",
+   "author": "Jake Currie",
+   "date": "2026-09-14T20:00:00.000Z"
+  },
   {
    "source": "The Cut",
    "title": "Bob Mackie Has Died",
    "url": "http://www.thecut.com/article/bob-mackie-died-87.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
    "blurb": "The legendary designer was 87.",
    "author": "Olivia Craighead",
-   "date": "2026-09-14T16:21:27.000Z"
+   "date": "2026-09-14T19:50:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "What Anne Hathaway, Katie Holmes, and Rosalía Wore This Week",
+   "url": "http://www.thecut.com/article/what-anne-hathaway-katie-holmes-and-rosala-wore-this-week.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Happy New York Fashion Week, folks.",
+   "author": "Emma Childs",
+   "date": "2026-09-14T19:34:27.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Are library e-books really hurting book sales?",
+   "url": "https://lithub.com/are-library-e-books-really-hurting-book-sales/",
+   "blurb": "A study released at the top of this month found that e-lending at public libraries could be having a negative effect on the book market. In other words? Your Kindle has some explaining to do. Commissioned by the Association of",
+   "author": "Brittany Allen",
+   "date": "2026-09-14T19:11:04.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Florence Pugh Had Way More Fun in Venice This Time Around",
+   "url": "http://www.thecut.com/article/florence-pugh-venice-film-festival-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Four years after Don’t Worry Darling, she’s still making Aperol-related content in Italy.",
+   "author": "Olivia Craighead",
+   "date": "2026-09-14T18:01:50.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Could this James Baldwin typewriter be an okay use of AI?",
+   "url": "https://lithub.com/could-this-james-baldwin-typewriter-be-an-okay-use-of-ai/",
+   "blurb": "A new interactive exhibition about the writing of James Baldwin features an AI programmed typewriter that directs users to writing drawn from Baldwin’s books, essays, and letters. If you, like me, are aghast that “AI” and “James Baldwin”…",
+   "author": "James Folta",
+   "date": "2026-09-14T18:00:09.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Taylor Swift Drops New Insect Species",
+   "url": "https://nautil.us/taylor-swift-drops-new-insect-species-1285010/",
+   "blurb": "Thanks to a graduate student who is a “lifelong Swiftie”",
+   "author": "Devin Reese",
+   "date": "2026-09-14T18:00:00.000Z"
   },
   {
    "source": "The Cut",
@@ -59,14 +203,6 @@
    "blurb": "Bundibugyo is spreading exponentially in the DRC",
    "author": "Jia B. Kangbai",
    "date": "2026-09-14T16:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The CFDA Head Physically Restrained PETA Protesters at the COS Show",
-   "url": "http://www.thecut.com/article/cfda-head-steven-kolb-restrained-protesters-at-the-cos-show.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Steven Kolb apologized for his aggressive response to two animal-rights activists during a fashion show.",
-   "author": "Chantal Fernandez",
-   "date": "2026-09-14T15:29:42.000Z"
   },
   {
    "source": "The Cut",
@@ -130,38 +266,6 @@
    "url": "http://www.thecut.com/article/quen-blackwell-hollywood-fashion-feeding-starving-celebs-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
    "blurb": "The 25-year-old has millions of Gen-Z fans on lock. Can she persuade the grown-ups who run the entertainment industry to take her seriously?",
    "author": "Samuel Hine",
-   "date": "2026-09-14T11:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Salma Hayek Pinault Is Living the Good Life",
-   "url": "http://www.thecut.com/article/salma-hayek-pinault-interview-angelina-jolie-without-blood-arena-film.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She’s living it up as an empty nester in Paris, making her own movie, and entering a new decade. Who could be having more fun than her?",
-   "author": "Julia Noni",
-   "date": "2026-09-14T11:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Michelle Li Is the Fashion Influencer Who Actually Influences",
-   "url": "http://www.thecut.com/article/michelle-lis-muses-and-inspirations.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Her dynamic OOTDs and secondhand treasures will inject some serious inspiration into your Instagram feed.",
-   "author": "Hanna Flanagan",
-   "date": "2026-09-14T11:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Lily Allen Has More to Say",
-   "url": "http://www.thecut.com/article/lily-allen-west-end-girl-tour-divorce-album.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "For so long, the collapse of her marriage and her subsequent divorce album were all fans could talk about. Now she’s ready to go deeper.",
-   "author": "Evan Ross Katz",
-   "date": "2026-09-14T11:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The New Vanguard",
-   "url": "http://www.thecut.com/article/introducing-the-new-vanguard-2026-portfolio-kara-young-kai-schreiber.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Seven electrifying artists who refuse to conform.",
-   "author": "Juan A. Ramírez",
    "date": "2026-09-14T11:00:00.000Z"
   },
   {
@@ -229,52 +333,12 @@
    "date": "2026-09-14T09:08:41.000Z"
   },
   {
-   "source": "Literary Hub",
-   "title": "How Raising a Multilingual Tot Helped Me Write a Multicultural Novel",
-   "url": "https://lithub.com/how-raising-a-multilingual-tot-helped-me-write-a-multicultural-novel/",
-   "blurb": "When he was three, my son often said his heart was wounded. The reasons for these heart wounds were varied: someone didn’t want to be his best friend; I accidentally swept his latest artistic masterpiece into the recycling bin; we",
-   "author": "Bo Wang",
-   "date": "2026-09-14T09:07:28.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Céline Dion Made a Tearful Comeback to the Stage",
-   "url": "http://www.thecut.com/article/celine-dion-tearful-comeback-stage.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "“I had promised myself not to cry.”",
-   "author": "Kathleen Walsh",
-   "date": "2026-09-13T19:11:49.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "What’s Happening With Dakota Johnson and Machine Gun Kelly?",
-   "url": "http://www.thecut.com/article/dakota-johnson-machine-gun-kelly-dating.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "And how is Taylor Swift involved?",
-   "author": "Kathleen Walsh",
-   "date": "2026-09-13T16:32:21.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Inside The Cut’s 2026 Emmys Brunch Photo Studio with Emmy Nominee Rhea Seehorn",
-   "url": "http://www.thecut.com/article/emmys-breakout-brunch-2026-photo-studio.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Pluribus and Paradise stars Rhea Seehorn and Enuka Okuma joined The Cut for our second annual Emmys brunch in Hollywood ahead of TV’s big night.",
-   "author": "Keerthi Harishankar",
-   "date": "2026-09-13T13:00:21.000Z"
-  },
-  {
    "source": "Nautilus",
    "title": "Gondwana Really Was a Supercontinent",
    "url": "https://nautil.us/gondwana-really-was-a-supercontinent-1284991/",
    "blurb": "And it helped kick‑start life on Earth",
    "author": "Bill Collins",
    "date": "2026-09-13T12:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Defining Sex and Cool",
-   "url": "http://www.thecut.com/article/cathy-horyn-new-york-fashion-review-calvin-klein-eckhaus-latta.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Calvin Klein was pretty great, I thought – until I saw Eckhaus Latta and was reminded the best fashion has a jolt of newness.",
-   "author": "Cathy Horyn",
-   "date": "2026-09-12T15:04:11.000Z"
   },
   {
    "source": "Nautilus",
@@ -285,52 +349,12 @@
    "date": "2026-09-12T12:00:00.000Z"
   },
   {
-   "source": "Literary Hub",
-   "title": "Lit Hub Weekly: September 7 – 11, 2026",
-   "url": "https://lithub.com/lit-hub-weekly-september-7-11-2026/",
-   "blurb": "A new season means new books. Here are 34 titles you need to read this fall. | Lit Hub Reading Lists Emily Wilson talks to Leanne Ogasawara about “the high stakes and complexities of translation,” complicated men, and her essay",
-   "author": "Lit Hub Daily",
-   "date": "2026-09-12T10:30:21.000Z"
-  },
-  {
    "source": "Nautilus",
    "title": "The Giant Squids of the Jurassic Period",
    "url": "https://nautil.us/the-giant-squids-of-the-jurassic-period-1285002/",
    "blurb": "This belemnite swam in what used to be Wyoming seas",
    "author": "Devin Reese",
    "date": "2026-09-11T22:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Even 10 Minutes of “Slow Running” Can Give Your Brain a Boost",
-   "url": "https://nautil.us/even-10-minutes-of-slow-running-can-give-your-brain-a-boost-1284996/",
-   "blurb": "It’s all in the head bob",
-   "author": "Jake Currie",
-   "date": "2026-09-11T21:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Are Too Many Americans Taking Antidepressants?",
-   "url": "https://nautil.us/are-too-many-americans-taking-antidepressants-1284975/",
-   "blurb": "Rates of anxiety and depression have grown since the COVID-19 pandemic—as have prescriptions for antidepressants",
-   "author": "Andrew McLean",
-   "date": "2026-09-11T20:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Genetically Engineered Yeast Could Transform Martian Soil into Living Building Materials",
-   "url": "https://nautil.us/genetically-engineered-yeast-could-transform-martian-soil-into-living-building-materials-1284972/",
-   "blurb": "Living yeast yurts on Mars!",
-   "author": "Jake Currie",
-   "date": "2026-09-11T19:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Nighttime Light May Change the Shape of Your Heart",
-   "url": "https://nautil.us/nighttime-light-may-change-the-shape-of-your-heart-1284967/",
-   "blurb": "It’s a glowing, growing problem",
-   "author": "Jake Currie",
-   "date": "2026-09-11T18:00:00.000Z"
   },
   {
    "source": "The Paris Review",
@@ -539,14 +563,6 @@
    "blurb": "The lives that slither and scurry beneath the soil’s surface are vital for ecological health: now we can listen in to them - by Ella Browning Read on Aeon",
    "author": "Ella Browning",
    "date": "2026-08-17T10:00:00.000Z"
-  },
-  {
-   "source": "The Paris Review",
-   "title": "In the Studio with Chad Fore, the Writer Behind “Lil Spooky”",
-   "url": "https://www.theparisreview.org/blog/2026/08/14/chad-fore-on-lil-spooky/",
-   "blurb": "“‘What are they rapping about?’ ‘Well, devil worship.’”",
-   "author": "Owen Park",
-   "date": "2026-08-14T14:00:26.000Z"
   },
   {
    "source": "Orion Magazine",
