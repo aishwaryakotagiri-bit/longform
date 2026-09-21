@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T05:06:12.359Z",
+ "updated": "2026-09-21T05:11:39.350Z",
  "report": [
   {
    "source": "Aeon",
@@ -24,10 +24,34 @@
   },
   {
    "source": "The Cut",
-   "count": 19
+   "count": 18
   }
  ],
  "articles": [
+  {
+   "source": "Nautilus",
+   "title": "“Ferritin Face” Is Trending—But Can Your Skin Really Reveal Low Iron?",
+   "url": "https://nautil.us/ferritin-face-is-trending-but-can-your-skin-really-reveal-low-iron-1285150/",
+   "blurb": "There’s a kernel of truth to it, but it’s not the whole story",
+   "author": "Chloe Casey",
+   "date": "2026-09-21T00:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Jeremy Strong Went Full Zuckerberg on Social Reckoning Set",
+   "url": "http://www.thecut.com/article/jeremy-strong-full-zuckerberg-social-reckoning-set.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "“He is going to treat you the way he imagines Mark treats the people around him,” Aaron Sorkin told the other actors.",
+   "author": "Kathleen Walsh",
+   "date": "2026-09-20T19:07:11.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Ed Sheeran Finally Spoke Out on Gaza",
+   "url": "http://www.thecut.com/article/ed-sheeran-finally-spoke-gaza.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "“My heart has been broken by the scale of devastation.”",
+   "author": "Kathleen Walsh",
+   "date": "2026-09-20T16:53:27.000Z"
+  },
   {
    "source": "Nautilus",
    "title": "This Dolphin Steals from Fish for Its Meals",
@@ -245,14 +269,6 @@
    "date": "2026-09-18T12:00:00.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Can Walmart Ever Be Cool?",
-   "url": "http://www.thecut.com/article/can-walmart-ever-be-cool-the-superstores-fashion-makeover.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The superstore swears it’s about to become America’s favorite fashion brand … that is, if customers will buy it.",
-   "author": "Chantal Fernandez",
-   "date": "2026-09-18T11:00:38.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "Cosmic amnesia",
    "url": "https://aeon.co/essays/black-holes-ring-like-bells-what-happens-next-is-stranger",
@@ -309,22 +325,6 @@
    "date": "2026-09-18T09:08:35.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Greta Gerwig Had a Good Reason to Cast Meryl Streep As Aslan",
-   "url": "http://www.thecut.com/article/greta-gerwig-reason-cast-meryl-streep-aslan.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "“I wanted someone who was older than 70, so there was a wisdom of experience, but who also had the capacity of fresh wonder, like a child.”",
-   "author": "Kathleen Walsh",
-   "date": "2026-09-18T01:06:53.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Jalen Brunson Is Going to Be on Law & Order: SVU",
-   "url": "http://www.thecut.com/article/jalen-brunson-law-and-order-svu.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The Mariska Hargitay collaborations continue.",
-   "author": "Kathleen Walsh",
-   "date": "2026-09-17T22:39:47.000Z"
-  },
-  {
    "source": "Nautilus",
    "title": "Humpback Whales Grieve for Lost Offspring, Video Evidence Shows",
    "url": "https://nautil.us/humpback-whales-grieve-for-lost-offspring-video-evidence-shows-1285114/",
@@ -339,14 +339,6 @@
    "blurb": "And it’s temporary",
    "author": "Jake Currie",
    "date": "2026-09-17T20:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Dinosaur Eggs Have Never Been Discovered This Far South Before",
-   "url": "https://nautil.us/dinosaur-eggs-have-never-been-discovered-this-far-south-before-1285103/",
-   "blurb": "Researchers are hypothesizing how a clutch was kept warm",
-   "author": "David Nield",
-   "date": "2026-09-17T19:00:00.000Z"
   },
   {
    "source": "Aeon",
