@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27T05:29:45.845Z",
+ "updated": "2026-09-28T05:38:42.162Z",
  "report": [
   {
    "source": "Aeon",
@@ -24,10 +24,26 @@
   },
   {
    "source": "The Cut",
-   "count": 20
+   "count": 19
   }
  ],
  "articles": [
+  {
+   "source": "The Cut",
+   "title": "Taylor Swift Brought Her Lob to the VMAs",
+   "url": "http://www.thecut.com/article/taylor-swift-vmas-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "And an uncharacteristically edgy look.",
+   "author": "Kathleen Walsh",
+   "date": "2026-09-28T01:50:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Best, Worst, and Weirdest VMAs Red-Carpet Looks",
+   "url": "http://www.thecut.com/article/vmas-2026-the-best-worst-and-weirdest-red-carpet-looks.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "From Taylor Swift to Olandria.",
+   "author": "Kathleen Walsh",
+   "date": "2026-09-28T01:30:00.000Z"
+  },
   {
    "source": "Nautilus",
    "title": "A Blow‑by‑Blow Account of What Would Happen If the Yellowstone Supervolcano Erupted Now",
@@ -208,7 +224,7 @@
    "source": "The Cut",
    "title": "Our Beauty Editor’s Fall-Wardrobe Essentials",
    "url": "http://www.thecut.com/article/cut-fashion-closet-asia-milia-ware-fall-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "From a fur-trimmed denim jacket to stylish rain boots.",
+   "blurb": "From a faux fur-trimmed denim jacket to stylish rain boots.",
    "author": "Asia Milia Ware",
    "date": "2026-09-25T16:38:21.000Z"
   },
@@ -253,14 +269,6 @@
    "date": "2026-09-25T14:00:00.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Is Taylor Swift’s ‘Patient Zero’ About Sophie Turner?",
-   "url": "http://www.thecut.com/article/taylor-swift-patient-zero-sophie-turner-joe-jonas.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The song is all about bonding with a girl who also dated your ex. Sounds familiar.",
-   "author": "Olivia Craighead",
-   "date": "2026-09-25T13:46:05.000Z"
-  },
-  {
    "source": "Nautilus",
    "title": "Behold, Crawzilla, the Not-Quite-Biggest Crayfish Ever Caught",
    "url": "https://nautil.us/behold-crawzilla-the-not-quite-biggest-crayfish-ever-caught-1285273/",
@@ -269,28 +277,12 @@
    "date": "2026-09-25T12:00:00.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Our Style Editor’s Fall-Wardrobe Essentials",
-   "url": "http://www.thecut.com/article/cut-fashion-closet-joanna-nikas-fall-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "From a preppy vest to a cozy cashmere V-neck.",
-   "author": "Joanna Nikas",
-   "date": "2026-09-25T11:30:49.000Z"
-  },
-  {
    "source": "Literary Hub",
    "title": "Have They Ruined Our Beloved Scholastic Book Fair?",
    "url": "https://lithub.com/have-they-ruined-our-beloved-scholastic-book-fair/",
    "blurb": "Oh, Scholastic Book Fair. If you made your way through a public school in North America anytime during the past half-century, you should recall that shiny catalog. That sudden, circus-like presence in the school library. On Monday, the c…",
    "author": "Brittany Allen",
    "date": "2026-09-25T11:20:34.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Shoe Is the Outfit",
-   "url": "http://www.thecut.com/article/the-shoe-is-the-outfit.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "With Dior, Chanel, and Schiaparelli sending terrifically kooky clompers down the runway, this fall is all about fancy footwork.",
-   "author": "Hanna Flanagan",
-   "date": "2026-09-25T11:00:46.000Z"
   },
   {
    "source": "Aeon",
