@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T06:06:41.842Z",
+ "updated": "2026-10-05T05:59:13.200Z",
  "report": [
   {
    "source": "Aeon",
@@ -24,10 +24,50 @@
   },
   {
    "source": "The Cut",
-   "count": 19
+   "count": 18
   }
  ],
  "articles": [
+  {
+   "source": "The Cut",
+   "title": "Harry and Meghan’s First UK Appearance Together Is at a Pub",
+   "url": "http://www.thecut.com/article/harry-meghan-first-uk-appearance-together-pub.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The Sussexes enjoyed a lowkey date night.",
+   "author": "Kathleen Walsh",
+   "date": "2026-10-04T19:11:28.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Was There Really a Female King in Ancient Egypt 5,000 Years Ago?",
+   "url": "https://nautil.us/was-there-really-a-female-king-in-ancient-egypt-5000-years-ago-1285520/",
+   "blurb": "A new study says yes",
+   "author": "Susan Kelly",
+   "date": "2026-10-04T18:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Taylor Swift Crashed Dakota Johnson’s SNL Monologue",
+   "url": "http://www.thecut.com/article/taylor-swift-crashed-dakota-johnson-snl-monologue.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "That’s what friends are for.",
+   "author": "Kathleen Walsh",
+   "date": "2026-10-04T16:34:01.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Coral Reef-Like Rock Layers on Mars Reveal Ancient Climate Secrets",
+   "url": "https://nautil.us/coral-reef-like-rock-layers-on-mars-reveal-ancient-climate-secrets-1285515/",
+   "blurb": "A landscape painted by rocks, wind, and water",
+   "author": "David Nield",
+   "date": "2026-10-04T15:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "We Are the Medicine: Recommendations on the Ever Growing List of Latinx Literature",
+   "url": "https://lithub.com/we-are-the-medicine-recommendations-on-the-ever-growing-list-of-latinx-literature/",
+   "blurb": "I’m starting this draft on the Fourth of July, 2026 in the Northern California redwoods. The phrase “250 Years of Independence” inundates my social media feed, though most people posting the phrase chide the intended meaning, highlightin…",
+   "author": "Tomas Moniz",
+   "date": "2026-10-04T09:07:47.000Z"
+  },
   {
    "source": "Nautilus",
    "title": "How Sugar from Outer Space Became One of the Backbones of Life on Earth",
@@ -253,14 +293,6 @@
    "date": "2026-10-02T14:00:00.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "This Newly Discovered Dinosaur Looks Terrifying—But Probably Wouldn’t Eat You",
-   "url": "https://nautil.us/this-newly-discovered-dinosaur-looks-terrifying-but-probably-wouldnt-eat-you-1285466/",
-   "blurb": "Say hello to Kayrasaurus changliensis",
-   "author": "David Nield",
-   "date": "2026-10-02T12:00:00.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "‘Guy’s Dripped Out’",
    "url": "http://www.thecut.com/article/alex-katz-grandfather-grandson-style.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -307,46 +339,6 @@
    "blurb": "George Bailey is more Christmas than Santa Claus. And yes, they are in competition with each other. Whenever one TV station is playing It’s a Wonderful Life, you can bet that our country’s other black-and-white holiday classic, Miracle o…",
    "author": "Emily St. James and Lauren Theisen",
    "date": "2026-10-02T09:15:44.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Do Smartphones Belong in Fiction?",
-   "url": "https://lithub.com/do-smartphones-belong-in-fiction/",
-   "blurb": "This first appeared in Lit Hub’s Craft of Writing newsletter—sign up here. The novel has always been obsessed with technology. You can trace realist fiction’s evolution along advances in religion, banking, engines, and cities, because al…",
-   "author": "Ankur Thakkar",
-   "date": "2026-10-02T09:15:34.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Jim Carrey Is Married?",
-   "url": "http://www.thecut.com/article/jim-carrey-is-married.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "To his longtime girlfriend Min Ah, apparently.",
-   "author": "Kathleen Walsh",
-   "date": "2026-10-02T00:19:30.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Ashley Tisdale French Says PPD Wasn’t Great for Her Marriage",
-   "url": "http://www.thecut.com/article/ashley-tisdale-ppd-marriage-divorce.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "“I tried to divorce you so many times.”",
-   "author": "Kathleen Walsh",
-   "date": "2026-10-01T22:41:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Don’t Miss Saturn in All its Glory This Weekend",
-   "url": "https://nautil.us/dont-miss-saturn-in-all-its-glory-this-weekend-1285461/",
-   "blurb": "And the Orionids later in the month",
-   "author": "Jake Currie",
-   "date": "2026-10-01T22:30:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Anne Hathaway Should Be Organizing Every Red Carpet",
-   "url": "http://www.thecut.com/article/let-anne-hathaway-organize-the-red-carpet.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The actress did not have to apologize for going into “mom mode” at the Verity premiere.",
-   "author": "Jaharia Knowles",
-   "date": "2026-10-01T21:15:09.000Z"
   },
   {
    "source": "The Paris Review",
