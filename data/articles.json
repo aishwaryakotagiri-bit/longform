@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T06:23:42.803Z",
+ "updated": "2026-10-09T06:25:00.897Z",
  "report": [
   {
    "source": "Aeon",
@@ -24,17 +24,257 @@
   },
   {
    "source": "The Cut",
-   "count": 20
+   "count": 19
   }
  ],
  "articles": [
   {
+   "source": "Nautilus",
+   "title": "Our Ancient Ancestors’ Lost Habitat Revealed by 700,000-Year-Old Elephant’s Tooth",
+   "url": "https://nautil.us/our-ancient-ancestors-lost-habitat-revealed-by-700000-year-old-elephants-tooth-1285654/",
+   "blurb": "An elephant’s tooth never forgets",
+   "author": "Jake Currie",
+   "date": "2026-10-08T22:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Jenna Dewan’s Fiancé Is ‘Unbothered’ by Her DWTS Chemistry",
+   "url": "http://www.thecut.com/article/jenna-dewan-fiance-unbothered-dwts-chemistry.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Steve Kazee told fans who think Dewan looks too cozy with Val Chmerkovskiy to “stay hatin.”",
+   "author": "Kathleen Walsh",
+   "date": "2026-10-08T20:56:47.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "What to Know About the Student Protests in France",
+   "url": "http://www.thecut.com/article/what-to-know-about-student-protests-france.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Nearly 1,000 schools have closed amid a nationwide reckoning about the public-education system.",
+   "author": "Emily Leibert",
+   "date": "2026-10-08T20:47:56.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Alexander Skarsgård Gave Us Too Much Toe",
+   "url": "http://www.thecut.com/article/alexander-skarsgard-wicker-too-much-toe.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The actor pulled up to a Wicker screening in see-through PVC oxfords.",
+   "author": "Olivia Craighead",
+   "date": "2026-10-08T20:33:52.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Single Orangutan Moms Set up Playdates for Their Kids",
+   "url": "https://nautil.us/single-orangutan-moms-set-up-playdates-for-their-kids-1285650/",
+   "blurb": "And they go to considerable lengths to do it",
+   "author": "Jake Currie",
+   "date": "2026-10-08T20:00:00.000Z"
+  },
+  {
+   "source": "The Paris Review",
+   "title": "Anne Carson Wins the Nobel Prize in Literature",
+   "url": "https://www.theparisreview.org/blog/2026/10/08/anne-carson-nobel-prize/",
+   "blurb": "This week, we’ve unlocked all of Carson’s work from our archive.",
+   "author": "The Paris Review",
+   "date": "2026-10-08T19:18:27.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Hilaria Baldwin Has an Offer for Andy Cohen’s Babysitter",
+   "url": "http://www.thecut.com/article/hilaria-baldwin-andy-cohen-babysitter-pay-rate.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Apparently she and her husband pay way more than $30 an hour.",
+   "author": "Kathleen Walsh",
+   "date": "2026-10-08T19:10:41.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "A Recipe for Stopping AI from Going Rogue",
+   "url": "https://nautil.us/a-recipe-for-stopping-ai-from-going-rogue-1285647/",
+   "blurb": "This formula aims to prevent LLMs from doing things that endanger humans",
+   "author": "Kristen French",
+   "date": "2026-10-08T19:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "These Prime Day Deals Are Still Available: K-Beauty, Denim, Headphones, and More",
+   "url": "http://www.thecut.com/article/october-prime-day-deals-still-available-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "From Shark Beauty, Round Labs, UGG, and Bose.",
+   "author": "Hanna Flanagan",
+   "date": "2026-10-08T18:44:41.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Dua Lipa Had Her First Hot Dog",
+   "url": "http://www.thecut.com/article/dua-lipa-hot-dog-yankees-game.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "She practiced some cultural immersion at the Yankees game Wednesday night.",
+   "author": "Olivia Craighead",
+   "date": "2026-10-08T18:06:59.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Why Are People Upset About Bare Nails?",
+   "url": "http://www.thecut.com/article/why-are-people-upset-about-bare-nails.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "In late September, a BBC article was taken down that argued bare nails were a class issue. It quickly became a political talking point.",
+   "author": "Asia Milia Ware",
+   "date": "2026-10-08T18:02:52.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "In 1960, Mathematicians Predicted that Earth’s Population Would Reach Infinity on a Friday Next Month",
+   "url": "https://nautil.us/in-1960-mathematicians-predicted-that-earths-population-would-reach-infinity-on-a-friday-next-month-1285640/",
+   "blurb": "It will not",
+   "author": "Jake Currie",
+   "date": "2026-10-08T18:00:00.000Z"
+  },
+  {
    "source": "Literary Hub",
-   "title": "Here are the winners of the 2026 Kirkus Prize.",
-   "url": "https://lithub.com/here-are-the-winners-of-the-2026-kirkus-prize/",
-   "blurb": "Tonight, at a ceremony in New York City, Kirkus Reviews announced the winners of the 13th annual Kirkus Prize, which awards $50,000 to “books of exceptional merit” in three categories: Fiction, Nonfiction, and Young Readers’ Literature.…",
+   "title": "Taiwan Travelogue translator Lin King is calling out publishing’s “relay translation” practices.",
+   "url": "https://lithub.com/taiwan-travelogue-translator-lin-king-is-calling-out-publishings-relay-translation-practices/",
+   "blurb": "Translator and writer Lin King released a statement on Instagram on Tuesday laying out her claim of copyright infringement of her Booker-Prize-winning English translation of Taiwan Travelogue by Yáng Shuāng-Zǐ, originally written in Mand…",
+   "author": "James Folta",
+   "date": "2026-10-08T17:35:54.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Can romance novels solve the straight man reading crisis?",
+   "url": "https://lithub.com/can-romance-novels-solve-the-straight-man-reading-crisis/",
+   "blurb": "Extra, extra. You’ve seen the headlines. Men—particularly straight men—have stopped reading fiction. This year saw the rise and fall of the performative lit-bro. And though history, crime, and self-help books still persuade a certain typ…",
+   "author": "Brittany Allen",
+   "date": "2026-10-08T16:51:32.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "A Distant Star is Slowly Snacking on a Brown Dwarf",
+   "url": "https://nautil.us/a-distant-star-is-slowly-snacking-on-a-brown-dwarf-1285643/",
+   "blurb": "This absorption could take billions of years",
+   "author": "David Nield",
+   "date": "2026-10-08T16:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Did Meghan Markle and Malala Get Dinner Together in London?",
+   "url": "http://www.thecut.com/article/meghan-markle-malala-dinner-together-london.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "It certainly looks like the pair were having dinner at Claridge’s on Wednesday.",
+   "author": "Olivia Craighead",
+   "date": "2026-10-08T15:28:51.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "The Third Circuit finds that AI companies can’t use material with an original “creative spark.”",
+   "url": "https://lithub.com/the-third-circuit-finds-that-ai-companies-cant-use-material-with-an-original-creative-spark/",
+   "blurb": "Last week the Court of Appeals for the Third Circuit, which oversees the districts of Delaware, New Jersey, Pennsylvania, and the Virgin Islands, upheld and further underlined a lower court ruling in the ongoing AI and copyright case of…",
+   "author": "James Folta",
+   "date": "2026-10-08T14:04:59.000Z"
+  },
+  {
+   "source": "The Paris Review",
+   "title": "Making of a Poem: Natalie Shapero on “The Top of Hell”",
+   "url": "https://www.theparisreview.org/blog/2026/10/08/making-of-a-poem-natalie-shapero-on-the-top-of-hell/",
+   "blurb": "For our series Making of a Poem, Natalie Shapero talks about her issue no. 257 poem, “The Top of Hell.”",
+   "author": "Natalie Shapero",
+   "date": "2026-10-08T14:00:49.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "What Babies Learn From Spit-Swapping",
+   "url": "https://nautil.us/what-babies-learn-from-spit-swapping-1285626/",
+   "blurb": "Saliva is thicker than water",
+   "author": "Jake Currie",
+   "date": "2026-10-08T14:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Are All These Montessori Teachers Wearing Issey Miyake?",
+   "url": "http://www.thecut.com/article/brooklyn-montessori-teachers-issey-miyake-pleats-uniform.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Teachers at a Brooklyn Montessori school have attracted attention for their conspicuously Issey Miyake–like clothes.",
+   "author": "Cat Zhang",
+   "date": "2026-10-08T13:30:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Did Minka Kelly and Her Imagine Dragons Boyfriend Break Up?",
+   "url": "http://www.thecut.com/article/minka-kelly-dan-reynolds-broke-up.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The actress was with musician Dan Reynolds for four years.",
+   "author": "Olivia Craighead",
+   "date": "2026-10-08T13:11:11.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "When It’s Your Job to Schmooze With Billionaires",
+   "url": "http://www.thecut.com/article/how-fundraisers-persuade-rich-people-to-donate-to-nonprofits.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "How fundraisers persuade rich people to donate to their nonprofits.",
+   "author": "Charlotte Cowles",
+   "date": "2026-10-08T12:00:50.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Kardashians Could Be Good If They Showed Us the Boyfriends",
+   "url": "http://www.thecut.com/article/bring-back-boyfriends-on-the-kardashians-hulu.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Can we get a mic on Timmy, please?",
+   "author": "Allie Jones",
+   "date": "2026-10-08T12:00:50.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Be Careful What You Wish For",
+   "url": "http://www.thecut.com/article/be-careful-what-you-wish-for-essay-tarot-psychics-mediums-spirituality.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "What tarot, psychics, and a few ill-advised spells have taught me about romance.",
+   "author": "Shaquille Heath",
+   "date": "2026-10-08T12:00:50.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Anne Carson has won the 2026 Nobel Prize in Literature.",
+   "url": "https://lithub.com/anne-carson-has-won-the-2026-nobel-prize-in-literature/",
+   "blurb": "Today, the Swedish Academy awarded the 2026 Nobel Prize in Literature to Canadian author Anne Carson, for “her bold and inventive oeuvre that in playful dialogue with the classical tradition has created new forms for contemporary literat…",
+   "author": "Emily Temple",
+   "date": "2026-10-08T11:11:26.000Z"
+  },
+  {
+   "source": "Aeon",
+   "title": "The ghetto on the lagoon",
+   "url": "https://aeon.co/essays/the-making-of-the-ghetto-on-a-venetian-island-in-1516",
+   "blurb": "Sixteenth-century Venice wanted to expel its Jews but couldn’t do without them. Its compromise was the world’s first ghetto - by Alexander Lee Read on Aeon",
+   "author": "Alexander Lee",
+   "date": "2026-10-08T10:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "On Hannah Arendt and Mary McCarthy’s Decades-Long Friendship",
+   "url": "https://lithub.com/on-hannah-arendt-and-mary-mccarthys-decades-long-friendship/",
+   "blurb": "Hannah Arendt’s homeland was populated with friends, most of them men—at least that is what her published correspondence would lead you to believe. The published letters between Arendt and her friends include books with Martin Heidegger,…",
+   "author": "Roger Berkowitz",
+   "date": "2026-10-08T09:09:56.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "5 Book Reviews You Need to Read This Week",
+   "url": "https://lithub.com/5-book-reviews-you-need-to-read-this-week-10-8-2026/",
+   "blurb": "Our fivesome of fantastic reviews this week includes, Zain Khalid on Ayad Akhtar’s The Radiance, Franklin Schneider on MrBeast and James Patterson’s The Most Dangerous Games, Jason Mott on T. Geronimo Johnson’s The Occidental Book of the…",
+   "author": "Book Marks",
+   "date": "2026-10-08T09:09:37.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "It Begins On the Page: How Relationships Between Readers and Writers Are Made",
+   "url": "https://lithub.com/it-begins-on-the-page-how-relationships-between-readers-and-writers-are-made/",
+   "blurb": "We don’t usually understand literature as a dialogue. Typically, when publishing professionals think of readers, they think they need to entice them to buy the book so they may have hours of pleasant or enriching cultural entertainment.…",
+   "author": "Luiz Schwarcz",
+   "date": "2026-10-08T09:09:12.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "One Night in Frankfurt: Scenes From the Incomparable Heinrich Maria Ledig-Rowohlt Translation Prize Dinner",
+   "url": "https://lithub.com/one-night-in-frankfurt-scenes-from-the-incomparable-heinrich-maria-ledig-rowohlt-translation-prize-dinner/",
+   "blurb": "Forty years ago in October 1986 I attended my first Frankfurt Book Fair. On the first day of meetings my friend and colleague Gary Fisketjon and I were introduced to Heinrich Maria Ledig Rowohlt, an elegant, charismatic 78-year-old Germa…",
    "author": "Literary Hub",
-   "date": "2026-10-08T00:45:36.000Z"
+   "date": "2026-10-08T09:09:12.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Am I the Asshole For Ordering a Book at My Local Indie and Just… Not Picking It Up?",
+   "url": "https://lithub.com/am-i-the-asshole-for-ordering-a-book-at-my-local-indie-and-just-not-picking-it-up/",
+   "blurb": "Hello again! Welcome back to the finest (and drunkest) corner of the internet, home of the darling and daring sensation known as Am I the Literary Asshole? If you’re a first time reader, we’re a bimonthly advice column that tackles",
+   "author": "Kristen Arnett",
+   "date": "2026-10-08T09:09:04.000Z"
   },
   {
    "source": "The Cut",
@@ -93,52 +333,12 @@
    "date": "2026-10-07T20:17:16.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Save Up to 50% on Madewell and Gap Before October Prime Day Ends",
-   "url": "http://www.thecut.com/article/best-october-prime-day-fashion-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "All the best fashion deals in one place.",
-   "author": "Chinea Rodriguez",
-   "date": "2026-10-07T20:04:00.000Z"
-  },
-  {
    "source": "Nautilus",
    "title": "Why Forgive and Forget is Bad Advice",
    "url": "https://nautil.us/why-forgive-and-forget-is-bad-advice-1285629/",
    "blurb": "A conversation with MacArthur fellow Felipe de Brigard about how forgiveness reshapes the memory of atrocity",
    "author": "Kristen French",
    "date": "2026-10-07T20:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Christa Pike’s Lawyer Says She’s ‘Angry and Confused’",
-   "url": "http://www.thecut.com/article/christa-pike-conscious-again-botched-execution.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The only woman on Tennessee’s death row is awake and speaking after two failed lethal injections last week.",
-   "author": "Olivia Craighead",
-   "date": "2026-10-07T19:55:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Glen Powell Has Zero Interest in Politics",
-   "url": "http://www.thecut.com/article/glen-powell-zero-interest-politics.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "“For me, my calling is elsewhere.”",
-   "author": "Olivia Craighead",
-   "date": "2026-10-07T19:31:32.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Final Hours: The Prime Day Beauty-Device Deals I’d Buy",
-   "url": "http://www.thecut.com/article/best-october-prime-day-beauty-device-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "My favorite LED devices and de-puffing tools are marked down.",
-   "author": "Asia Milia Ware",
-   "date": "2026-10-07T19:30:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Are All These Montessori Teachers Wearing Issey Miyake?",
-   "url": "http://www.thecut.com/article/brooklyn-montessori-teachers-issey-miyake-pleats-uniform.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Teachers at a Brooklyn Montessori school have attracted attention for their conspicuously Issey Miyake–like clothes.",
-   "author": "Cat Zhang",
-   "date": "2026-10-07T19:07:33.000Z"
   },
   {
    "source": "Nautilus",
@@ -149,46 +349,6 @@
    "date": "2026-10-07T19:00:00.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Last-Chance October Prime Day Deals: What Cut Editors Are Actually Buying",
-   "url": "http://www.thecut.com/article/october-prime-day-editors-picks-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "From sunscreen and sneakers to vacuums.",
-   "author": "Bianca Nieves",
-   "date": "2026-10-07T19:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "57 Best Last-Minute Home and Tech October Prime Day Deals",
-   "url": "http://www.thecut.com/article/best-october-prime-day-home-and-tech-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Plus, deals on Boll & Branch sheets and the Hatch sleep clock.",
-   "author": "Chinea Rodriguez",
-   "date": "2026-10-07T18:57:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "‘Outdoor Voices Owes Us Nearly $10,000’",
-   "url": "http://www.thecut.com/article/outdoor-voices-owes-hike-clerb-nearly-usd10-000.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Evelynn Escobar’s nonprofit, Hike Clerb, organized an event for the activewear brand in 2023. Three years later, she has yet to see a penny.",
-   "author": "Emma Childs",
-   "date": "2026-10-07T18:45:09.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "My Go-to K-Beauty Moisturizer Is Still Almost 50% Off for Prime Day",
-   "url": "http://www.thecut.com/article/best-october-prime-day-centellian24-moisturizer-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Here’s why I keep a stockpile of the Centellian24 Madeca Cream Time Reverse moisturizer.",
-   "author": "Carol Lee",
-   "date": "2026-10-07T18:15:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Get Up to 50% Off My K-Beauty Essentials Before October Prime Day Ends",
-   "url": "http://www.thecut.com/article/best-october-prime-day-k-beauty-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "There’s plenty of Skin1004, CosRx, and Medicube on the list.",
-   "author": "Carol Lee",
-   "date": "2026-10-07T18:01:00.000Z"
-  },
-  {
    "source": "Nautilus",
    "title": "Neanderthals Were Adept Woodworkers Too",
    "url": "https://nautil.us/neanderthals-were-adept-woodworkers-too-1285608/",
@@ -197,156 +357,12 @@
    "date": "2026-10-07T18:00:00.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "It’s Your Last Chance to Shop Editor-Approved October Prime Day Deals",
-   "url": "http://www.thecut.com/article/best-october-prime-day-deals-2026-day-2.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Save on brands including Apple, Therabody, Shark Beauty, Gap, and Boll & Branch.",
-   "author": "Hanna Flanagan",
-   "date": "2026-10-07T17:51:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Jewelry Designer Incorporating Fingerprints on Purpose",
-   "url": "http://www.thecut.com/article/alice-waese-jewelry-designer-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Alice Waese studied as a sculptor and now uses this skill set at her under-the-radar brand.",
-   "author": "Emma Childs",
-   "date": "2026-10-07T17:21:20.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "The Most Curious Cloud on Mars Relies on Some Bizarre Physics",
-   "url": "https://nautil.us/the-most-curious-cloud-on-mars-relies-on-some-bizarre-physics-1285613/",
-   "blurb": "We’ve never seen anything like this before",
-   "author": "David Nield",
-   "date": "2026-10-07T16:30:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Keri Russell Brought Her Daughter to Paris Fashion Week",
-   "url": "http://www.thecut.com/article/keri-russell-brought-her-daughter-to-paris-fashion-week.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "It’s all the rage.",
-   "author": "Grace Klara Marshall",
-   "date": "2026-10-07T15:58:24.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Prime Day Is Almost Over, But These Non–Prime Day Sales Are Still Going On",
-   "url": "http://www.thecut.com/article/best-non-october-prime-day-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Sales from Nordstrom, Sephora, Net-a-Porter, Walmart, and more.",
-   "author": "Chinea Rodriguez",
-   "date": "2026-10-07T15:55:00.000Z"
-  },
-  {
    "source": "The Paris Review",
    "title": "Prynne’s Last Poem",
    "url": "https://www.theparisreview.org/blog/2026/10/07/jh-prynnes-last-poem-ryan-ruby/",
-   "blurb": "“Prynne never seemed to belong to a bygone era; his poems were always ultracontemporary, unless they were of the future.”",
+   "blurb": "“His poems were always ultracontemporary, unless they were of the future.”",
    "author": "Ryan Ruby",
    "date": "2026-10-07T14:00:51.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Read the winning story of the 2026 Caine Prize for African Writing.",
-   "url": "https://lithub.com/read-the-winning-story-of-the-2026-caine-prize-for-african-writing/",
-   "blurb": "This week, the Caine Prize for African Writing, which awards £10,000 annually to the best short story by an African writer living on the continent or in the diaspora, announced the 2026 winner: Zimbabwean writer Simbarashe Steyn Kundizez…",
-   "author": "Literary Hub",
-   "date": "2026-10-07T13:48:09.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Penguin Poop is Melting Antarctic Snow",
-   "url": "https://nautil.us/penguin-poop-is-melting-antarctic-snow-1285601/",
-   "blurb": "Thanks to green algae that groove on guano",
-   "author": "Devin Reese",
-   "date": "2026-10-07T13:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Creating Fake People is a Terrible Idea",
-   "url": "https://nautil.us/creating-fake-people-is-a-terrible-idea-1285598/",
-   "blurb": "So why is a company pursuing digital avatars with such gusto?",
-   "author": "Anil Seth",
-   "date": "2026-10-07T12:00:00.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "On the Life-and-Death Cycles at the Heart of Sylvia Plath’s Work",
-   "url": "https://lithub.com/on-the-life-and-death-cycles-at-the-heart-of-sylvia-plaths-work/",
-   "blurb": "In 1971, eight years after Sylvia Plath died, a dispute over the backstory of her death broke out between her husband Ted Hughes and the poet and critic Al Alvarez. Alvarez, a friend of Plath, published a book which, in",
-   "author": "Kelly Marie Coyne",
-   "date": "2026-10-07T09:10:08.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Writing in Times of War: Oleksandr Mykhed on Losing Ukrainian Books to Russian Bombs",
-   "url": "https://lithub.com/writing-in-times-of-war-oleksandr-mykhed-on-losing-ukrainian-books-to-russian-bombs/",
-   "blurb": "Beginning on Thursday, August 27, all days blur into one long, endless air raid alarm. 13 air alarms a day, lasting 872 minutes. The next day—12 alarms, lasting 634 minutes. The next—10 alarms, lasting 644 minutes. And so it goes",
-   "author": "Oleksandr Mykhed",
-   "date": "2026-10-07T09:09:34.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Leah C. Stokes Talks Activism, Democracy and the Struggle For the Earth with Bill McKibben",
-   "url": "https://lithub.com/leah-c-stokes-talks-activism-democracy-and-the-struggle-for-the-earth-with-bill-mckibben/",
-   "blurb": "It is quite rare to find someone who is a first-class academic and analyst, and is also able to become a first-class activist, but Leah Stokes is a triple threat. A political scientist at UC Santa Barbara, she wrote the",
-   "author": "Bill McKibben",
-   "date": "2026-10-07T09:09:19.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "An Undocumented War: Inside Deportation’s Machinery of Violence",
-   "url": "https://lithub.com/an-undocumented-war-inside-deportations-machinery-of-violence/",
-   "blurb": "If a body is undocumented, should we be surprised if the war against that body is undocumented too? The ugly truth of deportation is it is a war. An American war predicated on the same things as previous American wars:",
-   "author": "Daniel Peña",
-   "date": "2026-10-07T09:09:17.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Leigh Bardugo on 50 Years of Interview with the Vampire and the Immortality of Anne Rice’s Lestat",
-   "url": "https://lithub.com/leigh-bardugo-on-50-years-of-interview-with-the-vampire-and-the-immortality-of-anne-rices-lestat/",
-   "blurb": "I’m not really interested in wrestling with what defines a classic. It’s the kind of question that fills up think pieces and podcasts with bouts of teeth gnashing and hand-wringing and endless rumination on the Western canon. But let’s a…",
-   "author": "Leigh Bardugo",
-   "date": "2026-10-07T09:09:15.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "What Brazil’s Political Convulsions Reveal About the Global Far-Right",
-   "url": "https://lithub.com/what-brazils-political-convulsions-reveal-about-the-global-far-right/",
-   "blurb": "If there is one thing that the last decade ought to have taught us, it is that strong objective factors do not automatically translate into powerful movements, let alone into the spontaneous discovery of the correct line by the masses.",
-   "author": "Rodrigo Nunes",
-   "date": "2026-10-07T09:08:36.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "A Brief History of Iconic Women Spies in the Comics",
-   "url": "https://lithub.com/a-brief-history-of-iconic-women-spies-in-the-comics/",
-   "blurb": "Señorita Rio stands out as a particularly groundbreaking character, an actor of Latinx heritage who gives up the glitz of Hollywood for the danger of espionage. Created by writer Joe Hawkins and artist Nick Viscardi (also known as Nick “…",
-   "author": "Gaby Iori",
-   "date": "2026-10-07T09:08:27.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "From the Great Sphinx’s Raw Materials, a New Crocodile Species Surfaces",
-   "url": "https://nautil.us/from-the-great-sphinxs-raw-materials-a-new-crocodile-species-surfaces-1285592/",
-   "blurb": "It from a bygone epoch when all sorts of crocs roamed the Mediterranean",
-   "author": "Devin Reese",
-   "date": "2026-10-06T23:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Why Do Obese People With Alzheimer’s Live Longer?",
-   "url": "https://nautil.us/why-do-obese-people-with-alzheimers-live-longer-1285595/",
-   "blurb": "The “obesity paradox” strikes again",
-   "author": "Jake Currie",
-   "date": "2026-10-06T22:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Is Criminal Forensics Bullshit?",
-   "url": "https://nautil.us/is-criminal-forensics-bullshit-1285587/",
-   "blurb": "Blood pattern analysis, ballistics, and drug-sniffing dogs are getting a fresh look",
-   "author": "Jake Currie",
-   "date": "2026-10-06T20:00:00.000Z"
   },
   {
    "source": "The Paris Review",
@@ -469,22 +485,6 @@
    "date": "2026-09-24T10:00:00.000Z"
   },
   {
-   "source": "The Paris Review",
-   "title": "Plan B Is Extremely Dangerous: Benjamin Moser on Anti-Zionism",
-   "url": "https://www.theparisreview.org/blog/2026/09/22/plan-b-is-extremely-dangerous-benjamin-moser-on-anti-zionism/",
-   "blurb": "“Israel’s national argument is based on the idea that Israel keeps Jews safe—that we can exist in Sweden or in Holland or in New Jersey only because we have this plan B.”",
-   "author": "Krithika Varagur",
-   "date": "2026-09-22T14:10:19.000Z"
-  },
-  {
-   "source": "The Paris Review",
-   "title": "Adelle Waldman Is the 2026–2027 Paris Review Visiting Professor at the Bard Prison Initiative",
-   "url": "https://www.theparisreview.org/blog/2026/09/22/adelle-waldman-will-be-the-paris-review-visiting-professor-at-bard-prison-initiative/",
-   "blurb": "“In 2024, The Paris Review and BPI announced a partnership, through which a distinguished creative writer would teach the literature that has most inspired them to BPI’s students.”",
-   "author": "The Paris Review",
-   "date": "2026-09-22T13:00:41.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "Toadstools and toxins",
    "url": "https://aeon.co/essays/a-scientists-search-for-answers-about-amanita-muscaria-gummies",
@@ -499,14 +499,6 @@
    "blurb": "Cicero’s life and thought are a testament to the idea of probabilia: we should be confident in our beliefs, but never certain - by Massimo Pigliucci Read on Aeon",
    "author": "Massimo Pigliucci",
    "date": "2026-09-21T10:00:00.000Z"
-  },
-  {
-   "source": "Aeon",
-   "title": "Cosmic amnesia",
-   "url": "https://aeon.co/essays/black-holes-ring-like-bells-what-happens-next-is-stranger",
-   "blurb": "A black hole rings like a struck bell, then settles into silence, forgetting almost everything about its history. Why? - by Richard Dyer Read on Aeon",
-   "author": "Richard Dyer",
-   "date": "2026-09-18T10:00:00.000Z"
   },
   {
    "source": "Orion Magazine",
