@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T06:15:06.987Z",
+ "updated": "2026-10-13T06:56:11.945Z",
  "report": [
   {
    "source": "Aeon",
@@ -28,6 +28,78 @@
   }
  ],
  "articles": [
+  {
+   "source": "Nautilus",
+   "title": "Can GLP-1s Slow Aging?",
+   "url": "https://nautil.us/can-glp-1s-slow-aging-1285741/",
+   "blurb": "New research unveiled by drug makers says yes",
+   "author": "Jake Currie",
+   "date": "2026-10-12T23:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Mere Minutes With AI Causes a Sharp Drop in Persistence",
+   "url": "https://nautil.us/mere-minutes-with-ai-causes-a-sharp-drop-in-persistence-1285736/",
+   "blurb": "How much cognitive offloading is too much?",
+   "author": "Jake Currie",
+   "date": "2026-10-12T22:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "These New Snails Can Slam Shut Their Shells Like Doors",
+   "url": "https://nautil.us/these-new-snails-can-slam-shut-their-shells-like-doors-1285729/",
+   "blurb": "It’s always good to have the option of some peace and quiet",
+   "author": "David Nield",
+   "date": "2026-10-12T19:30:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Dan Levy Called Out Shane Gillis for Misogyny",
+   "url": "http://www.thecut.com/article/dan-levy-called-out-shane-gillis-misogyny.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Gillis’s Saturday Night Live monologue included a crack about women’s clothes at the gym.",
+   "author": "Kathleen Walsh",
+   "date": "2026-10-12T19:07:04.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "This Is the Oldest Peace Treaty Ever Discovered",
+   "url": "https://nautil.us/this-is-the-oldest-peace-treaty-ever-discovered-1285725/",
+   "blurb": "Maybe there are a few things we can still learn from it",
+   "author": "David Nield",
+   "date": "2026-10-12T18:30:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Blood Cells From an 80-Year-Old Transformed into Young Brain Cells",
+   "url": "https://nautil.us/blood-cells-from-an-80-year-old-transformed-into-young-brain-cells-1285722/",
+   "blurb": "This new technique could be a huge leap forward for age-related brain research",
+   "author": "Jake Currie",
+   "date": "2026-10-12T17:30:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Let’s Break Down Kelly Clarkson’s Brooklyn Toy Store Beef",
+   "url": "http://www.thecut.com/article/kelly-clarkson-brooklyn-toy-store-beef.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The singer has been going back and forth with the store owners for days.",
+   "author": "Kathleen Walsh",
+   "date": "2026-10-12T16:49:10.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "I Seeded My Dreams and This Story Emerged",
+   "url": "https://nautil.us/i-seeded-my-dreams-and-this-story-emerged-1285719/",
+   "blurb": "Poet Will Dowd let Jorge Luis Borges speak to him in his sleep",
+   "author": "Will Dowd",
+   "date": "2026-10-12T16:30:00.000Z"
+  },
+  {
+   "source": "Aeon",
+   "title": "Is everything conscious?",
+   "url": "https://aeon.co/essays/does-the-principle-of-sufficient-reason-make-panpsychism-true",
+   "blurb": "If the question makes no sense to you, try spending some time with the principle of sufficient reason - by Sam Kimpton-Nye Read on Aeon",
+   "author": "Sam Kimpton-Nye",
+   "date": "2026-10-12T10:00:00.000Z"
+  },
   {
    "source": "Nautilus",
    "title": "A Distant Planet Emitted a Burst of Radio Waves. Why?",
@@ -85,14 +157,6 @@
    "date": "2026-10-09T23:00:11.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "Check Out the Mouthparts on This New Prehistoric Insect",
-   "url": "https://nautil.us/check-out-the-mouthparts-on-this-new-prehistoric-insect-1285707/",
-   "blurb": "But it was strictly a vegetarian",
-   "author": "Jake Currie",
-   "date": "2026-10-09T22:30:00.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "‘Pity the Hater,’ by Lauren Oyler",
    "url": "http://www.thecut.com/article/lauren-oyler-short-story-fiction-the-hater-from-feeld.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -107,14 +171,6 @@
    "blurb": "She has no plans to tie the knot with Matthew Rhys anytime soon.",
    "author": "Olivia Craighead",
    "date": "2026-10-09T20:27:28.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Did These Microbes Eat A Lot of the Fossil Record?",
-   "url": "https://nautil.us/did-these-microbes-eat-a-lot-of-the-fossil-record-1285704/",
-   "blurb": "Polymers are stubborn things",
-   "author": "Jake Currie",
-   "date": "2026-10-09T20:00:00.000Z"
   },
   {
    "source": "The Cut",
@@ -149,28 +205,12 @@
    "date": "2026-10-09T18:03:44.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "See the Artemis II Crew’s Handwritten Notes Documenting the Lunar Surface",
-   "url": "https://nautil.us/see-the-artemis-ii-crews-handwritten-notes-documenting-the-lunar-surface-1285671/",
-   "blurb": "People like to say we have more computing power in our pockets than NASA used to get to the moon, but even that understates things. The Apollo guidance computer had a measly four kilobytes of RAM, while the iPhone 17 Pro Max has 12 gigab…",
-   "author": "Jake Currie",
-   "date": "2026-10-09T18:00:00.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "Does Megan Thee Stallion’s Cat Know How Lucky He Is?",
    "url": "http://www.thecut.com/article/megan-thee-stallion-adopted-street-cat-miso.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
    "blurb": "After months of posting about a street cat she named Miso, the rapper finally brought the orange tabby home.",
    "author": "Olivia Craighead",
    "date": "2026-10-09T17:21:04.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Mosasaurs Were Capable of Explosive Speed",
-   "url": "https://nautil.us/mosasaurs-were-capable-of-explosive-speed-1285667/",
-   "blurb": "As if they weren’t terrifying enough",
-   "author": "Jake Currie",
-   "date": "2026-10-09T16:00:00.000Z"
   },
   {
    "source": "The Cut",
@@ -205,14 +245,6 @@
    "date": "2026-10-09T14:00:45.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "Scared of Shots? A Favorite Tune Helps Mute the Pain",
-   "url": "https://nautil.us/scared-of-shots-a-favorite-tune-helps-mute-the-pain-1285664/",
-   "blurb": "Many people really hate needles. When they have to give blood or get an IV for even a small medical procedure, they may panic, tensing up their muscles and spiking their heart rate, which can amplify the pain of the poke. Some people eve…",
-   "author": "Kristen French",
-   "date": "2026-10-09T14:00:00.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "Anthony Vaccarello Says Au Revoir to Saint Laurent",
    "url": "http://www.thecut.com/article/anthony-vaccarello-leaves-saint-laurent-after-a-decade.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -235,14 +267,6 @@
    "blurb": "And it actually worked.",
    "author": "Jessica Willis",
    "date": "2026-10-09T12:00:28.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "This Photo of the Martian Dawn Could Be Curiosity’s Most Serene Image Yet",
-   "url": "https://nautil.us/this-photo-of-the-martian-dawn-could-be-curiositys-most-serene-image-yet-1285659/",
-   "blurb": "Morning on the Red Planet",
-   "author": "David Nield",
-   "date": "2026-10-09T12:00:00.000Z"
   },
   {
    "source": "The Cut",
@@ -323,22 +347,6 @@
    "blurb": "Annie bought a fifth of whiskey from the liquor store beside the Starbucks because money was imminent, and because Vera’s addendum had knocked something loose that needed fixing, the image of her lips against Tom Selleck’s mustache, agai…",
    "author": "Lit Hub Excerpts",
    "date": "2026-10-09T08:44:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Jenna Dewan’s Fiancé Is ‘Unbothered’ by Her DWTS Chemistry",
-   "url": "http://www.thecut.com/article/jenna-dewan-fiance-unbothered-dwts-chemistry.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Steve Kazee told fans who think Dewan looks too cozy with Val Chmerkovskiy to “stay hatin.”",
-   "author": "Kathleen Walsh",
-   "date": "2026-10-08T20:56:47.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "What to Know About the Student Protests in France",
-   "url": "http://www.thecut.com/article/what-to-know-about-student-protests-france.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Nearly 1,000 schools have closed amid a nationwide reckoning about the public-education system.",
-   "author": "Emily Leibert",
-   "date": "2026-10-08T20:47:56.000Z"
   },
   {
    "source": "The Paris Review",
@@ -483,14 +491,6 @@
    "blurb": "Caring for this planet entails decisions that are intimate, about our farms, our homes, our human and our wild neighbours - by Craig Maier Read on Aeon",
    "author": "Craig Maier",
    "date": "2026-09-24T10:00:00.000Z"
-  },
-  {
-   "source": "Aeon",
-   "title": "Toadstools and toxins",
-   "url": "https://aeon.co/essays/a-scientists-search-for-answers-about-amanita-muscaria-gummies",
-   "blurb": "When I found the mushroom Amanita muscaria being sold in candy wrappers, I uncovered legal loopholes, dangerous dosages and more - by Eric Leas Read on Aeon",
-   "author": "Eric Leas",
-   "date": "2026-09-22T10:00:00.000Z"
   },
   {
    "source": "Orion Magazine",
