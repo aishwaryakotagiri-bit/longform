@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T04:56:01.812Z",
+ "updated": "2026-10-16T04:46:35.805Z",
  "report": [
   {
    "source": "Aeon",
@@ -30,9 +30,241 @@
  "articles": [
   {
    "source": "The Cut",
+   "title": "What Would You Do With Alexander Skarsgård’s Wicker Nipples?",
+   "url": "http://www.thecut.com/article/alexander-skarsgard-wicker-nipples-gift.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The Wicker actor gave the “extraordinary” nips to Graham Norton as a gift.",
+   "author": "Kathleen Walsh",
+   "date": "2026-10-16T00:12:47.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Selena Gomez Named an Award After Martin Short’s Daughter",
+   "url": "http://www.thecut.com/article/selena-gomez-named-award-after-martin-short-daughter.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "At the Rare Impact Fund Benefit, Short honored his daughter Katherine, who died by suicide in February.",
+   "author": "Kathleen Walsh",
+   "date": "2026-10-15T22:05:06.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Even Dogs Seem to Experience the Mysterious Bouba/Kiki Effect",
+   "url": "https://nautil.us/even-dogs-seem-to-experience-the-mysterious-bouba-kiki-effect-1285842/",
+   "blurb": "But why?",
+   "author": "Jake Currie",
+   "date": "2026-10-15T22:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Whitney Rose Says She’s ‘Glowing’ After Filing for Divorce",
+   "url": "http://www.thecut.com/article/whitney-rose-says-shes-glowing-after-filing-for-divorce.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "She and Justin Rose have been separated since May.",
+   "author": "Jaharia Knowles",
+   "date": "2026-10-15T21:38:15.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "This Fish Is the Kobayashi of the Sea",
+   "url": "https://nautil.us/this-fish-is-the-kobayashi-of-the-sea-1285839/",
+   "blurb": "It can swallow prey up to 10 times its weight",
+   "author": "Devin Reese",
+   "date": "2026-10-15T21:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Katie Zacharia Is a ‘Lawyer,’ But Not an ‘Attorney’",
+   "url": "http://www.thecut.com/article/is-katie-zacharia-actually-a-lawyer.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Does that clear things up?",
+   "author": "Olivia Craighead",
+   "date": "2026-10-15T20:40:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "How Prehistoric People Survived After One of the Worst Volcanic Eruptions in History",
+   "url": "https://nautil.us/how-prehistoric-people-survived-after-one-of-the-worst-volcanic-eruptions-in-history-1285836/",
+   "blurb": "It’s a story of human resilience",
+   "author": "Jake Currie",
+   "date": "2026-10-15T20:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Here’s How Freaky the Universe Would Look If Light Slowed to 3 Miles Per Hour",
+   "url": "https://nautil.us/heres-how-freaky-the-universe-would-look-if-light-slowed-to-3-miles-per-hour-1285830/",
+   "blurb": "Einstein’s theories in a virtual theme park",
+   "author": "David Nield",
+   "date": "2026-10-15T19:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Why Story and Playtime Really Matter",
+   "url": "https://nautil.us/why-story-and-playtime-really-matter-1285825/",
+   "blurb": "Face-to-face interaction trumps screens for social and language learning",
+   "author": "Kristen French",
+   "date": "2026-10-15T18:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Luxury’s Creative Directors Are in Retrograde",
+   "url": "http://www.thecut.com/article/veronica-leoni-sean-mccirr-leaving-calvin-klein-mcqueen.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Following Anthony Vaccarello leaving Saint Laurent last week, Calvin Klein Collection and McQueen announced changes of their own.",
+   "author": "Emma Childs",
+   "date": "2026-10-15T17:47:13.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Meredith Marks Had a ‘Heart-to-Heart’ With Megan Thee Stallion",
+   "url": "http://www.thecut.com/article/megan-thee-stallion-meredith-marks-heart-to-heart.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "And Marks found her “so cool, so chic.”",
+   "author": "Emily Leibert",
+   "date": "2026-10-15T17:39:24.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Are Ssense Sales Back?",
+   "url": "http://www.thecut.com/article/ssense-is-back-with-a-designer-sale.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "More than a year after filing for bankruptcy, the multi-brand retailer is offering discounts on Rick Owens, Colleen Allen, Agolde, and more.",
+   "author": "Hanna Flanagan",
+   "date": "2026-10-15T17:28:37.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "After Dinosaurs Died, a Massive Fungus Inherited the Forests",
+   "url": "https://nautil.us/after-dinosaurs-died-a-massive-fungus-inherited-the-forests-1285822/",
+   "blurb": "Meet D. rex",
+   "author": "Jake Currie",
+   "date": "2026-10-15T17:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Harry and Meghan Are Back in Business",
+   "url": "http://www.thecut.com/article/prince-harry-and-meghan-markle-are-back-in-business.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "They may not be working royals, but they got a lot of love on their first official joint outing.",
+   "author": "Olivia Craighead",
+   "date": "2026-10-15T15:52:48.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Was This Neanderthal Murdered?",
+   "url": "https://nautil.us/was-this-neanderthal-murdered-1285819/",
+   "blurb": "A prehistoric cold case",
+   "author": "Jake Currie",
+   "date": "2026-10-15T15:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Hilary Swank Is Expecting Her Third Child",
+   "url": "http://www.thecut.com/article/hilary-swank-expecting-third-child.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The actress, who’s 52, previously welcomed twins in 2023.",
+   "author": "Olivia Craighead",
+   "date": "2026-10-15T13:34:25.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Ganni x Lululemon Collaboration Was Made in a Lab for Me",
+   "url": "http://www.thecut.com/article/ganni-lululemon-collection-collaboration-tested-and-reviewed.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Ruffle trims, leopard print, and Bette Porter? I’m sold.",
+   "author": "Brooke LaMantia",
+   "date": "2026-10-15T13:10:35.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Should We Feel Sorry for Elizabeth Holmes?",
+   "url": "http://www.thecut.com/article/you-can-see-everything-elizabeth-holmes-movie-review.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The former Theranos CEO appears fragile and oddly sympathetic in Nathan Fielder and Lance Oppenheim’s new documentary—but how much should we believe?",
+   "author": "Cat Zhang",
+   "date": "2026-10-15T12:00:24.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Do You Have ‘Sudden Wealth Syndrome’?",
+   "url": "http://www.thecut.com/article/sudden-wealth-syndrome-explained-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "A psychologist and therapist coined the term in the ’90s. For the newly rich of today, it’s more relevant than ever.",
+   "author": "Charlotte Cowles",
+   "date": "2026-10-15T12:00:24.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "5 Book Reviews You Need to Read This Week",
+   "url": "https://lithub.com/5-book-reviews-you-need-to-read-this-week-18/",
+   "blurb": "Our quintet of quality reviews this week includes Joanna Scutts on Shawn Gude’s American Socialist, Dwight Garner on Barbara Trapido’s Brother of the More Famous Jack, Rhian Sasseen on Meghan O’Gieblyn’s Will and Attention, Lily Meyer on…",
+   "author": "Book Marks",
+   "date": "2026-10-15T11:50:25.000Z"
+  },
+  {
+   "source": "Aeon",
+   "title": "The ladder of knowledge",
+   "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge",
+   "blurb": "What we claim as ‘true’ is not a ceiling we are forever failing to reach but something that changes as we climb toward it - by Alexander V Gheorghiu Read on Aeon",
+   "author": "Alexander V Gheorghiu",
+   "date": "2026-10-15T10:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "The End of Everything",
+   "url": "https://lithub.com/the-end-of-everything/",
+   "blurb": "For years Phillip Tennent lived at the edge of the sea, where artefacts were washed up every day. Scavengers, professional and otherwise, came and went. Turnover was higher than you’d expect given the relaxed lifestyle, the constant good…",
+   "author": "Lit Hub Excerpts",
+   "date": "2026-10-15T09:20:24.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Why Are Publishers Suing Big Tech With One Hand and Embracing AI With the Other?",
+   "url": "https://lithub.com/why-are-publishers-suing-big-tech-with-one-hand-and-embracing-ai-with-the-other/",
+   "blurb": "Last weekend I had a little stagefright before I was set to appear on a panel about authorship and AI for an event called Whose Truth? Writers and Readers Forum presented by the Authors Guild. I had a feeling I’d",
+   "author": "Maris Kreizman",
+   "date": "2026-10-15T09:10:37.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Anna North on the Genre You Didn’t Know You Needed: Bogcore",
+   "url": "https://lithub.com/anna-north-on-the-genre-you-didnt-know-you-needed-bogcore/",
+   "blurb": "Bogs are big right now. Fashion designers are dipping couture in peat; memes on Instagram offer help choosing your bog witch name. Internationally bestselling authors are (figuratively) mining wetlands for inspiration. The bog and its co…",
+   "author": "Anna North",
+   "date": "2026-10-15T09:09:54.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "How a Novel is Born Among the Superyachts of Monaco",
+   "url": "https://lithub.com/how-a-novel-is-born-among-the-superyachts-of-monaco/",
+   "blurb": "In the summer of 2021, as the Covid-19 pandemic was finally slowing down, my teenage son and I took a trip to Italy. Travel restrictions had been lifted only a few days before, and Rome was almost entirely empty of",
+   "author": "Frank Huyler",
+   "date": "2026-10-15T09:09:43.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Five Essential Books for Understanding North Korea’s Cult of Personality",
+   "url": "https://lithub.com/five-essential-books-for-understanding-north-koreas-cult-of-personality/",
+   "blurb": "Anyone who reads the news or has logged onto social media is aware of the cult of personality around North Korea’s Kim dynasty. From afar, it’s almost cartoonish, with the bronze statues and the funny haircuts and the penchant for",
+   "author": "Jonathan Cheng",
+   "date": "2026-10-15T09:09:32.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Read “Cruise Control,” a New Poem by Eric Amling",
+   "url": "https://lithub.com/read-cruise-control-a-new-poem-by-eric-amling/",
+   "blurb": "There are epiphanies. Posts of stern nonfictions. There arise in us strong love affairs with feedback. The id a remarkable botulism. And what about shuttered domestic spirits. A proclivity for baskets of stone- colored kittens. Rooms tic…",
+   "author": "Jonny Diamond",
+   "date": "2026-10-15T09:09:29.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Meet Biddy Mason, the Black Matriarch Who Helped Build Los Angeles",
+   "url": "https://lithub.com/meet-biddy-mason-the-black-matriarch-who-helped-build-los-angeles/",
+   "blurb": "Southern California’s perennial sunshine rarely penetrated the ground-floor lockup of the Los Angeles county jail. On the best of days a dank stillness would have encased the adobe chamber and those confined within. And this was the wors…",
+   "author": "Kevin Waite",
+   "date": "2026-10-15T09:08:55.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "After Nickel Mines: On Guns and Other Forms of Self-Protection",
+   "url": "https://lithub.com/after-nickel-mines-on-guns-and-other-forms-of-self-protection/",
+   "blurb": "“Kids five and up get in free the first Sunday of the month,” Matt said. We were at Barcade in downtown New Haven, across from Elm City Games, for a date night in late February. Matt was my neighbor in",
+   "author": "Jaclyn Gilbert",
+   "date": "2026-10-15T09:08:21.000Z"
+  },
+  {
+   "source": "The Cut",
    "title": "Adéla Doesn’t Want Fans Tearing Down Rachel Chinouriri’s Posters",
    "url": "http://www.thecut.com/article/adela-says-stop-tearing-down-rachel-chinouriri-posters.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "“It’s [already] hard enough to make sure ur art gets out there & is heard.”",
+   "blurb": "It’s already “hard enough to make sure ur art gets out there & is heard.”",
    "author": "Kathleen Walsh",
    "date": "2026-10-14T22:44:02.000Z"
   },
@@ -77,14 +309,6 @@
    "date": "2026-10-14T20:00:00.000Z"
   },
   {
-   "source": "Literary Hub",
-   "title": "Huzzah! Ross Douthat’s YA fantasy novel is moving from Substack to bookshelves!",
-   "url": "https://lithub.com/huzzah-ross-douthats-ya-fantasy-novel-is-moving-from-substack-to-bookshelves/",
-   "blurb": "Whoa there, weary traveler! Sit awhile and hear my news. Tell me, have you heard of the Emperors of Narsil? The Mandoran Invasion of Brethony? No? What of The Skalbard Coast? Cranholt on the Mersana River? Pharazel Maheris’s “Lives of",
-   "author": "James Folta",
-   "date": "2026-10-14T18:29:32.000Z"
-  },
-  {
    "source": "Nautilus",
    "title": "This Prehistoric Alaskan Camp is Rewriting the History of Beringia",
    "url": "https://nautil.us/this-prehistoric-alaskan-camp-is-rewriting-the-history-of-beringia-1285804/",
@@ -109,14 +333,6 @@
    "date": "2026-10-14T16:44:32.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "The Death of a Russian Plague Researcher, Explained by a Microbiologist",
-   "url": "https://nautil.us/the-death-of-a-russian-plague-researcher-explained-by-a-microbiologist-1285796/",
-   "blurb": "Namely: How worried should we be?",
-   "author": "Thomas Jeffries",
-   "date": "2026-10-14T16:00:00.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "Amy Robach and T.J. Holmes Really Did It",
    "url": "http://www.thecut.com/article/amy-robach-tj-holmes-married-affair-gma.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -125,220 +341,12 @@
    "date": "2026-10-14T15:44:09.000Z"
   },
   {
-   "source": "Literary Hub",
-   "title": "Under threat of arrest Sally Rooney can no longer sell her books in the UK.",
-   "url": "https://lithub.com/under-threat-of-arrest-sally-rooney-can-no-longer-sell-her-books-in-the-uk/",
-   "blurb": "The Irish novelist known for nailing Millennial relationship psychosis and speaking up about Palestine told The Guardian this morning that she can no longer sell her novels in the United Kingdom. This news follows Rooney’s much-publicize…",
-   "author": "Brittany Allen",
-   "date": "2026-10-14T15:30:38.000Z"
-  },
-  {
    "source": "The Paris Review",
    "title": "My Tamagotchi Diary",
    "url": "https://www.theparisreview.org/blog/2026/10/14/tamagotchi-diary-angie-sijun-lou/",
    "blurb": "Angie Sijun Lou’s diary of raising a Tamagotchi, which partly inspired her short story in issue no. 257, “Bubble.”",
    "author": "Angie Sijun Lou",
    "date": "2026-10-14T14:00:39.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Our Messy Cyborg Past and Future",
-   "url": "https://nautil.us/our-messy-cyborg-past-and-future-1285793/",
-   "blurb": "Mike Jay, author of “Wireheads,” on the murky borderlands where the science and fiction of mind control meet",
-   "author": "Kristen French",
-   "date": "2026-10-14T14:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Mia Goth Wants a Word With Instagram",
-   "url": "http://www.thecut.com/article/mia-goth-ai-selfie-instagram.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She’s not pleased that a verified fan account was able to post an AI-generated selfie of her.",
-   "author": "Olivia Craighead",
-   "date": "2026-10-14T13:57:23.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Was Human Language Born Around the Campfire?",
-   "url": "https://nautil.us/was-human-language-born-around-the-campfire-1285790/",
-   "blurb": "Our early human ancestors telling fireside stories may have propelled the development of speech by facilitating discussion of more abstract concepts",
-   "author": "Olivia Ferrari",
-   "date": "2026-10-14T12:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "‘I Made Things Weird With My Work Crush! Should I Resign?’",
-   "url": "http://www.thecut.com/2026/10/going-through-it-work-crush-should-i-resign-advice.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Not necessarily, but you have to stop reading into body language over Zoom.",
-   "author": "Amy Rose Spiegel",
-   "date": "2026-10-14T11:00:02.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Case for the Entry-Level Boyfriend",
-   "url": "http://www.thecut.com/article/entry-level-boyfriends.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Gen-Z women are skipping a crucial step in their dating lives: learning how to actually be in a relationship.",
-   "author": "Sadie Kargman",
-   "date": "2026-10-14T11:00:02.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Is It or Isn’t It? How Generative AI is Poisoning the Literary Well For Everyone",
-   "url": "https://lithub.com/is-it-or-isnt-it-how-generative-ai-is-poisoning-the-literary-well-for-everyone/",
-   "blurb": "Vauhini Vara, who has for years been investigating the impact of AI on writing, published a piece in The Atlantic over the weekend that suggested it was probable that “The Blue Fighter,” a Caine Prize-winning short story, was written using",
-   "author": "James Folta",
-   "date": "2026-10-14T09:10:55.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "What Lies Behind a Blank Wall? On the Myriad Hidden Meanings of White Paint",
-   "url": "https://lithub.com/what-lies-behind-a-blank-wall-on-the-myriad-hidden-meanings-of-white-paint/",
-   "blurb": "The painted white room was born out of an episode of introversion, in an act of creative defiance. On a night in London, a British interior designer and architect named Edward William Godwin holed up in his room to ponder",
-   "author": "Wendy S. Walters",
-   "date": "2026-10-14T09:09:54.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Keep Hope Alive: Al Sharpton Remembers His Mentor, Jesse Jackson",
-   "url": "https://lithub.com/keep-hope-alive-al-sharpton-remembers-his-mentor-jesse-jackson/",
-   "blurb": "There is a moment in every young person’s life when they encounter someone who makes them believe that the world can be different—that they can be different—and nothing is ever the same again. For me, that moment came because of",
-   "author": "Al Sharpton",
-   "date": "2026-10-14T09:09:12.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "On Medieval Europe’s Systemic Slaughter of Nonconformist Women",
-   "url": "https://lithub.com/on-medieval-europes-systemic-slaughter-of-nonconformist-women/",
-   "blurb": "By the end of the Middle Ages, it was a broadly accepted truth that women were running around Europe who had been seduced by Satan and then enabled to perform wicked magic in his stead. Numerous treatise writers began to",
-   "author": "Eleanor Johnson",
-   "date": "2026-10-14T09:09:05.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "The Real Reason the Rent Is Too Damn High: Greed-Driven Corporate Algorithms",
-   "url": "https://lithub.com/the-real-reason-the-rent-is-too-damn-high-greed-driven-corporate-algorithms/",
-   "blurb": "Have you ever wondered why your rent is so damn high? Ask any economist or housing expert and they’ll tell you the reason is simple: There’s not enough housing. Too many tenants are competing for too few units, which drives",
-   "author": "Lindsay Owens",
-   "date": "2026-10-14T09:08:52.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "What My Relationship With a Rescue Raccoon Taught Me About Myself",
-   "url": "https://lithub.com/what-my-relationship-with-a-rescue-raccoon-taught-me-about-myself/",
-   "blurb": "Among the gifts bestowed by my long relationship with a wild deer, chronicled in Penelope: A Love Story, (Crown) being published October 13, was an opening of the spirit, a freedom from human/animal boundaries. This seems to be recognize…",
-   "author": "Paul Bochner",
-   "date": "2026-10-14T09:08:41.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "How Newspapers Helped Democratize Knowledge and Civic Participation",
-   "url": "https://lithub.com/how-newspapers-helped-democratize-knowledge-and-civic-participation/",
-   "blurb": "Literacy is not a deus ex machina descending helpfully from the clouds to usher in a new, more just political order. At the beginning of the twentieth century Germany had been regarded as one of the most literate and civilized",
-   "author": "James Marriott",
-   "date": "2026-10-14T09:08:24.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Joni Mitchell Is Officially a United States Citizen",
-   "url": "http://www.thecut.com/article/joni-mitchell-officially-united-states-citizen.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The “California” singer is originally from Canada.",
-   "author": "Kathleen Walsh",
-   "date": "2026-10-14T00:51:05.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Katie Zacharia’s Terrible, Horrible, No Good, Very Bad Day",
-   "url": "http://www.thecut.com/article/trump-new-press-secretary-rough-first-day.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "White House officials reportedly found the new press secretary’s 14-minute press briefing “rough all around.”",
-   "author": "Kathleen Walsh",
-   "date": "2026-10-13T22:26:28.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Rumi Carter Cut the Ribbon at Beyoncé’s New Housing Center",
-   "url": "http://www.thecut.com/article/rumi-carter-helped-beyonc-open-the-knowles-rowland-house.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The Knowles-Rowland House opening was a family affair.",
-   "author": "Jaharia Knowles",
-   "date": "2026-10-13T22:02:01.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "NASA Shares Image of a Galactic Smiley Face",
-   "url": "https://nautil.us/nasa-shares-image-of-a-galactic-smiley-face-1285779/",
-   "blurb": "Nature has blessed us with brains that are hardwired to find patterns and recognize faces, so it’s no surprise we tend to notice faces even where there aren’t any. Although they may be better educated, the humans at NASA are no different…",
-   "author": "Jake Currie",
-   "date": "2026-10-13T22:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Ego Nwodim Has a Gym Selfie for Shane Gillis",
-   "url": "http://www.thecut.com/article/ego-nwodim-did-not-like-shane-gillis-monologue-snl.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Just another “whore reporting for duty.”",
-   "author": "Emily Leibert",
-   "date": "2026-10-13T21:56:25.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Elephants Engineer Their Ecosystems Even in Death",
-   "url": "https://nautil.us/elephants-engineer-their-ecosystems-even-in-death-1285775/",
-   "blurb": "It’s the circle of life",
-   "author": "Jake Currie",
-   "date": "2026-10-13T21:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "What Will Happen in the Girls Reboot?",
-   "url": "http://www.thecut.com/article/lena-dunham-girls-reboot-announcement.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "A few totally reasonable ideas.",
-   "author": "Olivia Craighead",
-   "date": "2026-10-13T20:06:12.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Deep-Sea Mining Faces Another Hurdle—Exploding Rocks",
-   "url": "https://nautil.us/deep-sea-mining-faces-another-hurdle-exploding-rocks-1285769/",
-   "blurb": "Samples spontaneously combusted in the lab",
-   "author": "Jake Currie",
-   "date": "2026-10-13T20:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Kimberly Guilfoyle’s Big Fat Greek Resignation",
-   "url": "http://www.thecut.com/article/kimberly-guilfoyles-big-fat-greek-resignation.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She’s leaving her position as the ambassador to Greece amid a misconduct investigation.",
-   "author": "Olivia Craighead",
-   "date": "2026-10-13T19:04:27.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Megan Thee Stallion’s Fitness Journey Landed Her a New Job",
-   "url": "http://www.thecut.com/article/megan-thee-stallion-is-gymsharks-newest-athlete.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Gymshark tapped the rapper to be the new face of its brand, and she wants to see all the gym baddies wearing it.",
-   "author": "Asia Milia Ware",
-   "date": "2026-10-13T18:45:59.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Check Out the Natural Beauty of the Natural Landscape Photography Awards",
-   "url": "https://nautil.us/check-out-the-natural-beauty-of-the-natural-landscape-photography-awards-1285755/",
-   "blurb": "What a stunning world we live in",
-   "author": "David Nield",
-   "date": "2026-10-13T18:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Tobey Maguire Officiated His Ex-Wife’s Wedding",
-   "url": "http://www.thecut.com/article/tobey-maguire-officiated-ex-wife-jennifer-meyer-wedding.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "And everyone from Zoë Kravitz to Jeff Bezos were there.",
-   "author": "Olivia Craighead",
-   "date": "2026-10-13T16:26:09.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "‘My Co-worker’s Stress Is Making Our Staff Uncomfortable’",
-   "url": "http://www.thecut.com/article/ask-a-boss-dealing-with-co-workers-stress-advice.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "As her peer, you’re in a delicate situation. But here are a few responses you can try.",
-   "author": "Alison Green",
-   "date": "2026-10-13T16:00:13.000Z"
   },
   {
    "source": "The Paris Review",
@@ -491,14 +499,6 @@
    "blurb": "The notion that fatherhood and creativity are at odds is plain wrong, as both poetry and neuroscience are showing us - by Daniel Swift Read on Aeon",
    "author": "Daniel Swift",
    "date": "2026-09-28T10:00:00.000Z"
-  },
-  {
-   "source": "Aeon",
-   "title": "Reasoning together",
-   "url": "https://aeon.co/essays/habermass-theory-of-truth-meant-he-changed-his-mind",
-   "blurb": "Jürgen Habermas, the great defender of deliberative democracy, lived up to its demands: he never feared changing his mind - by Emilie Prattico Read on Aeon",
-   "author": "Emilie Prattico",
-   "date": "2026-09-25T10:00:00.000Z"
   },
   {
    "source": "Orion Magazine",
