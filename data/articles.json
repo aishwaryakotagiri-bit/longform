@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T04:51:24.792Z",
+ "updated": "2026-10-19T04:59:49.934Z",
  "report": [
   {
    "source": "Aeon",
@@ -24,10 +24,26 @@
   },
   {
    "source": "The Cut",
-   "count": 19
+   "count": 18
   }
  ],
  "articles": [
+  {
+   "source": "Nautilus",
+   "title": "Early Humans in America Endured Climate Chaos",
+   "url": "https://nautil.us/early-humans-in-america-endured-climate-chaos-1285885/",
+   "blurb": "Footprints found at White Sands, New Mexico, were dated to the height of the last ice age",
+   "author": "Sally Christine Reynolds",
+   "date": "2026-10-18T14:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Americans Who Go to Church and Trust Science Are Also More Likely to Believe in Ghosts and Curses",
+   "url": "https://nautil.us/americans-who-go-to-church-and-trust-science-are-also-more-likely-to-believe-in-ghosts-and-curses-1285880/",
+   "blurb": "The church of the supernatural",
+   "author": "Ruiqian Li",
+   "date": "2026-10-18T12:00:00.000Z"
+  },
   {
    "source": "Nautilus",
    "title": "Can We Ditch BMI for an Obesity Index That Predicts Disease Risk Better?",
@@ -323,30 +339,6 @@
    "blurb": "She and Justin Rose have been separated since May.",
    "author": "Jaharia Knowles",
    "date": "2026-10-15T21:38:15.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "This Fish Is the Kobayashi of the Sea",
-   "url": "https://nautil.us/this-fish-is-the-kobayashi-of-the-sea-1285839/",
-   "blurb": "It can swallow prey up to 10 times its weight",
-   "author": "Devin Reese",
-   "date": "2026-10-15T21:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Katie Zacharia Is a ‘Lawyer,’ But Not an ‘Attorney’",
-   "url": "http://www.thecut.com/article/is-katie-zacharia-actually-a-lawyer.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Does that clear things up?",
-   "author": "Olivia Craighead",
-   "date": "2026-10-15T20:40:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "How Prehistoric People Survived After One of the Worst Volcanic Eruptions in History",
-   "url": "https://nautil.us/how-prehistoric-people-survived-after-one-of-the-worst-volcanic-eruptions-in-history-1285836/",
-   "blurb": "It’s a story of human resilience",
-   "author": "Jake Currie",
-   "date": "2026-10-15T20:00:00.000Z"
   },
   {
    "source": "Aeon",
