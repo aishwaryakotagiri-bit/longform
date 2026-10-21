@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-20T05:04:11.649Z",
+ "updated": "2026-10-21T05:04:57.565Z",
  "report": [
   {
    "source": "Aeon",
-   "count": 11
+   "count": 12
   },
   {
    "source": "Literary Hub",
@@ -24,10 +24,234 @@
   },
   {
    "source": "The Cut",
-   "count": 18
+   "count": 19
   }
  ],
  "articles": [
+  {
+   "source": "Nautilus",
+   "title": "Primates Also Become Germophobes After Living Through a Viral Outbreak",
+   "url": "https://nautil.us/primates-also-become-germophobes-after-living-through-a-viral-outbreak-1285973/",
+   "blurb": "And it could shed light on the evolutionary origins of disgust",
+   "author": "Jake Currie",
+   "date": "2026-10-20T23:05:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Are Our Hearts Strong Enough to Get to Mars?",
+   "url": "https://nautil.us/are-our-hearts-strong-enough-to-get-to-mars-1285977/",
+   "blurb": "Prolonged space travel can wreak havoc on the circulatory system",
+   "author": "Jake Currie",
+   "date": "2026-10-20T22:30:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Kim Kardashian Is North West for Halloween",
+   "url": "http://www.thecut.com/article/kim-kardashian-is-north-west-for-halloween.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Hand piercings and all.",
+   "author": "Sam Reed",
+   "date": "2026-10-20T20:46:22.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The Most Unsettling Books We Know",
+   "url": "https://nautil.us/the-most-unsettling-books-we-know-1285958/",
+   "blurb": "Scientists and artists tell us about the book that scared them to the core",
+   "author": "Namir Khaliq",
+   "date": "2026-10-20T20:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Lit Hub is Hiring a Senior Editor For a New Vertical",
+   "url": "https://lithub.com/lit-hub-is-hiring-a-senior-editor-for-a-new-site/",
+   "blurb": "Literary Hub is hiring a Senior Editor to help develop and manage a new site launching in Spring 2027. The vertical will cover the full range of books published each year, fiction and nonfiction, in every category from children’s books",
+   "author": "Literary Hub",
+   "date": "2026-10-20T19:26:26.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Lily Allen Says the Tradwife Movement Once ‘Appealed’ to Her",
+   "url": "http://www.thecut.com/article/lily-allen-says-the-tradwife-movement-once-appealed-to-her.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "But she sees through it now.",
+   "author": "Jaharia Knowles",
+   "date": "2026-10-20T19:01:11.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "How Hunger Can Trigger Alcohol Cravings",
+   "url": "https://nautil.us/how-hunger-can-trigger-alcohol-cravings-1285953/",
+   "blurb": "At least in fruit flies",
+   "author": "Jake Currie",
+   "date": "2026-10-20T19:00:58.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Carrie Coon Saved the ‘Gilded Age’ Cast’s Necks",
+   "url": "http://www.thecut.com/article/carrie-coon-gilded-age-neck-rests.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "It turns out she has the remedy for wearing a giant hat all the time.",
+   "author": "Olivia Craighead",
+   "date": "2026-10-20T17:18:16.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "This Giant Waterlily Species Was Discovered Via Instagram",
+   "url": "https://nautil.us/this-giant-waterlily-species-was-discovered-via-instagram-1285947/",
+   "blurb": "They can grow to more than 6 feet in diameter",
+   "author": "David Nield",
+   "date": "2026-10-20T16:30:00.000Z"
+  },
+  {
+   "source": "The Paris Review",
+   "title": "The Uncanny Catharsis of the AI Emomercial",
+   "url": "https://www.theparisreview.org/blog/2026/10/20/the-uncanny-catharsis-of-the-ai-emomercial/",
+   "blurb": "The new kind of AI skincare ad is a subgenre in a rampant category that I have come to think of as “Purification Slop.\"",
+   "author": "Jean Garnett",
+   "date": "2026-10-20T15:34:54.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "What’s Going on With J.Lo and Brett Goldstein?",
+   "url": "http://www.thecut.com/article/are-jlo-brett-goldstein-dating-office-romance.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The Office Romance co-stars have ignited rumors of a real-life love story.",
+   "author": "Emily Leibert",
+   "date": "2026-10-20T15:24:58.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Alex Cooper Had Her Baby",
+   "url": "http://www.thecut.com/article/alex-cooper-had-her-baby.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "This is the podcast host’s first child with husband Matt Kaplan.",
+   "author": "Olivia Craighead",
+   "date": "2026-10-20T15:15:23.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "What Makes Life Beautiful?",
+   "url": "https://nautil.us/what-makes-life-beautiful-1285942/",
+   "blurb": "The magic of rhyme and the search for a creator",
+   "author": "Kristen French",
+   "date": "2026-10-20T14:30:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Christina Applegate Says She Was Misdiagnosed With MS",
+   "url": "http://www.thecut.com/article/christina-applegate-misdiagnosed-ms.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "“I’m back at square one where I don’t know what’s going on with me.”",
+   "author": "Olivia Craighead",
+   "date": "2026-10-20T13:50:44.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Madewell Has Teamed Up With the New York Public Library",
+   "url": "http://www.thecut.com/article/madewell-new-york-public-library-collection.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The denim brand’s new collaboration with the New York Public Library draws on the library’s archives.",
+   "author": "Bianca Nieves",
+   "date": "2026-10-20T12:30:23.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Banana Republic and Zankov Just Launched the Coziest Collaboration of the Season",
+   "url": "http://www.thecut.com/article/banana-republic-zankov-collaboration-review-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Read one fashion editor’s review of the 27-piece collection, available to shop now.",
+   "author": "Shelby Ying Hyde",
+   "date": "2026-10-20T12:30:23.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Did My Ambition Cost Me $400,000 — and My Marriage?",
+   "url": "http://www.thecut.com/article/did-ambition-cost-me-my-marriage-april-lockhart-essay.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "I became an influencer thinking I had my husband’s full support. Then he cheated on me.",
+   "author": "April Lockhart",
+   "date": "2026-10-20T12:00:20.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Therabody Made a Massage Gun for Your Face",
+   "url": "http://www.thecut.com/article/therabody-thermface-massage-tested-and-reviewed.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "If you also clench or grind your teeth, you’re going to want to see this.",
+   "author": "Carol Lee",
+   "date": "2026-10-20T12:00:20.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Teaching My Daughter to Fight",
+   "url": "http://www.thecut.com/article/teaching-my-daughter-to-fight.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "How do I teach Lulu to be safe in a world that won’t protect her?",
+   "author": "Jason Diamond",
+   "date": "2026-10-20T11:00:32.000Z"
+  },
+  {
+   "source": "Aeon",
+   "title": "How intuitions work",
+   "url": "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how",
+   "blurb": "Just as seeing a tree gives you reason to believe it’s there, sensing that a stranger is creepy gives you reason to walk away - by Marc A Moffett Read on Aeon",
+   "author": "Marc A Moffett",
+   "date": "2026-10-20T10:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Why We Should All Put Down Our Smartphones",
+   "url": "https://lithub.com/why-we-should-all-put-down-our-smartphones/",
+   "blurb": "These days, we use the word “available” to refer primarily to digital availability, i.e., how quickly a person replies to texts or emails. Is there someone you could text right now and be sure of an immediate reply? This type",
+   "author": "August Lamm",
+   "date": "2026-10-20T09:10:32.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Meet the Best Debut Novelists of 2026",
+   "url": "https://lithub.com/meet-the-best-debut-novelists-of-2026/",
+   "blurb": "In September, the Center for Fiction announced the shortlist for their annual First Novel Prize, judged this year by R. O. Kwon, Kiese Laymon, Jordy Rosenberg, and Danzy Senna. The shortlisted authors will each be awarded $1,000, and the…",
+   "author": "Emily Temple",
+   "date": "2026-10-20T09:10:27.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "“If You Write Properly You Shouldn’t Have to Punctuate.” Was Cormac McCarthy That Guy in Your MFA?",
+   "url": "https://lithub.com/if-you-write-properly-you-shouldnt-have-to-punctuate-was-cormac-mccarthy-that-guy-in-your-mfa/",
+   "blurb": "Lee Holleman’s first impression of the campus left her flat. It looked undernourished, somehow: a sense of architectural scrawniness. “The University of Tennessee was overrun with students from Hoboken…[and] New Jersey,” she recalled. “T…",
+   "author": "Tracy Daugherty",
+   "date": "2026-10-20T09:10:21.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "On the Post-War Rise of 20th-Century British Bookselling",
+   "url": "https://lithub.com/on-the-post-war-rise-of-20th-century-british-bookselling/",
+   "blurb": "Unlike some of its continental neighbors, Britain emerged from First World War austerity with its overseas book market largely intact, and a steady stream of distinguished private libraries coming onto the market gave the antiquarian tra…",
+   "author": "Andrew Pettegree",
+   "date": "2026-10-20T09:09:54.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "What John Berryman’s Lectures Revealed About Young Shakespeare—and Himself",
+   "url": "https://lithub.com/what-john-berrymans-lectures-revealed-about-young-shakespeare-and-himself/",
+   "blurb": "As John Berryman’s first marriage was falling apart, his attention turned to the subject of Shakespeare’s youth. It was the spring of 1951 and Berryman, thirty-six years old, was not yet a poet of national renown. Things were looking up,",
+   "author": "Rory Loughnane",
+   "date": "2026-10-20T09:09:52.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "The Real Sherlock Holmes: How an Edinburgh Doctor Inspired Doyle’s Detective",
+   "url": "https://lithub.com/the-real-sherlock-holmes-how-an-edinburgh-doctor-inspired-doyles-detective/",
+   "blurb": "Joe Bell was a man who liked to keep busy. In addition to his hospital and police work, he gradually built one of the largest private practices in Edinburgh, sustaining it throughout his career. Each day he made up to",
+   "author": "Lindsey Fitzharris",
+   "date": "2026-10-20T09:09:29.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "How Being a Writer Helped Me Navigate the American Health Insurance System—and Get My Hands on “Liquid Gold”",
+   "url": "https://lithub.com/how-being-a-writer-helped-me-navigate-the-american-health-insurance-system-and-get-my-hands-on-liquid-gold/",
+   "blurb": "On December 22nd, 2015, after a couple years of unexplained and fleeting on-and-off symptoms, I woke up with a fever, my joints aflame, the air on my skin feeling like shards of glass. Over the next few months my life",
+   "author": "Emma Smith-Stevens",
+   "date": "2026-10-20T09:08:49.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Meghan O’Rourke, Zaina Arafat, Philippa Gregory, and more: 20 new books out today!",
+   "url": "https://lithub.com/meghan-orourke-zaina-arafat-philippa-gregory-and-more-20-new-books-out-today/",
+   "blurb": "We’re easing out of one of the biggest-fiction-books-falls I’ve ever encountered. It was nearly relentless, the huge, hotly anticipated novels that were flying off printing presses and into our waiting hands. We’re tapering off, slightly…",
+   "author": "Julia Hass",
+   "date": "2026-10-20T08:12:54.000Z"
+  },
   {
    "source": "Nautilus",
    "title": "Walking May Improve Your Attention Span",
@@ -109,14 +333,6 @@
    "date": "2026-10-19T20:00:00.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "Teen Girls Are Now More Likely to Vape Than Boys",
-   "url": "https://nautil.us/teen-girls-are-now-more-likely-to-vape-than-boys-1285910/",
-   "blurb": "With the advent of e-cigarettes, millions of smokers gained a way to get their nicotine fix without many of the negative health effects of lighting tobacco on fire. Of course, because the technology is relatively new, there’s plenty we d…",
-   "author": "Jake Currie",
-   "date": "2026-10-19T18:32:46.000Z"
-  },
-  {
    "source": "The Paris Review",
    "title": "John Steinbeck, Unlocked: “East of Eden is Going to Take a Bad Beating”",
    "url": "https://www.theparisreview.org/blog/2026/10/19/john-steinbeck-art-of-fiction-east-of-eden/",
@@ -141,204 +357,12 @@
    "date": "2026-10-19T17:37:14.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "How Our Brains Read Emotions in Other People",
-   "url": "https://nautil.us/how-our-brains-read-emotions-in-other-people-1285896/",
-   "blurb": "This multisensory process engages many brain networks at once",
-   "author": "Kristen French",
-   "date": "2026-10-19T17:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Presley Gerber’s Family Is ‘Beyond Heartbroken’",
-   "url": "http://www.thecut.com/article/presley-gerbers-death-cindy-crawford-kaia-gerber-tribute.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Cindy Crawford, Kaia Gerber, and Rande Gerber wrote about losing the 27-year-old a month after his death.",
-   "author": "Olivia Craighead",
-   "date": "2026-10-19T16:01:17.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Watch This Snake Cartwheel Away From Danger",
-   "url": "https://nautil.us/watch-this-snake-cartwheel-away-from-danger-1285899/",
-   "blurb": "Keep on rolling",
-   "author": "David Nield",
-   "date": "2026-10-19T15:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Amanda Seyfried Doesn’t Know How to Talk About It Yet",
-   "url": "http://www.thecut.com/article/amanda-seyfried-cant-talk-you-can-see-everything.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "“Life is long.”",
-   "author": "Olivia Craighead",
-   "date": "2026-10-19T14:37:48.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "A Tour Through the Graveyard of Failed Celebrity Brands",
-   "url": "http://www.thecut.com/article/celebrity-brands-businesses-that-failed.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Pouring one out for Pharrell’s Qream.",
-   "author": "Allie Jones",
-   "date": "2026-10-19T13:00:43.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Beauty Products Celebrity Aesthetician Andrea Ámez Uses to the Last Drop",
-   "url": "http://www.thecut.com/article/andrea-amez-skin-care-routine-best-beauty-products.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She adores Cetaphil cleanser, Osmosis serum, and Santa Maria Novella bodywash.",
-   "author": "Carol Lee",
-   "date": "2026-10-19T12:00:50.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Jaye Kim’s Sculptural Ceramics Lean Into the Human Touch",
-   "url": "http://www.thecut.com/article/jaye-kims-sculptural-ceramics-lean-into-the-human-touch.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Yes, those fingerprints are intentional.",
-   "author": "Evan Nicole Brown",
-   "date": "2026-10-19T11:00:10.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Give Louise Trotter Her Time",
-   "url": "http://www.thecut.com/article/louise-trotter-bottega-veneta-plans.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The Bottega Veneta designer is betting her clients, like her, care more about quality and craft than trends and stunts.",
-   "author": "Chantal Fernandez",
-   "date": "2026-10-19T11:00:10.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "Horrible, unmanly, indispensable",
    "url": "https://aeon.co/essays/the-renaissance-gun-from-diabolical-device-to-popular-militias",
    "blurb": "Renaissance Italians saw the gun as the Devil’s work. But soon they embraced this unchivalrous – and necessary – weapon - by Catherine Fletcher Read on Aeon",
    "author": "Catherine Fletcher",
    "date": "2026-10-19T10:00:00.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "On Writing About Syria’s Uyghur Community As a Chinese-American",
-   "url": "https://lithub.com/on-writing-about-syrias-uyghur-community-as-a-chinese-american/",
-   "blurb": "All photos by Emily Feng The story began like this: I was moving back to the United States, after having lived abroad for the last ten years, working as a foreign correspondent, and while all my belongings were being shipped",
-   "author": "Emily Feng",
-   "date": "2026-10-19T09:09:54.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "A Look at Life Aboard the Hindenburg Before Disaster Struck",
-   "url": "https://lithub.com/a-look-at-life-aboard-the-hindenburg-before-disaster-struck/",
-   "blurb": "Over the Atlantic Ocean: May 4, 1937 Ernst Lehmann had transported some interesting creatures in his time as a zeppelin captain—prize Trakehner horses from Prussia; gorillas, chimpanzees, and monkeys used in scientific research; guinea p…",
-   "author": "Catherine Grace Katz",
-   "date": "2026-10-19T09:09:40.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Enough With Your Lost Cause: The Treasonous Confederacy Was Never a Nation",
-   "url": "https://lithub.com/enough-with-your-lost-cause-the-treasonous-confederacy-was-never-a-nation/",
-   "blurb": "From Abraham Lincoln’s first day as president, he had declared secession unconstitutional, the Confederate movement an insurrection, and their cause inhumane. Secession, he remarked in an early message to Congress, was “rebellion thus su…",
-   "author": "Connor Williams",
-   "date": "2026-10-19T09:09:32.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Why Are So Many Contemporary Novelists Not Naming the Narrator?",
-   "url": "https://lithub.com/why-are-so-many-contemporary-novelists-not-naming-the-narrator/",
-   "blurb": "Often, I don’t notice it: the nameless narrator. Because I write nonfiction, I rarely include my own name. Why would I? It’s right there. It’s only when I finish a novel and try to Google a question that I realize",
-   "author": "Ilana Bean",
-   "date": "2026-10-19T09:09:16.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "A Field-Guide to the Brontës’ Literary Universe",
-   "url": "https://lithub.com/a-field-guide-to-the-brontes-literary-universe/",
-   "blurb": "In late May of 2022, the COVID pandemic was not completely over, but many countries, including the United Kingdom, starting lifting restrictions on travel. And so, after a transatlantic flight and a LNER train, in what felt like a state",
-   "author": "Amy M. King",
-   "date": "2026-10-19T09:09:10.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Joseph Luzzi on Finding Inspiration Through His Mother’s Storytelling",
-   "url": "https://lithub.com/joseph-luzzi-on-finding-inspiration-through-his-mothers-storytelling/",
-   "blurb": "My career as a writer—and life writ large—took a dramatic turn when I received a contract to write My Two Italies in 2011, my first book for general readers and a swerve from the more academic work I had done",
-   "author": "Joseph Luzzi",
-   "date": "2026-10-19T09:08:58.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Five Essential Books For Understanding Chinese American History",
-   "url": "https://lithub.com/five-essential-books-for-understanding-chinese-american-history/",
-   "blurb": "Every year I begin the semester by asking my college students, “What do you know about Asian American history? What have you been taught?” The most frequent answer I get is (a sheepish): “nothing.” When pressed, students will usually recall",
-   "author": "Beth Lew-Williams",
-   "date": "2026-10-19T09:08:09.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "How the Growing Role of Memoir in the Academy Offers a New Way to Teach Race and Gender",
-   "url": "https://lithub.com/how-the-growing-role-of-memoir-in-the-academy-offers-a-new-way-to-teach-race-and-gender/",
-   "blurb": "In this conversation, two sociologists discuss how to balance personal perspective with an academic approach to memoir. From writing, to reading, to teaching memoir, these authors offer a unique perspective on the growing role of memoir…",
-   "author": "Tiffany Gayle Chenault and Georgiann Davis",
-   "date": "2026-10-19T09:07:35.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "The Occidental Book of the Dead",
-   "url": "https://lithub.com/the-occidental-book-of-the-dead/",
-   "blurb": "George Washington Carver Technical High School was dedicated in 1943, the year its namesake died. Several administrative offices and a few class-rooms had since been renovated. Anthony was in one such classroom: there was a ceiling fan.…",
-   "author": "Lit Hub Excerpts",
-   "date": "2026-10-19T09:04:59.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Early Humans in America Endured Climate Chaos",
-   "url": "https://nautil.us/early-humans-in-america-endured-climate-chaos-1285885/",
-   "blurb": "Footprints found at White Sands, New Mexico, were dated to the height of the last ice age",
-   "author": "Sally Christine Reynolds",
-   "date": "2026-10-18T14:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Americans Who Go to Church and Trust Science Are Also More Likely to Believe in Ghosts and Curses",
-   "url": "https://nautil.us/americans-who-go-to-church-and-trust-science-are-also-more-likely-to-believe-in-ghosts-and-curses-1285880/",
-   "blurb": "The church of the supernatural",
-   "author": "Ruiqian Li",
-   "date": "2026-10-18T12:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Can We Ditch BMI for an Obesity Index That Predicts Disease Risk Better?",
-   "url": "https://nautil.us/can-we-ditch-bmi-for-an-obesity-index-that-predicts-disease-risk-better-1285877/",
-   "blurb": "It’s ridiculously simplistic and nearly two centuries old",
-   "author": "Jake Currie",
-   "date": "2026-10-17T14:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "An Under-$100 North Face Fleece and 35 More Great Deals",
-   "url": "http://www.thecut.com/article/sale-rothys-anthropologie-mini-boden.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Including cozy clogs from Rothy’s, last-minute Halloween costumes, and humidifiers to get your home ready for winter.",
-   "author": "Sam Daly",
-   "date": "2026-10-16T23:28:31.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "What Chappell Roan, Selena Gomez, and Olandria Wore This Week",
-   "url": "http://www.thecut.com/article/what-selena-gomez-and-olandria-wore-this-week.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Cool jacket season is officially here. Are you ready for it?",
-   "author": "Jaharia Knowles",
-   "date": "2026-10-16T23:13:14.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Guy Having Sex Behind a Curtain at the Club",
-   "url": "http://www.thecut.com/article/new-sex-diaries-story-the-guy-having-sex-at-a-nightclub.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "In this week’s story, a man leaves his corporate day job and heads out into the night.",
-   "author": "Alyssa Shelasky",
-   "date": "2026-10-16T23:00:38.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "‘The Meeting in Munich,’ by Lauren Oyler",
-   "url": "http://www.thecut.com/article/lauren-oyler-short-story-fiction-the-hater-from-feeld.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The fourth installment of a six-part serialized short story.",
-   "author": "Lauren Oyler",
-   "date": "2026-10-16T20:45:00.000Z"
   },
   {
    "source": "The Paris Review",
@@ -368,7 +392,7 @@
    "source": "The Paris Review",
    "title": "My Tamagotchi Diary",
    "url": "https://www.theparisreview.org/blog/2026/10/14/tamagotchi-diary-angie-sijun-lou/",
-   "blurb": "“After a Tamagotchi dies, her spirit gets trapped in limbo. The player is tasked with raising the Tamagotchi in the afterlife until she is ready to join the league of angels in heaven.”",
+   "blurb": "“After a Tamagotchi dies, her spirit gets trapped in limbo.”",
    "author": "Angie Sijun Lou",
    "date": "2026-10-14T14:00:39.000Z"
   },
@@ -467,14 +491,6 @@
    "blurb": "For a decade, I’ve posted episodes of my memoir to Facebook. My readers correct my understanding of my past - by Thomas Söderqvist Read on Aeon",
    "author": "Thomas Söderqvist",
    "date": "2026-10-05T10:00:00.000Z"
-  },
-  {
-   "source": "The Paris Review",
-   "title": "On Children’s Books: Faith Ringgold’s The Invisible Princess",
-   "url": "https://www.theparisreview.org/blog/2026/10/02/the-invisible-princess-faith-ringgold/",
-   "blurb": "Asha Futterman, whose poem “Study of Children” appears in our new Fall issue, on the unsettling harmony of Faith Ringgold’s 1998 fairy tale.",
-   "author": "Asha Futterman",
-   "date": "2026-10-02T14:24:29.000Z"
   },
   {
    "source": "Aeon",
