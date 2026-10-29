@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-28T05:59:21.372Z",
+ "updated": "2026-10-29T06:06:33.281Z",
  "report": [
   {
    "source": "Aeon",
-   "count": 12
+   "count": 11
   },
   {
    "source": "Literary Hub",
@@ -28,6 +28,230 @@
   }
  ],
  "articles": [
+  {
+   "source": "Nautilus",
+   "title": "Dead Star Offers a Glimpse Into Our Solar System’s Future",
+   "url": "https://nautil.us/dead-star-offers-a-glimpse-into-our-solar-systems-future-1286164/",
+   "blurb": "A ring of debris hints at planetary survivors",
+   "author": "Jake Currie",
+   "date": "2026-10-28T22:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Vultures Help Eliminate Pathogens. Bird Flu Could Eliminate Them",
+   "url": "https://nautil.us/vultures-help-eliminate-pathogens-bird-flu-could-eliminate-them-1286160/",
+   "blurb": "Dwindling vulture populations are locked in a fight for their lives",
+   "author": "Jake Currie",
+   "date": "2026-10-28T21:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "What’s Going on Between Candice Swanepoel and Joan Smalls?",
+   "url": "http://www.thecut.com/article/whats-going-on-between-candice-swanepoel-and-joan-smalls.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Some very pointed Instagram comments suggest it has to do with Tom Brady.",
+   "author": "Sam Reed",
+   "date": "2026-10-28T20:48:56.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Dax Shepard Flirts With Kristen Bell by Doing … What?",
+   "url": "http://www.thecut.com/article/dax-shepard-flirts-with-kristen-bell-by-complimenting-women.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Apparently she loves it when he compliments other women.",
+   "author": "Grace Klara Marshall",
+   "date": "2026-10-28T20:15:29.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The Quest for Wisdom in Turbulent Times",
+   "url": "https://nautil.us/the-quest-for-wisdom-in-turbulent-times-1286156/",
+   "blurb": "A conversation with three Harvard professors about the practice of wisdom in everyday living",
+   "author": "Kristen French",
+   "date": "2026-10-28T20:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Labor Pioneer Dolores Huerta Has Died",
+   "url": "http://www.thecut.com/article/labor-pioneer-dolores-huerta-has-died.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Huerta founded the United Farm Workers union alongside her now-disgraced fellow organizer, César Chavez.",
+   "author": "Olivia Craighead",
+   "date": "2026-10-28T19:37:17.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Demi Lovato Hospitalized for Mystery Allergic Reaction",
+   "url": "http://www.thecut.com/article/demi-lovato-hospitalized-for-mystery-allergic-reaction.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Apparently, it was either sushi or passion fruit.",
+   "author": "Sam Reed",
+   "date": "2026-10-28T18:00:27.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Hunting is for Girls—at Least Among Bonobos",
+   "url": "https://nautil.us/hunting-is-for-girls-at-least-among-bonobos-1286153/",
+   "blurb": "They out-hunt their male counterparts",
+   "author": "Jake Currie",
+   "date": "2026-10-28T18:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Jennifer Lawrence Got Death Threats for Her Summer I Turned Pretty Take",
+   "url": "http://www.thecut.com/article/jennifer-lawrence-death-threats-tsitp-hot-take.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Peeta vs. Gale was nothing compared to outing herself as Team Jeremiah.",
+   "author": "Emily Leibert",
+   "date": "2026-10-28T16:42:34.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Amy Griffin Memoir Fallout Just Keeps Going",
+   "url": "http://www.thecut.com/article/amy-griffin-memoir-fallout-billy-bush-katherine-rosman-son.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The billionaire memoirist has now been accused of causing a scene at an A-list wedding and threatening a reporter’s children.",
+   "author": "Olivia Craighead",
+   "date": "2026-10-28T16:27:54.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "When Frog Eyes Are Like Fingerprints",
+   "url": "https://nautil.us/when-frog-eyes-are-like-fingerprints-1286150/",
+   "blurb": "The eyes of egg-eating spiny-backed frogs certainly make an impression",
+   "author": "Devin Reese",
+   "date": "2026-10-28T16:00:00.000Z"
+  },
+  {
+   "source": "The Paris Review",
+   "title": "Our Fall Issue Cover: Elizabeth Glaessner’s Big Head",
+   "url": "https://www.theparisreview.org/blog/2026/10/28/elizabeth-glaessner-big-head/",
+   "blurb": "“The title kind of teases the painting. It’s a tiny person painting a giant head, which sounds like it could be about the ego.”",
+   "author": "Hazel Byers and Izzy Casey",
+   "date": "2026-10-28T15:57:53.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Up Late With the Fae at the ACOTAR 6 Midnight Release Party",
+   "url": "http://www.thecut.com/article/a-court-of-splintered-harmony-acotar-6-release-party-recap.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Glitter reigned at the Ripped Bodice’s celebration for Sarah J. Maas’s A Court of Splintered Harmony.",
+   "author": "Scarlett Newman",
+   "date": "2026-10-28T14:57:01.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Carrie Ann Inaba Is Over the DWTS Drama",
+   "url": "http://www.thecut.com/article/carrie-ann-inaba-over-dwts-drama.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "She and Val Chmerkovskiy are “co-workers” and are “completely cordial.”",
+   "author": "Olivia Craighead",
+   "date": "2026-10-28T14:15:39.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Forgotten Coding Queens, Telephones Untangled, and a Poisonous Quest: 8 Books We’re Excited to Read This November",
+   "url": "https://nautil.us/forgotten-coding-queens-telephones-untangled-and-a-poisonous-quest-8-books-were-excited-to-read-this-november-1286136/",
+   "blurb": "The Nautilus monthly reading list",
+   "author": "Bob Grant",
+   "date": "2026-10-28T14:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "‘How Do I Stop Being a Control Freak on Vacation?’",
+   "url": "http://www.thecut.com/article/going-through-it-how-to-not-ruin-a-romantic-vacation-advice.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Plan to relax. Also, to have one fight.",
+   "author": "Amy Rose Spiegel",
+   "date": "2026-10-28T12:00:06.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "How to Have Sex When You Also Have Roommates",
+   "url": "http://www.thecut.com/article/how-to-have-sex-with-roommates-guide.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "An etiquette guide for these economically and sexually trying times.",
+   "author": "Emily Leibert",
+   "date": "2026-10-28T12:00:06.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Cloudy With a Chance of Incineration: Predicting Weather on Distant Worlds",
+   "url": "https://nautil.us/cloudy-with-a-chance-of-incineration-predicting-weather-on-distant-worlds-1286133/",
+   "blurb": "How scientists decode climate light-years away",
+   "author": "David Nield",
+   "date": "2026-10-28T12:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "What If a Crisis Pregnancy Center Was Pro-Choice?",
+   "url": "http://www.thecut.com/article/justchoice-ohio-clinic-pro-choice-crisis-pregnancy-center.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "JustChoice is charting a new path in our post-Dobbs world from Cincinnati, Ohio.",
+   "author": "Andrea González-Ramírez",
+   "date": "2026-10-28T11:00:37.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Pretending to Be Tony Shalhoub: On Co-Writing a Book in My Father’s Voice",
+   "url": "https://lithub.com/pretending-to-be-tony-shalhoub-on-co-writing-a-book-in-my-fathers-voice/",
+   "blurb": "For the past few years, my father and I have been writing a book together, a memoir told in his first-person voice. This has required me to do something I never expected to do professionally: imitate Tony Shalhoub. But not",
+   "author": "Josie Adams",
+   "date": "2026-10-28T09:00:49.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Is Hitchcock Horror, Romance, or Both?",
+   "url": "https://lithub.com/is-hitchcock-horror-romance-or-both/",
+   "blurb": "Alfred Hitchcock is known as the master of suspense, and he’s one of my favorite classic film directors, creating some fantastically memorable scenes and characters. One of my absolute favorite sequences in all of cinema is in North by N…",
+   "author": "Emma Cole",
+   "date": "2026-10-28T08:50:13.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Tiny, Furry Friends: A Short History of Small Dogs in European Art",
+   "url": "https://lithub.com/tiny-furry-friends-a-short-history-of-small-dogs-in-european-art/",
+   "blurb": "On August 29, 1511, Isabella d’Este, the Marchioness of Mantua, patron of the arts, fashion icon, and one of the most famous women in Renais-sance Italy, suffered a great loss. Isabella was an animal lover, and she loved little dogs",
+   "author": "Stephanie Howard-Smith",
+   "date": "2026-10-28T08:45:55.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "What Working in the Emergency Department Taught Me About Death",
+   "url": "https://lithub.com/what-working-in-the-emergency-department-taught-me-about-death/",
+   "blurb": "In the five years I spent at medical school, I learned a lot about death. My classmates and I spent endless hours in a darkened lecture theatre, trying to understand the many and varied ways in which a body can",
+   "author": "Joanna Cannon",
+   "date": "2026-10-28T08:40:19.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Embracing the Darkness: In Praise of Writing Post-Apocalyptic Fiction",
+   "url": "https://lithub.com/embracing-the-darkness-in-praise-of-writing-post-apocalyptic-fiction/",
+   "blurb": "As we increasingly feel the world around us crumbling under the weight of division and human suffering, there’s an odd kind of freedom in conceptualizing complete demolition. Deadly pandemics, zombie hordes, and societal collapse don’t s…",
+   "author": "Kate Maupin",
+   "date": "2026-10-28T08:35:30.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "The Limits of Rationality: On Gulliver’s Travels at 300",
+   "url": "https://lithub.com/the-limits-of-rationality-on-gullivers-travels-at-300/",
+   "blurb": "On every birthday, Jonathan Swift would take off his starched, powdered wig with its cascade of white curls, gingerly place it down by the candle-light illuminated stained-glass window of the Deanery of Saint Patrick’s Cathedral. He woul…",
+   "author": "Ed Simon",
+   "date": "2026-10-28T08:30:27.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "How Becoming a Preacher Made Me a Better Writer",
+   "url": "https://lithub.com/how-becoming-a-preacher-made-me-a-better-writer/",
+   "blurb": "In my mid-thirties, I became a preacher. Might as well come right out with it, admit I’m a preacher the way a neighbor at the block party might mention they have COVID. Seems only fair to give you a chance",
+   "author": "Mindy Misener",
+   "date": "2026-10-28T08:20:01.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Foreign",
+   "url": "https://lithub.com/foreign/",
+   "blurb": "Bajirao knew Gayatri was giving him her wordless approval. All she had to do was brush her fingers over her nose ring and clear her throat. How many years had it been since she first thought of this way of",
+   "author": "Lit Hub Excerpts",
+   "date": "2026-10-28T08:00:37.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Worth the Risk: On Daring to Choose the Writing Life",
+   "url": "https://lithub.com/worth-the-risk-on-daring-to-choose-the-writing-life/",
+   "blurb": "When I was child, my parents told me to “be smart” at least once a day. Depending on the context, these words stood in for a range of different things: a goodbye when I ran out the door for school,",
+   "author": "Jung Yun",
+   "date": "2026-10-28T07:00:52.000Z"
+  },
   {
    "source": "Nautilus",
    "title": "What Can We Learn About Happiness From the People Who Study It?",
@@ -101,14 +325,6 @@
    "date": "2026-10-27T18:10:45.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "The Teenage Girl Who Remembers Everything",
-   "url": "https://nautil.us/the-teenage-girl-who-remembers-everything-1286118/",
-   "blurb": "A conversation with a scientist about a 16-year-old who has highly superior autobiographical memory",
-   "author": "Kristen French",
-   "date": "2026-10-27T18:00:00.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "Dove’s Iconic Beauty Bar Was Bottled Up Into a Scent",
    "url": "http://www.thecut.com/article/doves-iconic-beauty-bar-was-bottled-up-into-a-scent.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -125,62 +341,6 @@
    "date": "2026-10-27T16:00:49.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Sophie Turner Is a Brunette Now",
-   "url": "http://www.thecut.com/article/sophie-turner-is-a-brunette-now.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Do you recognize this woman?",
-   "author": "Jaharia Knowles",
-   "date": "2026-10-27T16:00:02.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "How Jumping Spiders Sleep",
-   "url": "https://nautil.us/how-jumping-spiders-sleep-1286115/",
-   "blurb": "Remarkably like us with cycles of wakefulness and REM",
-   "author": "Devin Reese",
-   "date": "2026-10-27T16:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Meghan Markle Found a New TV Gig",
-   "url": "http://www.thecut.com/article/meghan-markles-new-job-junior-masterchef-australia.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She’ll be lending her talents to the next season of Junior MasterChef Australia.",
-   "author": "Olivia Craighead",
-   "date": "2026-10-27T15:43:52.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Zendaya Is the Golden State Valkyries’ New MVP",
-   "url": "http://www.thecut.com/article/zendaya-cheered-on-golden-state-valkyries.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She and her pixie cut cheered on her WNBA home team during Monday night’s Finals game.",
-   "author": "Emily Leibert",
-   "date": "2026-10-27T15:32:46.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "When Texas Bat “Cities” Look Like Thunderstorms",
-   "url": "https://nautil.us/when-texas-bat-cities-look-like-thunderstorms-1286109/",
-   "blurb": "Weather apps generally modify their default settings to remove such scenes from Doppler radarviews. Otherwise, live-feed watchers would think a torrential downpour is imminent",
-   "author": "Ryan Huling",
-   "date": "2026-10-27T14:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Will Jay-Z Give Us a Beyoncé Super Bowl Cameo or What?",
-   "url": "http://www.thecut.com/article/jay-z-super-bowl-halftime-show-beyonce.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The upside of choosing yourself to perform at halftime is you get to invite your wife.",
-   "author": "Olivia Craighead",
-   "date": "2026-10-27T13:27:25.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Chrishell Stause and G Flip Have Separated",
-   "url": "http://www.thecut.com/article/chrishell-stause-and-g-flip-broke-up.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "“This sucks, but everyone deserves to be happy and I wish that for both of us,” Stause said.",
-   "author": "Olivia Craighead",
-   "date": "2026-10-27T13:27:00.000Z"
-  },
-  {
    "source": "The Paris Review",
    "title": "Sexless in the City: The Second Life of Cynthia Buchanan’s Maiden",
    "url": "https://www.theparisreview.org/blog/2026/10/27/second-life-of-cynthia-buchanans-maiden/",
@@ -189,164 +349,12 @@
    "date": "2026-10-27T12:00:36.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "‘I’m Addicted to Buying Loose Diamonds on TikTok’",
-   "url": "http://www.thecut.com/article/diamond-auction-tik-tok-streams-addiction.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Are you dropping thousands of dollars on lab-grown gems while doomscrolling in bed, too?",
-   "author": "Emma Childs",
-   "date": "2026-10-27T12:00:35.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Take a Look at the Country’s Newest National Park",
-   "url": "https://nautil.us/take-a-look-at-the-countrys-newest-national-park-1286101/",
-   "blurb": "It may take a while to become as famous as Yosemite, the Grand Canyon, or Monument Valley, but the 12,000-acre Chiricahua area in southeast Arizona just became the 64th national park in the U.S. Known as “the wonderland of rocks,” Chiric…",
-   "author": "David Nield",
-   "date": "2026-10-27T12:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Pediatricians Weren’t Trained to Treat Childhood Depression",
-   "url": "http://www.thecut.com/article/can-pediatricians-help-solve-the-child-mental-health-crisis.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Parents are increasingly turning to their child’s primary-care doctor for mental-health help. But many doctors say they’re ill prepared for the task.",
-   "author": "Katie Arnold-Ratliff",
-   "date": "2026-10-27T11:00:10.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "When the ‘Mommune’ Isn’t All It’s Cracked Up to Be",
-   "url": "http://www.thecut.com/article/the-mommune-parenting-hack-for-single-moms.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Moving in with another single mom seemed like the ultimate parenting hack. Then reality set in.",
-   "author": "Erica Schwiegershausen",
-   "date": "2026-10-27T11:00:10.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Jennifer Lawrence Hopes You Won’t Hate Her New Project",
-   "url": "http://www.thecut.com/article/jennifer-lawrence-cut-cover-mes-october-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The A-list actor is getting into the celebrity-beauty game. Just hear her out.",
-   "author": "Angelina Chapin",
-   "date": "2026-10-27T11:00:10.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "Love with nowhere to go",
    "url": "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death",
    "blurb": "Grief is not only for the dead. When we are unable to honour other profound losses, we become strangers to ourselves - by Derek van Zoonen Read on Aeon",
    "author": "Derek van Zoonen",
    "date": "2026-10-27T10:00:00.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Jane Eyre’s Watercolors, Lily Briscoe’s Paintings, and The Problem With Writing About Art",
-   "url": "https://lithub.com/jane-eyres-watercolors-lily-briscoes-paintings-and-the-problem-with-writing-about-art/",
-   "blurb": "Is it telling that I was always more interested in the amateurs? When I think about the literary depictions of artists I liked best, they tend to share certain qualities: frustrated effort, a willfulness about vocation that verges on del…",
-   "author": "Rebecca Birrell",
-   "date": "2026-10-27T09:00:37.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Who Chooses the Poems For the New York City Subway?",
-   "url": "https://lithub.com/who-chooses-the-poems-for-the-new-york-city-subway/",
-   "blurb": "New York’s subway, from its founding, was dreamt as a public good in all senses, to provide a useful and reliable service that was also a pleasant place to be. City train stations were filled with decorative ornamentation, public art",
-   "author": "James Folta",
-   "date": "2026-10-27T08:55:56.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Mr. Prufrock Picks Peaches: On Finding the Poetry in Every Kitchen",
-   "url": "https://lithub.com/mr-prufrock-picks-peaches-on-finding-the-poetry-in-every-kitchen/",
-   "blurb": "The following is from The Two Saddest Kitchens: A Comics Conversation by Roz Chast and Jason Adam Katzenstein, published by Bloomsbury Publishing. * _______________________________ From The Two Saddest Kitchens: A Comics Conversation by…",
-   "author": "Roz Chast and Jason Adam Katzenstein",
-   "date": "2026-10-27T08:55:20.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "A Day in the Life of a Baby Tyrannosaurus Rex",
-   "url": "https://lithub.com/a-day-in-the-life-of-a-baby-tyrannosaurus-rex/",
-   "blurb": "Hunger rules the day. And the night. And the afternoons. The eager grunting from the trio of baby Tyrannosaurus can sometimes seem ceaseless, the only quiet coming from the fleeting moments when they have their sharp little jaws clamped…",
-   "author": "Riley Black",
-   "date": "2026-10-27T08:50:10.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Fake News, Far-Right Propaganda, Exaggerated Crowd Sizes, a Squabbling Left…Welcome to 1930s Berlin!",
-   "url": "https://lithub.com/fake-news-far-right-propaganda-exaggerated-crowd-sizes-a-squabbling-left-welcome-to-1930s-berlin/",
-   "blurb": "“Clever and persistent use of propaganda can make a nation believe that heaven is hell and, conversely, that the most miserable life is paradise.” – Adolf Hitler, Mein Kampf (1925) “The European mind is capitulating. It is capitulating o…",
-   "author": "Victor Sebestyen",
-   "date": "2026-10-27T08:40:39.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "How Poetry Can Explain the Role of Music in Medieval Literature",
-   "url": "https://lithub.com/how-poetry-can-explain-the-role-of-music-in-medieval-literature/",
-   "blurb": "Today, written notes are such a large part of a Western musical education that the word “music” has often come to mean exactly that: sheet music or a printed score. Musicians and their teachers set great store by literacy: by",
-   "author": "Graeme Lawson",
-   "date": "2026-10-27T08:30:35.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Iconic Socialist Jean Jaurès Tried to Keep France Out of WWI. It Cost Him His Life",
-   "url": "https://lithub.com/iconic-socialist-jean-jaures-tried-to-keep-france-out-of-wwi-it-cost-him-his-life/",
-   "blurb": "On the evening of July 31, 1914, after their fruitless visit to the foreign ministry to argue for French neutrality in the coming war, Jean Jaurès and Jean Longuet (the grandson of Karl Marx) travelled by taxi to the offices",
-   "author": "Enda O'Doherty",
-   "date": "2026-10-27T08:15:34.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Chad Harbach, Jane Schoenbrun, Jonathan Van Meter and more: 20 new books out today!",
-   "url": "https://lithub.com/chad-harbach-jane-schoenbrun-jonathan-van-meter-and-more-20-new-books-out-today/",
-   "blurb": "It’s a week of exciting, long-awaited drops. Chad Harbach, bestselling author of The Art of Fielding, is back, fifteen years later, with a follow-up to that beloved novel. Jane Schoenbrun, decorated director of recent movie Teenage Sex a…",
-   "author": "Julia Hass",
-   "date": "2026-10-27T08:02:23.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "The Long Version",
-   "url": "https://lithub.com/the-long-version/",
-   "blurb": "It took me a long time to grasp the shadowy nature of the literary world. The ins and outs of applying for funding, usually tied to another form of funding, like a grant to a foreign publisher or a translator.",
-   "author": "Lit Hub Excerpts",
-   "date": "2026-10-27T08:00:19.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Spike-Thumbed Dino Discovered in the United Kingdom",
-   "url": "https://nautil.us/spike-thumbed-dino-discovered-in-the-united-kingdom-1286098/",
-   "blurb": "The swamp-dwelling iguanodon relative may have been dinner for spinosaurs",
-   "author": "Jake Currie",
-   "date": "2026-10-27T01:05:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Inside the Mind of a Narcissist",
-   "url": "https://nautil.us/inside-the-mind-of-a-narcissist-1286095/",
-   "blurb": "Their brains don’t sync the same way when it comes to processing empathy",
-   "author": "Kristen French",
-   "date": "2026-10-26T23:01:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Are You Ready for Heidi Klum’s Halloween Costume?",
-   "url": "http://www.thecut.com/article/are-you-ready-heidi-klum-halloween-costume.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "It’s looking oozy.",
-   "author": "Emily Leibert",
-   "date": "2026-10-26T20:21:38.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Why Your Boss Might Live Longer Than You",
-   "url": "https://nautil.us/why-your-boss-might-live-longer-than-you-1286092/",
-   "blurb": "Entrepreneurship may carry benefits as well as risks",
-   "author": "Jake Currie",
-   "date": "2026-10-26T20:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Vanessa Trump Says She’s ‘Finally Cancer-Free’",
-   "url": "http://www.thecut.com/article/vanessa-trump-says-she-is-finally-cancer-free.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Donald Trump Jr.’s ex-wife was diagnosed with breast cancer in April.",
-   "author": "Sam Reed",
-   "date": "2026-10-26T19:23:18.000Z"
   },
   {
    "source": "The Paris Review",
@@ -485,28 +493,12 @@
    "date": "2026-10-12T10:00:00.000Z"
   },
   {
-   "source": "The Paris Review",
-   "title": "Passages We Underlined This Fall",
-   "url": "https://www.theparisreview.org/blog/2026/10/09/passages-we-underlined-this-fall/",
-   "blurb": "A selection of some of our favorite passages from September and October new releases.",
-   "author": "Tarpley Hitt and Emma Eaton",
-   "date": "2026-10-09T14:00:45.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "Barbara Ward’s vision",
    "url": "https://aeon.co/essays/why-we-should-heed-barbara-wards-vision-of-planetary-justice",
    "blurb": "She was among the first to argue that prosperity, equality and the protection of nature are inseparable planetary goals - by Or Rosenboim Read on Aeon",
    "author": "Or Rosenboim",
    "date": "2026-10-09T10:00:00.000Z"
-  },
-  {
-   "source": "Aeon",
-   "title": "The ghetto on the lagoon",
-   "url": "https://aeon.co/essays/the-making-of-the-ghetto-on-a-venetian-island-in-1516",
-   "blurb": "Sixteenth-century Venice wanted to expel its Jews but couldn’t do without them. Its compromise was the world’s first ghetto - by Alexander Lee Read on Aeon",
-   "author": "Alexander Lee",
-   "date": "2026-10-08T10:00:00.000Z"
   },
   {
    "source": "Orion Magazine",
