@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-04T06:46:39.418Z",
+ "updated": "2026-11-05T07:07:15.521Z",
  "report": [
   {
    "source": "Aeon",
-   "count": 12
+   "count": 11
   },
   {
    "source": "Literary Hub",
@@ -28,6 +28,230 @@
   }
  ],
  "articles": [
+  {
+   "source": "Nautilus",
+   "title": "The Female Iron Age Queen Who Helped Bring Britain to its Knees",
+   "url": "https://nautil.us/the-female-iron-age-queen-who-helped-bring-britain-to-its-knees-1286361/",
+   "blurb": "New scholarship reveals an exiled Roman client king was a woman",
+   "author": "Jake Currie",
+   "date": "2026-11-05T00:01:05.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Archaeologists Unravel an 88-Year-Old Murder Mystery",
+   "url": "https://nautil.us/archaeologists-unravel-an-88-year-old-murder-mystery-1286358/",
+   "blurb": "The killing of James Leslie Starkey",
+   "author": "Jake Currie",
+   "date": "2026-11-04T23:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Casey McQuiston Manifested Blexas",
+   "url": "http://www.thecut.com/article/casey-mcquiston-is-feeling-vindicated-after-the-midterms.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Red, White & Royal Blue’s subplot of Texas voting Democrat doesn’t seem so far-fetched now, does it?",
+   "author": "Sam Reed",
+   "date": "2026-11-04T22:39:23.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "What Happened When Neuroscientists Started a Mouse Fight Club",
+   "url": "https://nautil.us/what-happened-when-neuroscientists-started-a-mouse-fight-club-1286353/",
+   "blurb": "Their brain activity shifted",
+   "author": "Jake Currie",
+   "date": "2026-11-04T21:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Abortion Rights Had a Good Night, Too",
+   "url": "http://www.thecut.com/article/all-the-abortion-rights-wins-from-the-2026-midterms.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Four years after Dobbs, Americans largely voted to protect reproductive care in the midterms.",
+   "author": "Andrea González-Ramírez",
+   "date": "2026-11-04T20:40:39.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Martha Stewart Dragged Craig Melvin Into Her Halloween-Costume Drama",
+   "url": "http://www.thecut.com/article/martha-stewart-dragged-craig-melvin-into-her-costume-drama.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "She now claims it’s his fault she got backlash for dressing as a “bum.”",
+   "author": "Sam Reed",
+   "date": "2026-11-04T20:33:38.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "China Miéville has won the 2026 Goldsmiths Prize.",
+   "url": "https://lithub.com/china-mieville-has-won-the-2026-goldsmiths-prize/",
+   "blurb": "China Miéville has won this year’s Goldsmiths Prize for his novel The Rouse. The Goldsmiths Prize, launched in 2013 “to reward fiction that breaks the mold or extends the possibilities of the novel form,” has been previously awarded to A…",
+   "author": "Drew Broussard",
+   "date": "2026-11-04T20:17:23.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "How did libraries do at the polls last night? (Spoiler alert: Big wins in the stacks!)",
+   "url": "https://lithub.com/how-did-libraries-do-at-the-polls-last-night-spoiler-alert-big-wins-in-the-stacks/",
+   "blurb": "In addition to a Blue Wave, last night’s midterm may have also brought a Book Wave. In local and state elections all over the country, there was good news for libraries. According to analysts at EveryLibrary, a political action committee…",
+   "author": "Brittany Allen",
+   "date": "2026-11-04T20:08:45.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Kamala Harris Just Loves Good News",
+   "url": "http://www.thecut.com/article/kamala-harris-loves-good-news-midterms.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The former vice-president has a lot of thoughts about the midterm results.",
+   "author": "Olivia Craighead",
+   "date": "2026-11-04T19:33:41.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The Myth of Mommy Brain",
+   "url": "https://nautil.us/the-myth-of-mommy-brain-1286337/",
+   "blurb": "A conversation with neuroscientist Susana Carmona, author of “A Mother’s Brain,” about how the brain changes in motherhood",
+   "author": "Kristen French",
+   "date": "2026-11-04T19:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "John Frieda Has Died at 75",
+   "url": "http://www.thecut.com/article/john-frieda-has-died-at-75.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The British celebrity hairstylist and Frizz Ease founder worked with everyone from Princess Diana to Gwyneth Paltrow.",
+   "author": "Grace Klara Marshall",
+   "date": "2026-11-04T18:58:19.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Martin Luther King Jr.’s Granddaughter Voted for the First Time",
+   "url": "http://www.thecut.com/article/martin-luther-king-jr-s-grandchild-voted-for-the-first-time.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The 18-year-old youth activist helped usher in the blue wave on Election Day.",
+   "author": "Jaharia Knowles",
+   "date": "2026-11-04T18:05:54.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Protein Can Help Build and Preserve Muscle, But Eating More Has Its Limits",
+   "url": "https://nautil.us/protein-can-help-build-and-preserve-muscle-but-eating-more-has-its-limits-1286314/",
+   "blurb": "It’s also highly personal",
+   "author": "Dominic Farsi",
+   "date": "2026-11-04T17:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "It’s a Rough Week for Nicki Minaj",
+   "url": "http://www.thecut.com/article/the-midterm-results-dont-look-good-for-nicki-minaj.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "As if the bluenami wasn’t enough, the creator of Chucky hates her memes.",
+   "author": "Cat Zhang",
+   "date": "2026-11-04T16:39:19.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Coperni Is Closing",
+   "url": "http://www.thecut.com/article/coperni-is-closing.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The French fashion brand says it had unresolved payment issues with its distributor, Tomorrow.",
+   "author": "Jaharia Knowles",
+   "date": "2026-11-04T16:11:56.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Best Looks From the 2026 CFDA Fashion Awards",
+   "url": "http://www.thecut.com/article/the-best-looks-from-the-2026-cfda-fashion-awards.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "What Lupita Nyong’o, Hailey Bieber, and others wore to fashion’s “Oscars.”",
+   "author": "Jaharia Knowles",
+   "date": "2026-11-04T15:25:10.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Why Not Lib Out a Little?",
+   "url": "http://www.thecut.com/article/libbing-out-posts-2026-election.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The timeline is celebrating a huge midterms night for Democrats with Hamilton jokes.",
+   "author": "Olivia Craighead",
+   "date": "2026-11-04T15:19:16.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Is This What Hope Feels Like?",
+   "url": "http://www.thecut.com/article/2026-midterm-blue-wave-hopecore-whats-next.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "For 21 months, Americans have seen fascism up close. On Election Day, they decisively rejected it. Now it’s time for the real work to start.",
+   "author": "Andrea González-Ramírez",
+   "date": "2026-11-04T15:17:41.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The Original X-Men",
+   "url": "https://nautil.us/the-original-x-men-1286311/",
+   "blurb": "These intellectual superheroes revolutionized science in Britain and beyond by developing independent research",
+   "author": "Thomas W. Hodgkinson",
+   "date": "2026-11-04T15:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Blake Ritson Thinks You Should Marry Your Best Friend",
+   "url": "http://www.thecut.com/article/blake-ritson-gilded-age-oscar-van-rhijn-lavender-marriage-culture-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The Gilded Age is back and Oscar Van Rhijn is finally on top, to the delight of Blake Ritson.",
+   "author": "Michel Ghanem",
+   "date": "2026-11-04T13:00:06.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Nearly 3 Million Eels Gather at an Underwater Mountain—But What For?",
+   "url": "https://nautil.us/nearly-3-million-eels-gather-at-an-underwater-mountain-but-what-for-1286333/",
+   "blurb": "It’s the same ritual every year",
+   "author": "David Nield",
+   "date": "2026-11-04T13:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "A Syllabus for Attention: Megan Mayhew on John Elder’s Reading Life",
+   "url": "https://lithub.com/a-syllabus-for-attention-megan-mayhew-on-john-elders-reading-life/",
+   "blurb": "Twenty years ago, when I first came to the Bread Loaf Writers’ Conference in Vermont, we let our cell phones die. There was no signal. We were moving off-radar. I remember the feeling of immersion almost physically. There was nowhere",
+   "author": "Megan Mayhew",
+   "date": "2026-11-04T10:09:48.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "The Olfactory History of Book Collecting",
+   "url": "https://lithub.com/the-olfactory-history-of-book-collecting/",
+   "blurb": "In 1345 the English book lover Richard de Bury described the libraries and booksellers of Paris, medieval Europe’s great center of learning “as more aromatic than stores of spicery.” In Bury’s Philobiblion, a celebration of all things bo…",
+   "author": "Will Tullett",
+   "date": "2026-11-04T10:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "On Self-Doubt, Self-Worth, and How to Manage Your Self-Esteem as a Writer",
+   "url": "https://lithub.com/on-self-doubt-self-worth-and-how-to-manage-your-self-esteem-as-a-writer/",
+   "blurb": "The journey there was inauspicious. In the basement of Port Authority I was told that the bus route I was holding a paper ticket for had been permanently canceled, so I had to race across Manhattan to catch a train",
+   "author": "Helen Betya Rubinstein",
+   "date": "2026-11-04T09:50:42.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Ry Herman on Finding Inspiration in Queer Fairytales",
+   "url": "https://lithub.com/ry-herman-on-finding-inspiration-in-queer-fairytales/",
+   "blurb": "In the summer of 2024, I went looking for fairy tales that had LGBTQ+ subtext. In a time of renewed attack on queer identi­ties, there’s something I find reassuring in the evidence that we’ve always been around, even in the",
+   "author": "Ry Herman",
+   "date": "2026-11-04T09:31:59.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Please Don’t Put in the Novel That I Died: Olivia Manning’s (Lightly) Fictionalized Novels",
+   "url": "https://lithub.com/please-dont-put-in-the-novel-that-i-died-olivia-mannings-lightly-fictionalized-novels/",
+   "blurb": "“I don’t want fame when I am dead,” Olivia Manning once complained. “I want it now.” Manning, the British novelist who died in 1980, carried grudges: never made the Booker shortlist, never got a “solo review” in the Sunday papers,",
+   "author": "Duncan Fyfe",
+   "date": "2026-11-04T09:20:12.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Building a Community of Imposters: What It Means To Be a Literary Translator Today",
+   "url": "https://lithub.com/building-a-community-of-imposters-what-it-means-to-be-a-literary-translator-today/",
+   "blurb": "Dear Miranda, Gracias for your recent note. It came, as you say, “out of the blue,” an expression that, in and of itself, defies translation. In my native Spanish, one would say “de la nada,” not out of nowhere, since",
+   "author": "Ilan Stavans",
+   "date": "2026-11-04T09:20:10.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Sweet Pea",
+   "url": "https://lithub.com/sweet-pea/",
+   "blurb": "Paulette has to get two buses to work, the 61 into town, then a walk across Cathedral Green to catch the number 18 going north. Right near the bus stop, there’s a new children’s shop with pushchairs and cots in",
+   "author": "Lit Hub Excerpts",
+   "date": "2026-11-04T09:00:24.000Z"
+  },
   {
    "source": "The Cut",
    "title": "Georgia Elected the First Black Female Governor",
@@ -64,7 +288,7 @@
    "source": "The Cut",
    "title": "The Celebrities Want You to Vote",
    "url": "http://www.thecut.com/article/the-celebrities-want-you-to-vote-today.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Lupita N’yongo, Kerry Washington, and a large chunk of ‘The Gilded Age’ cast hit the polls Tuesday.",
+   "blurb": "Lupita Nyong’o, Kerry Washington, and a large chunk of ‘The Gilded Age’ cast hit the polls on Tuesday.",
    "author": "Jaharia Knowles",
    "date": "2026-11-03T23:22:00.000Z"
   },
@@ -109,38 +333,6 @@
    "date": "2026-11-03T19:00:00.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Karlie Kloss Canvassed for Abortion Rights Ahead of the Midterms",
-   "url": "http://www.thecut.com/article/karlie-kloss-canvassed-abortion-rights-midterms.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She urged voters in her hometown of St. Louis to reject Missouri’s Amendment 3.",
-   "author": "Emily Leibert",
-   "date": "2026-11-03T18:48:53.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "How Wishful Thinking Impacts Political Polarization",
-   "url": "https://nautil.us/how-wishful-thinking-impacts-political-polarization-1286321/",
-   "blurb": "And vice versa",
-   "author": "Jake Currie",
-   "date": "2026-11-03T18:33:05.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Want to Use AI to Improve Your Work? Have It Disagree with You",
-   "url": "https://nautil.us/want-to-use-ai-to-improve-your-work-have-it-disagree-with-you-1286295/",
-   "blurb": "Prompting an AI model to fight with your point of view can raise novel solutions",
-   "author": "Monideepa Tarafdar",
-   "date": "2026-11-03T17:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Haley Stevens Doesn’t Want You to Blame Her Fiancé",
-   "url": "http://www.thecut.com/article/haley-stevens-says-fiance-jason-turkish-isnt-controlling-her.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She’s an independent woman who blew up her career all on her own, okay?",
-   "author": "Olivia Craighead",
-   "date": "2026-11-03T16:29:19.000Z"
-  },
-  {
    "source": "The Paris Review",
    "title": "Campaign Literature: Election Day 2026",
    "url": "https://www.theparisreview.org/blog/2026/11/03/campaign-literature-election-day-midterms/",
@@ -149,204 +341,12 @@
    "date": "2026-11-03T15:00:41.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "Tourist Posts a Photo to a Facebook Group, Accidentally Discovering 120-Million-Year-Old Dinosaur Footprint",
-   "url": "https://nautil.us/tourist-posts-a-photo-to-a-facebook-group-accidentally-discovering-120-million-year-old-dinosaur-footprint-1286283/",
-   "blurb": "Not your average vacation snap",
-   "author": "David Nield",
-   "date": "2026-11-03T15:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Products Our Beauty Writer Can’t Live Without",
-   "url": "http://www.thecut.com/article/cut-beauty-closet-carol-lee.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Welcome to my beauty closet.",
-   "author": "Carol Lee",
-   "date": "2026-11-03T14:53:00.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Natasha Trethewey on the essential teachings of John Edgar Wideman.",
-   "url": "https://lithub.com/natasha-trethewey-on-the-essential-teachings-of-john-edgar-wideman/",
-   "blurb": "The following is an edited transcript of Natasha Trethewey’s remarks at the second annual Harper’s Magazine Awards Ceremony, where John Edgar Wideman was honored with the Lewis H. Lapham Award for Literary Excellence. The ceremony was he…",
-   "author": "Literary Hub",
-   "date": "2026-11-03T14:13:11.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "What on Earth Is Happening in the Michigan Senate Race?",
-   "url": "http://www.thecut.com/article/unraveling-haley-stevens-cnn-meltdown.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Representative Haley Stevens abandoned her party to endorse the Republican candidate, which was actually great news for Abdul El-Sayed.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-03T13:58:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Call Him the ‘Socialist Jeweler’",
-   "url": "http://www.thecut.com/article/alexis-bittar-jewelry-designer-progressive-politics-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Jewelry designer Alexis Bittar has become an unlikely champion for the progressive movement.",
-   "author": "Emma Childs",
-   "date": "2026-11-03T13:22:46.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "So Should We Expect a Big Blue Wave on Tuesday Night?",
-   "url": "http://www.thecut.com/article/2026-u-s-midterm-election-cheatsheet-guide.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "That all depends on some key U.S. midterm races. Here’s what to look out for.",
-   "author": "Andrea González-Ramírez",
-   "date": "2026-11-03T13:01:07.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "The Monstrous Raptors That Threatened Our Ancestors",
-   "url": "https://nautil.us/the-monstrous-raptors-that-threatened-our-ancestors-1286304/",
-   "blurb": "Did birds of prey shape human evolution?",
-   "author": "Jake Currie",
-   "date": "2026-11-03T13:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Love Story We Shared",
-   "url": "http://www.thecut.com/article/eric-dane-memoir-excerpt-the-love-story-we-shared.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "In Eric Dane’s posthumous memoir, My Book of Days, Dane recounts his marriage to Rebecca Gayheart and the vow they kept.",
-   "author": "Eric Dane",
-   "date": "2026-11-03T12:00:43.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "Believing and thinking",
    "url": "https://aeon.co/essays/the-psychology-of-separating-church-and-state",
    "blurb": "The separation of church and state has an unspoken psychological basis: we choose what we believe, but not what we think - by Neil Van Leeuwen & Jacob Eisler Read on Aeon",
    "author": "Neil Van Leeuwen & Jacob Eisler",
    "date": "2026-11-03T11:00:00.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "What Fly Fishing Taught Me About Writing Fiction",
-   "url": "https://lithub.com/what-fly-fishing-taught-me-about-writing-fiction/",
-   "blurb": "Rugged men wading in pristine streams. River cowboys effortlessly lassoing beautiful brown and rainbow trout. Sun-sparkled rivers chiseling valleys into mountain ranges. This is Hollywood’s version of fly fishing. Don’t get me wrong: the…",
-   "author": "Evan Brooke",
-   "date": "2026-11-03T09:55:07.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "How J.R.R. Tolkien’s Strong Catholic Faith Influenced His Writing",
-   "url": "https://lithub.com/how-j-r-r-tolkiens-strong-catholic-faith-influenced-his-writing/",
-   "blurb": "To ask what Tolkien thought of God is rather like asking what Marx thought of socialism or how Samuel Pepys regarded the business of diary-keeping. In each case the subject so completely overwhelms the world to which it is introduced",
-   "author": "D.J. Taylor",
-   "date": "2026-11-03T09:45:31.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "“Mirror,” a Poem by Jana Prikryl",
-   "url": "https://lithub.com/mirror-a-poem-by-jana-prikryl/",
-   "blurb": "I dreamt they took my shoulder, the left one but my arm was still attached, the join a thing I was unable I only knew of it, so mind drew a picture of me in the place reorganized Yet I",
-   "author": "Jana Prikryl",
-   "date": "2026-11-03T09:40:21.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "On the Film NAZA and the Ethics of Documentary Art",
-   "url": "https://lithub.com/on-the-film-naza-and-the-ethics-of-documentary-art/",
-   "blurb": "When NAZA‘s chilling final frame turned black and the sound of moviegoers crying became audible, I experienced something I have never experienced in a movie theater in my life. Nobody in the sold-out screening got up. Not a single person.",
-   "author": "Steven W. Thrasher",
-   "date": "2026-11-03T09:29:52.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Mary Beth Keane on Writing a Novel of the Irish Diaspora",
-   "url": "https://lithub.com/mary-beth-keane-on-writing-a-novel-of-the-irish-diaspora/",
-   "blurb": "I’ve always found reading about Ireland compelling, having family lineage that includes a paternal great great grandmother who immigrated from County Cork to Galveston in the nineteenth century. Mary Beth Keane’s Whale Harbor, her fifth…",
-   "author": "Jane Ciabattari",
-   "date": "2026-11-03T09:25:40.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "How Derek Walcott’s Postcolonial Epic Helped Me Write My Novel",
-   "url": "https://lithub.com/how-derek-walcotts-postcolonial-epic-helped-me-write-my-novel/",
-   "blurb": "It’s hard to understate the importance of the classical tradition to postcolonial literature. The Puerto Rican playwright Luis Rafael Sánchez recast Sophocles’ Antigone in La pasión según Antígona Pérez, set in the fictional Caribbean re…",
-   "author": "Schneider K. Rancy",
-   "date": "2026-11-03T09:10:46.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "“Hyena Boys”",
-   "url": "https://lithub.com/hyena-boys/",
-   "blurb": "1 The hyena boys came to Bonaventure, which was serendipitous, because he was used to avoiding the world before the world spurned him. For one, his white albino skin flecked with dark spots made him a regular target of mockery.",
-   "author": "Lit Hub Excerpts",
-   "date": "2026-11-03T09:01:22.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Louise Kennedy, Tom Drury, Elizabeth McCracken, and more: 20 new books out today!",
-   "url": "https://lithub.com/louise-kennedy-tom-drury-elizabeth-mccracken-and-more-20-new-books-out-today/",
-   "blurb": "We welcome November with a wonderful crop of literary works: Louise Kennedy, Tom Drury, Elizabeth McCracken, Michelle Porter, and more, all contribute to our stunning pile of newly released fiction. On the nonfiction side, legendary hist…",
-   "author": "Julia Hass",
-   "date": "2026-11-03T09:00:44.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Bizarre Fruit-Eating “Hell Chicken” Suggests Dinosaurs Played a Role in Flowering Plant Evolution",
-   "url": "https://nautil.us/bizarre-fruit-eating-hell-chicken-suggests-dinosaurs-played-a-role-in-flowering-plant-evolution-1286301/",
-   "blurb": "Its jaws were fruit-mashing machines",
-   "author": "Jake Currie",
-   "date": "2026-11-02T23:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Barbara Palvin Says Her Victoria’s Secret Walk Got Mixed Reactions",
-   "url": "http://www.thecut.com/article/barbara-palvin-says-her-victorias-secret-walk-got-mixed-reactions.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "“Everyone’s postpartum journey is different, and this is just mine.”",
-   "author": "Grace Klara Marshall",
-   "date": "2026-11-02T21:33:46.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "A Collapsing Star Produced an Afterglow Brighter Than Its Galaxy",
-   "url": "https://nautil.us/a-collapsing-star-produced-an-afterglow-brighter-than-its-galaxy-1286280/",
-   "blurb": "“The explosion packed roughly a billion years of the sun’s energy output into a pencil-thin beam”",
-   "author": "David Nield",
-   "date": "2026-11-02T21:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Celebrities Went Niche for Halloween",
-   "url": "http://www.thecut.com/article/celebs-going-niche-halloween.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "From Tinashe as melatonin to Heidi Klum as a severed hand.",
-   "author": "Emily Leibert",
-   "date": "2026-11-02T20:10:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Did Bill Belichick and Jordon Hudson Break Up?",
-   "url": "http://www.thecut.com/article/did-bill-belichick-and-jordon-hudson-break-up.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The couple famous for their 48-year age gap reportedly split last year.",
-   "author": "Sam Reed",
-   "date": "2026-11-02T20:02:45.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Listen to the Earliest Known Recordings of a Nearly Dead American Language",
-   "url": "https://nautil.us/listen-to-the-earliest-known-recordings-of-a-nearly-dead-american-language-1286289/",
-   "blurb": "These “lost” recordings of the Creole language offer unique insights that written transcripts can’t provide",
-   "author": "Jake Currie",
-   "date": "2026-11-02T20:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Products Our Beauty Editor Can’t Live Without",
-   "url": "http://www.thecut.com/article/the-cut-editor-beauty-closet-asia.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Welcome to my beauty closet.",
-   "author": "Asia Milia Ware",
-   "date": "2026-11-02T20:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Best Gift Ideas Under $50 This Holiday Season",
-   "url": "http://www.thecut.com/article/best-gift-ideas-under-50-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Options for everyone from your bestie to your dad.",
-   "author": "Chinea Rodriguez",
-   "date": "2026-11-02T19:34:58.000Z"
   },
   {
    "source": "The Paris Review",
@@ -499,14 +499,6 @@
    "blurb": "Cicero’s ideal of manly virtue stressed the performance of self-control and bravery, not boastful egotism and domination - by Catharine Edwards Read on Aeon",
    "author": "Catharine Edwards",
    "date": "2026-10-16T10:00:00.000Z"
-  },
-  {
-   "source": "Aeon",
-   "title": "The ladder of knowledge",
-   "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge",
-   "blurb": "What we claim as ‘true’ is not a ceiling we are forever failing to reach but something that changes as we climb toward it - by Alexander V Gheorghiu Read on Aeon",
-   "author": "Alexander V Gheorghiu",
-   "date": "2026-10-15T10:00:00.000Z"
   },
   {
    "source": "Orion Magazine",
