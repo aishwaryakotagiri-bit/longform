@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T06:18:30.719Z",
+ "updated": "2026-11-08T06:24:53.934Z",
  "report": [
   {
    "source": "Aeon",
@@ -28,6 +28,30 @@
   }
  ],
  "articles": [
+  {
+   "source": "Nautilus",
+   "title": "Earth’s Rocks Have a Missing Layer Spanning Up to a Billion Years",
+   "url": "https://nautil.us/earths-rocks-have-a-missing-layer-spanning-up-to-a-billion-years-1286417/",
+   "blurb": "Now we finally know where it went",
+   "author": "Nicolas Flament",
+   "date": "2026-11-07T15:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "This Photo of the ISS Next to Jupiter Was Two Years in the Making",
+   "url": "https://nautil.us/this-photo-of-the-iss-next-to-jupiter-was-two-years-in-the-making-1286407/",
+   "blurb": "Part of the art and science of astrophotography is figuring out when certain flying objects in the sky are going to line up for a photo opportunity. And few photographs demonstrate it better than AJ Smadi ’s shot of the International Spa…",
+   "author": "David Nield",
+   "date": "2026-11-07T13:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Lit Hub Weekly: November 2 – 6, 2026",
+   "url": "https://lithub.com/lit-hub-weekly-november-2-6-2026/",
+   "blurb": "How J.R.R. Tolkien’s Catholicism impacted his writing: “Tolkien, it is fair to say, saw God everywhere…above all, in his art.” | Lit Hub Biography Ed Simon explores the symbol of Guy Fawkes and V for Vendetta‘s anti-authoritarian afterli…",
+   "author": "Lit Hub Daily",
+   "date": "2026-11-07T11:30:56.000Z"
+  },
   {
    "source": "The Cut",
    "title": "The Woman Having Sex on the Floor at a Bar",
@@ -301,14 +325,6 @@
    "date": "2026-11-06T09:07:40.000Z"
   },
   {
-   "source": "Literary Hub",
-   "title": "Dams",
-   "url": "https://lithub.com/dams/",
-   "blurb": "This is Ada noticing on her tongue the translucence of the word escriure and the word novel·la, to write and novel, respectively. The coffee tinting them, melting them, like ice cubes. Ada who is ex-plaining that now that she’s returned",
-   "author": "Lit Hub Excerpts",
-   "date": "2026-11-06T08:00:53.000Z"
-  },
-  {
    "source": "Nautilus",
    "title": "Ancient DNA May Reveal the Surprising Roots of English and Other Germanic Languages",
    "url": "https://nautil.us/ancient-dna-may-reveal-the-surprising-roots-of-english-and-other-germanic-languages-1286400/",
@@ -339,22 +355,6 @@
    "blurb": "Governor-elect Rob Sand spent some time in his early 20s walking the runways in Paris and Milan.",
    "author": "Olivia Craighead",
    "date": "2026-11-05T21:23:20.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "The Evolutionary Arc From Pigeon Brains to Machine Consciousness",
-   "url": "https://nautil.us/the-evolutionary-arc-from-pigeon-brains-to-machine-consciousness-1286380/",
-   "blurb": "A conversation with comparative cognition researcher Edward Wasserman about learning and the “edge of chaos”",
-   "author": "Kristen French",
-   "date": "2026-11-05T21:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Oldest Evidence of Human Cannabis Use Has a Ghoulish Twist",
-   "url": "https://nautil.us/oldest-evidence-of-human-cannabis-use-has-a-ghoulish-twist-1286377/",
-   "blurb": "Take a ride with the spectral cavalcade",
-   "author": "Jake Currie",
-   "date": "2026-11-05T19:00:00.000Z"
   },
   {
    "source": "Aeon",
