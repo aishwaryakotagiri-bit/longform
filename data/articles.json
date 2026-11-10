@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T06:57:37.933Z",
+ "updated": "2026-11-10T07:34:16.528Z",
  "report": [
   {
    "source": "Aeon",
@@ -24,10 +24,242 @@
   },
   {
    "source": "The Cut",
-   "count": 19
+   "count": 18
   }
  ],
  "articles": [
+  {
+   "source": "Nautilus",
+   "title": "A Look Back at the Most Breathtaking Photos of Saturn From Voyager 1",
+   "url": "https://nautil.us/a-look-back-at-the-most-breathtaking-photos-of-saturn-from-voyager-1-1286483/",
+   "blurb": "It visited the ringed planet 46 years ago this month",
+   "author": "Jake Currie",
+   "date": "2026-11-10T00:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "How A Bedroom Air Filter Could Keep Your Blood Sugar in Check",
+   "url": "https://nautil.us/how-a-bedroom-air-filter-could-keep-your-blood-sugar-in-check-1286480/",
+   "blurb": "New research links clean air to tighter glucose control",
+   "author": "Jake Currie",
+   "date": "2026-11-09T23:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Black Friday Is Coming and You Can Shop Early Deals Now",
+   "url": "http://www.thecut.com/article/best-early-black-friday-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "From Ulta, Net-a-Porter, Nordstrom, and more.",
+   "author": "Chinea Rodriguez",
+   "date": "2026-11-09T22:42:50.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "M. John Harrison’s The End of Everything has won the 2026 Booker Prize.",
+   "url": "https://lithub.com/m-john-harrisons-the-end-of-everything-has-won-the-2026-booker-prize/",
+   "blurb": "Today, at a ceremony in London, M. John Harrison was awarded the 2026 Booker Prize for his novel, The End of Everything. “It’s a book that turns you upside down, raises a wry smile—and surprisingly, given the subject matter, leaves",
+   "author": "Literary Hub",
+   "date": "2026-11-09T22:16:44.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Trillion-Dollar Affair",
+   "url": "http://www.thecut.com/article/did-nvidias-ceo-have-a-trillion-dollar-affair.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Nvidia CEO Jensen Huang publicly apologized to his wife amid an investigation into his relationship with a suspected Chinese spy.",
+   "author": "Olivia Craighead",
+   "date": "2026-11-09T21:47:39.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Do We Think in Pictures, Words, or… Code?",
+   "url": "https://nautil.us/do-we-think-in-pictures-words-or-code-1286476/",
+   "blurb": "A conversation with cognitive scientist Evelina Fedorenko about where thought and language overlap",
+   "author": "Kristen French",
+   "date": "2026-11-09T21:30:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Blue Wave Has a New Color Palette",
+   "url": "http://www.thecut.com/article/did-the-new-democratic-senators-coordinate-their-outfits.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Incoming Democratic senators showed up to Monday’s orientation in coordinated jewel tones.",
+   "author": "Grace Klara Marshall",
+   "date": "2026-11-09T21:16:22.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "You can now buy the ashes of Truman Capote’s dog.",
+   "url": "https://lithub.com/you-can-now-buy-the-ashes-of-truman-capotes-dog/",
+   "blurb": "The late Truman Capote left behind a prodigious amount of novel drafts, New Journalism, and frenemies when he died in 1984. He also, you might not be surprised to learn, left behind a lot of tchotckes. This November, you can",
+   "author": "Brittany Allen",
+   "date": "2026-11-09T20:12:03.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Common Food Additive Linked to Lower Risk of Cognitive Impairment",
+   "url": "https://nautil.us/common-food-additive-linked-to-lower-risk-of-cognitive-impairment-1286473/",
+   "blurb": "It’s found in mayonnaise, chocolate, and lean meats",
+   "author": "Jake Currie",
+   "date": "2026-11-09T19:30:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Man Regrets Starting One-Sided Taylor Swift Beef",
+   "url": "http://www.thecut.com/article/tyler-kolek-regrets-starting-one-sided-taylor-swift-beef.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The Knicks’ Tyler Kolek swears he’s a huge Swiftie after calling Swift a “performative” fan.",
+   "author": "Sam Reed",
+   "date": "2026-11-09T19:26:11.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Is This Skims Advent Calendar a ‘Skam’?",
+   "url": "http://www.thecut.com/article/is-this-skims-advent-calendar-a-skam.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The viral Advent calendar featured hair ties, key chains, bra straps, and absolutely too many hairpins.",
+   "author": "Chinea Rodriguez",
+   "date": "2026-11-09T18:26:35.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "There’s a Scapegoat for Jacob Elordi’s Blond Hair",
+   "url": "http://www.thecut.com/article/jacob-elordi-is-blond-now.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "It’s almost definitely for an Ari Aster movie.",
+   "author": "Sam Reed",
+   "date": "2026-11-09T17:39:37.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Amanda Seyfried Is Posting About Her Divorce",
+   "url": "http://www.thecut.com/article/amanda-seyfried-is-posting-about-her-divorce.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "She’s a big fan of conscious uncoupling.",
+   "author": "Grace Klara Marshall",
+   "date": "2026-11-09T17:37:25.000Z"
+  },
+  {
+   "source": "The Paris Review",
+   "title": "Robert Caro, Unlocked: The Better Our Country Will Be",
+   "url": "https://www.theparisreview.org/blog/2026/11/09/robert-caro-matthew-baker/",
+   "blurb": "To celebrate the results of the midterm elections, we’ve unlocked Robert Caro’s Art of Biography interview and Matthew Baker’s short story “Why Visit America” from the archive.",
+   "author": "Hazel Byers",
+   "date": "2026-11-09T17:08:06.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "A New Species Emerges From a 9.5 Million-Year-Old Whale Carcass",
+   "url": "https://nautil.us/a-new-species-emerges-from-a-9-5-million-year-old-whale-carcass-1286464/",
+   "blurb": "A beaked whale, surrounded by stars",
+   "author": "David Nield",
+   "date": "2026-11-09T17:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Russell Brand Was Sentenced to More Than 10 Years in Prison",
+   "url": "http://www.thecut.com/article/russell-brand-sentenced-ten-years-prison.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The disgraced comedian was found guilty of rape and sexual assault in the U.K. on Friday.",
+   "author": "Olivia Craighead",
+   "date": "2026-11-09T16:16:05.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Ariana Grande’s Break Is Over",
+   "url": "http://www.thecut.com/article/ariana-grandes-break-is-over.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "A few months after taking “a step back,” she and her bob joined her Focker-in-Law co-stars on The Tonight Show.",
+   "author": "Sam Reed",
+   "date": "2026-11-09T16:04:55.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "“Medium Roast, Cream, No Plastic”: New Coffee Cup Coating Protects Against Microplastics",
+   "url": "https://nautil.us/medium-roast-cream-no-plastic-new-coffee-cup-coating-protects-against-microplastics-1286452/",
+   "blurb": "And makes recycling a breeze",
+   "author": "Jake Currie",
+   "date": "2026-11-09T15:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Taylor Swift and Karlie Kloss Are Officially Friends Again",
+   "url": "http://www.thecut.com/article/taylor-swift-karlie-kloss-friends-again-chiefs-game.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Kloss got the prime spot next to Swift at Sunday’s Chiefs game.",
+   "author": "Olivia Craighead",
+   "date": "2026-11-09T14:57:22.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Allison Ellsworth Is Ready to Disrupt Water",
+   "url": "http://www.thecut.com/article/allison-ellsworth-poppi-jetty-profile.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The woman behind Poppi has another billion-dollar business idea: keeping you hydrated.",
+   "author": "Erica Schwiegershausen",
+   "date": "2026-11-09T13:00:47.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Essential Reading in an Era of AI Doomsaying",
+   "url": "https://nautil.us/essential-reading-in-an-era-of-ai-doomsaying-1286439/",
+   "blurb": "Want to make it out of the AI doom loop alive? Read these books",
+   "author": "Shannon Vallor",
+   "date": "2026-11-09T13:00:00.000Z"
+  },
+  {
+   "source": "Aeon",
+   "title": "Equality talk",
+   "url": "https://aeon.co/essays/historical-ideas-of-equality-help-us-imagine-an-equal-world",
+   "blurb": "In the summer of 1646, the idea of equality gained new and profound depths. We are still catching up with the consequences - by Teresa M Bejan Read on Aeon",
+   "author": "Teresa M Bejan",
+   "date": "2026-11-09T11:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "What is the Best Literary TV Adaptation of All Time?",
+   "url": "https://lithub.com/what-is-the-best-literary-tv-adaptation-of-all-time/",
+   "blurb": "Who says TV rots your brain? These days, it delivers its fair share of great storytelling, whether original or adapted. But this is Literary Hub, after all, and so as the weather gets cooler, we’ll be hunkering down with some",
+   "author": "Literary Hub",
+   "date": "2026-11-09T10:00:13.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "How Online Fandom Made Me a Writer",
+   "url": "https://lithub.com/how-online-fandom-made-me-a-writer/",
+   "blurb": "Growing up, I always preferred fictional worlds to the real one. As an only child who struggled with social anxiety and was very much not athletically inclined, I spent most of my childhood buried in a book and daydreaming about",
+   "author": "Maria Millage",
+   "date": "2026-11-09T09:36:38.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "This Week in Literary History: America’s First Lending Library Gets its First Ten Members",
+   "url": "https://lithub.com/this-week-in-literary-history-americas-first-lending-library-gets-its-first-ten-members/",
+   "blurb": "This first appeared in Lit Hub’s Literary History newsletter—sign up here. In 1731, Benjamin Franklin had an idea. At that time, in colonial America, books were rare, and prohibitively expensive for most people—not to mention the fact th…",
+   "author": "Literary Hub",
+   "date": "2026-11-09T09:35:39.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Writing Iran’s January Massacre in a Non-Mother Tongue",
+   "url": "https://lithub.com/writing-irans-january-massacre-in-a-non-mother-tongue/",
+   "blurb": "To our readers: These notes were written, in conversation with one another, in the immediate aftermath of the January 2026 massacre in Iran and the concurrent internet blackout. For months, we did not even know what to do with them.",
+   "author": "Poupeh missaghi, Moeen Farrokhi, Neshat Sadatmansoori, Pooneh Yekta, and A.T. Po",
+   "date": "2026-11-09T09:20:39.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Olivia Laing on Chronicling the World of 1970s Italian Cinema",
+   "url": "https://lithub.com/olivia-laing-on-chronicling-the-world-of-1970s-italian-cinema/",
+   "blurb": "Step into the world of The Silver Book with Olivia Laing, award-winning author of The Lonely City, Everybody, and Funny Weather, as they discuss their spellbinding new novel of art, queer love, and illusion. Laing was joined in conversat…",
+   "author": "The Center for Fiction",
+   "date": "2026-11-09T09:15:12.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "What It Means To Be a Basque Writer",
+   "url": "https://lithub.com/what-it-means-to-be-a-basque-writer/",
+   "blurb": "“There is no such thing as an ugly language. Today I hear every language as if it were the only one, and when I hear of one that is dying, it overwhelms me as though it were the death of",
+   "author": "Kirmen Uribe",
+   "date": "2026-11-09T09:00:36.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "17 Books About Native American Culture to Read This November",
+   "url": "https://lithub.com/17-books-about-native-american-culture-to-read-this-november/",
+   "blurb": "University presses have played an important, if complex, role in the history of Native studies and more than 80 members of the Association of University Presses (AUPresses) currently publish in this field. University presses have a uniqu…",
+   "author": "David Congdon",
+   "date": "2026-11-09T08:45:56.000Z"
+  },
   {
    "source": "The Cut",
    "title": "Rosie Huntington-Whiteley Did Not Have to Go This Hard",
@@ -40,7 +272,7 @@
    "source": "The Cut",
    "title": "Adam Driver Finally Addressed the Girls Reboot",
    "url": "http://www.thecut.com/article/adam-driver-finally-addressed-the-girls-reboot.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Driver shared he will not be returning for the ‘Girls’ reboot, but he’s wishing them “the best of luck.”",
+   "blurb": "Driver shared he will not be returning for the Girls reboot, but he’s wishing the cast “the best of luck.”",
    "author": "Sam Reed",
    "date": "2026-11-08T18:57:44.000Z"
   },
@@ -69,14 +301,6 @@
    "date": "2026-11-07T13:00:00.000Z"
   },
   {
-   "source": "Literary Hub",
-   "title": "Lit Hub Weekly: November 2 – 6, 2026",
-   "url": "https://lithub.com/lit-hub-weekly-november-2-6-2026/",
-   "blurb": "How J.R.R. Tolkien’s Catholicism impacted his writing: “Tolkien, it is fair to say, saw God everywhere…above all, in his art.” | Lit Hub Biography Ed Simon explores the symbol of Guy Fawkes and V for Vendetta‘s anti-authoritarian afterli…",
-   "author": "Lit Hub Daily",
-   "date": "2026-11-07T11:30:56.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "The Woman Having Sex on the Floor at a Bar",
    "url": "http://www.thecut.com/article/new-sex-diaries-story-the-woman-having-sex-on-a-bar-floor.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -91,14 +315,6 @@
    "blurb": "Another investigation into the mysterious microbiome",
    "author": "Jake Currie",
    "date": "2026-11-06T22:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "We Attribute Personalities to Chatbots, Even When We Know Better",
-   "url": "https://nautil.us/we-attribute-personalities-to-chatbots-even-when-we-know-better-1286429/",
-   "blurb": "We can spot the bot, but we treat it like a person anyway",
-   "author": "Kristen French",
-   "date": "2026-11-06T21:00:00.000Z"
   },
   {
    "source": "The Cut",
@@ -125,132 +341,12 @@
    "date": "2026-11-06T20:30:23.000Z"
   },
   {
-   "source": "Literary Hub",
-   "title": "The Queens Public Library system is being held for ransom.",
-   "url": "https://lithub.com/the-queens-public-library-system-is-being-held-for-ransom/",
-   "blurb": "In a bizarre turn of events, on Wednesday November 4th, New York City’s Queens Public Library (QPL) system, which operates 66 branches, experienced an attack on its online networks by a hacker. The entire system is offline, and is being",
-   "author": "Olivia Rutigliano",
-   "date": "2026-11-06T19:52:08.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Paige Bueckers and Azzi Fudd Broke Up Over a Year Ago",
-   "url": "http://www.thecut.com/article/paige-bueckers-and-azzi-fudd-broke-up-over-a-year-ago.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Check in on the lesbians in your life.",
-   "author": "Brooke LaMantia",
-   "date": "2026-11-06T19:39:32.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Take the n+1 bookmatch quiz and know thyself.",
-   "url": "https://lithub.com/take-the-n1-bookmatch-quiz-and-know-thyself/",
-   "blurb": "Our friends at n+1 are back with their annual pre-yuletide gift. Bookmatch, the highly bespoke literary quiz, pairs readers with a custom-made syllabus based on their answers to a dozen or so quirky questions. Be warned: this is not Buzz…",
-   "author": "Brittany Allen",
-   "date": "2026-11-06T19:04:55.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "“Astonishing” Find: Fossilized Dinosaur Blood in a 115-Million-Year-Old Specimen",
-   "url": "https://nautil.us/astonishing-find-fossilized-dinosaur-blood-in-a-115-million-year-old-specimen-1286412/",
-   "blurb": "Molecular paleontology keeps getting better",
-   "author": "Jake Currie",
-   "date": "2026-11-06T19:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The First Wave of Black Friday Sales Is Here",
-   "url": "http://www.thecut.com/article/sale-cb2-mango-primary.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Including Best in Class drinking glasses, AllSaints loafers, and an Advent calendar for tea.",
-   "author": "Sam Daly",
-   "date": "2026-11-06T18:36:37.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "What to Gift the Gen-Zer in Your Life",
-   "url": "http://www.thecut.com/article/gen-z-gift-guide.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "According to a member of this generation.",
-   "author": "Brooke LaMantia",
-   "date": "2026-11-06T18:31:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Thomas Markle Was Arrested by the FBI",
-   "url": "http://www.thecut.com/article/thomas-markle-arrested-fbi-csam-charge.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Meghan Markle’s father was taken into custody and charged with one count of possession of child pornography.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-06T18:06:40.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "A Party We’d Like to Join",
-   "url": "http://www.thecut.com/article/burberrys-holiday-campaign-is-also-a-birthday-celebration.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Former Bond man Pierce Brosnan stars as the host of a party in the English countryside in the British label’s holiday campaign.",
-   "author": "Jaharia Knowles",
-   "date": "2026-11-06T17:22:56.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Products Our Shopping Writer Can’t Live Without",
-   "url": "http://www.thecut.com/article/cut-beauty-closet-chinea-rodriguez.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Welcome to my beauty closet.",
-   "author": "Chinea Rodriguez",
-   "date": "2026-11-06T17:05:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "A Neuropsychologist Explains the Importance of Exercise in Fighting Dementia",
-   "url": "https://nautil.us/a-neuropsychologist-explains-the-importance-of-exercise-in-fighting-dementia-1286369/",
-   "blurb": "Adopting certain lifestyle habits, including physical exercise, could significantly reduce the risk of developing Alzheimer’s disease and other forms of dementia",
-   "author": "Louis Bherer",
-   "date": "2026-11-06T17:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Who Is Martine Rose, Balenciaga’s New Creative Director?",
-   "url": "http://www.thecut.com/article/who-is-martine-rose-balenciagas-new-creative-designer.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The British Jamaican designer is the first woman to lead the brand in its 109-year history.",
-   "author": "Emma Childs",
-   "date": "2026-11-06T16:12:25.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Martha Stewart Cleared the Air With Craig Melvin",
-   "url": "http://www.thecut.com/article/martha-stewart-halloween-apology-craig-melvin-today-show.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Apparently she was “joking” when she tried to blame him for her problematic Halloween costume.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-06T15:52:13.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Is This Luxury Diaper Brand Leaving Babies With Burns?",
-   "url": "http://www.thecut.com/article/parents-millie-moon-luxury-diapers-babies-burns.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Parents say their children got severe rashes and blisters after wearing Millie Moon diapers.",
-   "author": "Erica Schwiegershausen",
-   "date": "2026-11-06T15:30:41.000Z"
-  },
-  {
    "source": "The Paris Review",
    "title": "MJ Lenderman on Harry Crews: This Fucked-Up Guy",
    "url": "https://www.theparisreview.org/blog/2026/11/06/mj-lenderman-harry-crews-body/",
    "blurb": "“I came to the work of Harry Crews through word of mouth. A friend was telling me about this fucked-up guy and his book A Feast of Snakes.”",
    "author": "MJ Lenderman",
    "date": "2026-11-06T15:00:13.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "How an Octopus Can Squeeze into a Beer Can",
-   "url": "https://nautil.us/how-an-octopus-can-squeeze-into-a-beer-can-1286397/",
-   "blurb": "Or not, depending on the species",
-   "author": "Devin Reese",
-   "date": "2026-11-06T15:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Mormon Wives Star Jen Affleck Has Filed for Divorce",
-   "url": "http://www.thecut.com/article/secret-lives-mormon-wives-jen-affleck-divorce-zac-affleck.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The reality-TV star is currently pregnant with her and Zac Affleck’s fourth child.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-06T14:02:00.000Z"
   },
   {
    "source": "The Paris Review",
@@ -261,100 +357,12 @@
    "date": "2026-11-06T14:00:17.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "There’s No Sex Recession on It Gets Worse",
-   "url": "http://www.thecut.com/article/it-gets-worse-leo-reich-paramount-tv-channel-4-review.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Leo Reich’s cynical and sharp treatise on the state of Gen Z is finally stateside.",
-   "author": "Michel Ghanem",
-   "date": "2026-11-06T14:00:10.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Inside King Tutankhamun’s Tomb, 104 Years After Its Discovery",
-   "url": "https://nautil.us/inside-king-tutankhamuns-tomb-104-years-after-its-discovery-1286390/",
-   "blurb": "An unprecedented find in the Valley of Kings",
-   "author": "David Nield",
-   "date": "2026-11-06T13:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "My Disordered Eating Had Nothing to Do With My Weight",
-   "url": "http://www.thecut.com/article/sibo-ibs-disordered-eating.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "When my IBS symptoms went from manageable to debilitating, skipping meals made me feel better. Until I realized it was making things worse.",
-   "author": "Johanna Ferreira",
-   "date": "2026-11-06T12:00:45.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "Celestial nuisance",
    "url": "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions",
    "blurb": "The cosmos has become a lab for the Big Questions in physics. Along the way, we’ve lost sight of its glorious messiness - by Dylan Jow Read on Aeon",
    "author": "Dylan Jow",
    "date": "2026-11-06T11:00:00.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Science Friction: An Argument for More Sex in Sci-Fi",
-   "url": "https://lithub.com/science-friction-an-argument-for-more-sex-in-sci-fi/",
-   "blurb": "This first appeared in Lit Hub’s Craft of Writing newsletter—sign up here. For centuries, sailors enduring months-long voyages would gaze out at sea mammals sunning themselves and think the thought as old as thought itself: ​ “Would.” ​…",
-   "author": "Adam Peterson",
-   "date": "2026-11-06T10:00:07.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Who Gets to Write About Ordinary Life?",
-   "url": "https://lithub.com/who-gets-to-write-about-ordinary-life/",
-   "blurb": "We keep asking Sergey Davydov for a news report, but what he really wants to tell us is a love story. It would be to our advantage if we do it his way. His sophomore foray outside of theatre, Мидвест",
-   "author": "Katherine Kelaidis",
-   "date": "2026-11-06T09:59:15.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "How Neuroscience Can Give Paralyzed People The Chance to Speak Again",
-   "url": "https://lithub.com/how-neuroscience-can-give-paralyzed-people-the-chance-to-speak-again/",
-   "blurb": "A young adult man with closely cropped dark brown hair sits in a wheelchair in a dimly lit room, facing a computer screen on which a simple phrase is typed out: “How are you ­today?” Underneath the question on the",
-   "author": "Anna Chambers",
-   "date": "2026-11-06T09:31:39.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "”Arabic Music,” a Poem by Mahmoud Darwish",
-   "url": "https://lithub.com/arabic-music-a-poem-by-mahmoud-darwish/",
-   "blurb": "“If only men were stones.” If only I were a stone… Whenever the eyes wander, Do these clouds, one by one, Put me to flight? When a sparrow scratches at the horizon Do I search for an idol? At each",
-   "author": "Mahmoud Darwish",
-   "date": "2026-11-06T09:30:53.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Priyanka Kumar on Incorporating Art Into Her Nature Writing",
-   "url": "https://lithub.com/priyanka-kumar-on-incorporating-art-into-her-nature-writing/",
-   "blurb": "On a snowy winter afternoon, a coyote was slipping out of the microwild around my home as I tried, without success, to get a good photograph. (I created the concept of the microwild while writing the book The Light Between",
-   "author": "Priyanka Kumar",
-   "date": "2026-11-06T09:15:57.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "What Should You Read Next? Here Are the Best Reviewed Books of the Week",
-   "url": "https://lithub.com/what-should-you-read-next-here-are-the-best-reviewed-books-of-the-week-17/",
-   "blurb": "Judi Dench’s Is It Too Late to Make a Run for It?, Ian Rankin’s The Heights, Louise Kennedy’s Stations, and Simon Garfield’s The Pen: A Human History all feature among the best reviewed books of the week. Brought to you by Book Marks, Li…",
-   "author": "Book Marks",
-   "date": "2026-11-06T09:07:40.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Ancient DNA May Reveal the Surprising Roots of English and Other Germanic Languages",
-   "url": "https://nautil.us/ancient-dna-may-reveal-the-surprising-roots-of-english-and-other-germanic-languages-1286400/",
-   "blurb": "Iron Age people were on the move",
-   "author": "Jake Currie",
-   "date": "2026-11-05T23:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Switching to This Healthier Version of Salt Could Save Around 3 Million Lives a Year",
-   "url": "https://nautil.us/switching-to-this-healthier-version-of-salt-could-save-around-3-million-lives-a-year-1286385/",
-   "blurb": "You can even make it at home",
-   "author": "Jake Currie",
-   "date": "2026-11-05T22:00:00.000Z"
   },
   {
    "source": "Aeon",
@@ -469,14 +477,6 @@
    "date": "2026-10-26T10:00:00.000Z"
   },
   {
-   "source": "The Paris Review",
-   "title": "Turner Brooks’s Spatial Memories",
-   "url": "https://www.theparisreview.org/blog/2026/10/23/turner-brooks-spatial-memories/",
-   "blurb": "Brooks examines buildings less as ends in themselves than as prisms for the human dramas they contain.",
-   "author": "Alessandro Tersigni",
-   "date": "2026-10-23T12:00:57.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "Traction!",
    "url": "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress",
@@ -491,14 +491,6 @@
    "blurb": "Disconnection is at the heart of today’s crises. So my husband and I chose a radical and revealing remedy: living communally - by Elizabeth Oldfield Read on Aeon",
    "author": "Elizabeth Oldfield",
    "date": "2026-10-22T10:00:00.000Z"
-  },
-  {
-   "source": "Aeon",
-   "title": "How intuitions work",
-   "url": "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how",
-   "blurb": "Just as seeing a tree gives you reason to believe it’s there, sensing that a stranger is creepy gives you reason to walk away - by Marc A Moffett Read on Aeon",
-   "author": "Marc A Moffett",
-   "date": "2026-10-20T10:00:00.000Z"
   },
   {
    "source": "Orion Magazine",
