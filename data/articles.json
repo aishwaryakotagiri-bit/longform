@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-11T06:52:29.025Z",
+ "updated": "2026-11-12T07:28:39.777Z",
  "report": [
   {
    "source": "Aeon",
-   "count": 12
+   "count": 11
   },
   {
    "source": "Literary Hub",
@@ -28,6 +28,246 @@
   }
  ],
  "articles": [
+  {
+   "source": "The Cut",
+   "title": "Rumi Carter Is a Maxxinista",
+   "url": "http://www.thecut.com/article/beyoncs-daughter-rumi-carter-is-a-maxxinista.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Beyoncé’s nine-year-old daughter knows what she likes.",
+   "author": "Sam Reed",
+   "date": "2026-11-11T23:19:39.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "What’s All That Coffee Doing to Your Gut?",
+   "url": "https://nautil.us/whats-all-that-coffee-doing-to-your-gut-1286572/",
+   "blurb": "Don’t worry, it’s good",
+   "author": "Jake Currie",
+   "date": "2026-11-11T22:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Maybe They Shouldn’t Have Changed the Slogan",
+   "url": "http://www.thecut.com/article/maybellines-new-slogan-has-too-much-punctuation.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "An abundance of new periods in Maybelline’s tagline is not going over well.",
+   "author": "Sam Reed",
+   "date": "2026-11-11T21:35:48.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Hanifa Is Back",
+   "url": "http://www.thecut.com/article/anifa-mvuemba-announced-the-return-of-hanifa.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Founder and CEO Anifa Mvuemba talked with The Cut about her decision to relaunch the brand on its 15th anniversary.",
+   "author": "Jaharia Knowles",
+   "date": "2026-11-11T21:12:33.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Jacob Elordi will star in an adaptation of The Executioner’s Song.",
+   "url": "https://lithub.com/jacob-elordi-will-star-in-an-adaptation-of-the-executioners-song/",
+   "blurb": "Fresh off his Oscar-nominated turn as the Creature in Frankenstein, Jacob Elordi is set to star in and produce an adaptation of Norman Mailer’s Pulitzer prize-winning 1979 novel The Executioner’s Song. The Executioner’s Song is a complex…",
+   "author": "Olivia Rutigliano",
+   "date": "2026-11-11T21:10:22.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Bella Hadid’s New Hair Is a Wig, Actually",
+   "url": "http://www.thecut.com/article/bella-hadids-new-hair-is-a-wig-actually.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "She just didn’t want to do a messy bun.",
+   "author": "Grace Klara Marshall",
+   "date": "2026-11-11T21:02:14.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The Four Forces That Shape Collective Memory",
+   "url": "https://nautil.us/the-four-forces-that-shape-collective-memory-1286569/",
+   "blurb": "Why we all remember Napoleon’s name",
+   "author": "Kristen French",
+   "date": "2026-11-11T21:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Why Is One of Katseye’s Members Sitting Onstage?",
+   "url": "http://www.thecut.com/article/why-did-megan-from-katseye-perform-on-a-stool.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "After announcing she had a concussion, Megan Skiendiel shimmied from her stool for the band’s Austin show.",
+   "author": "Brooke LaMantia",
+   "date": "2026-11-11T20:27:51.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Balenciaga’s Le City Bag’s Frontal Lobe Has Developed",
+   "url": "http://www.thecut.com/article/balenciagas-le-city-bags-25-anniversary.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The iconic bag has officially turned 25.",
+   "author": "Bianca Nieves",
+   "date": "2026-11-11T20:06:36.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Best Under-$25 Gifts for Everyone on Your List",
+   "url": "http://www.thecut.com/article/best-under-25-gift-ideas.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "From charms and trinkets to beauty gift sets.",
+   "author": "Hanna Flanagan",
+   "date": "2026-11-11T19:50:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The What and When of Longevity Dieting",
+   "url": "https://nautil.us/the-what-and-when-of-longevity-dieting-1286564/",
+   "blurb": "It’s time to toss calorie restriction",
+   "author": "Jake Currie",
+   "date": "2026-11-11T19:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Gird Your Loins: A Heated Rivalry Monopoly Game Is Coming",
+   "url": "http://www.thecut.com/article/heated-rivalry-monopoly-board-game.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "And it looks spicy.",
+   "author": "Hanna Flanagan",
+   "date": "2026-11-11T18:16:06.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Here’s Why It’s So Hard to Boost a Satellite",
+   "url": "https://nautil.us/heres-why-its-so-hard-to-boost-a-satellite-1286550/",
+   "blurb": "NASA’s Swift telescope has burned up, months after a robot sent to save it failed",
+   "author": "Wanjiku Chebet Kanjumba",
+   "date": "2026-11-11T17:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Amanda Seyfried Does Not Regret Fighting Billy Evans",
+   "url": "http://www.thecut.com/article/amanda-seyfried-does-not-regret-fighting-billy-evans.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "“Look, I do not like him.”",
+   "author": "Olivia Craighead",
+   "date": "2026-11-11T16:58:55.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "‘I Love My Boyfriend — But Is He Rich Enough?’",
+   "url": "http://www.thecut.com/article/going-through-it-love-my-boyfriend-is-he-rich-enough-advice.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "There’s another question underneath this one.",
+   "author": "Amy Rose Spiegel",
+   "date": "2026-11-11T16:00:09.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "What to Buy for the Best-Smelling Person You Know",
+   "url": "http://www.thecut.com/article/best-fragrance-gifts-for-the-friend-who-likes-to-smell-expensive.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "If they like to smell expensive, they’ll want something on this list.",
+   "author": "Asia Milia Ware",
+   "date": "2026-11-11T15:44:49.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The Temperamental Nature of Alligator Gender-Reveal Parties",
+   "url": "https://nautil.us/the-temperamental-nature-of-alligator-gender-reveal-parties-1286547/",
+   "blurb": "With just a degree or two determining gator sex ratios",
+   "author": "Devin Reese",
+   "date": "2026-11-11T15:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Brittany Mahomes Is Pregnant With Her Fourth Baby",
+   "url": "http://www.thecut.com/article/brittany-mahomes-pregnant-fourth-baby.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Will she continue her metal-themed naming scheme?",
+   "author": "Olivia Craighead",
+   "date": "2026-11-11T14:26:03.000Z"
+  },
+  {
+   "source": "The Paris Review",
+   "title": "Threads of Imagery: Barbara Trapido’s Debut Novel Forty Years On",
+   "url": "https://www.theparisreview.org/blog/2026/11/11/barbara-trapido-brother-more-famous-jack-rosa-lyster/",
+   "blurb": "Trapido’s novel is about how to live, how to be: how to be happy, how to fall in love, how to collapse in a heap when love doesn’t work out.",
+   "author": "Rosa Lyster",
+   "date": "2026-11-11T13:00:29.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "This 150-Million-Year-Old Bird Had a Body Built for the Land",
+   "url": "https://nautil.us/this-150-million-year-old-bird-had-a-body-built-for-the-land-1286543/",
+   "blurb": "The find indicates that flight may have evolved multiple times",
+   "author": "David Nield",
+   "date": "2026-11-11T13:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Quinn Shephard’s The Crucible Obsession Paid Off",
+   "url": "http://www.thecut.com/article/quinn-shephard-netflix-series-the-body-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The director’s queer Netflix series, The Body, takes place in the early 2000s but feels like a show that could only be made today.",
+   "author": "Brooke LaMantia",
+   "date": "2026-11-11T13:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Do I Really Need a Best Friend?",
+   "url": "http://www.thecut.com/article/do-i-really-need-a-best-friend.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "After two painful friendship breakups, I’m starting to wonder if my devotion to a bestie has been holding me back.",
+   "author": "Shanetta McDonald",
+   "date": "2026-11-11T12:00:31.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "A History of the American Nepo Baby",
+   "url": "https://lithub.com/a-history-of-the-american-nepo-baby/",
+   "blurb": "Perhaps the clearest evidence of Americans’ comfort with aristocracy is their tacit acceptance of the persistent nepotism in modern culture. Nothing better reflects our love of pedigree than the public’s obsession with “nepo babies,” the…",
+   "author": "Nancy Isenberg",
+   "date": "2026-11-11T09:00:24.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "What is the Best Literary TV Adaptation of All Time? Day Three",
+   "url": "https://lithub.com/what-is-the-best-literary-tv-adaptation-of-all-time-day-three/",
+   "blurb": "Day three! I spent most of yesterday wandering around and trying to process The Leftovers losing in the first round, but after going through the stages of bracket grief (anger, double checking, projecting, anger, thirst, scrolling, anger…",
+   "author": "Literary Hub",
+   "date": "2026-11-11T08:57:40.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Are We Living In a Simulation? And Other Questions Concerning Our Role in the Universe",
+   "url": "https://lithub.com/are-we-living-in-a-simulation-and-other-questions-concerning-our-role-in-the-universe/",
+   "blurb": "In 1637, French philosopher René Descartes recorded a basic truth in his grandly entitled Discourse on the Method of Rightly Conducting the Reason, and Seeking Truth in the Sciences: Je pense, donc je suis. “I think, therefore I am.” It",
+   "author": "Catherine Heymans",
+   "date": "2026-11-11T08:55:03.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Tom Drury on Writing from Flyover Country",
+   "url": "https://lithub.com/tom-drury-on-writing-from-flyover-country/",
+   "blurb": "In May of 2022 I was invited to speak at an international conference called Flyover Fictions. Hosted by the American Studies program at the University of Innsbruck, in the Austrian Alps, the conference considered the concept of “flyover…",
+   "author": "Tom Drury",
+   "date": "2026-11-11T08:50:12.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "10 Books on the Birth of Modern New York",
+   "url": "https://lithub.com/10-books-on-the-birth-of-modern-new-york/",
+   "blurb": "New York has never been shy about celebrating the people who built it. Their names are etched into buildings, attached to parks and libraries, and repeated in stories about how a small colonial port became one of the world’s great",
+   "author": "David Conrad-Pérez",
+   "date": "2026-11-11T08:30:40.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "How the Author of Aladdin Got Erased From History",
+   "url": "https://lithub.com/how-the-author-of-aladdin-got-erased-from-history/",
+   "blurb": "Hanna Diab, an eighteenth-century Syrian adventurer, dreamt up one of the world’s best-known stories, Aladdin or The Wonderful Lamp, from the facts of his own life. But Diab has been neglected and uncredited these last three hundred year…",
+   "author": "Matthew Teller",
+   "date": "2026-11-11T08:25:46.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Five Books About World War II for Young Readers",
+   "url": "https://lithub.com/five-books-about-world-war-ii-for-young-readers/",
+   "blurb": "From a very early age, my son Dashiell was fascinated by World War II. I know exactly where this started, and it certainly helped that he comes from a lineage of history buffs. His great grandparents lived in Palm Springs,",
+   "author": "Stuart Gibbs",
+   "date": "2026-11-11T08:20:19.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "No Such Thing as Monday",
+   "url": "https://lithub.com/no-such-thing-as-monday/",
+   "blurb": "There’s nothing mysterious about my sister. She wasn’t hard to find. It’s just I’d never tried. All I had to do was look up where she works and catch a few buses over there. It turned out it was quite",
+   "author": "Lit Hub Excerpts",
+   "date": "2026-11-11T08:00:24.000Z"
+  },
   {
    "source": "Nautilus",
    "title": "Lean Muscle Mass Isn’t a Cure-All for Metabolic Health",
@@ -69,14 +309,6 @@
    "date": "2026-11-10T21:00:00.000Z"
   },
   {
-   "source": "Literary Hub",
-   "title": "The brand new Stylus Prize will distribute $750,000 to three literary nonprofits.",
-   "url": "https://lithub.com/the-brand-new-stylus-prize-will-distribute-750000-to-three-literary-nonprofits/",
-   "blurb": "Today, the Literary Arts Fund announced the inaugural winners of a new major literary prize: The Stylus Award, which recognizes nonprofits making essential contributions in the literary world. This award is designed to highlight the many…",
-   "author": "Brittany Allen",
-   "date": "2026-11-10T20:11:52.000Z"
-  },
-  {
    "source": "Nautilus",
    "title": "Descendants of Chornobyl’s Pets Run Wild",
    "url": "https://nautil.us/descendants-of-chornobyls-pets-run-wild-1286508/",
@@ -101,76 +333,12 @@
    "date": "2026-11-10T18:34:19.000Z"
   },
   {
-   "source": "Literary Hub",
-   "title": "Phoebe Waller-Bridge is donating a flat to emerging writers.",
-   "url": "https://lithub.com/phoebe-waller-bridge-is-donating-a-flat-to-emerging-writers/",
-   "blurb": "Attention, skint artists of England! Phoebe Waller-Bridge—the Fleabag herself—is starting a side hustle: patron saint to creatives with rent woes. Specifically, Waller-Bridge will be lending a flat to London based playwrights from underp…",
-   "author": "Brittany Allen",
-   "date": "2026-11-10T18:22:52.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "Michael Bloomberg and Diana Taylor Get Married After 26 Years",
    "url": "http://www.thecut.com/article/mike-bloomberg-and-diana-taylor-get-married-after-26-years.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
    "blurb": "It’s never too late to DTR.",
    "author": "Grace Klara Marshall",
    "date": "2026-11-10T17:32:07.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "‘Co-workers Keep Pushing Food on Me — and I Don’t Want It’",
-   "url": "http://www.thecut.com/article/co-workers-giving-me-food-advice.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "You shouldn’t need to debate your eating habits with your colleagues.",
-   "author": "Alison Green",
-   "date": "2026-11-10T17:00:20.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "The Difference Between Nice and Kind",
-   "url": "https://nautil.us/the-difference-between-nice-and-kind-1286505/",
-   "blurb": "How we talk about good deeds and acts of altruism",
-   "author": "Kristen French",
-   "date": "2026-11-10T17:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Meghan and Harry Put on a Brave Face in Belgium",
-   "url": "http://www.thecut.com/article/meghan-and-harry-put-on-a-brave-face-in-belgium.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Harry delivered a keynote speech about children’s safety on behalf of the couple.",
-   "author": "Sam Reed",
-   "date": "2026-11-10T16:22:51.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Looks Like Rachel Zegler Is Dating a Les Mis Hunk",
-   "url": "http://www.thecut.com/article/rachel-zegler-bradley-jaden-hot-javert-dating.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Bradley Jaden made a name for himself as “Hot Javert” over the summer.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-10T15:16:47.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "What the Measles Vaccine’s “97% Effective” Rating Means for Pittsburgh Parents",
-   "url": "https://nautil.us/what-the-measles-vaccines-97-effective-rating-means-for-pittsburgh-parents-1286498/",
-   "blurb": "Demand for the MMR vaccine has risen in Pennsylvania as the state’s measles outbreak has grown",
-   "author": "Rebecca Smullin Dawson",
-   "date": "2026-11-10T15:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Rhea Raj Is Building Her Own Path to Stardom",
-   "url": "http://www.thecut.com/article/rhea-raj-music-star-study-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The South Asian pop singer and older sister of Katseye’s Lara Raj is a triple threat.",
-   "author": "Cat Zhang",
-   "date": "2026-11-10T13:00:53.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "‘Foot Undies’ Put a Pep in My Step",
-   "url": "http://www.thecut.com/article/foot-undies-lace-socks-trend.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Peek-a-boo lace socks are the internet’s new favorite microtrend. I took a $7 pair out for a spin.",
-   "author": "Emma Childs",
-   "date": "2026-11-10T13:00:53.000Z"
   },
   {
    "source": "The Paris Review",
@@ -181,14 +349,6 @@
    "date": "2026-11-10T13:00:28.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "This Photo of the Night Sky Reveals 14,000 Satellite Trails",
-   "url": "https://nautil.us/this-photo-of-the-night-sky-reveals-14000-satellite-trails-1286493/",
-   "blurb": "An image so striking, many people thought it was AI",
-   "author": "David Nield",
-   "date": "2026-11-10T13:00:00.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "The wholehearted life",
    "url": "https://aeon.co/essays/how-does-roshi-joan-halifax-make-sense-of-her-buddhist-life",
@@ -197,164 +357,12 @@
    "date": "2026-11-10T11:00:00.000Z"
   },
   {
-   "source": "Literary Hub",
-   "title": "How the Telephone Changed the World",
-   "url": "https://lithub.com/how-the-telephone-changed-the-world/",
-   "blurb": "A beige plastic telephone sits on a wooden table. The handset, attached by a coiled cord, rests in its cradle. The base has a clear dial with ten finger holes. The telephone is the most ordinary of household objects but,",
-   "author": "James Gleick",
-   "date": "2026-11-10T09:50:49.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "What is the Best Literary TV Adaptation of All Time? Day Two",
-   "url": "https://lithub.com/what-is-the-best-literary-tv-adaptation-of-all-time-day-two/",
-   "blurb": "After a big first day, just 32 of the boob tube’s finest fare are left in contention. A ton of you participated yesterday—thank you!—though a good chunk of you personally let me down. But more on that later. The first",
-   "author": "Literary Hub",
-   "date": "2026-11-10T09:49:12.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "The Enduring Genius of Janet Malcolm",
-   "url": "https://lithub.com/the-enduring-genius-of-janet-malcolm/",
-   "blurb": "By the time I learned who Janet Malcolm was, it turned out that I had been circling her for some time. What I mean is that I had known about her work—I had read some of her articles in college",
-   "author": "Eve Sneider",
-   "date": "2026-11-10T09:40:50.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "My Electric Journey Out of Darkness: 10 Books on Electroconvulsive Therapy",
-   "url": "https://lithub.com/my-electric-journey-out-of-darkness-10-books-on-electroconvulsive-therapy/",
-   "blurb": "Electroconvulsive therapy is often used as a last line of treatment against mood disorders. It works by sending short electrical shocks to the brain to induce a seizure. The approach was innovated in Italy, where they coined an efficient…",
-   "author": "Ted Scheinman",
-   "date": "2026-11-10T09:27:08.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Lit Hub Asks: 5 Authors, 7 Questions, No Wrong Answers",
-   "url": "https://lithub.com/lit-hub-asks-5-authors-7-questions-no-wrong-answers-november-2026/",
-   "blurb": "The Lit Hub Author Questionnaire is a monthly interview featuring seven questions for five authors with new books. This month we talk to: Tahmima Anam (Uprising) Gabriel Bump (Don’t Stop Snowing) Siân Hughes (No Such Thing as Monday) Mat…",
-   "author": "Teddy Wayne",
-   "date": "2026-11-10T09:00:55.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Why Do We Sing?",
-   "url": "https://lithub.com/why-do-we-sing/",
-   "blurb": "Why do people sing? Why is it so necessary that we would go to any length to do it, even in the face of repression? Linda Ronstadt suggests people do it for the same reasons the birds do: “They sing",
-   "author": "Lauren Elkin",
-   "date": "2026-11-10T09:00:33.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Karen Olsson on Writing About the Endangered Species of South Texas",
-   "url": "https://lithub.com/karen-olsson-on-writing-about-the-endangered-species-of-south-texas/",
-   "blurb": "Austin-based novelist Karen Olsson’s background as a journalist (as writer-at-large for Texas Monthly and an editor of the late Texas Observer) has enriched her fiction since the beginning of her career. Waterloo, her first novel, offers…",
-   "author": "Jane Ciabattari",
-   "date": "2026-11-10T08:45:04.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "A Look Back at the Most Breathtaking Photos of Saturn From Voyager 1",
-   "url": "https://nautil.us/a-look-back-at-the-most-breathtaking-photos-of-saturn-from-voyager-1-1286483/",
-   "blurb": "It visited the ringed planet 46 years ago this month",
-   "author": "Jake Currie",
-   "date": "2026-11-10T00:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "How A Bedroom Air Filter Could Keep Your Blood Sugar in Check",
-   "url": "https://nautil.us/how-a-bedroom-air-filter-could-keep-your-blood-sugar-in-check-1286480/",
-   "blurb": "New research links clean air to tighter glucose control",
-   "author": "Jake Currie",
-   "date": "2026-11-09T23:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Black Friday Is Coming and You Can Shop Early Deals Now",
-   "url": "http://www.thecut.com/article/best-early-black-friday-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "From Ulta, Net-a-Porter, Nordstrom, and more.",
-   "author": "Chinea Rodriguez",
-   "date": "2026-11-09T22:42:50.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Trillion-Dollar Affair",
-   "url": "http://www.thecut.com/article/did-nvidias-ceo-have-a-trillion-dollar-affair.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Nvidia CEO Jensen Huang publicly apologized to his wife amid an investigation into his relationship with a suspected Chinese spy.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-09T21:47:39.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Do We Think in Pictures, Words, or… Code?",
-   "url": "https://nautil.us/do-we-think-in-pictures-words-or-code-1286476/",
-   "blurb": "A conversation with cognitive scientist Evelina Fedorenko about where thought and language overlap",
-   "author": "Kristen French",
-   "date": "2026-11-09T21:30:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Blue Wave Has a New Color Palette",
-   "url": "http://www.thecut.com/article/did-the-new-democratic-senators-coordinate-their-outfits.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Incoming Democratic senators showed up to Monday’s orientation in coordinated jewel tones.",
-   "author": "Grace Klara Marshall",
-   "date": "2026-11-09T21:16:22.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Man Regrets Starting One-Sided Taylor Swift Beef",
-   "url": "http://www.thecut.com/article/tyler-kolek-regrets-starting-one-sided-taylor-swift-beef.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The Knicks’ Tyler Kolek swears he’s a huge Swiftie after calling Swift a “performative” fan.",
-   "author": "Sam Reed",
-   "date": "2026-11-09T19:26:11.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Is This Skims Advent Calendar a ‘Skam’?",
-   "url": "http://www.thecut.com/article/is-this-skims-advent-calendar-a-skam.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The viral Advent calendar featured hair ties, key chains, bra straps, and absolutely too many hairpins.",
-   "author": "Chinea Rodriguez",
-   "date": "2026-11-09T18:26:35.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "There’s a Scapegoat for Jacob Elordi’s Blond Hair",
-   "url": "http://www.thecut.com/article/jacob-elordi-is-blond-now.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "It’s almost definitely for an Ari Aster movie.",
-   "author": "Sam Reed",
-   "date": "2026-11-09T17:39:37.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Amanda Seyfried Is Posting About Her Divorce",
-   "url": "http://www.thecut.com/article/amanda-seyfried-is-posting-about-her-divorce.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She’s a big fan of conscious uncoupling.",
-   "author": "Grace Klara Marshall",
-   "date": "2026-11-09T17:37:25.000Z"
-  },
-  {
    "source": "The Paris Review",
    "title": "Robert Caro, Unlocked: The Better Our Country Will Be",
    "url": "https://www.theparisreview.org/blog/2026/11/09/robert-caro-matthew-baker/",
    "blurb": "To celebrate the results of the midterm elections, we’ve unlocked Robert Caro’s Art of Biography interview and Matthew Baker’s short story “Why Visit America” from the archive.",
    "author": "Hazel Byers",
    "date": "2026-11-09T17:08:06.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Russell Brand Was Sentenced to More Than 10 Years in Prison",
-   "url": "http://www.thecut.com/article/russell-brand-sentenced-ten-years-prison.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The disgraced comedian was found guilty of rape and sexual assault in the U.K. on Friday.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-09T16:16:05.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Ariana Grande’s Break Is Over",
-   "url": "http://www.thecut.com/article/ariana-grandes-break-is-over.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "A few months after taking “a step back,” she and her bob joined her Focker-in-Law co-stars on The Tonight Show.",
-   "author": "Sam Reed",
-   "date": "2026-11-09T16:04:55.000Z"
   },
   {
    "source": "Aeon",
@@ -469,14 +477,6 @@
    "date": "2026-10-28T15:57:53.000Z"
   },
   {
-   "source": "The Paris Review",
-   "title": "Sexless in the City: The Second Life of Cynthia Buchanan’s Maiden",
-   "url": "https://www.theparisreview.org/blog/2026/10/27/second-life-of-cynthia-buchanans-maiden/",
-   "blurb": "“ ‘She was looking for a man,’ Cynthia Buchanan writes of the virgin’s quest. ‘She sure was looking for some man.’ ”",
-   "author": "Walker Rutter-Bowman",
-   "date": "2026-10-27T12:00:36.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "Love with nowhere to go",
    "url": "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death",
@@ -499,14 +499,6 @@
    "blurb": "Tribologists study friction: what happens when things rub together. It’s indispensable, from the wheel to the paths of stars - by Jennifer R Vail Read on Aeon",
    "author": "Jennifer R Vail",
    "date": "2026-10-23T10:00:00.000Z"
-  },
-  {
-   "source": "Aeon",
-   "title": "Other people",
-   "url": "https://aeon.co/essays/living-in-community-is-where-self-illusions-go-to-die",
-   "blurb": "Disconnection is at the heart of today’s crises. So my husband and I chose a radical and revealing remedy: living communally - by Elizabeth Oldfield Read on Aeon",
-   "author": "Elizabeth Oldfield",
-   "date": "2026-10-22T10:00:00.000Z"
   },
   {
    "source": "Orion Magazine",
