@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T06:53:38.842Z",
+ "updated": "2026-11-16T06:56:53.726Z",
  "report": [
   {
    "source": "Aeon",
@@ -24,10 +24,42 @@
   },
   {
    "source": "The Cut",
-   "count": 19
+   "count": 18
   }
  ],
  "articles": [
+  {
+   "source": "The Cut",
+   "title": "Billy Evans Loved You Can See Everything",
+   "url": "http://www.thecut.com/article/billy-evans-loved-you-can-see-everything.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Elizabeth Holmes’s husband says he’d “100%” film it all over again.",
+   "author": "Sam Reed",
+   "date": "2026-11-15T19:20:48.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Good News About AO3",
+   "url": "http://www.thecut.com/article/fan-fiction-site-ao3-is-back-after-a-security-incident.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "After 17 agonizing days, the fan fiction website is back online. Mostly.",
+   "author": "Sam Reed",
+   "date": "2026-11-15T16:49:15.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "A Dead Star Is Flashing Radio Waves Every 8 Minutes",
+   "url": "https://nautil.us/a-dead-star-is-flashing-radio-waves-every-8-minutes-1286645/",
+   "blurb": "And its partner looks a lot like the Sun",
+   "author": "Natasha Hurley-Walker",
+   "date": "2026-11-15T15:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "How Wealth Inequality Emerged in This Prehistoric Culture",
+   "url": "https://nautil.us/how-wealth-inequality-emerged-in-this-prehistoric-culture-1286642/",
+   "blurb": "The graves tell a story of growing inequality",
+   "author": "Jake Currie",
+   "date": "2026-11-15T13:00:00.000Z"
+  },
   {
    "source": "The Cut",
    "title": "The Man Sleeping With a Gooner",
@@ -221,14 +253,6 @@
    "date": "2026-11-13T13:00:28.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "Trail Cameras Show Coyotes Using the World’s Largest Wildlife Crossing",
-   "url": "https://nautil.us/trail-cameras-show-coyotes-using-the-worlds-largest-wildlife-crossing-1286599/",
-   "blurb": "It officially opens next month",
-   "author": "David Nield",
-   "date": "2026-11-13T13:00:00.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "How Do I Teach My Daughter That Robots Are Not Her Friends?",
    "url": "http://www.thecut.com/article/teaching-daughter-robots-not-friends.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -309,44 +333,12 @@
    "date": "2026-11-12T23:16:45.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "You May be Able to Get 43 More Minutes of Work Done if You Change Your Desk",
-   "url": "https://nautil.us/you-may-be-able-to-get-43-more-minutes-of-work-done-if-you-change-your-desk-1286594/",
-   "blurb": "It’s time for workers to stand up",
-   "author": "Jake Currie",
-   "date": "2026-11-12T22:00:00.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "How Did He Have Time to Work?",
    "url": "http://www.thecut.com/article/jensen-huang-nvidia-third-affair-reported.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
    "blurb": "Reports that Nvidia’s ousted CEO Jensen Huang had a third affair make me wonder if some really people do have more hours in the day.",
    "author": "Olivia Craighead",
    "date": "2026-11-12T21:39:05.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Zac Affleck Admits He ‘Failed’ Jen Affleck",
-   "url": "http://www.thecut.com/article/zac-affleck-admits-he-failed-jen-affleck.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Right before Jen’s new Mormon Wives: OC spinoff aired, he posted a long apology to Instagram.",
-   "author": "Sam Reed",
-   "date": "2026-11-12T21:33:19.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "26 Travel Gift Ideas for the Frequent Flier in Your Life",
-   "url": "http://www.thecut.com/article/best-travel-gift-ideas.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "They’ll be ready to hop on a plane right away.",
-   "author": "Chinea Rodriguez",
-   "date": "2026-11-12T18:45:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Aspyn Ovard’s Daughter Was Diagnosed With Terminal Cancer",
-   "url": "http://www.thecut.com/article/aspyn-ovards-daughter-was-diagnosed-with-terminal-cancer.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "In the series premiere of The Secret Lives of Mormon Wives: Orange County, Ovard said her daughter “could be gone in a month.”",
-   "author": "Jaharia Knowles",
-   "date": "2026-11-12T17:30:43.000Z"
   },
   {
    "source": "Aeon",
