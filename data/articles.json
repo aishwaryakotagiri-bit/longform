@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T06:56:53.726Z",
+ "updated": "2026-11-17T08:13:51.855Z",
  "report": [
   {
    "source": "Aeon",
@@ -24,15 +24,303 @@
   },
   {
    "source": "The Cut",
-   "count": 18
+   "count": 19
   }
  ],
  "articles": [
   {
+   "source": "Literary Hub",
+   "title": "Song and Spirit: On Understanding My Grandmother’s Deeply-Held Devotion",
+   "url": "https://lithub.com/song-and-spirit-on-understanding-my-grandmothers-deeply-held-devotion/",
+   "blurb": "In the morning everyone was asleep except for Grandma and me. I lay awake in bed between my cousin Rhonda and girl-aunt Sheila, listening for Grandma to rise in the quiet dark. Knowing she liked to be alone first thing",
+   "author": "Nicole R. Fleetwood",
+   "date": "2026-11-17T08:05:29.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Gary Shteyngart, Solvej Balle, Don DeLillo, and more: 20 new books out today!",
+   "url": "https://lithub.com/gary-shteyngart-solvej-balle-don-delillo-and-more-20-new-books-out-today/",
+   "blurb": "No slowing down, folks: it’s a day of huge releases, yet again. Gary Shteyngart releases his very first collection of essays, Solvej Balle is back with Book V in her lauded series, and a reissue of Don DeLillo’s secret, sexy,",
+   "author": "Julia Hass",
+   "date": "2026-11-17T08:02:46.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "The Key Biscayne Affair",
+   "url": "https://lithub.com/the-key-biscayne-affair/",
+   "blurb": "Our problems began as soon as we touched down in Miami. Men in black vests greeted us when we disembarked. Somehow our reputation preceded us—the mysterious trio, traveling sans documentation—and we were escorted to a small room. Nico and I",
+   "author": "Lit Hub Excerpts",
+   "date": "2026-11-17T08:00:34.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "New “Central Dogma of Aging” Highlights the Complexity of Getting Older",
+   "url": "https://nautil.us/new-central-dogma-of-aging-highlights-the-complexity-of-getting-older-1286682/",
+   "blurb": "Imbalances pile up as we age",
+   "author": "Jake Currie",
+   "date": "2026-11-17T00:30:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Mohamed Hadid Is Engaged to a Divorce Coach",
+   "url": "http://www.thecut.com/article/mohamed-hadid-got-engaged-to-divorce-coach-keni-silva.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "His fiancée, Keni Silva, wants to remind everyone that “you can still have your fairy tale.”",
+   "author": "Grace Klara Marshall",
+   "date": "2026-11-16T22:23:09.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Derelict Soviet Spacecraft? Dark Comet? What the Heck is 1998 KY26?",
+   "url": "https://nautil.us/derelict-soviet-spacecraft-dark-comet-what-the-heck-is-1998-ky26-1286677/",
+   "blurb": "It’s behavior defies explanation",
+   "author": "Jake Currie",
+   "date": "2026-11-16T22:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Best, Worst, and Weirdest Governors Awards Red-Carpet Looks",
+   "url": "http://www.thecut.com/article/the-best-worst-and-weirdest-governors-awards-looks.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Zendaya, Tessa Thompson, and Alexander Garfield wore some of the best looks of the night on Sunday.",
+   "author": "Jaharia Knowles",
+   "date": "2026-11-16T21:41:07.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "There’s New Hope for Detecting Alzheimer’s Before Cognitive Deficits Manifest",
+   "url": "https://nautil.us/theres-new-hope-for-detecting-alzheimers-before-cognitive-deficits-manifest-1286674/",
+   "blurb": "With no cure for Alzheimer’s on the horizon, and our best treatments only slowing the progression of the disease, there’s been an intense effort to find earlier means of detection. Now, a new study published in Neuroimage Reports is offe…",
+   "author": "Jake Currie",
+   "date": "2026-11-16T21:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Much Ado About Jumping",
+   "url": "http://www.thecut.com/article/the-gilded-age-jumping-the-broom-black-wedding-tradition.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Why some characters on The Gilded Age had mixed emotions about a centuries-old Black tradition during Peggy’s wedding.",
+   "author": "Jaharia Knowles",
+   "date": "2026-11-16T20:53:27.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Which Pop Diva Will Get the New Bond Song?",
+   "url": "http://www.thecut.com/article/who-will-write-robert-pattinsons-bond-theme-song.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Robert Pattinson’s 007 music is up for grabs.",
+   "author": "Olivia Craighead",
+   "date": "2026-11-16T20:43:16.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Black Friday Is Coming and You Can Shop Early Deals Now",
+   "url": "http://www.thecut.com/article/best-early-black-friday-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "From Ulta, Net-a-Porter, Nordstrom, and more.",
+   "author": "Chinea Rodriguez",
+   "date": "2026-11-16T20:20:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Would You Buy a $150 Lip Balm From J.Lo?",
+   "url": "http://www.thecut.com/article/jlo-beauty-150-lip-balms-controversy-explained.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Maybe the AI-generated campaign video will convince you.",
+   "author": "Carol Lee",
+   "date": "2026-11-16T19:54:30.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Curtis Sittenfeld’s Prep is coming to the small screen. Who should play Lee?",
+   "url": "https://lithub.com/curtis-sittenfelds-prep-is-coming-to-the-small-screen-who-should-play-lee/",
+   "blurb": "Back in 2005, Curtis Sittenfeld’s debut novel Prep was the talk of the town. We debated everything from its genre to its striving protagonist, whose moral universe felt like something straight outta Wharton. Sittenfeld was praised and de…",
+   "author": "Brittany Allen",
+   "date": "2026-11-16T19:46:17.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Marilee Fiebig and Andrew Shue Are Posting Wedding Pics",
+   "url": "http://www.thecut.com/article/marilee-fiebig-and-andrew-shue-are-posting-wedding-pics.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Everyone’s favorite wife-swap couple got married earlier this month on their farm in New Jersey.",
+   "author": "Sam Reed",
+   "date": "2026-11-16T19:29:37.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Is Science a Mirror, a Game, or a Conversation?",
+   "url": "https://nautil.us/is-science-a-mirror-a-game-or-a-conversation-1286671/",
+   "blurb": "What separates science from non-science",
+   "author": "Kristen French",
+   "date": "2026-11-16T19:00:00.000Z"
+  },
+  {
+   "source": "The Paris Review",
+   "title": "The Gatekeepers: Dispatch from an Israeli Jail",
+   "url": "https://www.theparisreview.org/blog/2026/11/16/gatekeepers-israeli-detention-palestine-jasper-nathaniel/",
+   "blurb": "On October 28, three journalists were beaten by Israeli settlers in the West Bank, then interrogated by Israeli police for nearly two days.",
+   "author": "Jasper Nathaniel",
+   "date": "2026-11-16T18:42:49.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "The 2026 Cercador Prize goes to The Song of Stork and Dromedary.",
+   "url": "https://lithub.com/the-2026-cercador-prize-goes-to-david-mckays-translation-of-the-song-of-stork-and-dromedary/",
+   "blurb": "Today, the Cercador Prize announced David McKay as the winner of the 2026 prize for his translation of Anjet Daanje’s The Song of Stork and Dromedary, published by FSG Originals. “Even amongst this year’s impressive finalists, The Song o…",
+   "author": "Drew Broussard",
+   "date": "2026-11-16T18:01:52.000Z"
+  },
+  {
+   "source": "The Paris Review",
+   "title": "August Wilson, Unlocked",
+   "url": "https://www.theparisreview.org/blog/2026/11/16/august-wilson-unlocked/",
+   "blurb": "This week, we’ve unlocked August Wilson’s Art of Theater interview from the archive.",
+   "author": "Asha Futterman",
+   "date": "2026-11-16T17:47:01.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Lindsay Clancy Will Face a Second Trial",
+   "url": "http://www.thecut.com/article/lindsay-clancy-will-face-a-second-trial.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "The Massachusetts mother accused of murdering her three young children will go in front of a jury again this spring.",
+   "author": "Erica Schwiegershausen",
+   "date": "2026-11-16T17:37:16.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Steven Spielberg’s Sartorial E.T. Tribute",
+   "url": "http://www.thecut.com/article/steven-spielbergs-sartorial-e-t-honor-chanel-moma-photos.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Spielberg wore a Charvet black suit, with a silk lining printed with stars, as well as a patch that read “E.T. Phone Home.”",
+   "author": "Jaharia Knowles",
+   "date": "2026-11-16T17:35:46.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Nicola Coughlan Has Zero Interest in the ‘Harry Potter’ Show",
+   "url": "http://www.thecut.com/article/nicola-coughlan-jk-rowling-harry-potter-hbo-show.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "As an open J.K. Rowling hater, the actress said the show is “not for me.”",
+   "author": "Olivia Craighead",
+   "date": "2026-11-16T17:08:42.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "When Parasites Have Parasites",
+   "url": "https://nautil.us/when-parasites-have-parasites-1286661/",
+   "blurb": "Powdery mildew is kept in check by other fungi",
+   "author": "Devin Reese",
+   "date": "2026-11-16T17:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Are You Ready for a Freaky James Bond?",
+   "url": "http://www.thecut.com/article/robert-pattinson-james-bond-freaky.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Robert Pattinson has officially been cast as 007.",
+   "author": "Olivia Craighead",
+   "date": "2026-11-16T16:01:34.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Tyriq Withers Couldn’t Help Himself During the FAA Shutdown",
+   "url": "http://www.thecut.com/article/tyriq-withers-derailed-a-local-news-spot-about-faa-shutdown.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "He and Daniel Kaluuya completely derailed a local-news interview while stranded in a Eugene, Oregon, airport.",
+   "author": "Sam Reed",
+   "date": "2026-11-16T15:59:16.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "J.Lo’s Empty-Nest Experience Is ‘Kind of Amazing’",
+   "url": "http://www.thecut.com/article/j-los-empty-nest-experience.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "After doing a lot of crying when her kids went to college, she’s embracing her alone time.",
+   "author": "Olivia Craighead",
+   "date": "2026-11-16T15:37:26.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The Animals Defying the Climate Odds at the Top of the World",
+   "url": "https://nautil.us/the-animals-defying-the-climate-odds-at-the-top-of-the-world-1286650/",
+   "blurb": "Svalbard’s reindeer are leaning on their hardscrabble history to adapt to a global disruption",
+   "author": "Nancy Langston",
+   "date": "2026-11-16T15:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Could My Politics Survive the Strip Club?",
+   "url": "http://www.thecut.com/article/could-my-politics-survive-the-strip-club-mona-excerpt.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "As an academic, I studied the exploitation of workers from a distance. Then I started stripping.",
+   "author": "Azra Liaqat Khan",
+   "date": "2026-11-16T14:00:49.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "What to Gift the Man in Your Life This Holiday Season",
+   "url": "http://www.thecut.com/article/best-gifts-for-men.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Everything from stocking stuffers to splurge-worthy closet staples.",
+   "author": "Hanna Flanagan",
+   "date": "2026-11-16T14:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "‘He’ll 100 Percent Expect His Stocking to Be Filled’",
+   "url": "http://www.thecut.com/article/moms-buying-their-own-christmas-gifts.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "This holiday season, women are fed up with buying their own gifts.",
+   "author": "Bindu Bansinath",
+   "date": "2026-11-16T13:00:19.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Check Out the First Photos of the Poles of a Rod-Shaped Bacterium",
+   "url": "https://nautil.us/check-out-the-first-photos-of-the-poles-of-a-rod-shaped-bacterium-1286664/",
+   "blurb": "“We are looking at something that no one else has seen before”",
+   "author": "David Nield",
+   "date": "2026-11-16T13:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Dressing ‘Horny’ in My 40s",
+   "url": "http://www.thecut.com/article/dressing-horny-middle-age.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "This is supposed to be my Talbots era. Tell that to my crop tops.",
+   "author": "Meghan Nesmith",
+   "date": "2026-11-16T12:00:06.000Z"
+  },
+  {
+   "source": "Aeon",
+   "title": "The horse made the state",
+   "url": "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist",
+   "blurb": "Civilisation wasn’t made possible by grain, but by transportation – and the conquest it enabled, from the steppe to the sea - by Lhamsuren Munkh-Erdene Read on Aeon",
+   "author": "Lhamsuren Munkh-Erdene",
+   "date": "2026-11-16T11:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Meet the 2026 National Book Award Finalists",
+   "url": "https://lithub.com/meet-the-2026-national-book-award-finalists/",
+   "blurb": "The winners of the 77th National Book Awards—given every year in Young People’s Literature, Translation, Poetry, Nonfiction, and Fiction—will be announced this week in a ceremony hosted by Kyle MacLachlan at Cipriani Wall Street in New Y…",
+   "author": "Literary Hub",
+   "date": "2026-11-16T09:00:55.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "What is the Best Literary TV Adaptation of All Time? The Finals",
+   "url": "https://lithub.com/what-is-the-best-literary-tv-adaptation-of-all-time-the-finals/",
+   "blurb": "We made it folks. It’s the final two. 62 shows were voted out, including every show from our Cerebral and Carnal divisions. In the end, smart or horny wasn’t the winning vibe in this bracket. A toast to the last",
+   "author": "Literary Hub",
+   "date": "2026-11-16T08:59:26.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "My Father Is a Hill: On Identity, Inheritance, and Finding One’s Place In a Troubled World",
+   "url": "https://lithub.com/my-father-is-a-hill-on-identity-inheritance-and-finding-ones-place-in-a-troubled-world/",
+   "blurb": "I grew up in an area of Southern California known for the beach, the ocean, the coastline, but my family lived far from the water, high in the hills of Laguna. In our car we wound up, up past parks",
+   "author": "Emma Ramadan",
+   "date": "2026-11-16T08:55:10.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Ocean Vuong on Ágota Kristóf’s The Notebook Trilogy",
+   "url": "https://lithub.com/ocean-vuong-on-agota-kristofs-the-notebook-trilogy/",
+   "blurb": "Walter Benjamin, in his unfinished compendium, The Arcades Project, proposes that true artistic and social innovation will not come from the conventionally linear, dialectical evolution of ideas, but through violent displacement of time…",
+   "author": "Ocean Vuong",
+   "date": "2026-11-16T08:48:46.000Z"
+  },
+  {
    "source": "The Cut",
    "title": "Billy Evans Loved You Can See Everything",
    "url": "http://www.thecut.com/article/billy-evans-loved-you-can-see-everything.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Elizabeth Holmes’s husband says he’d “100%” film it all over again.",
+   "blurb": "Elizabeth Holmes’s husband says he’d “100 percent” film it all over again.",
    "author": "Sam Reed",
    "date": "2026-11-15T19:20:48.000Z"
   },
@@ -40,7 +328,7 @@
    "source": "The Cut",
    "title": "Good News About AO3",
    "url": "http://www.thecut.com/article/fan-fiction-site-ao3-is-back-after-a-security-incident.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "After 17 agonizing days, the fan fiction website is back online. Mostly.",
+   "blurb": "After 17 agonizing days, the fan-fiction website is back online. Mostly.",
    "author": "Sam Reed",
    "date": "2026-11-15T16:49:15.000Z"
   },
@@ -61,180 +349,12 @@
    "date": "2026-11-15T13:00:00.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "The Man Sleeping With a Gooner",
-   "url": "http://www.thecut.com/article/new-sex-diaries-story-the-man-sleeping-with-a-gooner.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "In this week’s story, a 25-year-old in Atlanta is faced with competing fetishes.",
-   "author": "Alyssa Shelasky",
-   "date": "2026-11-14T17:18:49.000Z"
-  },
-  {
    "source": "Nautilus",
    "title": "Giant, Fruit-Eating Bats Are Shrinking",
    "url": "https://nautil.us/giant-fruit-eating-bats-are-shrinking-1286637/",
    "blurb": "Leaving Madagascar with smaller pollinators",
    "author": "Devin Reese",
    "date": "2026-11-14T15:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "A Chemical Fingerprint in Ancient Rocks Suggests Plate Tectonics Began 2.5 Billion Years Ago",
-   "url": "https://nautil.us/a-chemical-fingerprint-in-ancient-rocks-suggests-plate-tectonics-began-2-5-billion-years-ago-1286624/",
-   "blurb": "There was a time when Earth didn’t have plate tectonics",
-   "author": "Janne Liebmann",
-   "date": "2026-11-14T13:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "What Would It Take for Me to Start Tracking My Kids’ Locations?",
-   "url": "http://www.thecut.com/article/what-would-it-take-for-me-to-start-tracking-my-kids.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "My son went missing for 18 interminable hours. I still think relying on technology to keep kids safe yokes families into a state of complacency.",
-   "author": "Kathryn Jezer-Morton",
-   "date": "2026-11-14T12:00:30.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Lit Hub Weekly: November 9 – 13, 2026",
-   "url": "https://lithub.com/lit-hub-weekly-november-9-13-2026/",
-   "blurb": "Think you saw every great debut novel in 2026? Think again. Maris Kreizman recommends 10 you might have missed. | Lit Hub Reading Lists Zachary Fletcher interviews former New York Times romance columnist Olivia Waite about being fired an…",
-   "author": "Lit Hub Daily",
-   "date": "2026-11-14T11:30:52.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "The World’s Largest Marine Turtle Makes a Move South",
-   "url": "https://nautil.us/the-worlds-largest-marine-turtle-makes-a-move-south-1286621/",
-   "blurb": "Nesting leatherbacks chase cooler waters to Ecuador’s beaches",
-   "author": "Devin Reese",
-   "date": "2026-11-13T23:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Why Sleep Might Not be as Restorative as We Get Older",
-   "url": "https://nautil.us/why-sleep-might-not-be-as-restorative-as-we-get-older-1286631/",
-   "blurb": "Our brains need a nightly scrubbing",
-   "author": "Jake Currie",
-   "date": "2026-11-13T22:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "What Public Health Initiatives Looked Like in the Middle Ages",
-   "url": "https://nautil.us/what-public-health-initiatives-looked-like-in-the-middle-ages-1286618/",
-   "blurb": "The road to hell is paved in good intentions, the roads in Trondheim were paved in something else",
-   "author": "Jake Currie",
-   "date": "2026-11-13T21:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "There’s Another Viral Bag You Need",
-   "url": "http://www.thecut.com/article/theres-another-dupe-you-need.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Atorie’s slouch bag looks suspiciously like Chanel’s.",
-   "author": "Chinea Rodriguez",
-   "date": "2026-11-13T20:40:08.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "How to Help Victims of the Brooklyn Building Collapse",
-   "url": "http://www.thecut.com/article/how-to-help-victims-of-the-brooklyn-building-collapse.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "At least eight households have been displaced after a Flatbush apartment building crumbled on Thursday.",
-   "author": "Erica Schwiegershausen",
-   "date": "2026-11-13T20:23:05.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Best-in-Class Rain Boots, a Very Cute Lamp, and More Excellent Deals",
-   "url": "http://www.thecut.com/article/sale-hunter-material-kitchen-naadam.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Including a cozy Outdoor Voices fleece, home décor from Ban.do, and La Roche-Posay lotion.",
-   "author": "Sam Daly",
-   "date": "2026-11-13T19:58:13.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Avril Lavigne Has Welcomed a Pop-Punk Baby",
-   "url": "http://www.thecut.com/article/avril-lavigne-has-welcomed-a-pop-punk-baby.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "And she’s already invested in tiny checkered Vans.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-13T19:34:57.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "6 More Women Accuse Russell Brand of Sexual Misconduct",
-   "url": "http://www.thecut.com/article/russell-brand-faces-new-sexual-misconduct-allegations.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Police are investigating new allegations against the disgraced comedian after he was sentenced to ten years in prison for rape and sexual assault.",
-   "author": "Andrea González-Ramírez",
-   "date": "2026-11-13T19:04:23.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Here’s what’s making us happy this week.",
-   "url": "https://lithub.com/heres-whats-making-us-happy-this-week-111326/",
-   "blurb": "Happy Friday, Lit Hub readers! This week, as the cold rolls in up East, we’re returning to gratitude. Your favorite masthead has been braving the weather and blessing the couch. Oliver Scialdone is looking forward to the Brooklyn Expo of",
-   "author": "Brittany Allen",
-   "date": "2026-11-13T19:02:26.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "When Envy is a Virtue",
-   "url": "https://nautil.us/when-envy-is-a-virtue-1286615/",
-   "blurb": "Can this “deadly sin” help cultivate a constructive drive to better ourselves?",
-   "author": "Kristen French",
-   "date": "2026-11-13T19:00:00.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Alibris has made a deal to sell used books on Temu.",
-   "url": "https://lithub.com/alibris-has-made-a-deal-to-sell-used-books-on-temu/",
-   "blurb": "As Sam Spratford reports in Publisher’s Weekly, Alibris has inked a deal to make over a million books available on Temu’s massive digital marketplace. It’s not too shocking, as Alibris seems to be chasing a model of breadth and speed;",
-   "author": "James Folta",
-   "date": "2026-11-13T17:42:52.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "What We Know About the Shooting in Washington, D.C.",
-   "url": "http://www.thecut.com/article/what-we-know-about-the-shooting-in-washington-d-c.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "One person is dead and four others are in the hospital after a gunman opened fire at a gym in D.C.’s Logan Circle neighborhood.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-13T17:15:00.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Put off Bolaño’s 2666 for too long? In 2027, tackle it with the Equator book club.",
-   "url": "https://lithub.com/put-off-bolanos-2666-for-too-long-in-2027-tackle-it-with-the-equator-book-club/",
-   "blurb": "The Equator reading group is back by popular demand. After a successful summer outing with Mike Davis’s Late Victorian Holocausts, the globally minded magazine is sponsoring another book club. This time, the subject is a literary doorsto…",
-   "author": "Brittany Allen",
-   "date": "2026-11-13T17:02:08.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Some Antidepressants May Work Better Than Others Long Term",
-   "url": "https://nautil.us/some-antidepressants-may-work-better-than-others-long-term-1286607/",
-   "blurb": "But does that mean these are the best antidepressants?",
-   "author": "Lauren Cortis",
-   "date": "2026-11-13T17:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The New Bachelor Is an NFL Quarterback",
-   "url": "http://www.thecut.com/article/new-bachelor-washington-commanders-sam-hartman.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Well, he’s on a practice squad, but that counts.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-13T16:02:53.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Watch Norway’s Lice-Zapping Robots Protect Salmon Farms",
-   "url": "https://nautil.us/watch-norways-lice-zapping-robots-protect-salmon-farms-1286604/",
-   "blurb": "I bet that feels good for the salmon",
-   "author": "Jake Currie",
-   "date": "2026-11-13T15:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Grimes Is Dating Her Producer",
-   "url": "http://www.thecut.com/article/grimes-dating-music-producer-elijah-weinkauf.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The singer has been with Elijah Weinkauf, a.k.a. Vadakin, for “some time.”",
-   "author": "Olivia Craighead",
-   "date": "2026-11-13T14:22:06.000Z"
   },
   {
    "source": "The Paris Review",
@@ -245,100 +365,12 @@
    "date": "2026-11-13T13:26:49.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Birth Rates Are Down. Give Party Dads a Chance.",
-   "url": "http://www.thecut.com/article/jordan-firstman-club-kid-baby-fever-movie-review.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Jordan Firstman’s Club Kid makes a surprisingly earnest case for baby fever.",
-   "author": "Sarah Wheeler",
-   "date": "2026-11-13T13:00:28.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "How Do I Teach My Daughter That Robots Are Not Her Friends?",
-   "url": "http://www.thecut.com/article/teaching-daughter-robots-not-friends.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She treats chatbots and humanoid machines with so much kindness. I’m trying to make her stop.",
-   "author": "Elizabeth Endicott",
-   "date": "2026-11-13T12:00:25.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "At 81, I Wanted My Breasts to Look Like They Did in My 40s",
-   "url": "http://www.thecut.com/article/breast-reconstruction-lift-surgery-at-81-review.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "People sometimes assume that when you reach your 80s, you’re supposed to be kind of frail and aren’t interested in sex anymore. I still am.",
-   "author": "Jaclyn Smock",
-   "date": "2026-11-13T12:00:25.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Best K-Beauty Gifts of 2026, According to Our Korean Beauty Writer",
-   "url": "http://www.thecut.com/article/best-k-beauty-gifts.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She knows what she’s talking about.",
-   "author": "Carol Lee",
-   "date": "2026-11-13T12:00:25.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "Fugitive imagination",
    "url": "https://aeon.co/essays/those-forced-to-cross-borders-are-imagining-a-radical-new-world",
    "blurb": "Wherever people are confined, displaced, silenced or made disposable, fugitive forms of knowledge and imagination emerge - by Shahram Khosravi Read on Aeon",
    "author": "Shahram Khosravi",
    "date": "2026-11-13T11:00:00.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "What is the Best Literary TV Adaptation of All Time? Day Five",
-   "url": "https://lithub.com/what-is-the-best-literary-tv-adaptation-of-all-time-day-five/",
-   "blurb": "Well, well, well, if it isn’t the semifinals, the thing I mix up with the quarterfinals every time we do one of these brackets. We’re down to four shows, in two match-ups—and these are not the four shows I expected.",
-   "author": "Literary Hub",
-   "date": "2026-11-13T10:00:57.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Everybody’s First Drafts Are Bad",
-   "url": "https://lithub.com/everybodys-first-drafts-are-bad/",
-   "blurb": "This first appeared in Lit Hub’s Craft of Writing newsletter—sign up here. Your first novel is the crappy scarf you make with acrylic yarn that doesn’t come out straight or even. It looks more like a river on a map than a",
-   "author": "Kate McKean",
-   "date": "2026-11-13T08:50:26.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "There’s Always Next Year: What the Buffalo Bills Taught Me About Writing and Hope",
-   "url": "https://lithub.com/theres-always-next-year-what-the-buffalo-bills-taught-me-about-writing-and-hope/",
-   "blurb": "There is nothing writers love more than talking about how hard it is to write. Stephen King described the writing process as “like crossing the Atlantic Ocean in a bathtub.” Sportswriter Red Smith, in a quote often erroneously attributed to",
-   "author": "Caitríona Moran",
-   "date": "2026-11-13T08:50:25.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "What We Lose When We Don’t Archive Black Motherhood",
-   "url": "https://lithub.com/what-we-lose-when-we-dont-archive-black-motherhood/",
-   "blurb": "For as long as I can remember, words have been how I shaped my world. But last year I went looking and for the first time could find no words to hold or comfort me. I was pregnant and needed",
-   "author": "Siraad Dirshe",
-   "date": "2026-11-13T08:35:40.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Can You Write a Poetry Collection That’s a Page-Turner?",
-   "url": "https://lithub.com/can-you-write-a-poetry-collection-thats-a-page-turner/",
-   "blurb": "When I began writing my second poetry collection, Future Tense, a memoir in verse, I wanted it to be the one thing I rarely hear collections called: a page-turner. The book documents the three years I fought to become a",
-   "author": "Kelly Grace Thomas",
-   "date": "2026-11-13T08:35:20.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Prince William Is Really Proud of His Son’s Bird Drawing",
-   "url": "http://www.thecut.com/article/prince-william-is-proud-of-prince-georges-bird-drawing.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "So much so that he published Prince George’s kingfisher in Country Life magazine.",
-   "author": "Sam Reed",
-   "date": "2026-11-12T23:16:45.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "How Did He Have Time to Work?",
-   "url": "http://www.thecut.com/article/jensen-huang-nvidia-third-affair-reported.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Reports that Nvidia’s ousted CEO Jensen Huang had a third affair make me wonder if some really people do have more hours in the day.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-12T21:39:05.000Z"
   },
   {
    "source": "Aeon",
@@ -453,14 +485,6 @@
    "date": "2026-11-02T11:00:00.000Z"
   },
   {
-   "source": "The Paris Review",
-   "title": "Kazuo Ishiguro, Unlocked: The Butler as Metaphor",
-   "url": "https://www.theparisreview.org/blog/2026/11/01/kazuo-ishiguros-worst-book/",
-   "blurb": "“Kazuo Ishiguro inhabits his characters as if there were no true Kazuo Ishiguro to be known.”",
-   "author": "Angie Sijun Lou",
-   "date": "2026-11-01T15:00:10.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "In praise of the dilettante",
    "url": "https://aeon.co/essays/why-the-dilettante-is-the-anti-hero-of-our-over-optimised-age",
@@ -469,28 +493,12 @@
    "date": "2026-10-30T10:00:00.000Z"
   },
   {
-   "source": "The Paris Review",
-   "title": "Alisa Weilerstein’s Cello",
-   "url": "https://www.theparisreview.org/blog/2026/10/29/alisa-weilersteins-cello-lucy-ellmann/",
-   "blurb": "“ ‘It’s a bird, it’s a plane!’ people cried. No, just a cello on a moonlit flit.”",
-   "author": "Lucy Ellmann",
-   "date": "2026-10-29T12:00:28.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "The physics of getting fired",
    "url": "https://aeon.co/essays/how-to-use-physics-to-make-sense-of-the-messiness-of-life",
    "blurb": "Physics offered me a sense of order and purpose. But when life got messy I realised it had a much deeper insight to give - by Zahaan Bharmal Read on Aeon",
    "author": "Zahaan Bharmal",
    "date": "2026-10-29T10:00:00.000Z"
-  },
-  {
-   "source": "Aeon",
-   "title": "Love with nowhere to go",
-   "url": "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death",
-   "blurb": "Grief is not only for the dead. When we are unable to honour other profound losses, we become strangers to ourselves - by Derek van Zoonen Read on Aeon",
-   "author": "Derek van Zoonen",
-   "date": "2026-10-27T10:00:00.000Z"
   },
   {
    "source": "Orion Magazine",
