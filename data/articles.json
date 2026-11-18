@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-17T08:13:51.855Z",
+ "updated": "2026-11-18T07:47:03.266Z",
  "report": [
   {
    "source": "Aeon",
-   "count": 11
+   "count": 12
   },
   {
    "source": "Literary Hub",
@@ -28,6 +28,198 @@
   }
  ],
  "articles": [
+  {
+   "source": "The Cut",
+   "title": "Even One of Nick Cannon’s Sons Thinks He Has Too Many Kids",
+   "url": "http://www.thecut.com/article/even-nick-cannons-son-thinks-he-has-too-many-kids.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Moroccan, his 15-year-old son with Mariah Carey, says in the trailer for Cannon’s show that he doesn’t think his father’s lifestyle is “sustainable.”",
+   "author": "Jaharia Knowles",
+   "date": "2026-11-17T23:36:32.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "What Goes on in Our Brains When We See an AI Face",
+   "url": "https://nautil.us/what-goes-on-in-our-brains-when-we-see-an-ai-face-1286763/",
+   "blurb": "Deepfakes have jumped the uncanny valley",
+   "author": "Jake Currie",
+   "date": "2026-11-17T22:30:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "A Scandal Has Hit the Status Salt Community",
+   "url": "http://www.thecut.com/article/whats-going-on-with-the-maldon-sea-salt-controversy.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Apparently, those Maldon flakes gourmands love so much aren’t 100 percent sea salt.",
+   "author": "Sam Reed",
+   "date": "2026-11-17T21:53:49.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Prehistoric Humans May Have Hunted Hippos With Poisoned Spears",
+   "url": "https://nautil.us/prehistoric-humans-may-have-hunted-hippos-with-poisoned-spears-1286751/",
+   "blurb": "Peak Stone Age technology",
+   "author": "Jake Currie",
+   "date": "2026-11-17T21:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Jensen Huang Wants to ‘Own My Mistakes’",
+   "url": "http://www.thecut.com/article/jensen-huang-wants-to-own-my-mistakes-at-nvidia.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "But he’s more than willing to return to his CEO post at Nvidia.",
+   "author": "Jaharia Knowles",
+   "date": "2026-11-17T20:56:46.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Anthony Mackie Says It’s ‘Hard’ to Date As an Older Man",
+   "url": "http://www.thecut.com/article/anthony-mackie-says-its-hard-to-date-as-an-older-man.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Has he heard of Leonardo DiCaprio?",
+   "author": "Grace Klara Marshall",
+   "date": "2026-11-17T19:44:42.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Woodcocks and Snipes: The Quintessential Odd Birds",
+   "url": "https://nautil.us/woodcocks-and-snipes-the-quintessential-odd-birds-1286746/",
+   "blurb": "They likely got odder after they “dropped off” onto islands",
+   "author": "Devin Reese",
+   "date": "2026-11-17T19:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Katniss and Peeta Forever",
+   "url": "http://www.thecut.com/article/jennifer-lawrence-and-josh-hutcherson-reunited.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Jennifer Lawrence and Josh Hutcherson reunited at the Hunger Games: Sunrise on the Reaping premiere.",
+   "author": "Brooke LaMantia",
+   "date": "2026-11-17T17:43:14.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Which Deals Are Better — Black Friday’s or Cyber Monday’s?",
+   "url": "http://www.thecut.com/article/black-friday-vs-cyber-monday.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Let’s unpack.",
+   "author": "Hanna Flanagan",
+   "date": "2026-11-17T17:16:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Jen Shah Saw Everything",
+   "url": "http://www.thecut.com/article/jen-shah-has-some-thoughts-on-you-can-see-everything.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Apparently, she watched a private screening of Nathan Fielder’s documentary “through the lens of my own friendship with Elizabeth.”",
+   "author": "Grace Klara Marshall",
+   "date": "2026-11-17T17:07:16.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The Man Who Saw Cats in Human Faces",
+   "url": "https://nautil.us/the-man-who-saw-cats-in-human-faces-1286726/",
+   "blurb": "An extraordinary case of misrecognition",
+   "author": "Kristen French",
+   "date": "2026-11-17T17:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Heidi Gardner’s Boyfriend, Filmmaker Ray Tintori, Has Died",
+   "url": "http://www.thecut.com/article/heidi-gardners-boyfriend-filmmaker-ray-tintori-has-died.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "His cause of death is currently under investigation.",
+   "author": "Sam Reed",
+   "date": "2026-11-17T16:53:52.000Z"
+  },
+  {
+   "source": "The Paris Review",
+   "title": "Helen Garner Will Receive Our 2027 Hadada Award",
+   "url": "https://www.theparisreview.org/blog/2026/11/17/helen-garner-will-receive-our-2027-hadada-award/",
+   "blurb": "“Over the past five decades, in her fiction, journalism, and essays, Helen Garner has continually brought the fullness of her self to bear on the page: her scrupulous honesty, emotional intelligence, clarity, and imagination.\"",
+   "author": "The Paris Review",
+   "date": "2026-11-17T16:05:35.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Sniffing Out the Link Between Odor and Disease",
+   "url": "https://nautil.us/sniffing-out-the-link-between-odor-and-disease-1286689/",
+   "blurb": "Molecules that waft from breath, skin and urine can hold clues to Parkinson’s, cancer and other ills. Scientists hope to harness these signatures for non-invasive medical tests",
+   "author": "Marta Zaraska",
+   "date": "2026-11-17T15:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "A novelist is back on the cover of TIME.",
+   "url": "https://lithub.com/a-novelist-is-back-on-the-cover-of-time/",
+   "blurb": "Today, TIME Magazine has published their list of 100 “must-read” books of 2026, including Yesteryear by Caro Claire Burke, who is also featured on the magazine’s cover. The last novelist to be featured on the cover of TIME was Taylor Jen…",
+   "author": "Emily Temple",
+   "date": "2026-11-17T13:30:22.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Scientists Just Found Something Strange Under the Skin of Sea Pigs",
+   "url": "https://nautil.us/scientists-just-found-something-strange-under-the-skin-of-sea-pigs-1286685/",
+   "blurb": "A rare, detailed look at an unusual deep-sea creature",
+   "author": "David Nield",
+   "date": "2026-11-17T13:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "And the Best Literary TV Adaptation of All Time is…",
+   "url": "https://lithub.com/and-the-best-literary-tv-adaptation-of-all-time-is/",
+   "blurb": "After six rounds of voting, we’ve got a winner. Choppering in to claim their prize after squeaking past Roots, it’s… M*A*S*H The anti-war workplace dramedy is your top literary TV adaptation. It feels fitting that a show from our Cozy",
+   "author": "Literary Hub",
+   "date": "2026-11-17T12:00:17.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "My 8-Year Battle to Get Rid of My Mom’s Stuff",
+   "url": "http://www.thecut.com/article/what-should-i-do-with-all-my-mothers-stuff.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "I’m drowning in her belongings, but it’s hard to let go.",
+   "author": "Amanda Leigh Lichtenstein",
+   "date": "2026-11-17T12:00:16.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Am I Passing On My Hobby or Spoiling My Kid?",
+   "url": "http://www.thecut.com/article/am-i-spoiling-my-kid-by-sharing-hobby.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "I want my daughter to inherit my love — and collection — of books. Maybe that makes me a “treat daddy,” but at least so far it’s working.",
+   "author": "Jason Diamond",
+   "date": "2026-11-17T12:00:16.000Z"
+  },
+  {
+   "source": "Aeon",
+   "title": "Catwalks and crackdowns",
+   "url": "https://aeon.co/essays/its-not-political-the-young-fashionistas-of-tehran",
+   "blurb": "Women in Tehran are changing society by dressing as they choose, in numbers too large to stop. This is the ‘art of presence’ - by Parisa Khoshnami Read on Aeon",
+   "author": "Parisa Khoshnami",
+   "date": "2026-11-17T11:00:00.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "How to Make the Ink Used to Write Hamlet, the Declaration of Independence, and Beethoven’s Fifth",
+   "url": "https://lithub.com/how-to-make-the-ink-used-to-write-hamlet-the-declaration-of-independence-and-beethovens-fifth/",
+   "blurb": "This is how to make the ink that wrote Magna Carta, Hamlet, Samuel Pepys’s Diary, Robinson Crusoe, Gulliver’s Travels, Candide, the Declaration of Independence, A Vindication of the Rights of Woman, Beethoven’s Fifth, Les Misérables, and…",
+   "author": "Simon Garfield",
+   "date": "2026-11-17T08:55:09.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "How Anita Brookner Restarted Her Life at 52",
+   "url": "https://lithub.com/how-anita-brookner-restarted-her-life-at-52/",
+   "blurb": "Brookner was fifty-two (though she was soon to be ten years younger). She had a novel. She had an agent. Before long she would have a publisher. She was still teaching, and would be for some years to come, but",
+   "author": "Hermione Lee",
+   "date": "2026-11-17T08:50:37.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "Why I Had to Write My Memoir Under a Pseudonym",
+   "url": "https://lithub.com/why-i-had-to-write-my-memoir-under-a-pseudonym/",
+   "blurb": "“What’s your real name, not your stripper name?” – Lil Wayne on Juicy J’s Bandz A Make Her Dance * Azra Liaqat Khan is not my name, but suppose it was: My students might read my memoir and learn about",
+   "author": "Azra Liaqat Khan",
+   "date": "2026-11-17T08:41:23.000Z"
+  },
+  {
+   "source": "Literary Hub",
+   "title": "On Brian Blanchfield’s Proxies and the Respite of Queer Stories",
+   "url": "https://lithub.com/on-brian-blanchfields-proxies-and-the-respite-of-queer-stories/",
+   "blurb": "In 2018, a new friend of mine gave me Brian Blanchfield’s Proxies with a knowing smile and a promise that I would love it. I have to admit here that this friend and I were in the early dances of",
+   "author": "K Chiucarello",
+   "date": "2026-11-17T08:20:50.000Z"
+  },
   {
    "source": "Literary Hub",
    "title": "Song and Spirit: On Understanding My Grandmother’s Deeply-Held Devotion",
@@ -80,7 +272,7 @@
    "source": "The Cut",
    "title": "The Best, Worst, and Weirdest Governors Awards Red-Carpet Looks",
    "url": "http://www.thecut.com/article/the-best-worst-and-weirdest-governors-awards-looks.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Zendaya, Tessa Thompson, and Alexander Garfield wore some of the best looks of the night on Sunday.",
+   "blurb": "Zendaya, Tessa Thompson, and Andrew Garfield wore some of the best looks of the night on Sunday.",
    "author": "Jaharia Knowles",
    "date": "2026-11-16T21:41:07.000Z"
   },
@@ -125,14 +317,6 @@
    "date": "2026-11-16T19:54:30.000Z"
   },
   {
-   "source": "Literary Hub",
-   "title": "Curtis Sittenfeld’s Prep is coming to the small screen. Who should play Lee?",
-   "url": "https://lithub.com/curtis-sittenfelds-prep-is-coming-to-the-small-screen-who-should-play-lee/",
-   "blurb": "Back in 2005, Curtis Sittenfeld’s debut novel Prep was the talk of the town. We debated everything from its genre to its striving protagonist, whose moral universe felt like something straight outta Wharton. Sittenfeld was praised and de…",
-   "author": "Brittany Allen",
-   "date": "2026-11-16T19:46:17.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "Marilee Fiebig and Andrew Shue Are Posting Wedding Pics",
    "url": "http://www.thecut.com/article/marilee-fiebig-and-andrew-shue-are-posting-wedding-pics.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -155,14 +339,6 @@
    "blurb": "On October 28, three journalists were beaten by Israeli settlers in the West Bank, then interrogated by Israeli police for nearly two days.",
    "author": "Jasper Nathaniel",
    "date": "2026-11-16T18:42:49.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "The 2026 Cercador Prize goes to The Song of Stork and Dromedary.",
-   "url": "https://lithub.com/the-2026-cercador-prize-goes-to-david-mckays-translation-of-the-song-of-stork-and-dromedary/",
-   "blurb": "Today, the Cercador Prize announced David McKay as the winner of the 2026 prize for his translation of Anjet Daanje’s The Song of Stork and Dromedary, published by FSG Originals. “Even amongst this year’s impressive finalists, The Song o…",
-   "author": "Drew Broussard",
-   "date": "2026-11-16T18:01:52.000Z"
   },
   {
    "source": "The Paris Review",
@@ -189,172 +365,12 @@
    "date": "2026-11-16T17:35:46.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Nicola Coughlan Has Zero Interest in the ‘Harry Potter’ Show",
-   "url": "http://www.thecut.com/article/nicola-coughlan-jk-rowling-harry-potter-hbo-show.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "As an open J.K. Rowling hater, the actress said the show is “not for me.”",
-   "author": "Olivia Craighead",
-   "date": "2026-11-16T17:08:42.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "When Parasites Have Parasites",
-   "url": "https://nautil.us/when-parasites-have-parasites-1286661/",
-   "blurb": "Powdery mildew is kept in check by other fungi",
-   "author": "Devin Reese",
-   "date": "2026-11-16T17:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Are You Ready for a Freaky James Bond?",
-   "url": "http://www.thecut.com/article/robert-pattinson-james-bond-freaky.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Robert Pattinson has officially been cast as 007.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-16T16:01:34.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Tyriq Withers Couldn’t Help Himself During the FAA Shutdown",
-   "url": "http://www.thecut.com/article/tyriq-withers-derailed-a-local-news-spot-about-faa-shutdown.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "He and Daniel Kaluuya completely derailed a local-news interview while stranded in a Eugene, Oregon, airport.",
-   "author": "Sam Reed",
-   "date": "2026-11-16T15:59:16.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "J.Lo’s Empty-Nest Experience Is ‘Kind of Amazing’",
-   "url": "http://www.thecut.com/article/j-los-empty-nest-experience.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "After doing a lot of crying when her kids went to college, she’s embracing her alone time.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-16T15:37:26.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "The Animals Defying the Climate Odds at the Top of the World",
-   "url": "https://nautil.us/the-animals-defying-the-climate-odds-at-the-top-of-the-world-1286650/",
-   "blurb": "Svalbard’s reindeer are leaning on their hardscrabble history to adapt to a global disruption",
-   "author": "Nancy Langston",
-   "date": "2026-11-16T15:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Could My Politics Survive the Strip Club?",
-   "url": "http://www.thecut.com/article/could-my-politics-survive-the-strip-club-mona-excerpt.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "As an academic, I studied the exploitation of workers from a distance. Then I started stripping.",
-   "author": "Azra Liaqat Khan",
-   "date": "2026-11-16T14:00:49.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "What to Gift the Man in Your Life This Holiday Season",
-   "url": "http://www.thecut.com/article/best-gifts-for-men.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Everything from stocking stuffers to splurge-worthy closet staples.",
-   "author": "Hanna Flanagan",
-   "date": "2026-11-16T14:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "‘He’ll 100 Percent Expect His Stocking to Be Filled’",
-   "url": "http://www.thecut.com/article/moms-buying-their-own-christmas-gifts.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "This holiday season, women are fed up with buying their own gifts.",
-   "author": "Bindu Bansinath",
-   "date": "2026-11-16T13:00:19.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Check Out the First Photos of the Poles of a Rod-Shaped Bacterium",
-   "url": "https://nautil.us/check-out-the-first-photos-of-the-poles-of-a-rod-shaped-bacterium-1286664/",
-   "blurb": "“We are looking at something that no one else has seen before”",
-   "author": "David Nield",
-   "date": "2026-11-16T13:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Dressing ‘Horny’ in My 40s",
-   "url": "http://www.thecut.com/article/dressing-horny-middle-age.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "This is supposed to be my Talbots era. Tell that to my crop tops.",
-   "author": "Meghan Nesmith",
-   "date": "2026-11-16T12:00:06.000Z"
-  },
-  {
    "source": "Aeon",
    "title": "The horse made the state",
    "url": "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist",
    "blurb": "Civilisation wasn’t made possible by grain, but by transportation – and the conquest it enabled, from the steppe to the sea - by Lhamsuren Munkh-Erdene Read on Aeon",
    "author": "Lhamsuren Munkh-Erdene",
    "date": "2026-11-16T11:00:00.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Meet the 2026 National Book Award Finalists",
-   "url": "https://lithub.com/meet-the-2026-national-book-award-finalists/",
-   "blurb": "The winners of the 77th National Book Awards—given every year in Young People’s Literature, Translation, Poetry, Nonfiction, and Fiction—will be announced this week in a ceremony hosted by Kyle MacLachlan at Cipriani Wall Street in New Y…",
-   "author": "Literary Hub",
-   "date": "2026-11-16T09:00:55.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "What is the Best Literary TV Adaptation of All Time? The Finals",
-   "url": "https://lithub.com/what-is-the-best-literary-tv-adaptation-of-all-time-the-finals/",
-   "blurb": "We made it folks. It’s the final two. 62 shows were voted out, including every show from our Cerebral and Carnal divisions. In the end, smart or horny wasn’t the winning vibe in this bracket. A toast to the last",
-   "author": "Literary Hub",
-   "date": "2026-11-16T08:59:26.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "My Father Is a Hill: On Identity, Inheritance, and Finding One’s Place In a Troubled World",
-   "url": "https://lithub.com/my-father-is-a-hill-on-identity-inheritance-and-finding-ones-place-in-a-troubled-world/",
-   "blurb": "I grew up in an area of Southern California known for the beach, the ocean, the coastline, but my family lived far from the water, high in the hills of Laguna. In our car we wound up, up past parks",
-   "author": "Emma Ramadan",
-   "date": "2026-11-16T08:55:10.000Z"
-  },
-  {
-   "source": "Literary Hub",
-   "title": "Ocean Vuong on Ágota Kristóf’s The Notebook Trilogy",
-   "url": "https://lithub.com/ocean-vuong-on-agota-kristofs-the-notebook-trilogy/",
-   "blurb": "Walter Benjamin, in his unfinished compendium, The Arcades Project, proposes that true artistic and social innovation will not come from the conventionally linear, dialectical evolution of ideas, but through violent displacement of time…",
-   "author": "Ocean Vuong",
-   "date": "2026-11-16T08:48:46.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Billy Evans Loved You Can See Everything",
-   "url": "http://www.thecut.com/article/billy-evans-loved-you-can-see-everything.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Elizabeth Holmes’s husband says he’d “100 percent” film it all over again.",
-   "author": "Sam Reed",
-   "date": "2026-11-15T19:20:48.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Good News About AO3",
-   "url": "http://www.thecut.com/article/fan-fiction-site-ao3-is-back-after-a-security-incident.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "After 17 agonizing days, the fan-fiction website is back online. Mostly.",
-   "author": "Sam Reed",
-   "date": "2026-11-15T16:49:15.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "A Dead Star Is Flashing Radio Waves Every 8 Minutes",
-   "url": "https://nautil.us/a-dead-star-is-flashing-radio-waves-every-8-minutes-1286645/",
-   "blurb": "And its partner looks a lot like the Sun",
-   "author": "Natasha Hurley-Walker",
-   "date": "2026-11-15T15:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "How Wealth Inequality Emerged in This Prehistoric Culture",
-   "url": "https://nautil.us/how-wealth-inequality-emerged-in-this-prehistoric-culture-1286642/",
-   "blurb": "The graves tell a story of growing inequality",
-   "author": "Jake Currie",
-   "date": "2026-11-15T13:00:00.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Giant, Fruit-Eating Bats Are Shrinking",
-   "url": "https://nautil.us/giant-fruit-eating-bats-are-shrinking-1286637/",
-   "blurb": "Leaving Madagascar with smaller pollinators",
-   "author": "Devin Reese",
-   "date": "2026-11-14T15:00:00.000Z"
   },
   {
    "source": "The Paris Review",
@@ -467,14 +483,6 @@
    "blurb": "The separation of church and state has an unspoken psychological basis: we choose what we believe, but not what we think - by Neil Van Leeuwen & Jacob Eisler Read on Aeon",
    "author": "Neil Van Leeuwen & Jacob Eisler",
    "date": "2026-11-03T11:00:00.000Z"
-  },
-  {
-   "source": "The Paris Review",
-   "title": "Belgrade Diary: Election Day in Serbia",
-   "url": "https://www.theparisreview.org/blog/2026/11/02/belgrade-diary-vucic-serbia-elections/",
-   "blurb": "The Serbian Progressive Party's leader, Aleksandar Vučić, finally had a real competitor in Student List.",
-   "author": "Lily Lynch",
-   "date": "2026-11-02T17:22:49.000Z"
   },
   {
    "source": "Aeon",
