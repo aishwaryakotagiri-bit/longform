@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T07:11:31.864Z",
+ "updated": "2026-11-23T07:56:56.081Z",
  "report": [
   {
    "source": "Aeon",
@@ -24,10 +24,34 @@
   },
   {
    "source": "The Cut",
-   "count": 19
+   "count": 18
   }
  ],
  "articles": [
+  {
+   "source": "Nautilus",
+   "title": "New Species of Flying Frog Discovered in Indonesia",
+   "url": "https://nautil.us/new-species-of-flying-frog-discovered-in-indonesia-1286962/",
+   "blurb": "And it’s got a very unusual way of laying eggs",
+   "author": "David Nield",
+   "date": "2026-11-22T19:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "You Likely Have Genes That Affect How Well Your Medications Work— Testing for Them Could Improve Treatment",
+   "url": "https://nautil.us/you-likely-have-genes-that-affect-how-well-your-medications-work-testing-for-them-could-improve-treatment-1286903/",
+   "blurb": "Pharmacogenomics studies how genetics interacts with drug",
+   "author": "Philip Empey",
+   "date": "2026-11-22T17:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The Fortunes of a Dim Sun",
+   "url": "https://nautil.us/the-fortunes-of-a-dim-sun-1286898/",
+   "blurb": "Bad news for habitable planets in the galaxy: It’s hard to both make an ocean and then keep it",
+   "author": "Sean Raymond",
+   "date": "2026-11-22T15:00:00.000Z"
+  },
   {
    "source": "Nautilus",
    "title": "Oceans and Forests Have Absorbed Roughly Half Our Carbon Emissions for Decades, Slowing Climate Change. But Can They Keep It Up?",
@@ -173,14 +197,6 @@
    "date": "2026-11-20T17:00:45.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "A Physician Explains GLP-1s’ Biggest Potential Side Effect: A Rare But Serious Eye Condition",
-   "url": "https://nautil.us/a-physician-explains-glp-1s-biggest-potential-side-effect-a-rare-but-serious-eye-condition-1286851/",
-   "blurb": "What is the risk for the millions of people worldwide who take GLP-1 medications?",
-   "author": "Zayid Al-Aly",
-   "date": "2026-11-20T17:00:00.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "Have You Packed Your Go-Bag for the End of the World?",
    "url": "http://www.thecut.com/article/doomsday-apocalypse-go-bag.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -197,14 +213,6 @@
    "date": "2026-11-20T15:34:36.000Z"
   },
   {
-   "source": "Nautilus",
-   "title": "What Do Peahens Really Want?",
-   "url": "https://nautil.us/what-do-peahens-really-want-1286840/",
-   "blurb": "A new chapter in evolutionary biology argues that animals’ bright colors and patterns are about more than just sex",
-   "author": "Regan Penaluna",
-   "date": "2026-11-20T15:00:00.000Z"
-  },
-  {
    "source": "The Cut",
    "title": "Jennifer Lawrence Is Very Proud of Her ‘New’ Boobs",
    "url": "http://www.thecut.com/article/jennifer-lawrence-new-boobs-wwhl-plastic-surgeon.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
@@ -219,14 +227,6 @@
    "blurb": "Mann was a luftmensch of a patriarch, impassively observing his own drift through time in the moments when he was not absorbed by his craft.",
    "author": "Andrew Marzoni",
    "date": "2026-11-20T13:00:45.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "A Rope Bridge Camera Just Discovered a New Species of Howler Monkey",
-   "url": "https://nautil.us/a-rope-bridge-camera-just-discovered-a-new-species-of-howler-monkey-1286866/",
-   "blurb": "These monkeys can now travel further afield",
-   "author": "David Nield",
-   "date": "2026-11-20T13:00:00.000Z"
   },
   {
    "source": "The Cut",
@@ -339,14 +339,6 @@
    "blurb": "As a child, I witnessed a rape. Nobody talked about it. I made Josephine so that I could.",
    "author": "Beth de Araújo",
    "date": "2026-11-19T20:00:51.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Alix Earle and Sofia Franklyn Form an Alliance",
-   "url": "http://www.thecut.com/article/alix-earle-and-sofia-franklyn-form-an-alliance.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The podcast enemy of my podcast enemy …",
-   "author": "Sam Reed",
-   "date": "2026-11-19T18:42:54.000Z"
   },
   {
    "source": "Aeon",
