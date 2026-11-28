@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:52:37.211Z",
+ "updated": "2026-11-28T08:12:21.740Z",
  "report": [
   {
    "source": "Aeon",
@@ -24,25 +24,225 @@
   },
   {
    "source": "The Cut",
-   "count": 19
+   "count": 20
   }
  ],
  "articles": [
   {
    "source": "The Cut",
-   "title": "Amazon’s Black Friday Deals Are Live: What to Shop Now",
-   "url": "http://www.thecut.com/article/black-friday-cyber-monday-amazon-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Including Beats headphones, Levi’s jeans, and a Dyson Airwrap.",
-   "author": "Chinea Rodriguez",
-   "date": "2026-11-27T03:02:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Black Friday Deals Are Already Live — Here’s What We’re Buying",
+   "title": "197 Black Friday Deals on Winter Fashion, Beauty Essentials, and More",
    "url": "http://www.thecut.com/article/best-black-friday-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
    "blurb": "From Amazon, Sephora, Ulta, Walmart, and more.",
    "author": "Hanna Flanagan",
-   "date": "2026-11-27T01:36:00.000Z"
+   "date": "2026-11-28T02:39:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "82 Best Beauty Gifts to Buy On Sale This Black Friday",
+   "url": "http://www.thecut.com/article/best-black-friday-beauty-gifts-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "If gift-giving was a competition, you’d win.",
+   "author": "Carol Lee",
+   "date": "2026-11-28T01:51:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "I Found the Best Black Friday Tech Deals From Apple, Dyson, Oura, and More",
+   "url": "http://www.thecut.com/article/black-friday-cyber-monday-tech-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Save on kitchen appliances, beauty devices, headphones, iPads, and more.",
+   "author": "Chinea Rodriguez",
+   "date": "2026-11-28T01:29:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Levi’s Is Offering Up to 50 Percent Off Everything Sitewide for Black Friday",
+   "url": "http://www.thecut.com/article/best-levis-jean-deals.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Save on denim and fall essentials.",
+   "author": "Hanna Flanagan",
+   "date": "2026-11-28T00:41:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "85+ Best Black Friday Fashion Sales: Aritzia, Madewell, and More",
+   "url": "http://www.thecut.com/article/best-black-friday-fashion-sales-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Everything from fall boots and accessories to outerwear and activewear.",
+   "author": "Chinea Rodriguez",
+   "date": "2026-11-28T00:15:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Lululemon’s Founder Is Saying Offensive Things Again",
+   "url": "http://www.thecut.com/article/lululemons-founder-is-under-fire-for-sexist-comments.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Chip Wilson was invited to speak at a women’s leadership conference, and things did not go well.",
+   "author": "Sam Reed",
+   "date": "2026-11-28T00:14:39.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Woman Sleeping With a Three-Guy Roster",
+   "url": "http://www.thecut.com/article/new-sex-diaries-story-the-woman-sleeping-with-a-three-guy-roster.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "In this week’s story, a 39-year-old New Yorker sexts like the wind.",
+   "author": "Alyssa Shelasky",
+   "date": "2026-11-28T00:00:50.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "50+ Best Black Friday Beauty Deals, According to a Beauty Editor",
+   "url": "http://www.thecut.com/article/black-friday-cyber-monday-beauty-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Itching to splurge on an LED mask? Right this way.",
+   "author": "Asia Milia Ware",
+   "date": "2026-11-27T23:31:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Best Black Friday Activewear Deals: Alo, Gymshark, Nike, and More",
+   "url": "http://www.thecut.com/article/best-black-friday-cyber-monday-activewear-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "So you can get a head start on your New Year’s resolution to hit the gym.",
+   "author": "Jaharia Knowles",
+   "date": "2026-11-27T22:58:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "We’re Live Tracking Amazon’s Black Friday Sale: These Are the Best Deals",
+   "url": "http://www.thecut.com/article/black-friday-cyber-monday-amazon-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Including Beats headphones, Levi’s jeans, and a Dyson Airwrap.",
+   "author": "Chinea Rodriguez",
+   "date": "2026-11-27T21:52:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "These Cozy J.Crew Pajamas Are 50 Percent Off for Black Friday",
+   "url": "http://www.thecut.com/article/j-crew-pajamas-black-friday-cyber-monday-sale.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Get a set for yourself and your loved ones.",
+   "author": "Chinea Rodriguez",
+   "date": "2026-11-27T21:40:43.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "What’s Going on With JoJo Siwa and Chris Hughes?",
+   "url": "http://www.thecut.com/article/jojo-siwa-and-chris-hughes-have-reportedly-split.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Siwa and Hughes have reportedly split after almost a year and a half together.",
+   "author": "Sam Reed",
+   "date": "2026-11-27T21:11:27.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The Next Frontier for Cancer Research? Space",
+   "url": "https://nautil.us/the-next-frontier-for-cancer-research-space-1287099/",
+   "blurb": "There may be no better environment to grow and study tumors",
+   "author": "David Nield",
+   "date": "2026-11-27T21:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "My Favorite K-Beauty Products Are on Sale for Black Friday",
+   "url": "http://www.thecut.com/article/black-friday-cyber-monday-k-beauty-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Deals on Skin1004, Medicube, Cosrx, and more.",
+   "author": "Carol Lee",
+   "date": "2026-11-27T20:51:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "27 Best Quince Black Friday Deals",
+   "url": "http://www.thecut.com/article/best-quince-black-friday-sale-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Including candles and affordable cashmere.",
+   "author": "Hanna Flanagan",
+   "date": "2026-11-27T20:48:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "These Are the Reformation Black Friday Deals I’d Buy as a Shopping Editor",
+   "url": "http://www.thecut.com/article/best-reformation-black-friday-cyber-monday-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Save on sweaters, holiday dresses, outerwear, and more.",
+   "author": "Hanna Flanagan",
+   "date": "2026-11-27T20:42:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "This Ancient Egyptian Curse Ritual Ended Up in a Garbage Heap",
+   "url": "https://nautil.us/this-ancient-egyptian-curse-ritual-ended-up-in-a-garbage-heap-1287114/",
+   "blurb": "Ra vs. Apophis, round infinity",
+   "author": "Jake Currie",
+   "date": "2026-11-27T19:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Live Tracking the Best Net-a-Porter Black Friday Deals",
+   "url": "http://www.thecut.com/article/best-net-a-porter-black-friday-cyber-monday-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Save on Agolde, Khaite, Leset, and more luxury fashion brands.",
+   "author": "Hanna Flanagan",
+   "date": "2026-11-27T18:35:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Medicube’s 40 Percent Off Black Friday Deal Won’t Last",
+   "url": "http://www.thecut.com/article/best-amazon-prime-day-medicube-deals.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Here’s everything you need to know about it.",
+   "author": "Hanna Flanagan",
+   "date": "2026-11-27T17:46:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "Don’t Miss It: The Only Foundation I Use Is 31 Percent Off for Black Friday",
+   "url": "http://www.thecut.com/article/jung-saem-mool-cushion-foundation-review-prime-day-deal.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "It’s the reason people tell me I have “perfect skin.”",
+   "author": "Carol Lee",
+   "date": "2026-11-27T17:35:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "How City Crows and Country Crows See the World Differently",
+   "url": "https://nautil.us/how-city-crows-and-country-crows-see-the-world-differently-1287089/",
+   "blurb": "What scares them is generally defined by where they’re from",
+   "author": "Devin Reese",
+   "date": "2026-11-27T17:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The Best Black Friday Water-Flosser Deals",
+   "url": "http://www.thecut.com/article/waterpik-dental-flosser-review.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Your teeth will thank you.",
+   "author": "Brooke LaMantia",
+   "date": "2026-11-27T17:00:00.000Z"
+  },
+  {
+   "source": "The Cut",
+   "title": "The NuFace Sculpting Devices We Tried (and Loved) Are on Sale",
+   "url": "http://www.thecut.com/article/nuface-microccurent-device-review.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+   "blurb": "Yes, it’s worth the hype.",
+   "author": "Maya Allen",
+   "date": "2026-11-27T16:50:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "Check Out This Newly Discovered Proto-Amphibian Species That Lived 309 Million Years Ago",
+   "url": "https://nautil.us/check-out-this-newly-discovered-proto-amphibian-species-that-lived-309-million-years-ago-1287093/",
+   "blurb": "It’s older than the dinosaurs",
+   "author": "David Nield",
+   "date": "2026-11-27T16:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "The Art That Asks: How Did We Let This Happen?",
+   "url": "https://nautil.us/the-art-that-asks-how-did-we-let-this-happen-1287040/",
+   "blurb": "Photographs by Edward Burtynsky show us how climate-change art can light a path out of despair",
+   "author": "Joshua Shannon",
+   "date": "2026-11-27T15:00:00.000Z"
+  },
+  {
+   "source": "Nautilus",
+   "title": "How Nuclear Bomb Testing Led to the Discovery of a 100-Year-Old Fish",
+   "url": "https://nautil.us/how-nuclear-bomb-testing-led-to-the-discovery-of-a-100-year-old-fish-1287009/",
+   "blurb": "These fish had long, eventful lives",
+   "author": "Jake Currie",
+   "date": "2026-11-27T13:00:00.000Z"
+  },
+  {
+   "source": "Aeon",
+   "title": "The energy of thought",
+   "url": "https://aeon.co/essays/all-our-models-of-how-the-mind-functions-are-missing-something",
+   "blurb": "We have an astonishing number of models of how the mind works. All of them neglect something essential - by David Colaço & Philipp Haueis Read on Aeon",
+   "author": "David Colaço & Philipp Haueis",
+   "date": "2026-11-27T11:00:00.000Z"
   },
   {
    "source": "Nautilus",
@@ -61,52 +261,12 @@
    "date": "2026-11-26T15:00:00.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "The JLo Show Is Perfect Thanksgiving Television",
-   "url": "http://www.thecut.com/article/the-jlo-show-is-perfect-thanksgiving-television.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Can your football team perform a swing version of “Jenny From the Block”?",
-   "author": "Mia Mercado",
-   "date": "2026-11-26T14:00:37.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Best Beauty Gifts to Buy On Sale This Black Friday",
-   "url": "http://www.thecut.com/article/best-black-friday-beauty-gifts-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "If gift-giving was a competition, you’d win.",
-   "author": "Carol Lee",
-   "date": "2026-11-26T13:00:29.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "‘I Don’t Feel Bad About Selling Gifts for Extra Cash’",
-   "url": "http://www.thecut.com/article/reselling-gifts-for-money-my-two-cents.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Some people don’t need a fancy air fryer. But they do need $200.",
-   "author": "Charlotte Cowles",
-   "date": "2026-11-26T13:00:29.000Z"
-  },
-  {
    "source": "Nautilus",
    "title": "Archaeologists Just Dug Up an Unused, Completely Pristine 6,000-Year-Old Axe Head",
    "url": "https://nautil.us/archaeologists-just-dug-up-an-unused-completely-pristine-6000-year-old-axe-head-1287102/",
    "blurb": "A precious object, not a weapon of war",
    "author": "David Nield",
    "date": "2026-11-26T13:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "The Plight of the Eldest Daughter",
-   "url": "http://www.thecut.com/article/eldest-daughter-stories-snl-sisters.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Saturday Night Live’s “Sister” sketch was good, but it just scratched the surface of the burden of being in charge.",
-   "author": "Brooke LaMantia",
-   "date": "2026-11-26T12:00:21.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "‘Am I Failing My Kids If I Opt Out of “Holiday Magic”?’",
-   "url": "http://www.thecut.com/article/opting-out-of-santa-elf-on-the-shelf-advice.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "You don’t need Santa or Elf on the Shelf to make a meaningful experience for your family.",
-   "author": "Amil Niazi",
-   "date": "2026-11-26T12:00:21.000Z"
   },
   {
    "source": "Aeon",
@@ -117,76 +277,12 @@
    "date": "2026-11-26T11:00:00.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Two Men Broke Into Kate Middleton and Prince William’s Country House",
-   "url": "http://www.thecut.com/article/two-men-broke-into-kate-middleton-and-prince-williams-house.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Thankfully, the royals weren’t home.",
-   "author": "Grace Klara Marshall",
-   "date": "2026-11-25T23:15:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Macy’s Thanksgiving Day Parade Needed an Etsy Weather Witch",
-   "url": "http://www.thecut.com/article/macys-thanksgiving-day-parade-weather-winds-balloons.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The only thing that could have stopped winds from grounding the balloons is a very good spell.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-25T22:55:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "What a Shopping Editor Is Buying From Net-A-Porter’s Black Friday Sale",
-   "url": "http://www.thecut.com/article/best-net-a-porter-black-friday-cyber-monday-deals-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Save on Agolde, Khaite, Leset, and more luxury fashion brands.",
-   "author": "Hanna Flanagan",
-   "date": "2026-11-25T22:53:50.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Porsha Williams Is Engaged",
-   "url": "http://www.thecut.com/article/porsha-williams-is-engaged-to-patrice-sway-mckinney.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The Real Housewives of Atlanta star said “yes” to girlfriend Patrice “Sway” McKinney.",
-   "author": "Sam Reed",
-   "date": "2026-11-25T22:02:30.000Z"
-  },
-  {
    "source": "Nautilus",
    "title": "The Scientist Who Wants to Save Cranberries",
    "url": "https://nautil.us/the-scientist-who-wants-to-save-cranberries-1287118/",
    "blurb": "A conversation with a Salk Institute plant genomicist, and cranberry fanatic, on his research into improving the fate of the Thanksgiving staple",
    "author": "Bob Grant",
    "date": "2026-11-25T21:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Can Your Relationship Survive Grand Theft Auto VI?",
-   "url": "http://www.thecut.com/article/can-your-relationship-survive-grand-theft-auto-vi.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "For some couples, the video game has become a Rorschach test for their love lives.",
-   "author": "Paula Mejía",
-   "date": "2026-11-25T20:30:02.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "Can Personality Traits Predict Who Stays Single?",
-   "url": "https://nautil.us/can-personality-traits-predict-who-stays-single-1287078/",
-   "blurb": "Singlehood is more complicated than you might think",
-   "author": "Jake Currie",
-   "date": "2026-11-25T20:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Which New “Celebrity” Christmas Movie Should You Watch This Weekend?",
-   "url": "http://www.thecut.com/article/best-2026-christmas-movies-streaming.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "’Tis the season!",
-   "author": "Allie Jones",
-   "date": "2026-11-25T19:00:17.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "This Newly Discovered Whale Species Had a Lopsided Skull",
-   "url": "https://nautil.us/this-newly-discovered-whale-species-had-a-lopsided-skull-1287074/",
-   "blurb": "Not the most aesthetically pleasing look, but essential for survival",
-   "author": "David Nield",
-   "date": "2026-11-25T19:00:00.000Z"
   },
   {
    "source": "Literary Hub",
@@ -197,92 +293,12 @@
    "date": "2026-11-25T18:54:33.000Z"
   },
   {
-   "source": "The Cut",
-   "title": "Jennifer Barreto Is the First Mother to Win Miss Universe",
-   "url": "http://www.thecut.com/article/jennifer-barreto-is-the-first-mom-to-win-miss-universe.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "She celebrated with her 7-year-old daughter and her husband backstage.",
-   "author": "Grace Klara Marshall",
-   "date": "2026-11-25T18:35:16.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Kamala Harris Brought Doug to Chanel",
-   "url": "http://www.thecut.com/article/kamala-harris-doug-emhoff-chanel.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The husband couch in Paris comes with Champagne.",
-   "author": "Olivia Craighead",
-   "date": "2026-11-25T17:50:30.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "The Small But Mighty Brains of Bumblebees",
-   "url": "https://nautil.us/the-small-but-mighty-brains-of-bumblebees-1287067/",
-   "blurb": "Sometimes the best thinkers come in tiny packages",
-   "author": "Devin Reese",
-   "date": "2026-11-25T17:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "How Sepideh Moafi Juggles Acting, ADHD, and Her 5,067 Unread Emails",
-   "url": "http://www.thecut.com/article/sepideh-moafi-how-i-get-it-done-interview.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The Emmy-nominated actress takes us through three days of her routine as she jets between New York City and Los Angeles.",
-   "author": "Bianca Nieves",
-   "date": "2026-11-25T16:00:15.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "This Clever Marketing Tactic Works on Rats Too",
-   "url": "https://nautil.us/this-clever-marketing-tactic-works-on-rats-too-1287070/",
-   "blurb": "Buyer beware",
-   "author": "Jake Currie",
-   "date": "2026-11-25T16:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "What Cut Editors Are Gifting This Holiday Season",
-   "url": "http://www.thecut.com/article/what-cut-editors-are-gifting-2026.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "Recommendations from people who test products for a living.",
-   "author": "The Editors",
-   "date": "2026-11-25T15:40:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "Are Fashion’s Favorite Jamie Haller Penny Loafers Worth the Splurge?",
-   "url": "http://www.thecut.com/article/jamie-haller-penny-loafers-tested-and-reviewed.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "I tested the $625 shoes to find out.",
-   "author": "Hanna Flanagan",
-   "date": "2026-11-25T15:13:36.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "How Heat Made Life",
-   "url": "https://nautil.us/how-heat-made-life-1287012/",
-   "blurb": "A conversation with evolutionary biologist Olivia Judson about the central role of energy in the evolution of Earth",
-   "author": "Viviane Callier",
-   "date": "2026-11-25T15:00:00.000Z"
-  },
-  {
-   "source": "The Cut",
-   "title": "How Kristy Sarah Gets Her Skin So Good",
-   "url": "http://www.thecut.com/article/how-influencer-kristy-sarah-gets-her-skin-so-good.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-   "blurb": "The influencer on leaning into self-care in her new era including her ten-step skin- and body-care routine.",
-   "author": "Asia Milia Ware",
-   "date": "2026-11-25T14:50:26.000Z"
-  },
-  {
    "source": "The Paris Review",
    "title": "The Fire-Hose Style of Journalism: A Dirge for Salon",
    "url": "https://www.theparisreview.org/blog/2026/11/25/dirge-salon-fire-hose-style-of-journalism/",
    "blurb": "Salon wasn’t some programmer's hobby. It looked like a magazine, with zippy graphics and fonts. The prose was smart, stylish, amusing.",
    "author": "James Marcus",
    "date": "2026-11-25T13:00:03.000Z"
-  },
-  {
-   "source": "Nautilus",
-   "title": "When Stars Collide: Astronomers Have Spotted a First-of-Its-Kind Stellar Merger",
-   "url": "https://nautil.us/when-stars-collide-astronomers-have-spotted-a-first-of-its-kind-stellar-merger-1287081/",
-   "blurb": "A quick, violent, super-bright end as two stars become one",
-   "author": "David Nield",
-   "date": "2026-11-25T13:00:00.000Z"
   },
   {
    "source": "Literary Hub",
@@ -491,14 +507,6 @@
    "blurb": "Roshi Joan Halifax is an original, generous, gritty and profound Buddhist teacher. How does she look back on her life? - by Ben Daitz Read on Aeon",
    "author": "Ben Daitz",
    "date": "2026-11-10T11:00:00.000Z"
-  },
-  {
-   "source": "Aeon",
-   "title": "Equality talk",
-   "url": "https://aeon.co/essays/historical-ideas-of-equality-help-us-imagine-an-equal-world",
-   "blurb": "In the summer of 1646, the idea of equality gained new and profound depths. We are still catching up with the consequences - by Teresa M Bejan Read on Aeon",
-   "author": "Teresa M Bejan",
-   "date": "2026-11-09T11:00:00.000Z"
   },
   {
    "source": "Orion Magazine",
